@@ -1,4 +1,4 @@
-![ ](/app/processors/transformation/autocorrelation.svg)
+![ ](/media/app/processors/transformation/autocorrelation.svg)
 # Автокорреляция
 
 ## Описание

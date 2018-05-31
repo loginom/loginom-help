@@ -1,4 +1,4 @@
-![ ](/app/icons/component_18/component_default-21.svg)
+![ ](/media/app/icons/component_18/component_default-21.svg)
 # Калькулятор (переменные)
 
 ## Описание

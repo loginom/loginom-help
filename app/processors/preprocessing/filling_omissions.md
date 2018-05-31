@@ -1,4 +1,4 @@
-![ ](/app/icons/component_18/component_default-33.svg)
+![ ](/media/app/icons/component_18/component_default-33.svg)
 # Заполнение пропусков
 
 ## Описание
