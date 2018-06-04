@@ -1,4 +1,4 @@
-![](/media/app/icons/vendors/postgresunidacdbconnection.svg)
+![](../../../media/app/icons/vendors/postgresunidacdbconnection.svg)
 # Подключение PostgreSQL
 
 ## Описание

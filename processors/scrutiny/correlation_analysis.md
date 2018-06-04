@@ -1,4 +1,4 @@
-![](/media/app/icons/component_18/component_default-06.svg)
+![](../../media/app/icons/component_18/component_default-06.svg)
 
 # Корреляционный анализ
 
@@ -43,11 +43,11 @@
 
 ### Вход
 
-   *![](/media/app/icons/ports/input_table_inactive.svg). 
+   *![](../../media/app/icons/ports/input_table_inactive.svg). 
 
 ### Выход
 
-   *![](/media/app/icons/ports/output_table_inactive.svg) Выходной набор данных - таблица, содержащая данные о корреляции между полями. Имеет следующую структуру:
+   *![](../../media/app/icons/ports/output_table_inactive.svg) Выходной набор данных - таблица, содержащая данные о корреляции между полями. Имеет следующую структуру:
      * Обязательные поля:
        * Поля|Имя - имя первого поля в корреляционной паре;
        * Поля|Метка - метка первого поля в корреляционной паре;

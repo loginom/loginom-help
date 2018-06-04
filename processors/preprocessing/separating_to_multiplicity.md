@@ -1,4 +1,4 @@
-![ ](/media/app/icons/component_18/component_default-27.svg)
+![ ](../../media/app/icons/component_18/component_default-27.svg)
 # Разбиение на множества
 
 ## Описание
@@ -8,16 +8,16 @@
 
 ### Вход
 
-   *![](/media/app/icons/ports/input_table_inactive.svg). 
+   *![](../../media/app/icons/ports/input_table_inactive.svg). 
 
 ### Выход
 
-   *![](/media/app/icons/ports/output_table_inactive.svg). Содержит все строки, которые были взяты для обеих выборок. Добавляется поле "тестовое множество": в этом поле значение "true" свидетельствует о том, что запись попала в тестовую выборку, а значение "false" - в обучающую. 
+   *![](../../media/app/icons/ports/output_table_inactive.svg). Содержит все строки, которые были взяты для обеих выборок. Добавляется поле "тестовое множество": в этом поле значение "true" свидетельствует о том, что запись попала в тестовую выборку, а значение "false" - в обучающую. 
 
-   *![](/media/app/icons/ports/output_table_inactive.svg). 
+   *![](../../media/app/icons/ports/output_table_inactive.svg). 
 
 
-   *![](/media/app/icons/ports/output_table_inactive.svg).  
+   *![](../../media/app/icons/ports/output_table_inactive.svg).  
 
 ## Мастер настройки
 

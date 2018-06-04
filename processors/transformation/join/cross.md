@@ -1,4 +1,4 @@
-![](/media/app/processors/transformation/joins-03.svg)
+![](../../../media/app/processors/transformation/joins-03.svg)
 # Полное соединение
 
 Аналогом данного способа слияния являются SQL-операторы **CROSS JOIN** и **FULL JOIN**.
@@ -9,7 +9,7 @@
 
 Пример:
 
-![](/media /app/processors/transformation/join/cross_join_example_new.png )
+![](../../../media /app/processors/transformation/join/cross_join_example_new.png )
 
 ### FULL JOIN
 
@@ -21,7 +21,7 @@
 
 Пример:
 
-![](/media /app/processors/transformation/join/full_join_example_new.png )
+![](../../../media /app/processors/transformation/join/full_join_example_new.png )
 
 -----
 

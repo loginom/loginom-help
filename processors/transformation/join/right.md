@@ -1,4 +1,4 @@
-![](/media/app/processors/transformation/joins-08.svg)
+![](../../../media/app/processors/transformation/joins-08.svg)
 # Правое соединение
 
 Аналогом данного вида слияния является SQL-оператор **RIGHT JOIN**.
@@ -10,4 +10,4 @@
 
 Пример (ключевыми полями являются Id и CityId):
 
-![](/media/app/processors/transformation/join/right_join_example_4.png)
+![](../../../media/app/processors/transformation/join/right_join_example_4.png)

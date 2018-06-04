@@ -1,4 +1,4 @@
-![](/media/app/icons/vendors/wsdlclient.svg)
+![](../../media/app/icons/vendors/wsdlclient.svg)
 # Вызов веб-сервиса
 
 ## Описание
@@ -9,15 +9,15 @@
 
 ### Входные порты
 
-![](/media/app/icons/ports/input_connection_inactive.svg).
-![](/media/app/icons/ports/output_table_inactive.svg).
-![](/media/app/icons/ports/optional_input_variable_inactive.svg), необязательный.
+![](../../media/app/icons/ports/input_connection_inactive.svg).
+![](../../media/app/icons/ports/output_table_inactive.svg).
+![](../../media/app/icons/ports/optional_input_variable_inactive.svg), необязательный.
 
 ### Выходные порты
 
-![](/media/app/icons/ports/output_table_inactive.svg).
-![](/media/app/icons/ports/output_table_inactive.svg).
-![](/media/app/icons/ports/output_table_inactive.svg).
+![](../../media/app/icons/ports/output_table_inactive.svg).
+![](../../media/app/icons/ports/output_table_inactive.svg).
+![](../../media/app/icons/ports/output_table_inactive.svg).
 
 ## Настройка
 

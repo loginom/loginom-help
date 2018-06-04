@@ -8,20 +8,20 @@
 
 
 *  **Вид диаграммы** - позволяет выбрать вид отображаемой диаграммы:
-   * ![](/media/app/visualization/cube/d1.svg) Линии;
-   * ![](/media/app/visualization/cube/d2.svg) Области;
-   * ![](/media/app/visualization/cube/d3.svg) Сплайны;
-   * ![](/media/app/visualization/cube/d4.svg) Столбчатая;
-   * ![](/media/app/visualization/cube/d5.svg) Сглаженные области;
-   * ![](/media/app/visualization/cube/d6.svg) Разброс.
+   * ![](../../media/app/visualization/cube/d1.svg) Линии;
+   * ![](../../media/app/visualization/cube/d2.svg) Области;
+   * ![](../../media/app/visualization/cube/d3.svg) Сплайны;
+   * ![](../../media/app/visualization/cube/d4.svg) Столбчатая;
+   * ![](../../media/app/visualization/cube/d5.svg) Сглаженные области;
+   * ![](../../media/app/visualization/cube/d6.svg) Разброс.
 
 *  **Расположение серий** - позволяет выбрать расположение серий:
-   * ![](/media/app/icons/toolbar_18/toolbar_18_67.svg) В столбцах - построение серии диаграммы по данным столбца;
-   * ![](/media/app/icons/toolbar_18/toolbar_18_66.svg) В строках - построение серии диаграммы по данным строки.
+   * ![](../../media/app/icons/toolbar_18/toolbar_18_67.svg) В столбцах - построение серии диаграммы по данным столбца;
+   * ![](../../media/app/icons/toolbar_18/toolbar_18_66.svg) В строках - построение серии диаграммы по данным строки.
 
 *  **Итоги** - показать/скрыть итоги:
-   * ![](/media/app/visualization/toolbar_18_86.svg) Скрыть;
-   * ![](/media/app/visualization/toolbar_18_87.svg) Показать;
+   * ![](../../media/app/visualization/toolbar_18_86.svg) Скрыть;
+   * ![](../../media/app/visualization/toolbar_18_87.svg) Показать;
 
 *  **Отображаемый факт** - позволяет выбрать отображаемый факт из списка.
 

@@ -1,4 +1,4 @@
-# ![](/images/shared_folder.svg) Общие папки
+# ![](../images/shared_folder.svg) Общие папки
 
 Используется для управления общими папками и правами доступа к ним
 
@@ -12,24 +12,25 @@
 
 ## Операции
 
-* ![](/media/app/icons/toolbar_18/toolbar_18_27.svg) **Добавить** - добавить новую папку;
-* ![](/media/app/icons/toolbar_18/toolbar_18_28.svg) **Редактировать** - редактировать папку;
-* ![](/media/app/icons/toolbar_18/toolbar_18_8.svg) **Удалить** - удалить папку;
-* ![](/media/app/icons/toolbar_18/toolbar_18_13.svg) **Обновить** - обновить список папок.
+* ![](../media/app/icons/toolbar_18/toolbar_18_27.svg) **Добавить** - добавить новую папку;
+* ![](../media/app/icons/toolbar_18/toolbar_18_28.svg) **Редактировать** - редактировать папку;
+* ![](../media/app/icons/toolbar_18/toolbar_18_8.svg) **Удалить** - удалить папку;
+* ![](../media/app/icons/toolbar_18/toolbar_18_13.svg) **Обновить** - обновить список папок.
 
 ++++ Горячие клавиши
 
-*  ![](/media/app/icons/toolbar_18/toolbar_18_21.svg) **Up** - перейти на строку выше.
+* ![](../media/app/icons/toolbar_18/toolbar_18_21.svg) **Up** - перейти на строку выше.
 
-*  ![](/media/app/icons/toolbar_18/toolbar_18_20.svg) **Down** - перейти на строку ниже.
+* ![](../media/app/icons/toolbar_18/toolbar_18_20.svg) **Down** - перейти на строку ниже.
 
-*  ![](/media/app/icons/toolbar_18/toolbar_18_27.svg) **Insert** - добавить новую папку.
+* ![](../media/app/icons/toolbar_18/toolbar_18_27.svg) **Insert** - добавить новую папку.
 
-*  ![](/media/app/icons/toolbar_18/toolbar_18_28.svg) **F2** - редактировать папку.
+* ![](../media/app/icons/toolbar_18/toolbar_18_28.svg) **F2** - редактировать папку.
 
-*  ![](/media/app/icons/toolbar_18/toolbar_18_8.svg) **Delete** - удалить папку.
+* ![](../media/app/icons/toolbar_18/toolbar_18_8.svg) **Delete** - удалить папку.
 
-*  ![](/media/app/icons/toolbar_18/toolbar_18_13.svg) **Alt + F5** - обновить список папок и их параметров.
+* ![](../media/app/icons/toolbar_18/toolbar_18_13.svg) **Alt + F5** - обновить список папок и их параметров.
+
 ++++
 
 > **Примечание**

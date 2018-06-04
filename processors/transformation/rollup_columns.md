@@ -1,4 +1,4 @@
-![](/media/app/icons/component_18/component_default-05.svg)====== Свёртка столбцов ======
+![](../../media/app/icons/component_18/component_default-05.svg)====== Свёртка столбцов ======
 ## Описание
 
 Обработчик предназначен для транспонирования таблицы. При этом заголовки выбранных столбцов переносятся в значения строк, а их данные - в один столбец. Поскольку в этот столбец могут перемещаться данные разных типов, то для них используется тип данных "Переменный".
@@ -33,10 +33,10 @@
 ++++
 ### Вход
 
-   *![](/media/app/icons/ports/output_table_inactive.svg). 
+   *![](../../media/app/icons/ports/output_table_inactive.svg). 
 ### Выход
 
-   *![](/media/app/icons/ports/output_table_inactive.svg).
+   *![](../../media/app/icons/ports/output_table_inactive.svg).
 
 ## Мастер настройки
 

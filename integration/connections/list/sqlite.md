@@ -1,4 +1,4 @@
-![](/media/app/icons/vendors/sqliteunidacdbconnection.svg)
+![](../../../media/app/icons/vendors/sqliteunidacdbconnection.svg)
 # Подключение SQLite
 
 ## Описание

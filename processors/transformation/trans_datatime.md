@@ -1,8 +1,8 @@
-![](/media/app/icons/component_18/component_default-08.svg)
+![](../../media/app/icons/component_18/component_default-08.svg)
 # Дата и время
 
 ## Описание
-Обработчик «Дата и время» производит трансформацию данных формата ![](/media/app/icons/datatype_18/datatype_default-05.svg) Дата/Время. 
+Обработчик «Дата и время» производит трансформацию данных формата ![](../../media/app/icons/datatype_18/datatype_default-05.svg) Дата/Время. 
 
 Суть такого преобразования заключается в том, что на основе столбца с информацией о дате/времени формируется один или несколько дополнительных столбцов, в которых выделяется определенная информация о дате/времени.  
  
@@ -20,10 +20,10 @@
 ++++
 ### Вход
 
-   *![](/media/app/icons/ports/output_table_inactive.svg). 
+   *![](../../media/app/icons/ports/output_table_inactive.svg). 
 ### Выход
 
-   *![](/media/app/icons/ports/output_table_inactive.svg).
+   *![](../../media/app/icons/ports/output_table_inactive.svg).
 
 ## Мастер настройки
 
@@ -31,17 +31,17 @@
 
 В области «Поле» отображаются поля  входного набора данных с типом Дата/Время.
 
-В области «Разбиение» при помощи ![](/media/app/icons/toolbar_18/toolbar_18_102.svg) необходимо выбрать формат и тип данных для преобразования.
+В области «Разбиение» при помощи ![](../../media/app/icons/toolbar_18/toolbar_18_102.svg) необходимо выбрать формат и тип данных для преобразования.
 
 Возможны варианты преобразования в следующие типы данных:
 
-* ![](/media/app/icons/datatype_18/datatype_default-05.svg) Дата/Время
+* ![](../../media/app/icons/datatype_18/datatype_default-05.svg) Дата/Время
 
-* ![](/media/app/icons/datatype_18/datatype_default-02.svg) Число
+* ![](../../media/app/icons/datatype_18/datatype_default-02.svg) Число
 
-* ![](/media/app/icons/datatype_18/datatype_default-01.svg) Строка
+* ![](../../media/app/icons/datatype_18/datatype_default-01.svg) Строка
 
-При преобразовании в тип данных ![](/media/app/icons/datatype_18/datatype_default-05.svg)Дата/Время для ряда форматов имеется возможность выбрать начало и/или конец периода.   
+При преобразовании в тип данных ![](../../media/app/icons/datatype_18/datatype_default-05.svg)Дата/Время для ряда форматов имеется возможность выбрать начало и/или конец периода.   
 ++++ Пример: |
  | Дата(исходный столбец)                                                                      | (Год + Месяц)                | | Дата (Год)                ||
  | -----------------------------------------                                                                      | -------------------------------------- | -----------------------------------
@@ -57,7 +57,7 @@
 Помимо обычных форматов даты есть возможность установить формат, соответствующий международному стандарту даты [ISO 8601](https://ru.wikipedia.org/wiki/ISO_8601). 
 
 
-При выборе типа данных ![](/media/app/icons/datatype_18/datatype_default-01.svg)Строка в выпадающем списке справа от ![](/media/app/icons/toolbar_18/toolbar_18_102.svg) можно выбрать формат представления даты в строковом виде, а также задать *Свой формат* при помощи [строки форматирования](/app/processors/transformation/trans_datatime/syntax.md). 
+При выборе типа данных ![](../../media/app/icons/datatype_18/datatype_default-01.svg)Строка в выпадающем списке справа от ![](../../media/app/icons/toolbar_18/toolbar_18_102.svg) можно выбрать формат представления даты в строковом виде, а также задать *Свой формат* при помощи [строки форматирования](../../app/processors/transformation/trans_datatime/syntax.md). 
 
 Каждый выбранный вариант преобразования в результирующем наборе данных будет образовывать отдельный столбец. 
 
@@ -66,7 +66,7 @@
 **Смотри также:**
  
 
-   *[Типы данных](/app/glossary/datatypes.md)
-   *[Синтаксис строки форматирования](/app/processors/transformation/trans_datatime/syntax.md)  
+   *[Типы данных](../../app/glossary/datatypes.md)
+   *[Синтаксис строки форматирования](../../app/processors/transformation/trans_datatime/syntax.md)  
 
 

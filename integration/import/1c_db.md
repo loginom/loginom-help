@@ -1,4 +1,4 @@
-![](/media/app/icons/vendors/1cv8queryimport.svg)
+![](../../media/app/icons/vendors/1cv8queryimport.svg)
 # Импорт из 1C:Предприятие 8.x 
 
 ## Описание
@@ -9,7 +9,7 @@
 
 **Важно:** 
 
-Для работы узла требуется предварительно создать [подключение к платформе 1C:Предприятие 8.x](/app/integration/connections/business_applications/1c.md). и связать его с входным портом "Подключение". [Пример подключения и работы с БД](/app/beginning/import_bd_full.md).
+Для работы узла требуется предварительно создать [подключение к платформе 1C:Предприятие 8.x](../../app/integration/connections/business_applications/1c.md). и связать его с входным портом "Подключение". [Пример подключения и работы с БД](../../app/beginning/import_bd_full.md).
 
 ----------------
 
@@ -17,12 +17,12 @@
 
 ### Входные порты
 
-![](/media/app/icons/ports/input_connection_inactive.svg)  - принимает параметры подключения к базе данных.
-![](/media/app/icons/ports/optional_input_variable_inactive.svg) - переменными можно задать значения параметров мастера настройки.
+![](../../media/app/icons/ports/input_connection_inactive.svg)  - принимает параметры подключения к базе данных.
+![](../../media/app/icons/ports/optional_input_variable_inactive.svg) - переменными можно задать значения параметров мастера настройки.
 
 ### Выходные порты
 
-![](/media/app/icons/ports/output_table_inactive.svg) Импортированная таблица.
+![](../../media/app/icons/ports/output_table_inactive.svg) Импортированная таблица.
 
 ## Мастер настройки
 

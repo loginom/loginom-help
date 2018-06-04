@@ -1,8 +1,8 @@
-![](/media/app/processors/transformation/joins-07.svg)
+![](../../../media/app/processors/transformation/joins-07.svg)
 # Разность
 
 SQL-операторов аналогов данной операции нет. Результирующий набор данных содержит записи основного набора, для которых по ключевым полям не найдено соответствий в присоединяемом наборе. В результирующем наборе присутствуют поля только основного набора. 
 
 Пример:
 
-![](/media /app/processors/transformation/join/difference_example.png )
+![](../../../media /app/processors/transformation/join/difference_example.png )

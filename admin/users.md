@@ -1,4 +1,4 @@
-# ![](/media/app/icons/admin_18/admin_default-02.svg) Пользователи
+# ![](../media/app/icons/admin_18/admin_default-02.svg) Пользователи
 
 Используется для управления списком пользователей и их параметров
 
@@ -17,25 +17,25 @@
 
 ### Операции
 
-*  ![](/media/app/icons/toolbar_18/toolbar_18_27.svg) **Добавить** - добавить нового пользователя.
+*  ![](../media/app/icons/toolbar_18/toolbar_18_27.svg) **Добавить** - добавить нового пользователя.
 
-*  ![](/media/app/icons/toolbar_18/toolbar_18_28.svg) **Редактировать** - редактировать пользователя:
+*  ![](../media/app/icons/toolbar_18/toolbar_18_28.svg) **Редактировать** - редактировать пользователя:
 
-*  ![](/media/app/icons/toolbar_18/toolbar_18_8.svg) **Удалить** - удалить пользователя из системы.
+*  ![](../media/app/icons/toolbar_18/toolbar_18_8.svg) **Удалить** - удалить пользователя из системы.
 
-*  ![](/media/app/icons/toolbar_18/toolbar_18_13.svg) **Обновить** - обновить список пользователей и их параметров.
+*  ![](../media/app/icons/toolbar_18/toolbar_18_13.svg) **Обновить** - обновить список пользователей и их параметров.
 
 ++++ Горячие клавиши |
 
-*  ![](/media/app/icons/toolbar_18/toolbar_18_21.svg) **Up** - перейти на строку выше.
+*  ![](../media/app/icons/toolbar_18/toolbar_18_21.svg) **Up** - перейти на строку выше.
 
-*  ![](/media/app/icons/toolbar_18/toolbar_18_20.svg) **Down** - перейти на строку ниже.
+*  ![](../media/app/icons/toolbar_18/toolbar_18_20.svg) **Down** - перейти на строку ниже.
 
-*  ![](/media/app/icons/toolbar_18/toolbar_18_27.svg) **Insert** - добавить нового пользователя.
+*  ![](../media/app/icons/toolbar_18/toolbar_18_27.svg) **Insert** - добавить нового пользователя.
 
-*  ![](/media/app/icons/toolbar_18/toolbar_18_28.svg) **F2** - редактировать пользователя.
+*  ![](../media/app/icons/toolbar_18/toolbar_18_28.svg) **F2** - редактировать пользователя.
 
-*  ![](/media/app/icons/toolbar_18/toolbar_18_8.svg) **Delete** - удалить пользователя из системы.
+*  ![](../media/app/icons/toolbar_18/toolbar_18_8.svg) **Delete** - удалить пользователя из системы.
 
-*  ![](/media/app/icons/toolbar_18/toolbar_18_13.svg) **Alt + F5** - обновить список пользователей и их параметров.
+*  ![](../media/app/icons/toolbar_18/toolbar_18_13.svg) **Alt + F5** - обновить список пользователей и их параметров.
 ++++

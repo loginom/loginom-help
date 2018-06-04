@@ -1,4 +1,4 @@
-![](/media/app/icons/vendors/extractxml.svg)
+![](../../media/app/icons/vendors/extractxml.svg)
 # Извлечение XML
 
 ## Описание
@@ -9,17 +9,17 @@
 
 ### Вход
 
-   *![](/media/app/icons/ports/input_connection_inactive.svg).
-   *![](/media/app/icons/ports/optional_input_variable_inactive.svg).
-   *![](/media/app/icons/ports/input_table_inactive.svg) Источник данных - таблица данных, содержащая ячейки с документами XML.
+   *![](../../media/app/icons/ports/input_connection_inactive.svg).
+   *![](../../media/app/icons/ports/optional_input_variable_inactive.svg).
+   *![](../../media/app/icons/ports/input_table_inactive.svg) Источник данных - таблица данных, содержащая ячейки с документами XML.
 
 ### Выход
 
-   * ![](/media/app/icons/ports/output_table_inactive.svg) Набор данных - таблица данных, извлеченных из документов XML.
+   * ![](../../media/app/icons/ports/output_table_inactive.svg) Набор данных - таблица данных, извлеченных из документов XML.
      * Поля, наличие которых задается пользователем:
        * Идентификатор поля - показывает, из какого именно документа была извлечена конкретная строка.
 
-   * ![](/media/app/icons/ports/output_table_inactive.svg) Ошибки и коды завершения - таблица логов извлечения, имеет следующую структуру:
+   * ![](../../media/app/icons/ports/output_table_inactive.svg) Ошибки и коды завершения - таблица логов извлечения, имеет следующую структуру:
      * Обязательные поля:
        * Код завершения - содержит значения кодов извлечения для каждого документа.
      * Поля, наличие которых задается пользователем:

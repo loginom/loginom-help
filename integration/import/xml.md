@@ -1,4 +1,4 @@
-![](/media/app/icons/vendors/importxml.svg)
+![](../../media/app/icons/vendors/importxml.svg)
 # Импорт из XML-файла
 
 ## Описание
@@ -8,13 +8,13 @@
 
 ### Вход
 
-   *![](/media/app/icons/ports/optional_input_connection_inactive.svg), содержащего путь к папке с файлами.
-   *![](/media/app/icons/ports/optional_input_variable_inactive.svg).
-   *![](/media/app/icons/ports/input_connection_inactive.svg).
+   *![](../../media/app/icons/ports/optional_input_connection_inactive.svg), содержащего путь к папке с файлами.
+   *![](../../media/app/icons/ports/optional_input_variable_inactive.svg).
+   *![](../../media/app/icons/ports/input_connection_inactive.svg).
 
 ### Выход
 
-   *![](/media/app/icons/ports/output_table_inactive.svg) Набор данных - импортированная таблица.
+   *![](../../media/app/icons/ports/output_table_inactive.svg) Набор данных - импортированная таблица.
 
 ## Мастер настройки
 
@@ -22,9 +22,9 @@
 
 *  **Хранилище файлов** - выводит информацию о способе подключения к файлу для импорта:
     * Локальное - подключение к локальному файлу импорта через указание пути в параметре "Имя файла";
-    * Подключение - используется [подключение к папке](/app/integration/connections/file_databases/files.md), содержащей файл импорта. При этом задействуется порт ![](/media/app/integration/import/optional_input_connection_inactive.svg) "Подключение к файловому хранилищу".
+    * Подключение - используется [подключение к папке](../../app/integration/connections/file_databases/files.md), содержащей файл импорта. При этом задействуется порт ![](../../media/app/integration/import/optional_input_connection_inactive.svg) "Подключение к файловому хранилищу".
 
-*  **Имя файла** - задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![](/media/app/icons/toolbar_18/browse.svg) вызывает диалог выбора файла.
+*  **Имя файла** - задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![](../../media/app/icons/toolbar_18/browse.svg) вызывает диалог выбора файла.
 
 *  **Просмотр выбранного файла** - область позволяет увидеть содержание выбранного для импорта файла.
 

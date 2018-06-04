@@ -1,4 +1,4 @@
-![](/media/app/icons/component_18/component_default-11.svg)
+![](../../media/app/icons/component_18/component_default-11.svg)
 # Скользящее окно
 
 ## Описание
@@ -46,10 +46,10 @@
 
 ### Вход
 
-   *![](/media/app/icons/ports/output_table_inactive.svg). 
+   *![](../../media/app/icons/ports/output_table_inactive.svg). 
 ### Выход
 
-   *![](/media/app/icons/ports/output_table_inactive.svg).
+   *![](../../media/app/icons/ports/output_table_inactive.svg).
 
 
 ## Мастер настройки

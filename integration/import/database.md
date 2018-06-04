@@ -1,4 +1,4 @@
-![](/media/app/vendors/dbexport.svg)
+![](../../media/app/vendors/dbexport.svg)
 # Импорт из базы данных
 
 ## Описание
@@ -10,18 +10,18 @@
 
 **Важно:** 
 
-Для работы узла требуется предварительно создать [подключение](/app/integration/connections/start.md) к базе данных и связать его с входным портом "Подключение". [Пример подключения и работы с БД](/app/beginning/import_bd_full.md).
+Для работы узла требуется предварительно создать [подключение](../../app/integration/connections/start.md) к базе данных и связать его с входным портом "Подключение". [Пример подключения и работы с БД](../../app/beginning/import_bd_full.md).
 
 ----------------
 
 ### Входные порты
 
-![](/media/app/icons/ports/input_connection_inactive.svg)  - принимает параметры подключения к базе данных.
-![](/media/app/icons/ports/optional_input_variable_inactive.svg) - переменными можно задать значения параметров мастера настройки.
+![](../../media/app/icons/ports/input_connection_inactive.svg)  - принимает параметры подключения к базе данных.
+![](../../media/app/icons/ports/optional_input_variable_inactive.svg) - переменными можно задать значения параметров мастера настройки.
 
 ### Выходные порты
 
-![](/media/app/icons/ports/output_table_inactive.svg) Выходной набор данных.
+![](../../media/app/icons/ports/output_table_inactive.svg) Выходной набор данных.
 
 ## Мастер настройки
 
@@ -52,4 +52,4 @@
 `SELECT * FROM SomeTable WHERE SomeField = 'Иванов'`
 
 
-[Пример подключения и работы с БД](/app/beginning/import_bd_full.md)
+[Пример подключения и работы с БД](../../app/beginning/import_bd_full.md)

@@ -1,4 +1,4 @@
-![](/media/app/icons/vendors/accessodbcunidacdbconnection.svg)
+![](../../../media/app/icons/vendors/accessodbcunidacdbconnection.svg)
 # Подключение MS Access
 
 ## Описание

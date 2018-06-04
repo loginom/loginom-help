@@ -1,4 +1,4 @@
-![](/media/app/icons/vendors/excelodbcunidacdbconnection.svg)
+![](../../../media/app/icons/vendors/excelodbcunidacdbconnection.svg)
 # Подключение MS Excel
 
 ## Описание

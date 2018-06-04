@@ -1,4 +1,4 @@
-![](/media/app/icons/vendors/em.svg)
+![](../../media/app/icons/vendors/em.svg)
 # EM Кластеризация
 
 ## Описание
@@ -11,7 +11,7 @@
 
 ### Вход
 
-* ![](/media/app/icons/ports/output_table_inactive.svg). 
+* ![](../../media/app/icons/ports/output_table_inactive.svg). 
 
 #### Требования к принимаемым данным
 
@@ -25,7 +25,7 @@
 
 ### Выход
 
-* ![](/media/app/icons/ports/output_table_inactive.svg) **Разбиение на кластеры.** 
+* ![](../../media/app/icons/ports/output_table_inactive.svg) **Разбиение на кластеры.** 
 Таблица, состоящая из полей:
 
 *  Номер кластера - каждому объекту присвоен номер того кластера, в который он входит.
@@ -34,7 +34,7 @@
 
 *  Поля исходного набора данных (значения не изменяются).
 
-* ![](/media/app/icons/ports/output_table_inactive.svg) **Центры кластеров.**
+* ![](../../media/app/icons/ports/output_table_inactive.svg) **Центры кластеров.**
 Центр кластера - среднее значение переменных объектов, входящих в кластер.
 Результат - таблица, количество записей которой соответствует числу кластеров, т.е. данные сгруппированы по кластерам. Состоит из полей:
 

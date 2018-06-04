@@ -1,4 +1,4 @@
-![](/media/app/icons/vendors/oracleunidacdbconnection.svg)
+![](../../../media/app/icons/vendors/oracleunidacdbconnection.svg)
 # Подключение Oracle
 
 ## Описание

@@ -1,4 +1,4 @@
-![](/media/app/processors/transformation/joins_09.svg)
+![](../../../media/app/processors/transformation/joins_09.svg)
 # Левое соединение
 
 Аналогом данного вида слияния является SQL-оператор **LEFT JOIN**. Левой таблицей является основной набор данных.
@@ -11,7 +11,7 @@
 
 Пример:
 
-![](/media /app/processors/transformation/join/left_join_example_new.png )
+![](../../../media /app/processors/transformation/join/left_join_example_new.png )
 
 
 

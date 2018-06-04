@@ -1,4 +1,4 @@
-![](/media/app/processors/transformation/join_vendor.svg)
+![](../../../media/app/processors/transformation/join_vendor.svg)
 # Слияние
 
 ## Описание
@@ -8,19 +8,19 @@
 Варианты слияния наборов:
  
 `<nspages app/processors/transformation/join: -exclude:start -simpleList -title -textPages="" -sortId>`
-За исключением способа ["Разность"](/app/processors/transformation/join/distinct.md), каждый из перечисленных способов слияния является аналогом определенного типа соединения в языке запросов SQL.
+За исключением способа ["Разность"](../../../app/processors/transformation/join/distinct.md), каждый из перечисленных способов слияния является аналогом определенного типа соединения в языке запросов SQL.
 
 ### Вход 
 
 
-*  ![](/media/app/icons/ports/output_table_inactive.svg). В контексте понятий языка SQL запросов принимает данные левой таблицы для соединения.
+*  ![](../../../media/app/icons/ports/output_table_inactive.svg). В контексте понятий языка SQL запросов принимает данные левой таблицы для соединения.
 
-*  ![](/media/app/icons/ports/output_table_inactive.svg).  В контексте понятий языка SQL запросов принимает данные правой таблицы для соединения.
+*  ![](../../../media/app/icons/ports/output_table_inactive.svg).  В контексте понятий языка SQL запросов принимает данные правой таблицы для соединения.
 
 ### Выход 
 
 
-*  ![](/media/app/icons/ports/output_table_inactive.svg). Результат слияния. Как правило, содержит поля основного и присоединяемого наборов.
+*  ![](../../../media/app/icons/ports/output_table_inactive.svg). Результат слияния. Как правило, содержит поля основного и присоединяемого наборов.
 
 ## Мастер настройки
 
@@ -39,10 +39,10 @@
 
 **Смотри также:** 
 
-*  [Дополнение данных](/app/processors/transformation/supplementation.md)
+*  [Дополнение данных](../../../app/processors/transformation/supplementation.md)
 
-*  [Соединение](/app/processors/transformation/addition.md)
+*  [Соединение](../../../app/processors/transformation/addition.md)
 
-*  [Объединение](/app/processors/transformation/union.md)
+*  [Объединение](../../../app/processors/transformation/union.md)
 
 

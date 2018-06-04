@@ -1,4 +1,4 @@
-![](/media/app/icons/vendors/coarseclasses.svg)
+![](../../media/app/icons/vendors/coarseclasses.svg)
 # Конечные классы
 
 ## Описание
@@ -14,26 +14,26 @@
 
 ### Вход
 
-   * ![](/media/app/icons/ports/output_table_inactive.svg). 
-   * ![](/media/app/icons/toolbar_18/add_inactive.svg).  
+   * ![](../../media/app/icons/ports/output_table_inactive.svg). 
+   * ![](../../media/app/icons/toolbar_18/add_inactive.svg).  
 
 ### Выход
 
-   * ![](/media/app/icons/ports/output_table_inactive.svg). ++++ Структура данных: | 
+   * ![](../../media/app/icons/ports/output_table_inactive.svg). ++++ Структура данных: | 
 
-![](/mediapage> app/processors/preprocessing/fine_classes/calculated_columns&inline&noheader)
-
-++++
-
-   * ![](/media/app/icons/ports/output_table_inactive.svg). ++++ Структура данных: |
-
-![](/mediapage> app/processors/preprocessing/fine_classes/class_parametres&inline&noheader)
+![](../../mediapage> app/processors/preprocessing/fine_classes/calculated_columns&inline&noheader)
 
 ++++
 
-   * ![](/media/app/icons/ports/output_table_inactive.svg). ++++ Структура данных: |
+   * ![](../../media/app/icons/ports/output_table_inactive.svg). ++++ Структура данных: |
 
-![](/mediapage> app/processors/preprocessing/fine_classes/column_weights&inline&noheader)
+![](../../mediapage> app/processors/preprocessing/fine_classes/class_parametres&inline&noheader)
+
+++++
+
+   * ![](../../media/app/icons/ports/output_table_inactive.svg). ++++ Структура данных: |
+
+![](../../mediapage> app/processors/preprocessing/fine_classes/column_weights&inline&noheader)
 
 ++++ 
 
@@ -42,10 +42,10 @@
 
 Мастер настройки состоит из следующих шагов:
 
-*  **[Настройка внешнего разбиения](/app/processors/preprocessing/fine_classes/configuring_an_external_partition.md)** - появляется, если задан порт *Внешние диапазоны квантования*. Позволяет настроить параметры заранее настроенного внешнего разбиения.
+*  **[Настройка внешнего разбиения](../../app/processors/preprocessing/fine_classes/configuring_an_external_partition.md)** - появляется, если задан порт *Внешние диапазоны квантования*. Позволяет настроить параметры заранее настроенного внешнего разбиения.
 
-*  **[Настройка назначений столбцов](/app/processors/preprocessing/fine_classes/configure_column_assignments.md)** - позволяет задать назначение столбцам, настройки входного и выходного полей, внешнего разбиения, а также настройки алгоритма для формирования конечных классов входных полей.
+*  **[Настройка назначений столбцов](../../app/processors/preprocessing/fine_classes/configure_column_assignments.md)** - позволяет задать назначение столбцам, настройки входного и выходного полей, внешнего разбиения, а также настройки алгоритма для формирования конечных классов входных полей.
 
-*  **[Настройка конечных классов](/app/processors/preprocessing/fine_classes/configuring_the_finite_classes.md)** - позволяет просматривать начальные классы и результаты формирования конечных классов. Предназначена для внесения ручной корректировки в границы (или множества) сформированных конечных классов с целью достижения лучших результатов. 
+*  **[Настройка конечных классов](../../app/processors/preprocessing/fine_classes/configuring_the_finite_classes.md)** - позволяет просматривать начальные классы и результаты формирования конечных классов. Предназначена для внесения ручной корректировки в границы (или множества) сформированных конечных классов с целью достижения лучших результатов. 
 
 

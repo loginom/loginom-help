@@ -1,4 +1,4 @@
-![ ](/media/app/processors/process_default-41.svg)
+![ ](../../media/app/processors/process_default-41.svg)
 # Переменные в таблицу
 
 ## Описание
@@ -36,10 +36,10 @@
 
 ### Вход
 
-   *![](/media/app/icons/ports/optional_input_variable_inactive.svg) Входные переменные. 
+   *![](../../media/app/icons/ports/optional_input_variable_inactive.svg) Входные переменные. 
 ### Выход
 
-   *![](/media/app/icons/ports/output_table_inactive.svg).
+   *![](../../media/app/icons/ports/output_table_inactive.svg).
 
 
 ## Мастер настройки

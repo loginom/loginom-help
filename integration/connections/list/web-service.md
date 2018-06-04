@@ -1,4 +1,4 @@
-![](/media/app/icons/vendors/wsdlclientconnection.svg)
+![](../../../media/app/icons/vendors/wsdlclientconnection.svg)
 # Подключение веб-сервиса
 
 ## Описание

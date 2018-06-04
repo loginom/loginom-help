@@ -1,51 +1,51 @@
-![](/media/app/icons/vendors/modelgeneric.svg)
+![](../../media/app/icons/vendors/modelgeneric.svg)
 # Подмодель
 
 ## Описание
 
 Подмодель является специальным узлом, способным включать в себя другие узлы сценария. Реализованная в подмодели с помощью вложенных узлов логика может быть произвольной. Подмодель принимает информацию через входные порты, производит обработку и выдает результат на выходные порты. Перечень входных и выходных портов задается пользователем произвольно, исходя из закладываемой в подмодель функциональности.
 
-В состав подмодели могут также включаться другие подмодели, их вложенность друг в друга неограниченна. Подмодели используются для декомпозиции сценария и создания [производных компонентов](/app/glossary/derived_component.md).
+В состав подмодели могут также включаться другие подмодели, их вложенность друг в друга неограниченна. Подмодели используются для декомпозиции сценария и создания [производных компонентов](../../app/glossary/derived_component.md).
 
 ## Порты
 
 Изначально входных и выходных портов нет, они создаются пользователем в мастере настройки. Порты могут быть следующих типов:
 ### Вход
 
- * ![](/media/app/icons/ports/input_variable_inactive.svg) Входные переменные - набор переменных.
+ * ![](../../media/app/icons/ports/input_variable_inactive.svg) Входные переменные - набор переменных.
 
- * ![](/media/app/icons/ports/output_table_inactive.svg).
+ * ![](../../media/app/icons/ports/output_table_inactive.svg).
 
 ### Выход
 
- * ![](/media/app/processors/output_variable_inactive.svg) Выходные переменные - набор переменных.
+ * ![](../../media/app/processors/output_variable_inactive.svg) Выходные переменные - набор переменных.
 
- * ![](/media/app/icons/ports/output_table_inactive.svg).
+ * ![](../../media/app/icons/ports/output_table_inactive.svg).
 
 ## Мастер настройки
 
 Здесь создаются порты. Каждому порту можно задать тип, имя и метку, которая будет отображаться при наведении курсора на него.
 
-*  ![](/media/app/icons/system_object_18/system_object_default-09.svg)  **Входы**  ![](/media/app/icons/toolbar_18/toolbar_18_27.svg) - создать новый порт входа:
-    * ![](/media/app/icons/ports/input_variable_hover.svg) - для переменных;
-    * ![](/media/app/icons/ports/input_table_hover.svg) - для таблицы.
+*  ![](../../media/app/icons/system_object_18/system_object_default-09.svg)  **Входы**  ![](../../media/app/icons/toolbar_18/toolbar_18_27.svg) - создать новый порт входа:
+    * ![](../../media/app/icons/ports/input_variable_hover.svg) - для переменных;
+    * ![](../../media/app/icons/ports/input_table_hover.svg) - для таблицы.
 
-*  ![](/media/app/icons/system_object_18/system_object_default-10.svg)  **Выходы**  ![](/media/app/icons/toolbar_18/toolbar_18_27.svg) - создать новый порт выхода:
-    * ![](/media/app/icons/ports/output_variable_hover.svg) - для переменных;
-    * ![](/media/app/icons/ports/output_table_hover.svg) - для таблицы.
+*  ![](../../media/app/icons/system_object_18/system_object_default-10.svg)  **Выходы**  ![](../../media/app/icons/toolbar_18/toolbar_18_27.svg) - создать новый порт выхода:
+    * ![](../../media/app/icons/ports/output_variable_hover.svg) - для переменных;
+    * ![](../../media/app/icons/ports/output_table_hover.svg) - для таблицы.
 
-*  ![](/media/app/processors/move_in_list-01.svg) ![](/media/app/processors/move_in_list-02.svg) - сместить выделенный порт в списке;
+*  ![](../../media/app/processors/move_in_list-01.svg) ![](../../media/app/processors/move_in_list-02.svg) - сместить выделенный порт в списке;
 
-*  ![](/media/app/icons/toolbar_18/toolbar_18_8.svg) - удалить порт;
+*  ![](../../media/app/icons/toolbar_18/toolbar_18_8.svg) - удалить порт;
 
-*  ![](/media/app/icons/toolbar_18/toolbar_18_127.svg) - удалить все порты.
+*  ![](../../media/app/icons/toolbar_18/toolbar_18_127.svg) - удалить все порты.
 
 ## Область построения подмодели
 
-Узел подмодели имеет кнопку "Войти", при нажатии которой можно открыть область построения подмодели и реализовать в ней произвольный сценарий обработки. При редактировании содержимого подмодели ее входные и выходные порты, созданные в мастере настройки, отображаются по левому и правому краю области над кнопками ![](/media/app/glossary/scenario_variables-01.svg) "Выходной узел". 
+Узел подмодели имеет кнопку "Войти", при нажатии которой можно открыть область построения подмодели и реализовать в ней произвольный сценарий обработки. При редактировании содержимого подмодели ее входные и выходные порты, созданные в мастере настройки, отображаются по левому и правому краю области над кнопками ![](../../media/app/glossary/scenario_variables-01.svg) "Выходной узел". 
 
-Внутри подмодели имеется возможность использовать [переменные сценария](/app/glossary/variables/scenario_variables.md), в состав которых входят "Переменные пользователя". Пользователь имеет возможность задать перечень и значения переменных пользователя, при этом область их применения ограничена подмоделью.
+Внутри подмодели имеется возможность использовать [переменные сценария](../../app/glossary/variables/scenario_variables.md), в состав которых входят "Переменные пользователя". Пользователь имеет возможность задать перечень и значения переменных пользователя, при этом область их применения ограничена подмоделью.
 
-По нажатию кнопки ![](/media/app/icons/toolbar_18/back.svg) "Выйти из подмодели" область построения подмодели можно покинуть, вернувшись в сценарий уровнем выше.
+По нажатию кнопки ![](../../media/app/icons/toolbar_18/back.svg) "Выйти из подмодели" область построения подмодели можно покинуть, вернувшись в сценарий уровнем выше.
 
 

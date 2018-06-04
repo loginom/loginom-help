@@ -1,4 +1,4 @@
-![](/media/app/icons/admin_18/admin_default-01.svg) 
+![](../media/app/icons/admin_18/admin_default-01.svg) 
 # Администрирование
 
 
@@ -15,14 +15,14 @@
 
 Информация для администратора:
 
- * [Системные требования ](/system-requirements)
- * [Установка](/app/admin/installation.md)
+ * [Системные требования ](../system-requirements)
+ * [Установка](../app/admin/installation.md)
 
 Веб-интерфейс администратора:
 
- * [Пользователи](/app/admin/users.md)
- * [Общие папки](/app/admin/shared_folder.md)
- * [Параметры](/app/admin/parameters.md)
+ * [Пользователи](../app/admin/users.md)
+ * [Общие папки](../app/admin/shared_folder.md)
+ * [Параметры](../app/admin/parameters.md)
 
 
 

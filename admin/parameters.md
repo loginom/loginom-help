@@ -1,4 +1,4 @@
-# ![](/media/app/icons/admin_18/admin_default-04.svg)  Параметры
+# ![](../media/app/icons/admin_18/admin_default-04.svg)  Параметры
 
 ## Папки
 

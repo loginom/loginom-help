@@ -1,4 +1,4 @@
-![](/media/app/icons/vendors/importtextfile.svg)
+![](../../media/app/icons/vendors/importtextfile.svg)
 # Импорт из текстового файла
 
 ## Описание
@@ -7,11 +7,11 @@
 
 ### Вход
 
-   *![](/media/app/icons/ports/optional_input_connection_inactive.svg), содержащего путь к папке с файлами.
-   *![](/media/app/icons/ports/optional_input_variable_inactive.svg).
+   *![](../../media/app/icons/ports/optional_input_connection_inactive.svg), содержащего путь к папке с файлами.
+   *![](../../media/app/icons/ports/optional_input_variable_inactive.svg).
 ### Выход
 
-* ![](/media/app/icons/ports/output_table_inactive.svg).
+* ![](../../media/app/icons/ports/output_table_inactive.svg).
 ## Мастер настройки
 
 Мастер содержит несколько этапов настройки.
@@ -70,9 +70,9 @@
 
 *  **Метка** - задает пользовательское описание поля;
 
-*  **Тип данных** - [тип данных](/app/glossary/datatypes.md), в который будет преобразовано текстовое значение поля;
+*  **Тип данных** - [тип данных](../../app/glossary/datatypes.md), в который будет преобразовано текстовое значение поля;
 
-*  **Вид данных** - [вид данных](/app/glossary/datatype.md) задается списком значений:
+*  **Вид данных** - [вид данных](../../app/glossary/datatype.md) задается списком значений:
     * *Непрерывный*;
     * *Дискретный*;
     * *Неопределенный*.

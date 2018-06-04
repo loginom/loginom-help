@@ -1,4 +1,4 @@
-![](/media/app/icons/vendors/coluniondata.svg)
+![](../../media/app/icons/vendors/coluniondata.svg)
 # Соединение (переменные)
 
 ## Описание
@@ -11,14 +11,14 @@
 
 ### Вход
 
- * ![](/media/app/processors/optional_input_variable_inactive.svg) Входные переменные - первый набор переменных.
+ * ![](../../media/app/processors/optional_input_variable_inactive.svg) Входные переменные - первый набор переменных.
 
- * ![](/media/app/icons/ports/input_variable_inactive.svg) Добавляемые переменные - второй набор переменных.
+ * ![](../../media/app/icons/ports/input_variable_inactive.svg) Добавляемые переменные - второй набор переменных.
 
- * ![](/media/app/icons/toolbar_18/add_inactive.svg) Добавление еще одного порта - создает новые порты входа для последующих наборов переменных.
+ * ![](../../media/app/icons/toolbar_18/add_inactive.svg) Добавление еще одного порта - создает новые порты входа для последующих наборов переменных.
 
 ### Выход
 
- * ![](/media/app/processors/output_variable_inactive.svg) Выходные переменные - новый набор переменных. 
+ * ![](../../media/app/processors/output_variable_inactive.svg) Выходные переменные - новый набор переменных. 
 
 

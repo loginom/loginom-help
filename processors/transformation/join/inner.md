@@ -1,4 +1,4 @@
-![](/media/app/processors/transformation/joins-04.svg)
+![](../../../media/app/processors/transformation/joins-04.svg)
 # Внутреннее соединение
 
 Аналогом такого соединения является SQL-оператор **INNER JOIN**. 
@@ -8,5 +8,5 @@
 
 Пример: 
 
-![](/media /app/processors/transformation/join/inner_join_example_new.png )
+![](../../../media /app/processors/transformation/join/inner_join_example_new.png )
 
