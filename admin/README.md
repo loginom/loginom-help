@@ -1,6 +1,5 @@
-![](../media/app/icons/admin_18/admin_default-01.svg) 
+![](../media/app/icons/admin_18/admin_default-01.svg)
 # Администрирование
-
 
 В серверных вариантах поставки (Team, Satandard, Enterprice) существует дополнительный раздел в интерфейсе программы, для управления пользователями, рабочими папками и параметрами работы сервера.
 
@@ -15,16 +14,11 @@
 
 Информация для администратора:
 
- * [Системные требования ](../system-requirements)
- * [Установка](../app/admin/installation.md)
+* [Системные требования](../setup/system-requirements.md)
+* [Установка](../setup/installation.md)
 
 Веб-интерфейс администратора:
 
- * [Пользователи](../app/admin/users.md)
- * [Общие папки](../app/admin/shared_folder.md)
- * [Параметры](../app/admin/parameters.md)
-
-
-
-
-
+* [Пользователи](./users.md)
+* [Общие папки](./shared_folder.md)
+* [Параметры](./parameters.md)
