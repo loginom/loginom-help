@@ -1,5 +1,4 @@
-![](../media/app/vendors/calcdata.svg)
-# Калькулятор JS
+# ![](../media/app/vendors/calcdata.svg) Калькулятор JS
 
 // Материал в разработке //
 /*

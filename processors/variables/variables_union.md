@@ -1,5 +1,4 @@
-![](../../media/app/icons/vendors/coluniondata.svg)
-# Соединение (переменные)
+# ![](../../media/app/icons/vendors/coluniondata.svg) Соединение (переменные)
 
 ## Описание
 
@@ -20,5 +19,3 @@
 ### Выход
 
  * ![](../../media/app/processors/output_variable_inactive.svg) Выходные переменные - новый набор переменных. 
-
-

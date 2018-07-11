@@ -1,5 +1,4 @@
-![](../../media/app/icons/component_18/component_default-16.svg)
-# Разгруппировка
+# ![](../../media/app/icons/component_18/component_default-16.svg) Разгруппировка
 
 ## Описание
 

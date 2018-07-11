@@ -1,5 +1,4 @@
-![](../../media/app/icons/component_18/component_default-23.svg)
-# Объединение
+# ![](../../media/app/icons/component_18/component_default-23.svg) Объединение
 
 ## Описание
 
