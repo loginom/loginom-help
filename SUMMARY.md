@@ -10,7 +10,7 @@
 * [Проектирование сценариев](./scenario/README.md)
   * [Ссылки на другие пакеты](./scenario/link_to_packet.md)
   * [Модификатор доступа](./scenario/access_modifier.md)
-  * [Производный компонент](./scenario/access_modifier.md)
+  * [Производный компонент](./scenario/derived_component.md)
   * [Наследование и переопределение узлов](./scenario/inheritance_redefinition.md)
   * [Обучение (переобучение) узла](./scenario/training_processors.md)
   * [Управление ходом выполнения сценария](./scenario/run-order.md)
