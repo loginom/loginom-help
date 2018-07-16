@@ -6,11 +6,11 @@
 
 ### Вход
 
-   *![](../../media/app/icons/ports/output_table_inactive.svg).
+* ![](../../media/app/icons/ports/output_table_inactive.svg).
 
 ### Выход
 
-   *![](../../media/app/icons/ports/output_variable_inactive.svg) Выходные переменные.
+* ![](../../media/app/icons/ports/output_variable_inactive.svg) Выходные переменные.
 
 ## Мастер настройки
 

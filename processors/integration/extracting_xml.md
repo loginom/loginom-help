@@ -8,9 +8,9 @@
 
 ### Вход
 
-   *![](../../media/app/icons/ports/input_connection_inactive.svg).
-   *![](../../media/app/icons/ports/optional_input_variable_inactive.svg).
-   *![](../../media/app/icons/ports/input_table_inactive.svg) Источник данных - таблица данных, содержащая ячейки с документами XML.
+* ![(../../media/app/icons/ports/input_connection_inactive.svg).
+* ![(../../media/app/icons/ports/optional_input_variable_inactive.svg).
+* ![(../../media/app/icons/ports/input_table_inactive.svg) Источник данных - таблица данных, содержащая ячейки с документами XML.
 
 ### Выход
 
@@ -38,7 +38,17 @@
 
 * **Останавливаться при ошибках** - данный флаг отменит извлечение при обнаружении первой ошибки.
 
-* **Разэкранировать сущности XML** - применяется в том случае, если документы извлекаются из другого документа XML, в котором они были заэкранированы. При отсутствии данного флага извлечение документа, начинающегося, например, с объявления *&lt;*`<color #ed1c24>`?`</color>``<color #00a2e8>`xml`</color>` `<color #ed1c24>`version`</color>``<color #00a2e8>`=`</color>`//&quot;//`<color #00a2e8>`1.0`</color>`//&quot;// `<color #ed1c24>`encoding`</color>``<color #00a2e8>`=`</color>`//&quot;//`<color #00a2e8>`UTF-8`</color>`//&quot;//`<color #ed1c24>`?`</color>`//&gt;// выдаст ошибку, а при наличии флага обработчик интерпретирует такое объявление как корректное: `<color #ed1c24>``<?</color>``<color #00a2e8>`xml`</color>` `<color #ed1c24>`version`</color>``<color #00a2e8>`="1.0"`</color>` `<color #ed1c24>`encoding`</color>``<color #00a2e8>`="UTF-8"`</color>``<color #ed1c24>`?>`</color>`.
+* **Разэкранировать сущности XML** - применяется в том случае, если документы извлекаются из другого документа XML, в котором они были заэкранированы. При отсутствии данного флага извлечение документа, начинающегося, например, с объявления `&lt;`
+
+```xml
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt
+```
+
+выдаст ошибку, а при наличии флага обработчик интерпретирует такое объявление как корректное:
+
+```xml
+<?xml version=«1.0» encoding=«UTF-8»?>
+```
 
 * **Выдавать описание кодов завершения** - в таблицу с логами будет добавлен столбец "Описание ошибки".
 

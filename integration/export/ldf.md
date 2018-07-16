@@ -12,15 +12,15 @@
 
 ### Вход
 
-   *![](../../media/app/icons/ports/optional_input_connection_inactive.svg).
-   *![](../../media/app/icons/ports/output_table_inactive.svg) Источник данных - таблица данных, подлежащая экспорту.
-   *![](../../media/app/icons/ports/optional_input_variable_inactive.svg).
+* ![(../../media/app/icons/ports/optional_input_connection_inactive.svg).
+* ![(../../media/app/icons/ports/output_table_inactive.svg) Источник данных - таблица данных, подлежащая экспорту.
+* ![(../../media/app/icons/ports/optional_input_variable_inactive.svg).
 
 ## Мастер настройки
 
 * **Хранилище файлов** - выводит информацию о способе подключения к файлу-приемнику:
   * Локальное - через указание пути к файлу-приемнику непосредственно в мастере настройки;
-  * Подключение - используется [подключение к папке]../connections/list/files.md, содержащей файл-приемник. Кнопка «Подключить» делает активным это подключение.
+  * Подключение - используется [подключение к папке](../connections/list/files.md), содержащей файл-приемник. Кнопка «Подключить» делает активным это подключение.
 
 * **Имя файла** - задает путь к файлу-приемнику при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![](../../media/app/icons/toolbar_18/browse.svg) вызывает диалог выбора файла.
 

@@ -6,12 +6,12 @@
 
 ### Входные порты
 
-![](../../media/app/icons/ports/optional_input_connection_inactive.svg), содержащего путь к папке с файлами.
-![](../../media/app/icons/ports/optional_input_variable_inactive.svg).
+* ![](../../media/app/icons/ports/optional_input_connection_inactive.svg), содержащего путь к папке с файлами.
+* ![](../../media/app/icons/ports/optional_input_variable_inactive.svg).
 
 ### Выходные порты
 
-![](../../media/app/icons/ports/output_table_inactive.svg).
+* ![](../../media/app/icons/ports/output_table_inactive.svg).
 
 ## Мастер настройки
 
@@ -19,7 +19,7 @@
 
 * **Хранилище файлов** - выводит информацию о способе подключения к файлу-приемнику:
   * Локальное - подключение к локальному файлу через указание пути к файлу-приемнику в параметре "Имя файла";
-  * Подключение - используется [подключение к папке]../connections/list/files.md, содержащей файл-приемник. При этом задействуется ![](../../media/app/integration/import/optional_input_connection_inactive.svg) порт.
+  * Подключение - используется [подключение к папке](../connections/list/files.md), содержащей файл-приемник. При этом задействуется ![](../../media/app/integration/import/optional_input_connection_inactive.svg) порт.
 
 * **Имя файла** - задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![](../../media/app/icons/toolbar_18/browse.svg) вызывает диалог выбора файла.
 

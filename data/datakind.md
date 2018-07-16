@@ -8,8 +8,8 @@
 | Тип данных | Вид данных | |
 | - | - | - |
 | | Непрерывный | Дискретный |
- ![](../media/app/icons/datatype_18/datatype_default-03.svg) Вещественный | + | + |
- | ![](../media/app/icons/datatype_18/datatype_default-02.svg) Целый | + | + |
- | ![](../media/app/icons/datatype_18/datatype_default-01.svg) Строковый | | + |
- | ![](../media/app/icons/datatype_18/datatype_default-04.svg) Логический | | + |
- | ![](../media/app/icons/datatype_18/datatype_default-05.svg) Дата/время | + | + |
+| ![](../media/app/icons/datatype_18/datatype_default-03.svg) Вещественный | + | + |
+| ![](../media/app/icons/datatype_18/datatype_default-02.svg) Целый | + | + |
+| ![](../media/app/icons/datatype_18/datatype_default-01.svg) Строковый | | + |
+| ![](../media/app/icons/datatype_18/datatype_default-04.svg) Логический | | + |
+| ![](../media/app/icons/datatype_18/datatype_default-05.svg) Дата/время | + | + |

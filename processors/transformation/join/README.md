@@ -6,8 +6,13 @@
 
 Варианты слияния наборов:
 
-`<nspages app/processors/transformation/join: -exclude:start -simpleList -title -textPages="" -sortId>`
-За исключением способа ["Разность"](../../../processors/transformation/join/distinct.md), каждый из перечисленных способов слияния является аналогом определенного типа соединения в языке запросов SQL.
+* [Полное соединение](./cross.md)
+* [Внутреннее соединение](./inner.md)
+* [Левое соединение](./left.md)
+* [Правое соединение](./right.md)
+* [Разность](./distinct.md)
+
+За исключением способа ["Разность"](./distinct.md), каждый из перечисленных способов слияния является аналогом определенного типа соединения в языке запросов SQL.
 
 ### Вход
 
@@ -35,6 +40,6 @@
 
 **Смотри также:**
 
-* [Дополнение данных](../../../processors/transformation/supplementation.md)
-* [Соединение](../../../processors/transformation/addition.md)
-* [Объединение](../../../processors/transformation/union.md)
+* [Дополнение данных](../supplementation.md)
+* [Соединение](../addition.md)
+* [Объединение](../union.md)

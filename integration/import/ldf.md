@@ -2,7 +2,7 @@
 
 ## Описание
 
-Обработчик предназначен для импорта таблицы из LGD-файла. Поддерживается импорт DDF-файлов платформы Deductor. 
+Обработчик предназначен для импорта таблицы из LGD-файла. Поддерживается импорт DDF-файлов платформы Deductor.
 
 LGD - специальный формат файлов, оптимизированный для работы в Loginom и обеспечивающий максимальную скорость записи и чтения. Файл хранит в себе настройки полей, что упрощает процесс импорта.
 
@@ -10,24 +10,24 @@ LGD - специальный формат файлов, оптимизирова
 
 ### Вход
 
-   *![](../../media/app/icons/ports/optional_input_connection_inactive.svg), содержащего путь к папке с файлами.
-   *![](../../media/app/icons/ports/optional_input_variable_inactive.svg).
+* ![](../../media/app/icons/ports/optional_input_connection_inactive.svg), содержащего путь к папке с файлами.
+* ![](../../media/app/icons/ports/optional_input_variable_inactive.svg).
 
 ### Выход
 
-   *![](../../media/app/icons/ports/output_table_inactive.svg) Набор данных - импортированная таблица.
+* ![](../../media/app/icons/ports/output_table_inactive.svg) Набор данных - импортированная таблица.
 
 ## Мастер настройки
 
 * **Хранилище файлов** - выводит информацию о способе подключения к файлу-приемнику:
-    * Локальное - подключение к локальному файлу через указание пути к файлу-приемнику в параметре "Имя файла";
-    * Подключение - используется [подключение к папке]../connections/list/files.md, содержащей файл-приемник. При этом задействуется ![](../../media/app/integration/import/optional_input_connection_inactive.svg) порт.
+  * Локальное - подключение к локальному файлу через указание пути к файлу-приемнику в параметре "Имя файла";
+  * Подключение - используется [подключение к папке](../connections/list/files.md), содержащей файл-приемник. При этом задействуется ![](../../media/app/integration/import/optional_input_connection_inactive.svg) порт.
 
 * **Имя файла** - задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![](../../media/app/icons/toolbar_18/browse.svg) вызывает диалог выбора файла.
 
 * **Алгоритм сжатия** - отображение информации о методе сжатия LGD-файла, использованном при его создании.
-    * Без сжатия;
-    * [LZO](https://en.wikipedia.org/wiki/Lempel–Ziv–Oberhumer);
-    * [LZ4](https://en.wikipedia.org/wiki/LZ4_(compression_algorithm)).
+  * Без сжатия;
+  * [LZO](https://en.wikipedia.org/wiki/Lempel–Ziv–Oberhumer);
+  * [LZ4](https://en.wikipedia.org/wiki/LZ4_(compression_algorithm)).
 
 * **Разрядность** - выводит информацию о разрядности импортируемого файла: 64 или 32 бита.

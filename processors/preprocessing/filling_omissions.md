@@ -9,13 +9,13 @@
 
 ### Вход
 
- *![](../../media/app/icons/ports/output_table_inactive.svg).
+* ![](../../media/app/icons/ports/output_table_inactive.svg).
 
 ### Выход
 
- *![](../../media/app/icons/ports/output_table_inactive.svg).
+* ![](../../media/app/icons/ports/output_table_inactive.svg).
 
- *![](../../media/app/icons/ports/output_table_inactive.svg).
+* ![](../../media/app/icons/ports/output_table_inactive.svg).
 
 ## Мастер настройки
 

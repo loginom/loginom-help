@@ -8,13 +8,13 @@
 
 ### Вход
 
-   *![](../../media/app/icons/ports/optional_input_connection_inactive.svg), содержащего путь к папке с файлами.
-   *![](../../media/app/icons/ports/optional_input_variable_inactive.svg).
-   *![](../../media/app/icons/ports/input_connection_inactive.svg).
+* ![](../../media/app/icons/ports/optional_input_connection_inactive.svg), содержащего путь к папке с файлами.
+* ![](../../media/app/icons/ports/optional_input_variable_inactive.svg).
+* ![](../../media/app/icons/ports/input_connection_inactive.svg).
 
 ### Выход
 
-   *![](../../media/app/icons/ports/output_table_inactive.svg) Набор данных - импортированная таблица.
+* ![](../../media/app/icons/ports/output_table_inactive.svg) Набор данных - импортированная таблица.
 
 ## Мастер настройки
 
