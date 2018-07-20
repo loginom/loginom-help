@@ -34,10 +34,10 @@
 
 -----
 
-**Смотри также**
+**Смотри также:**
 
-https://ru.wikipedia.org/wiki/Interbase - информация в русском разделе википедии;
+[https://ru.wikipedia.org/wiki/Interbase](https://ru.wikipedia.org/wiki/Interbase) - информация в русском разделе википедии;
 
-https://www.embarcadero.com/ru/products/interbase - официальный сайт производителя;
+[https://www.embarcadero.com/ru/products/interbase](https://www.embarcadero.com/ru/products/interbase) - официальный сайт разработчика;
 
-http://docwiki.embarcadero.com/InterBase/2017/en/Embedded_SQL_Guide - документация по SQL синтаксису;
+[http://docwiki.embarcadero.com/InterBase/2017/en/Embedded_SQL_Guide](http://docwiki.embarcadero.com/InterBase/2017/en/Embedded_SQL_Guide) - документация по SQL синтаксису;

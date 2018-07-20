@@ -13,8 +13,8 @@
 * **Метка** - содержит задаваемое пользователем имя подключения.
 
 * **Строка подключения** - настраивается в отдельном окне, которое вызывается при клике мышью по кнопке ![](../../../media/app/icons/toolbar_18/browse.svg). Эти настройки используются драйвером OLE DB для подключения к необходимой базе данных.
-    * *Сервер* - хост SQL-сервера. При необходимости, через "" указывается именованный экземпляр SQL-сервера.
-    * *База данных* - имя базы, содержащей необходимые данные.
+  * *Сервер* - хост SQL-сервера. При необходимости, через "" указывается именованный экземпляр SQL-сервера.
+  * *База данных* - имя базы, содержащей необходимые данные.
 
 * **Логин и пароль** - логин и пароль пользователя БД. Если логин не указан, то используется доменная авторизация.
 
@@ -33,27 +33,27 @@
 ## Совместимость
 
 * Клиенты:
-    * SQL OLE DB
-    * SQL Native Client
+  * SQL OLE DB
+  * SQL Native Client
 
 * Серверы:
-    * SQL Server 2016, 2014, 2012, 2008 R2, 2008, 2005 (включая Express edition)
-    * SQL Server 2000 (включая MSDE)
-    * SQL Server 7
-    * SQL Server Compact 4.0, 3.5, 3.1
+  * SQL Server 2016, 2014, 2012, 2008 R2, 2008, 2005 (включая Express edition)
+  * SQL Server 2000 (включая MSDE)
+  * SQL Server 7
+  * SQL Server Compact 4.0, 3.5, 3.1
 
----  
+---
 
-**Важно**
+**Важно:**
 
-Доменная авторизация осуществляется от имени пользователя, под которым запущен сервер Loginom. 
+Доменная авторизация осуществляется от имени пользователя, под которым запущен сервер Loginom.
 
----  
+---
 
-**Смотри также**
+**Смотри также:**
 
-https://ru.wikipedia.org/wiki/Microsoft_SQL_Server - информация в русском разделе википедии;
+[https://ru.wikipedia.org/wiki/Microsoft_SQL_Server](https://ru.wikipedia.org/wiki/Microsoft_SQL_Server) - информация в русском разделе википедии;
 
-https://www.microsoft.com/ru-ru/sql-server - официальный сайт производителя;
+[https://www.microsoft.com/ru-ru/sql-server](https://www.microsoft.com/ru-ru/sql-server) - официальный сайт производителя;
 
-https://docs.microsoft.com/ru-ru/sql/t-sql/queries/queries - документация по SQL синтаксису;
+[https://docs.microsoft.com/ru-ru/sql/t-sql/queries/queries](https://docs.microsoft.com/ru-ru/sql/t-sql/queries/queries) - документация по SQL синтаксису;

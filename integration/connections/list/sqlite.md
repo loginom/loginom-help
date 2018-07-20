@@ -82,8 +82,8 @@
 
 **Смотри также:**
 
-https://ru.wikipedia.org/wiki/SQLite - информация в русском разделе википедии;
+[https://ru.wikipedia.org/wiki/SQLite](https://ru.wikipedia.org/wiki/SQLite) - информация в русском разделе википедии;
 
-https://sqlite.org - официальный сайт производителя;
+[https://sqlite.org](https://sqlite.org) - официальный сайт производителя;
 
-https://sqlite.org/lang.html  - документация по SQL синтаксису.
+[https://sqlite.org/lang.html](https://sqlite.org/lang.html) - документация по SQL синтаксису.
