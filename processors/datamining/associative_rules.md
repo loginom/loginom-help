@@ -47,9 +47,9 @@
 
 ### Выход
 
-* ![](../../media/app/icons/ports/output_table_inactive.svg).
-* ![](../../media/app/icons/ports/output_table_inactive.svg).
-* ![](../../media/app/icons/ports/output_table_inactive.svg). Содержит транзакции входного набора данных, в которых срабатывают выявленные правила.
+* ![](../../media/app/icons/ports/output_table_inactive.svg) **Популярные наборы** (таблица данных). Наборы элементов, наиболее часто встречающиеся в транзакциях (частые наборы).
+* ![](../../media/app/icons/ports/output_table_inactive.svg) **Ассоциативные правила** (таблица данных). Выявленные ассоциативные правила и их показатели: [поддержка](https://basegroup.ru/community/glossary/rule-support), [достоверность](https://basegroup.ru/community/glossary/rule-confidence), [лифт](https://basegroup.ru/community/glossary/lift-ar).
+* ![](../../media/app/icons/ports/output_table_inactive.svg) **Применение правил** (таблица данных). Содержит транзакции входного набора данных, в которых срабатывают выявленные правила.
 
 ## Мастер настройки
 
