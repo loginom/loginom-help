@@ -1,4 +1,4 @@
-![ ](/app/icons/component_18/component_default-24.svg)
+![ ](/media/app/icons/component_18/component_default-24.svg)
 # Дополнение данных
 
 ## Описание

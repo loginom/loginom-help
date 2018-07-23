@@ -1,4 +1,4 @@
-![ ](/app/icons/vendors/loop.svg)
+![ ](/media/app/icons/vendors/loop.svg)
 
 # Цикл
 

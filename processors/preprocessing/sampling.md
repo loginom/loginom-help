@@ -1,4 +1,4 @@
-![ ](/app/icons/component_18/component_default-26.svg)
+![ ](/media/app/icons/component_18/component_default-26.svg)
 # Сэмплинг
 
 ## Описание

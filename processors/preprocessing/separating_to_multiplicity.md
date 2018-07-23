@@ -1,4 +1,4 @@
-![ ](/app/icons/component_18/component_default-27.svg)
+![ ](/media/app/icons/component_18/component_default-27.svg)
 # Разбиение на множества
 
 ## Описание

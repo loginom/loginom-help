@@ -1,4 +1,4 @@
-![ ](/app/icons/component_18/component_default-07.svg)
+![ ](/media/app/icons/component_18/component_default-07.svg)
 # Факторный анализ
 
 ## Описание

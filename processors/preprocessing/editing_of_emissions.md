@@ -1,4 +1,4 @@
-![ ](/app/icons/component_18/component_default-34.svg)
+![ ](/media/app/icons/component_18/component_default-34.svg)
 # Редактирование выбросов
 
 ## Описание

@@ -1,4 +1,4 @@
-![ ](/app/vendors/calcdata.svg) 
+![ ](/media/app/vendors/calcdata.svg) 
 # Калькулятор
 
 ## Описание

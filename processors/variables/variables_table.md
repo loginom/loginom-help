@@ -1,4 +1,4 @@
-![ ](/app/processors/process_default-41.svg)
+![ ](/media/app/processors/process_default-41.svg)
 # Переменные в таблицу
 
 ## Описание

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="18"
+   height="18"
+   viewBox="0 0 4.7624999 4.7625001"
+   version="1.1"
+   id="svg45"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="clean.svg">
+  <defs
+     id="defs39" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="22.4"
+     inkscape:cx="19.025852"
+     inkscape:cy="9.7241258"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1276"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata42">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-292.23748)">
+    <circle
+       style="fill:#8dbec9;stroke-width:0.27639508"
+       cx="2.326916"
+       cy="294.61401"
+       r="1.6583705"
+       id="circle10" />
+    <polygon
+       transform="matrix(0.27639509,0,0,0.27639509,-12.874813,292.12645)"
+       style="fill:#ffffff"
+       points="52.571518,12.035523 55.000103,9.6071463 57.428482,12.035523 58.035522,11.428481 55.607147,8.9998951 58.035522,6.5715194 57.428482,5.9644775 55.000103,8.3928537 52.571518,5.9644775 51.964478,6.5715194 54.392853,8.9998951 51.964478,11.428481 "
+       id="polygon12" />
+  </g>
+</svg>
