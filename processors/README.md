@@ -6,7 +6,7 @@
 
 Последовательность обработки задается соединением выхода предыдущего узла сценария со входом последующего. Входом и выходом узла являются **входные** и **выходные порты**.
 
-![](../media/app/beginning/basic_concepts_1_1.png)
+![](../media/app/beginning/basic-concepts-1-1.png)
 
  *Пример сценария*
 
@@ -15,7 +15,7 @@
 Узлы сценария создаются из компонентов 2-х типов:
 
 * Стандартные компоненты - предоставляются в рамках платформы;
-* [Производные компоненты](../scenario/derived_component.md) - создаются и настраиваются пользователем. Производный компонент можно создать из комбинации узлов сценария, реализующей произвольную логику обработки.
+* [Производные компоненты](../scenario/derived-component.md) - создаются и настраиваются пользователем. Производный компонент можно создать из комбинации узлов сценария, реализующей произвольную логику обработки.
 
 Таким образом набор средств для реализации различной логики обработки данных не ограничивается стандартными компонентами платформы и может быть расширен самим пользователем.
 
@@ -34,17 +34,17 @@
 С помощью обработчиков этой группы производятся различные манипуляции с данными. Например, преобразование типов и форматов, сортировка, группировка, слияние и др.
 
 * [Группировка](../processors/transformation/grouping.md)
-* [Дата и время](../processors/transformation/trans_datatime.md)
+* [Дата и время](../processors/transformation/trans-datatime.md)
 * [Дополнение данных](../processors/transformation/supplementation.md)
 * [Замена](../processors/transformation/substitution.md)
 * [Калькулятор](../processors/transformation/calc.md)
 * Калькулятор JS
-* [Кросс-таблица](../processors/transformation/cross_table.md)
+* [Кросс-таблица](../processors/transformation/cross-table.md)
 * [Объединение](../processors/transformation/union.md)
-* [Параметры полей](../processors/transformation/fields_parameters.md)
+* [Параметры полей](../processors/transformation/fields-parameters.md)
 * [Разгруппировка](../processors/transformation/ungrouping.md)
-* [Свёртка столбцов](../processors/transformation/rollup_columns.md)
-* [Скользящее окно](../processors/transformation/sliding_window.md)
+* [Свёртка столбцов](../processors/transformation/rollup-columns.md)
+* [Скользящее окно](../processors/transformation/sliding-window.md)
 * [Слияние](../processors/transformation/join/README.md)
 * [Соединение](../processors/transformation/addition.md)
 * [Сортировка](../processors/transformation/sorting.md)
@@ -65,18 +65,18 @@
 С помощью этих обработчиков можно оценить и/или визуализировать структуру и статистические характеристики данных. Также с их помощью проводятся разведочный и описательный анализы.
 
 * [Автокорреляция](../processors/scrutiny/autocorrelation.md)
-* [Корреляционный анализ](../processors/scrutiny/correlation_analysis.md)
-* [Факторный анализ](../processors/scrutiny/factor_analysis.md)
+* [Корреляционный анализ](../processors/scrutiny/correlation-analysis.md)
+* [Факторный анализ](../processors/scrutiny/factor-analysis.md)
 
 ### Предобработка
 
 Предварительная обработка данных для их дальнейшего использования в алгоритмах Data Mining. Применяются такие методы, как заполнение пропусков, сэмплинг, редактирование выбросов и другие.
 
-* [Заполнение пропусков](../processors/preprocessing/filling_omissions.md)
+* [Заполнение пропусков](../processors/preprocessing/filling-omissions.md)
 * [Квантование](../processors/preprocessing/quantization.md)
-* [Конечные классы](../processors/preprocessing/fine_classes.md)
-* [Разбиение на множества](../processors/preprocessing/separating_to_multiplicity.md)
-* [Редактирование выбросов](../processors/preprocessing/editing_of_emissions.md)
+* [Конечные классы](../processors/preprocessing/fine-classes.md)
+* [Разбиение на множества](../processors/preprocessing/separating-to-multiplicity.md)
+* [Редактирование выбросов](../processors/preprocessing/editing-of-emissions.md)
 * [Сглаживание](../processors/preprocessing/smoothing.md)
 * [Сэмплинг](../processors/preprocessing/sampling.md)
 
@@ -84,21 +84,21 @@
 
 Обработчики, выделенные в эту группу, являются инструментами для реализации различных методов Data Mining: кластеризация, ассоциативные правила и другие.
 
-* [EM Кластеризация](../processors/datamining/em_clustering.md)
-* [Ассоциативные правила](../processors/datamining/associative_rules.md)
+* [EM Кластеризация](../processors/datamining/em-clustering.md)
+* [Ассоциативные правила](../processors/datamining/associative-rules.md)
 * [Кластеризация](../processors/datamining/clustering.md)
-* [Кластеризация транзакций](../processors/datamining/clustering_transactions.md)
-* [Логистическая регрессия](../processors/datamining/logistic_regression.md)
-* [Нейросеть (классификация)](../processors/datamining/neural_network_classification.md)
-* [Нейросеть (регрессия)](../processors/datamining/neural_network_regression.md)
-* [Самоорганизующиеся сети](../processors/datamining/self-organizing_network.md)
+* [Кластеризация транзакций](../processors/datamining/clustering-transactions.md)
+* [Логистическая регрессия](../processors/datamining/logistic-regression.md)
+* [Нейросеть (классификация)](../processors/datamining/neural-network-classification.md)
+* [Нейросеть (регрессия)](../processors/datamining/neural-network-regression.md)
+* [Самоорганизующиеся сети](../processors/datamining/self-organizing-network.md)
 
 ### Переменные
 
 В Loginom имеется возможность создавать и использовать переменные. Обработчики этой группы позволяют проводить различные операции над ними: изменение, создание переменных из таблицы, расчет новых переменных с помощью различных функций.
 
-* [Замена (переменные)](../processors/variables/variable_replace.md)
-* [Калькулятор (переменные)](../processors/variables/variables_calc.md)
-* [Переменные в таблицу](../processors/variables/variables_table.md)
-* [Соединение (переменные)](../processors/variables/variables_union.md)
-* [Таблица в переменные](../processors/variables/table_variables.md)
+* [Замена (переменные)](../processors/variables/variable-replace.md)
+* [Калькулятор (переменные)](../processors/variables/variables-calc.md)
+* [Переменные в таблицу](../processors/variables/variables-table.md)
+* [Соединение (переменные)](../processors/variables/variables-union.md)
+* [Таблица в переменные](../processors/variables/table-variables.md)
