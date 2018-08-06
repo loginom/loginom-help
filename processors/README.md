@@ -8,7 +8,7 @@
 
 ![](../media/app/beginning/basic_concepts_1_1.png)
 
-### Пример сценария
+ *Пример сценария*
 
 **Узел** сценария выполняет отдельную операцию над данными. Перечень возможных операций представлен палитрой готовых **компонентов**. Таким образом, **компонент** является прообразом или шаблоном будущего узла сценария. Для того, чтобы создать узел сценария, выполняющий нужную операцию над данными, необходимо мышью перенести соответствующий компонент из панели компонентов в область построения сценария (подробнее см. ["Первый сценарий"](../quick-start/first-scenario.md)).
 
@@ -33,72 +33,72 @@
 
 С помощью обработчиков этой группы производятся различные манипуляции с данными. Например, преобразование типов и форматов, сортировка, группировка, слияние и др.
 
-* Группировка
-* Дата и время
-* Дополнение данных
-* Замена
-* Калькулятор
+* [Группировка](../processors/transformation/grouping.md)
+* [Дата и время](../processors/transformation/trans_datatime.md)
+* [Дополнение данных](../processors/transformation/supplementation.md)
+* [Замена](../processors/transformation/substitution.md)
+* [Калькулятор](../processors/transformation/calc.md)
 * Калькулятор JS
-* Кросс-таблица
-* Объединение
-* Параметры полей
-* Разгруппировка
-* Свёртка столбцов
-* Скользящее окно
-* Слияние
-* Соединение
-* Сортировка
-* Фильтр строк
+* [Кросс-таблица](../processors/transformation/cross_table.md)
+* [Объединение](../processors/transformation/union.md)
+* [Параметры полей](../processors/transformation/fields_parameters.md)
+* [Разгруппировка](../processors/transformation/ungrouping.md)
+* [Свёртка столбцов](../processors/transformation/rollup_columns.md)
+* [Скользящее окно](../processors/transformation/sliding_window.md)
+* [Слияние](../processors/transformation/join/README.md)
+* [Соединение](../processors/transformation/addition.md)
+* [Сортировка](../processors/transformation/sorting.md)
+* [Фильтр строк](../processors/transformation/row-filter.md)
 
 ### Управление
 
 Компоненты группы предназначены для оптимизации сценариев путем создания подмоделей и повторного использования узлов, а также формирования логики выполнения сценариев при помощи условий и циклов.
 
-* Выполнение узла
-* Подмодель
-* Узел-ссылка
-* Условие
-* Цикл
+* [Выполнение узла](../processors/control/execute-node.md)
+* [Подмодель](../processors/control/submodel.md)
+* [Узел-ссылка](../processors/control/unit-link.md)
+* [Условие](../processors/control/condition.md)
+* [Цикл](../processors/control/cycle.md)
 
 ### Исследование
 
 С помощью этих обработчиков можно оценить и/или визуализировать структуру и статистические характеристики данных. Также с их помощью проводятся разведочный и описательный анализы.
 
-* Автокорреляция
-* Корреляционный анализ
-* Факторный анализ
+* [Автокорреляция](../processors/scrutiny/autocorrelation.md)
+* [Корреляционный анализ](../processors/scrutiny/correlation_analysis.md)
+* [Факторный анализ](../processors/scrutiny/factor_analysis.md)
 
 ### Предобработка
 
 Предварительная обработка данных для их дальнейшего использования в алгоритмах Data Mining. Применяются такие методы, как заполнение пропусков, сэмплинг, редактирование выбросов и другие.
 
-* Заполнение пропусков
-* Квантование
-* Конечные классы
-* Разбиение на множества
-* Редактирование выбросов
-* Сглаживание
-* Сэмплинг
+* [Заполнение пропусков](../processors/preprocessing/filling_omissions.md)
+* [Квантование](../processors/preprocessing/quantization.md)
+* [Конечные классы](../processors/preprocessing/fine_classes.md)
+* [Разбиение на множества](../processors/preprocessing/separating_to_multiplicity.md)
+* [Редактирование выбросов](../processors/preprocessing/editing_of_emissions.md)
+* [Сглаживание](../processors/preprocessing/smoothing.md)
+* [Сэмплинг](../processors/preprocessing/sampling.md)
 
 ### Data Mining
 
 Обработчики, выделенные в эту группу, являются инструментами для реализации различных методов Data Mining: кластеризация, ассоциативные правила и другие.
 
-* EM Кластеризация
-* Ассоциативные правила
-* Кластеризация
-* Кластеризация транзакций
-* Логистическая регрессия
-* Нейросеть (классификация)
-* Нейросеть (регрессия)
-* Самоорганизующиеся сети
+* [EM Кластеризация](../processors/datamining/em_clustering.md)
+* [Ассоциативные правила](../processors/datamining/associative_rules.md)
+* [Кластеризация](../processors/datamining/clustering.md)
+* [Кластеризация транзакций](../processors/datamining/clustering_transactions.md)
+* [Логистическая регрессия](../processors/datamining/logistic_regression.md)
+* [Нейросеть (классификация)](../processors/datamining/neural_network_classification.md)
+* [Нейросеть (регрессия)](../processors/datamining/neural_network_regression.md)
+* [Самоорганизующиеся сети](../processors/datamining/self-organizing_network.md)
 
 ### Переменные
 
 В Loginom имеется возможность создавать и использовать переменные. Обработчики этой группы позволяют проводить различные операции над ними: изменение, создание переменных из таблицы, расчет новых переменных с помощью различных функций.
 
-* Замена (переменные)
-* Калькулятор (переменные)
-* Переменные в таблицу
-* Соединение (переменные)
-* Таблица в переменные
+* [Замена (переменные)](../processors/variables/variable_replace.md)
+* [Калькулятор (переменные)](../processors/variables/variables_calc.md)
+* [Переменные в таблицу](../processors/variables/variables_table.md)
+* [Соединение (переменные)](../processors/variables/variables_union.md)
+* [Таблица в переменные](../processors/variables/table_variables.md)
