@@ -6,11 +6,11 @@
 
 Варианты слияния наборов:
 
-* [Полное соединение](../processors/transformation/join/cross.md)
-* [Внутреннее соединение](./processors/transformation/join/inner.md)
-* [Левое соединение](./processors/transformation/join/left.md)
-* [Правое соединение](./processors/transformation/join/right.md)
-* [Разность](./processors/transformation/join/distinct.md)
+* [Полное соединение](./cross.md)
+* [Внутреннее соединение](./inner.md)
+* [Левое соединение](./left.md)
+* [Правое соединение](./right.md)
+* [Разность](./distinct.md)
 
 За исключением способа ["Разность"](./processors/transformation/join/distinct.md), каждый из перечисленных способов слияния является аналогом определенного типа соединения в языке запросов SQL.
 
