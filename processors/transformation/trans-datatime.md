@@ -67,4 +67,4 @@
 **Смотри также:**
 
 * [Типы данных](../../data/datatype.md)
-* [Синтаксис строки форматирования](../../processors/transformation/trans-datatime/syntax.md)
+* [Синтаксис строки форматирования](./trans-datatime/syntax.md)

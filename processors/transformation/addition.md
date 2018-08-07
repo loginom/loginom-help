@@ -1,10 +1,10 @@
-# ![](../../media/app/processors/transformation/addition_vendor.svg) Соединение
+# ![](../../media/app/processors/transformation/addition-vendor.svg) Соединение
 
 ## Описание
 
 С помощью обработчика "Соединение" исходный набор данных дополняется полями присоединяемых наборов. При этом каждая запись исходного набора соединяется с записью такого же порядкового номера дополнительного набора.
 
-++++ Пример | ![](../../media/app/processors/transformation/addition_primer.png) ++++
+Пример: ![](../../media/app/processors/transformation/addition-primer.png) 
 
 Если соединяемые наборы данных имеют разное количество записей, то результирующий набор может содержать пустые значения. Мастер настройки предлагает различные варианты обработки данной ситуации. Соединяемые наборы могут обрезаться до количества записей меньшего набора или дополняться до наибольшего.
 
@@ -12,15 +12,15 @@
 
 ### Вход
 
-* ![](../../media/app/icons/ports/output_table_inactive.svg).
+* ![](../../media/app/icons/ports/output-table-inactive.svg).
 
-* ![](../../media/app/icons/toolbar_18/add_inactive.svg) Добавить еще один порт - создает новые порты входа для присоединяемых таблиц и переменных. Новые порты могут быть двух типов:
-  * ![](../../media/app/icons/ports/output_table_inactive.svg) Присоединяемая таблица[N], где N порядковый номер таблицы
-  * ![](../../media/app/icons/ports/input_variable_inactive.svg) Присоединяемые переменные[N], где N порядковый номер порта переменных.
+* ![](../../media/app/icons/toolbar-18/add-inactive.svg) Добавить еще один порт - создает новые порты входа для присоединяемых таблиц и переменных. Новые порты могут быть двух типов:
+  * ![](../../media/app/icons/ports/output-table-inactive.svg) Присоединяемая таблица[N], где N порядковый номер таблицы
+  * ![](../../media/app/icons/ports/input-variable-inactive.svg) Присоединяемые переменные[N], где N порядковый номер порта переменных.
 
 ### Выход
 
-* ![](../../media/app/icons/ports/output_table_inactive.svg).
+* ![](../../media/app/icons/ports/output-table-inactive.svg).
 
 ## Мастер настройки
 

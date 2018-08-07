@@ -1,4 +1,4 @@
-# ![ ](../../media/app/vendors/calcdata.svg) Калькулятор
+# ![ ](../../media/app/icons/component-18/component-default-20.svg) Калькулятор
 
 ## Описание
 

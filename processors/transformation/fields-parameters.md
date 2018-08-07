@@ -14,7 +14,7 @@
 
 * Назначение по умолчанию - указанное для поля назначение в последующих обработчиках будет использоваться по умолчанию.
 
-Подробнее о параметрах полей см. ["Параметры поля набора данных"]()
+Подробнее о параметрах полей см. ["Параметры поля набора данных"](../../data/datasetfieldoptions.md)
 
 ----
 
@@ -26,11 +26,11 @@
 
 ### Вход
 
-* ![](../../media/app/icons/ports/output_table_inactive.svg).
+* ![](../../media/app/icons/ports/output-table-inactive.svg).
 
 ### Выход
 
-* ![](../../media/app/icons/ports/output_table_inactive.svg).
+* ![](../../media/app/icons/ports/output-table-inactive.svg).
 
 ## Мастер настройки
 
