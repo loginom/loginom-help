@@ -14,12 +14,12 @@
 
 ### Входные порты
 
-* ![](../../media/app/icons/ports/input_connection_inactive.svg)  - принимает параметры подключения к базе данных.
-* ![](../../media/app/icons/ports/optional_input_variable_inactive.svg) - переменными можно задать значения параметров мастера настройки.
+* ![](../../media/app/icons/ports/input-connection-inactive.svg)  - принимает параметры подключения к базе данных.
+* ![](../../media/app/icons/ports/optional-input-variable-inactive.svg) - переменными можно задать значения параметров мастера настройки.
 
 ### Выходные порты
 
-* ![](../../media/app/icons/ports/output_table_inactive.svg) Импортированная таблица.
+* ![](../../media/app/icons/ports/output-table-inactive.svg) Импортированная таблица.
 
 ## Мастер настройки
 
