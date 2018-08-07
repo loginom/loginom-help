@@ -1,4 +1,4 @@
-# ![](../../../media/app/processors/transformation/join_vendor.svg) Слияние
+# ![](../../../media/app/processors/transformation/join-vendor.svg) Слияние
 
 ## Описание
 
@@ -16,13 +16,13 @@
 
 ### Вход
 
-* ![](../../../media/app/icons/ports/output_table_inactive.svg). В контексте понятий языка SQL запросов принимает данные левой таблицы для соединения.
+* ![](../../../media/app/icons/ports/output-table-inactive.svg). В контексте понятий языка SQL запросов принимает данные левой таблицы для соединения.
 
-* ![](../../../media/app/icons/ports/output_table_inactive.svg). В контексте понятий языка SQL запросов принимает данные правой таблицы для соединения.
+* ![](../../../media/app/icons/ports/output-table-inactive.svg). В контексте понятий языка SQL запросов принимает данные правой таблицы для соединения.
 
 ### Выход
 
-* ![](../../../media/app/icons/ports/output_table_inactive.svg). Результат слияния. Как правило, содержит поля основного и присоединяемого наборов.
+* ![](../../../media/app/icons/ports/output-table-inactive.svg). Результат слияния. Как правило, содержит поля основного и присоединяемого наборов.
 
 ## Мастер настройки
 
