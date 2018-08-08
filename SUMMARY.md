@@ -90,6 +90,7 @@
       * [Соединение](./processors/transformation/addition.md)
       * [Сортировка](./processors/transformation/sorting.md)
       * [Фильтр строк](./processors/transformation/row-filter.md)
+        * [Условия фильтрации в обработчике "Фильтр строк"](./processors/transformation/row-filter/filter-conditions.md)
     * [Управление](./processors/control/README.md)
       * [Выполнение узла](./processors/control/execute-node.md)
       * [Подмодель](./processors/control/submodel.md)

@@ -4,7 +4,7 @@
 
 С помощью обработчика «Объединение» исходный набор данных дополняется записями присоединяемых наборов. «Объединение» является аналогом операции UNION в SQL.
 
-++++ Пример | ![](../../media/app/processors/transformation/union-primer.png) ++++
+ Пример | ![](../../media/app/processors/transformation/union-primer.png) 
 
 ### Вход
 
