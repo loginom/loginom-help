@@ -94,7 +94,7 @@
 </details>
 
 
-<details><summary><b></b>NVL</summary>
+<details><summary><b>NVL</b></summary>
 <br><b>NVL(Выражение [, Значение_по_умолчанию = «»]) </b>
 <ul>
    <li> Выражение - любое строковое или числовое выражение.
