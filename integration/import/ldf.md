@@ -10,20 +10,20 @@ LGD - специальный формат файлов, оптимизирова
 
 ### Вход
 
-* ![](../../media/app/icons/ports/optional_input_connection_inactive.svg), содержащего путь к папке с файлами.
-* ![](../../media/app/icons/ports/optional_input_variable_inactive.svg).
+* ![](../../media/app/icons/ports/input-connection-inactive.svg)   [Подключение](..\connections\README.md) - принимает параметры подключения к базе данных.
+* ![](../../media/app/icons/ports/optional-input-variable-inactive.svg) [Управляющие переменные](../../scenario/variables/control_variables.md) (необязательный порт).
 
 ### Выход
 
-* ![](../../media/app/icons/ports/output_table_inactive.svg) Набор данных - импортированная таблица.
+* ![](../../media/app/icons/ports/output-table-inactive.svg) Импортированная таблица.
 
 ## Мастер настройки
 
 * **Хранилище файлов** - выводит информацию о способе подключения к файлу-приемнику:
   * Локальное - подключение к локальному файлу через указание пути к файлу-приемнику в параметре "Имя файла";
-  * Подключение - используется [подключение к папке](../connections/list/files.md), содержащей файл-приемник. При этом задействуется ![](../../media/app/integration/import/optional_input_connection_inactive.svg) порт.
+  * Подключение - используется [подключение к папке](../connections/list/files.md), содержащей файл-приемник. При этом задействуется ![](../../media/app/icons/ports/optional-input-connection-inactive.svg) порт.
 
-* **Имя файла** - задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![](../../media/app/icons/toolbar_18/browse.svg) вызывает диалог выбора файла.
+* **Имя файла** - задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![](../../media/app/icons/toolbar-18/browse.svg) вызывает диалог выбора файла.
 
 * **Алгоритм сжатия** - отображение информации о методе сжатия LGD-файла, использованном при его создании.
   * Без сжатия;
