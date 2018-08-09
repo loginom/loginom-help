@@ -19,12 +19,12 @@
 
 ### Вход
 
-* ![](../../media/app/icons/ports/output-table-inactive.svg)
+* ![](../../media/app/icons/ports/table-inactive.svg)
 
 ### Выход
 
-* ![](../../media/app/icons/ports/output-table-inactive.svg)
-* ![](../../media/app/icons/ports/output-table-inactive.svg)
+* ![](../../media/app/icons/ports/table-inactive.svg)
+* ![](../../media/app/icons/ports/table-inactive.svg)
 
 ## Мастер настройки
 

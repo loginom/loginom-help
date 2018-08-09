@@ -19,7 +19,7 @@
 
 ### Выходные порты
 
-* ![](../../media/app/icons/ports/output-table-inactive.svg) Импортированная таблица.
+* ![](../../media/app/icons/ports/table-inactive.svg) Импортированная таблица.
 
 ## Мастер настройки
 

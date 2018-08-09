@@ -14,7 +14,7 @@
 
 ### Выход
 
-* ![](../../media/app/icons/ports/output-table-inactive.svg) Набор данных - импортированная таблица.
+* ![](../../media/app/icons/ports/table-inactive.svg) Набор данных - импортированная таблица.
 
 ## Мастер настройки
 

@@ -12,15 +12,15 @@
 
 ### Вход
 
-* ![](../../media/app/icons/ports/output-table-inactive.svg).
+* ![](../../media/app/icons/ports/table-inactive.svg).
 
 * ![](../../media/app/icons/toolbar-18/add-inactive.svg) Добавить еще один порт - создает новые порты входа для присоединяемых таблиц и переменных. Новые порты могут быть двух типов:
-  * ![](../../media/app/icons/ports/output-table-inactive.svg) Присоединяемая таблица[N], где N порядковый номер таблицы
+  * ![](../../media/app/icons/ports/table-inactive.svg) Присоединяемая таблица[N], где N порядковый номер таблицы
   * ![](../../media/app/icons/ports/input-variable-inactive.svg) Присоединяемые переменные[N], где N порядковый номер порта переменных.
 
 ### Выход
 
-* ![](../../media/app/icons/ports/output-table-inactive.svg).
+* ![](../../media/app/icons/ports/table-inactive.svg).
 
 ## Мастер настройки
 

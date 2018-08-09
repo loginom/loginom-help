@@ -9,7 +9,7 @@
 ### Вход
 
 * ![](../../media/app/icons/ports/optional-input-connection-inactive.svg) Подключение (необязательный порт) – используется для указания папки, содержащей экспортируемый файл. Путь к папке задается в подключении "Файлы".
-* ![](../../media/app/icons/ports/output-table-inactive.svg) Источник данных - таблица данных, подлежащая экспорту.
+* ![](../../media/app/icons/ports/table-inactive.svg) Источник данных - таблица данных, подлежащая экспорту.
 * ![](../../media/app/icons/ports/optional-input-variable-inactive.svg) [Управляющие переменные](../../scenario/variables/control_variables.md) (необязательный порт).
 * ![](../../media/app/icons/ports/input-connection-inactive.svg) [Подключение к источнику XSD-схемы](..\connections\list\schemes.md) (обязательный порт).
 

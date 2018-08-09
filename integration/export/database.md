@@ -13,7 +13,7 @@
 ### Вход
 
 * ![](../../media/app/icons/ports/input-connection-inactive.svg) Подключение - порт для установки подключения к базе данных.
-* ![](../../media/app/icons/ports/output-table-inactive.svg) Источник данных - таблица данных, подлежащая экспорту в базу.
+* ![](../../media/app/icons/ports/table-inactive.svg) Источник данных - таблица данных, подлежащая экспорту в базу.
 * ![](../../media/app/icons/ports/optional-input-variable-inactive.svg) [Управляющие переменные](../../scenario/variables/control_variables.md) (необязательный порт).
 
 ## Мастер настройки

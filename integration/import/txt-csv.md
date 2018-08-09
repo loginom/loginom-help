@@ -11,7 +11,7 @@
 
 ### Выход
 
-* ![](../../media/app/icons/ports/output-table-inactive.svg) Набор данных (таблица данных).
+* ![](../../media/app/icons/ports/table-inactive.svg) Набор данных (таблица данных).
 
 ## Мастер настройки
 

@@ -6,13 +6,13 @@
 
 ### Вход
 
-* ![](../../media/app/icons/ports/output-table-inactive.svg).
+* ![](../../media/app/icons/ports/table-inactive.svg).
 
 * ![](../../media/app/icons/ports/optional-input-variable-inactive.svg), необязательный.
 
 ### Выход
 
-* ![](../../media/app/icons/ports/output-table-inactive.svg).
+* ![](../../media/app/icons/ports/table-inactive.svg).
 
 ## Мастер настройки
 

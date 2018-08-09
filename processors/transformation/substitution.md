@@ -12,15 +12,15 @@
 
 ### Вход
 
-* ![](../../media/app/icons/ports/output-table-inactive.svg) - набор данных, подлежащий изменению.
+* ![](../../media/app/icons/ports/table-inactive.svg) - набор данных, подлежащий изменению.
 
-* ![](../../media/app/icons/ports/output-table-inactive.svg) - набор данных, содержащий таблицу замен.
+* ![](../../media/app/icons/ports/table-inactive.svg) - набор данных, содержащий таблицу замен.
 
 * ![](../../media/app/icons/toolbar-18/add-inactive.svg) Добавление еще одного порта. Поскольку таблиц замен может быть несколько, то необходимые порты для них могут быть добавлены пользователем.
 
 ### Выход
 
-* ![](../../media/app/icons/ports/output-table-inactive.svg).
+* ![](../../media/app/icons/ports/table-inactive.svg).
 
 ## Мастер настройки
 

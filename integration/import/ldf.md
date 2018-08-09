@@ -15,7 +15,7 @@ LGD - специальный формат файлов, оптимизирова
 
 ### Выход
 
-* ![](../../media/app/icons/ports/output-table-inactive.svg) Импортированная таблица.
+* ![](../../media/app/icons/ports/table-inactive.svg) Импортированная таблица.
 
 ## Мастер настройки
 

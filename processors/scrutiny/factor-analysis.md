@@ -1,4 +1,4 @@
-# ![ ](../../media/app/icons/component_18/component_default-07.svg) Факторный анализ
+# ![ ](../../media/app/icons/component-18/component-default-07.svg) Факторный анализ
 
 ## Описание
 
@@ -47,13 +47,13 @@
 
 ### Вход
 
-* ![](../../media/app/icons/ports/input_table_inactive.svg). В настройках этого порта следует выставить назначение "используемый" для полей, данные которых следует подвергнуть факторному анализу.
+* ![](../../media/app/icons/ports/table-inactive.svg). В настройках этого порта следует выставить назначение "используемый" для полей, данные которых следует подвергнуть факторному анализу.
 
 ### Выход
 
-* ![](../../media/app/icons/ports/output_table_inactive.svg). Содержит исходную таблицу, к которой добавлены поля факторов.
+* ![](../../media/app/icons/ports/table-inactive.svg). Содержит исходную таблицу, к которой добавлены поля факторов.
 
-* ![](../../media/app/icons/ports/output_table_inactive.svg). Содержит таблицу факторных нагрузок.
+* ![](../../media/app/icons/ports/table-inactive.svg). Содержит таблицу факторных нагрузок.
 
 ## Мастер настройки
 

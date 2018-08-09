@@ -8,13 +8,13 @@
 
 ### Вход
 
-* ![](../../media/app/icons/ports/output-table-inactive.svg).
+* ![](../../media/app/icons/ports/table-inactive.svg).
 
-* ![](../../media/app/icons/ports/output-table-inactive.svg). Количество присоединяемых таблиц задается пользователем путем добавления входных портов обработчика.
+* ![](../../media/app/icons/ports/table-inactive.svg). Количество присоединяемых таблиц задается пользователем путем добавления входных портов обработчика.
 
 ### Выход
 
-* ![](../../media/app/icons/ports/output-table-inactive.svg).
+* ![](../../media/app/icons/ports/table-inactive.svg).
 
 ## Мастер настройки
 
