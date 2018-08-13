@@ -80,7 +80,7 @@
 * [Сглаживание](../processors/preprocessing/smoothing.md)
 * [Сэмплинг](../processors/preprocessing/sampling.md)
 
-### Data Mining
+### [Data Mining](./datamining/README.md)
 
 Обработчики, выделенные в эту группу, являются инструментами для реализации различных методов Data Mining: кластеризация, ассоциативные правила и другие.
 
