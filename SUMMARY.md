@@ -58,7 +58,7 @@
     * [Excel-файл](./integration/export/excel.md)
     * [LGD-файл](./integration/export/ldf.md)
     * [XML-файл](./integration/export/xml.md)
-  * [Веб-сервисы]()
+  * [Веб-сервисы](./integration/web-services/README.md)
     * [Подключение к веб-сервисам](./integration/webservice.md)
     * [Публикация веб-сервиса](./integration/publishing-web-service.md)
   * [Loginom Data File](./integration/ldf.md)
