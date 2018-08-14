@@ -1,3 +1,5 @@
+# Статистические функции
+
 <details><summary><b>Avg</b></summary>
 <br><b>Avg(Аргумент1, Аргумент2 …) </b>
 <ul>

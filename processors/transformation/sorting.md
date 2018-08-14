@@ -1,6 +1,4 @@
-![](../../media/app/icons/component-18/component-default-01.svg)
-
-# Сортировка
+# ![](../../media/app/icons/component-18/component-default-01.svg) Сортировка
 
 ## Описание
 
@@ -18,11 +16,11 @@
 
 ### Вход
 
-* ![](../../media/app/icons/ports/table-inactive.svg).
+* ![](../../media/app/icons/ports/table-inactive.svg) Входной источник данных (таблица данных).
 
 ### Выход
 
-* ![](../../media/app/icons/ports/table-inactive.svg).
+* ![](../../media/app/icons/ports/table-inactive.svg) Выходной набор данных (таблица данных).
 
 ## Мастер настройки
 

@@ -19,12 +19,12 @@
 
 ### Вход
 
-* ![](../../media/app/icons/ports/table-inactive.svg)
+* ![](../../media/app/icons/ports/table-inactive.svg) Входной источник данных (таблица данных). 
 
 ### Выход
 
-* ![](../../media/app/icons/ports/table-inactive.svg)
-* ![](../../media/app/icons/ports/table-inactive.svg)
+* ![](../../media/app/icons/ports/table-inactive.svg) Соответствуют условию (таблица данных).
+* ![](../../media/app/icons/ports/table-inactive.svg) Не соответствуют условию (таблица данных).
 
 ## Мастер настройки
 

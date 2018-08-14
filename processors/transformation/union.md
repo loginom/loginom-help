@@ -4,17 +4,21 @@
 
 С помощью обработчика «Объединение» исходный набор данных дополняется записями присоединяемых наборов. «Объединение» является аналогом операции UNION в SQL.
 
- Пример | ![](../../media/app/processors/transformation/union-primer.png) 
+%accordion%Пример:%accordion%
+ 
+  ![](../../media/app/processors/transformation/union-primer.png) 
 
 ### Вход
 
-* ![](../../media/app/icons/ports/table-inactive.svg).
+* ![](../../media/app/icons/ports/table-inactive.svg) Главная таблица (таблица данных).
 
-* ![](../../media/app/icons/ports/table-inactive.svg). Количество присоединяемых таблиц задается пользователем путем добавления входных портов обработчика.
+* ![](../../media/app/icons/ports/table-inactive.svg) Присоединяемая таблица[N] (таблица данных).
+
+Количество присоединяемых таблиц задается пользователем путем добавления входных портов обработчика.
 
 ### Выход
 
-* ![](../../media/app/icons/ports/table-inactive.svg).
+* ![](../../media/app/icons/ports/table-inactive.svg) Выходной набор данных (таблица данных).
 
 ## Мастер настройки
 

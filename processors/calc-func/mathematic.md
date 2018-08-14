@@ -1,3 +1,5 @@
+# Математические функции
+
 <details><summary><b>Abs</b></summary>
 <br><b>Abs(Аргумент) </b>
 <ul>

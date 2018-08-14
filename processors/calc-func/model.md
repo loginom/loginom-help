@@ -1,3 +1,5 @@
+# Модели
+
 <details><summary><b>AutoRegression</b></summary>
 <br><b>AutoRegression(C, A0, X{t}, A1, X{t-1} …) </b>
 <ul>

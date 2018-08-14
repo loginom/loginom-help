@@ -12,13 +12,13 @@
 
 * ![](../../media/app/icons/ports/input-variable-inactive.svg) Входные переменные - набор переменных.
 
-* ![](../../media/app/icons/ports/table-inactive.svg).
+* ![](../../media/app/icons/ports/table-inactive.svg) Входной источник данных (таблица данных).
 
 ### Выход
 
 * ![](../../media/app/icons/ports/output-variable-inactive.svg) Выходные переменные - набор переменных.
 
-* ![](../../media/app/icons/ports/table-inactive.svg).
+* ![](../../media/app/icons/ports/table-inactive.svg) Выходной набор данных (таблица данных).
 
 ## Мастер настройки
 

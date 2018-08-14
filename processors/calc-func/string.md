@@ -1,3 +1,5 @@
+# Строковые функции
+
 <details><summary><b>Chr</b></summary>
 <br><b>Chr(Аргумент) </b>
 <ul>

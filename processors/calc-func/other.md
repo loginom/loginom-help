@@ -1,3 +1,5 @@
+# Прочие функции
+
 <details><summary><b>CRC32</b></summary>
 <br><b>CRC32(Строка) </b>
 <ul>
