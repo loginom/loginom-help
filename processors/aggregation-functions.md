@@ -11,7 +11,7 @@
 * ![](../media/app/icons/toolbar-18/toolbar-18-97.svg)  Среднее;
 * ![](../media/app/icons/toolbar-18/toolbar-18-146.svg) [Медиана](https://wiki.loginom.ru/articles/median.html)
 
-* ![](../media/app/icons/toolbar-18/toolbar-18-100.svg) Стандартное отклонение[;](https://ru.wikipedia.org/wiki/Среднеквадратическое-отклонение)
+* ![](../media/app/icons/toolbar-18/toolbar-18-100.svg) [Стандартное отклонение](https://wiki.loginom.ru/articles/mean-square-deviation.html)
 * ![](../media/app/icons/toolbar-18/toolbar-18-91.svg)  Количество уникальных;
 * ![](../media/app/icons/toolbar-18/toolbar-18-92.svg)  Количество пропусков;
 * ![](../media/app/icons/toolbar-18/toolbar-18-93.svg)  Первый;

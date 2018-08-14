@@ -36,8 +36,8 @@
 
 **Смотри также:**
 
-[https://ru.wikipedia.org/wiki/Interbase](https://ru.wikipedia.org/wiki/Interbase) - информация в русском разделе википедии;
+[Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/Interbase)
 
-[https://www.embarcadero.com/ru/products/interbase](https://www.embarcadero.com/ru/products/interbase) - официальный сайт разработчика;
+[Официальный сайт разработчика](https://www.embarcadero.com/ru/products/interbase)
 
-[http://docwiki.embarcadero.com/InterBase/2017/en/Embedded_SQL_Guide](http://docwiki.embarcadero.com/InterBase/2017/en/Embedded_SQL_Guide) - документация по SQL синтаксису;
+[Документация по SQL синтаксису](http://docwiki.embarcadero.com/InterBase/2017/en/Embedded_SQL_Guide)
