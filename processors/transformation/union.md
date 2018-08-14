@@ -8,6 +8,8 @@
  
   ![](../../media/app/processors/transformation/union-primer.png) 
 
+%/accordion%
+
 ### Вход
 
 * ![](../../media/app/icons/ports/table-inactive.svg) Главная таблица (таблица данных).
@@ -15,6 +17,7 @@
 * ![](../../media/app/icons/ports/table-inactive.svg) Присоединяемая таблица[N] (таблица данных).
 
 Количество присоединяемых таблиц задается пользователем путем добавления входных портов обработчика.
+
 
 ### Выход
 

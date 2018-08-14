@@ -9,7 +9,7 @@
 * ![](../media/app/icons/toolbar-18/toolbar-18-99.svg) Минимум;
 * ![](../media/app/icons/toolbar-18/toolbar-18-98.svg)  Максимум;
 * ![](../media/app/icons/toolbar-18/toolbar-18-97.svg)  Среднее;
-* ![](../media/app/icons/toolbar-18/toolbar-18-146.svg) Медиана[;](https://ru.wikipedia.org/wiki/Медиана_(статистика))
+* ![](../media/app/icons/toolbar-18/toolbar-18-146.svg) [Медиана](https://wiki.loginom.ru/articles/median.html)
 
 * ![](../media/app/icons/toolbar-18/toolbar-18-100.svg) Стандартное отклонение[;](https://ru.wikipedia.org/wiki/Среднеквадратическое-отклонение)
 * ![](../media/app/icons/toolbar-18/toolbar-18-91.svg)  Количество уникальных;

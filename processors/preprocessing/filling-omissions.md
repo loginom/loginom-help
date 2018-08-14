@@ -69,4 +69,4 @@
 
 **Смотри также:**
 
-* [Редактирование выбросов](../../processors/preprocessing/editing_of_emissions.md)
+* [Редактирование выбросов](./editing-of-emissions.md)
