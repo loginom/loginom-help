@@ -49,8 +49,8 @@
 
 Управление подключениями осуществляется с помощью панели инструментов (4):
 
-* ![](../../media/app/icons/toolbar-18/toolbar-18-107.svg) - показать/скрыть дерево классов подключений;
-* ![](../../media/app/icons/toolbar-18/toolbar-18-42.svg)/![](../../media/app/icons/toolbar-18/toolbar-18-43.svg)  - тип отображения плитка/таблица;
+* ![](../../media/app/icons/toolbar-18/toolbar-18-108.svg)/![](../../media/app/icons/toolbar-18/toolbar-18-107.svg) - показать/скрыть дерево классов подключений;
+* ![](../../media/app/icons/toolbar-18/toolbar-18-42.svg)/![](../../media/app/icons/toolbar-18/toolbar-18-43.svg)  - тип отображения крупная плитка/таблица;
 * ![](../../media/app/icons/toolbar-18/toolbar-181.svg) - включение группировки списка по видам подключений;
 * ![](../../media/app/icons/toolbar-18/toolbar-18-1.svg) - настроить подключение;
 * ![](../../media/app/icons/toolbar-18/toolbar-18-136.svg) - настроить модификатор доступа;
