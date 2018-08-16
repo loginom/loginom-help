@@ -4,11 +4,11 @@
 
 С помощью обработчика «Объединение» исходный набор данных дополняется записями присоединяемых наборов. «Объединение» является аналогом операции UNION в SQL.
 
-%accordion%Пример:%accordion%
+%spoiler%Пример:%spoiler%
  
   ![](../../media/app/processors/transformation/union-primer.png) 
 
-%/accordion%
+%/spoiler%
 
 ### Вход
 

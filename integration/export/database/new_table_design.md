@@ -4,7 +4,7 @@
 * Настройки;
 * SQL-запрос.
 
-%accordion%Пример заполнения:%accordion%
+%spoiler%Пример заполнения:%spoiler%
 
 ![](../../../media/app/integration/export/db/new-tab-1.png)
 <br> Рисунок 1. Настройка полей новой таблицы.
@@ -12,7 +12,7 @@
 ![](../../../media/app/integration/export/db/new-tab-2.png)
 <br> Рисунок 2. Представление создаваемой таблицы в виде SQL-запроса.
 
-%/accordion%
+%/spoiler%
 
 ## Настройки
 
@@ -33,13 +33,3 @@
 ## SQL-запрос
 
 Данная вкладка позволяет просмотеть вид SQL-запроса, определяющего структуру таблицы. <br>
-Пример:
-
-```sql
-CREATE TABLE "DB_TABLE_1" 
-	(
-	"ClentID" BIGINT, 
-	"ClentName" VARCHAR(50), 
-	"Comment" VARCHAR(50)
-	)
-```
