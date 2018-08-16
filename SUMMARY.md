@@ -7,7 +7,7 @@
   * [Проектирование сценариев](./quick-start/scenario-construction.md)
   * [Интеграция с базами данных](./quick-start/database.md)
   * [Использование переменных](./quick-start/variables.md)
-* [Источники данных Loginom](./data-format/README.md)
+* [Фирменные источники данных](./data-format/README.md)
   * [Loginom Data File](./data-format/ldf.md)
 * [Проектирование сценариев](./scenario/README.md)
   * [Ссылки на другие пакеты](./scenario/link_to_packet.md)
