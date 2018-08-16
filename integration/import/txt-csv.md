@@ -6,7 +6,7 @@
 
 ### Вход
 
-* ![](../../media/app/icons/ports/input-connection-inactive.svg)   [Подключение](..\connections\README.md) - принимает параметры подключения к базе данных.
+* ![](../../media/app/icons/ports/input-connection-inactive.svg)   [Подключение](../connections/README.md) - принимает параметры подключения к базе данных.
 * ![](../../media/app/icons/ports/optional-input-variable-inactive.svg) [Управляющие переменные](../../scenario/variables/control_variables.md) (необязательный порт).
 
 ### Выход
