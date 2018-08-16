@@ -12,7 +12,7 @@
 
 %/spoiler%
 
-%spoiler%**AddMonth**%spoiler%<summary>
+%spoiler%**AddMonth**%spoiler%
 
 **AddMonth(Дата, Количество)**
 
@@ -84,6 +84,7 @@
 
 
 %spoiler%**DateToStr**%spoiler%
+
 **DateToStr(Дата [, Формат_даты])**
 
 * Дата - выражение типа дата/время.
