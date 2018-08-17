@@ -1,6 +1,6 @@
 # Прочие функции
 
-%spoiler%**CRC32**%spoiler%
+%spoiler%CRC32%spoiler%
 
 **CRC32(Строка)**
 
@@ -11,7 +11,7 @@
 
 %/spoiler%
 
-%spoiler%**CreateGUID**%spoiler%
+%spoiler%CreateGUID%spoiler%
 
 **CreateGUID([Формат = «B», ВерхнийРегистр = True])**
 
@@ -28,7 +28,7 @@
 
 %/spoiler%
 
-%spoiler%**Data**%spoiler%
+%spoiler%Data%spoiler%
 
 **Data(«ИмяСтолбца»,НомерСтроки)**
 
@@ -39,7 +39,7 @@
 
 %/spoiler%
 
-%spoiler%**DisplayName**%spoiler%
+%spoiler%DisplayName%spoiler%
 
 **DisplayName([«Имя»])**
 
@@ -49,7 +49,7 @@
 
 %/spoiler%
 
-%spoiler%**MD5**%spoiler%
+%spoiler%MD5%spoiler%
 
 **MD5(Строка)**
 
@@ -59,7 +59,7 @@
 
 %/spoiler%
 
-%spoiler%**Null**%spoiler%
+%spoiler%Null%spoiler%
 
 **Null()**
 
@@ -69,7 +69,7 @@
 
 %/spoiler%
 
-%spoiler%**Random**%spoiler%
+%spoiler%Random%spoiler%
 
 **Random()**
 
@@ -79,7 +79,7 @@
 
 %/spoiler%
 
-%spoiler%**RowCount**%spoiler%
+%spoiler%RowCount%spoiler%
 
 **RowCount()**
 
@@ -89,7 +89,7 @@
 
 %/spoiler%
 
-%spoiler%**RowNum**%spoiler%
+%spoiler%RowNum%spoiler%
 
 **RowNum()**
 
@@ -99,7 +99,7 @@
 
 %/spoiler%
 
-%spoiler%**SHA1**%spoiler%
+%spoiler%SHA1%spoiler%
 
 **SHA1(Строка)**
 

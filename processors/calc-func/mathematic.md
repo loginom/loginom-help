@@ -1,6 +1,6 @@
 # Математические функции
 
-%spoiler%**Abs**%spoiler%
+%spoiler%Abs%spoiler%
 
 **Abs(Аргумент)**
 
@@ -10,7 +10,7 @@
 
 %/spoiler%
 
-%spoiler%**AbsErr**%spoiler%
+%spoiler%AbsErr%spoiler%
 
 **AbsErr(Аргумент1, Аргумент2)**
 
@@ -20,7 +20,7 @@
 
 %/spoiler%
 
-%spoiler%**ArcCos**%spoiler%
+%spoiler%ArcCos%spoiler%
 
 **ArcCos(Значение)**
 
@@ -30,7 +30,7 @@
 
 %/spoiler%
 
-%spoiler%**ArcSin**%spoiler%
+%spoiler%ArcSin%spoiler%
 
 **ArcSin(Значение)**
 
@@ -40,7 +40,7 @@
 
 %/spoiler%
 
-%spoiler%**ArcTan**%spoiler%
+%spoiler%ArcTan%spoiler%
 
 **ArcTan(Значение)**
 
@@ -50,7 +50,7 @@
 
 %/spoiler%
 
-%spoiler%**Cos**%spoiler%
+%spoiler%Cos%spoiler%
 
 **Cos(Угол)**
 
@@ -60,7 +60,7 @@
 
 %/spoiler%
 
-%spoiler%**Exp**%spoiler%
+%spoiler%Exp%spoiler%
 
 **Exp(Степень)**
 
@@ -70,7 +70,7 @@
 
 %/spoiler%
 
-%spoiler%**Factorial**%spoiler%
+%spoiler%Factorial%spoiler%
 
 **Factorial(Аргумент)**
 
@@ -80,7 +80,7 @@
 
 %/spoiler%
 
-%spoiler%**Frac**%spoiler%
+%spoiler%Frac%spoiler%
 
 **Frac(Аргумент)**
 
@@ -91,7 +91,7 @@
 
 %/spoiler%
 
-%spoiler%**Int**%spoiler%
+%spoiler%Int%spoiler%
 
 **Int(Аргумент)**
 
@@ -101,7 +101,7 @@
 
 %/spoiler%
 
-%spoiler%**Ln**%spoiler%
+%spoiler%Ln%spoiler%
 
 **Ln(Аргумент)**
 
@@ -111,7 +111,7 @@
 
 %/spoiler%
 
-%spoiler%**Log**%spoiler%
+%spoiler%Log%spoiler%
 
 **Log(Основание, Аргумент)**
 
@@ -122,7 +122,7 @@
 
 %/spoiler%
 
-%spoiler%**Mod**%spoiler%
+%spoiler%Mod%spoiler%
 
 **Mod(Делимое, Делитель)**
 
@@ -133,7 +133,7 @@
 
 %/spoiler%
 
-%spoiler%**Pi**%spoiler%
+%spoiler%Pi%spoiler%
 
 **Pi()**
 
@@ -143,7 +143,7 @@
 
 %/spoiler%
 
-%spoiler%**Pow**%spoiler%
+%spoiler%Pow%spoiler%
 
 **Pow(Аргумент, Степень)**
 
@@ -154,7 +154,7 @@
 
 %/spoiler%
 
-%spoiler%**RelErr**%spoiler%
+%spoiler%RelErr%spoiler%
 
 **RelErr(Аргумент1, Аргумент2)**
 
@@ -164,7 +164,7 @@
 
 %/spoiler%
 
-%spoiler%**Round**%spoiler%
+%spoiler%Round%spoiler%
 
 **Round(Аргумент1 [, Аргумент2 = 0])**
 
@@ -175,7 +175,7 @@
 
 %/spoiler%
 
-%spoiler%**Sign**%spoiler%
+%spoiler%Sign%spoiler%
 
 **Sign(Аргумент)**
 
@@ -185,7 +185,7 @@
 
 %/spoiler%
 
-%spoiler%**Sin**%spoiler%
+%spoiler%Sin%spoiler%
 
 **Sin(Угол)**
 
@@ -195,7 +195,7 @@
 
 %/spoiler%
 
-%spoiler%**Sqrt**%spoiler%
+%spoiler%Sqrt%spoiler%
 
 **Sqrt(Аргумент)**
 
@@ -205,7 +205,7 @@
 
 %/spoiler%
 
-%spoiler%**Tan**%spoiler%
+%spoiler%Tan%spoiler%
 
 **Tan(Угол)**
 

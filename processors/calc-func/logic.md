@@ -1,6 +1,6 @@
 # Логические функции
 
-%spoiler%**Decode**%spoiler%
+%spoiler%Decode%spoiler%
 
 **Decode(Выражение, Значение1, Результат1 [, Значение2, Результат2]… [, Значение_по_умолчанию = «»])**
 
@@ -13,7 +13,7 @@
 
 %/spoiler%
 
-%spoiler%**DecodeF**%spoiler%
+%spoiler%DecodeF%spoiler%
 
 **DecodeF(Выражение, Погрешность, Значение1, Результат1 [, Значение2, Результат2]… [, Значение_по_умолчанию = 0])**
 
@@ -27,7 +27,7 @@
 
 %/spoiler%
 
-%spoiler%**DecodeN**%spoiler%
+%spoiler%DecodeN%spoiler%
 
 **DecodeN(Выражение, Значение1, Результат1 [, Значение2, Результат2]… [, Значение_по_умолчанию = 0])**
 
@@ -40,7 +40,7 @@
 
 %/spoiler%
 
-%spoiler%**DecodeS**%spoiler%
+%spoiler%DecodeS%spoiler%
 
 ** DecodeS(Выражение, Значение1, Результат1 [, Значение2, Результат2]… [, Значение_по_умолчанию = «»])**
 
@@ -53,7 +53,7 @@
 
 %/spoiler%
 
-%spoiler%**DecodeV**%spoiler%
+%spoiler%DecodeV%spoiler%
 
 **DecodeV(Выражение, Значение, Результат [, Значение, Результат]… [, Значение_по_умолчанию = Null])**
 
@@ -66,7 +66,7 @@
 
 %/spoiler%
 
-%spoiler%**IF**%spoiler%
+%spoiler%IF%spoiler%
 
 **IF(Условие, Значение1, Значение2)**
 
@@ -78,7 +78,7 @@
 
 %/spoiler%
 
-%spoiler%**IFF**%spoiler%
+%spoiler%IFF%spoiler%
 
 **IFF(Условие, Значение1, Значение2)**
 
@@ -90,7 +90,7 @@
 
 %/spoiler%
 
-%spoiler%**IN**%spoiler%
+%spoiler%IN%spoiler%
 
 **IN(Значение, Элемент1, Элемент2, …, ЭлементN)**
 
@@ -103,7 +103,7 @@
 
 %/spoiler%
 
-%spoiler%**IsNull**%spoiler%
+%spoiler%IsNull%spoiler%
 
 **IsNull(Аргумент)**
 
@@ -114,7 +114,7 @@
 %/spoiler%
 
 
-%spoiler%**NVL**%spoiler%
+%spoiler%NVL%spoiler%
 
 **NVL(Выражение [, Значение_по_умолчанию = «»])**
 

@@ -1,6 +1,6 @@
 # Модели
 
-%spoiler%**AutoRegression**%spoiler%
+%spoiler%AutoRegression%spoiler%
 
 **AutoRegression(C, A0, X{t}, A1, X{t-1} …)**
 
@@ -12,7 +12,7 @@
 
 %/spoiler%
 
-%spoiler%**ExpMovingAverage**%spoiler%
+%spoiler%ExpMovingAverage%spoiler%
 
 **ExpMovingAverage(X{t}, X{t-1} …)**
 
@@ -25,7 +25,7 @@
 %/spoiler%
 
 
-%spoiler%**MovingAverage**%spoiler%
+%spoiler%MovingAverage%spoiler%
 
 **MovingAverage(X{t}, X{t-1} …)**
 

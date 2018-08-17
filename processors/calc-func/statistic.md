@@ -1,6 +1,6 @@
 # Статистические функции
 
-%spoiler%**Avg**%spoiler%
+%spoiler%Avg%spoiler%
 
 **Avg(Аргумент1, Аргумент2 …)**
 
@@ -10,7 +10,7 @@
 
 %/spoiler%
 
-%spoiler%**DKhi2**%spoiler%
+%spoiler%DKhi2%spoiler%
 
 **DKhi2(Степени_свободы, Аргумент)**
 
@@ -21,7 +21,7 @@
 
 %/spoiler%
 
-%spoiler%**FKhi2**%spoiler%
+%spoiler%FKhi2%spoiler%
 
 **FKhi2(Степени_свободы, Аргумент)**
 
@@ -32,7 +32,7 @@
 
 %/spoiler%
 
-%spoiler%**InvKhi2**%spoiler%
+%spoiler%InvKhi2%spoiler%
 
 **InvKhi2(Степени_свободы, Вероятность)**
 
@@ -43,7 +43,7 @@
 
 %/spoiler%
 
-%spoiler%**Max**%spoiler%
+%spoiler%Max%spoiler%
 
 **Max(Аргумент1, Аргумент2 …)**
 
@@ -55,7 +55,7 @@
 
 %/spoiler%
 
-%spoiler%**Min**%spoiler%
+%spoiler%Min%spoiler%
 
 **Min(Аргумент1, Аргумент2 …)**
 
@@ -67,7 +67,7 @@
 
 %/spoiler%
 
-%spoiler%**PKhi2**%spoiler%
+%spoiler%PKhi2%spoiler%
 
 **PKhi2(Степени_свободы, Аргумент)**
 
@@ -78,7 +78,7 @@
 
 %/spoiler%
 
-%spoiler%**StdDev**%spoiler%
+%spoiler%StdDev%spoiler%
 
 **StdDev(Аргумент1, Аргумент2 …)**
 
@@ -88,7 +88,7 @@
 
 %/spoiler%
 
-%spoiler%**Sum**%spoiler%
+%spoiler%Sum%spoiler%
 
 **Sum(Аргумент1, Аргумент2 …)**
 
@@ -98,7 +98,7 @@
 
 %/spoiler%
 
-%spoiler%**SumSq**%spoiler%
+%spoiler%SumSq%spoiler%
 
 **SumSq(Аргумент1, Аргумент2 …)**
 

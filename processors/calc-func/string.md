@@ -1,6 +1,6 @@
 # Строковые функции
 
-%spoiler%**Chr**%spoiler%
+%spoiler%Chr%spoiler%
 
 **Chr(Аргумент)**
 
@@ -10,7 +10,7 @@
 
 %/spoiler%
 
-%spoiler%**Concat**%spoiler%
+%spoiler%Concat%spoiler%
 
 **Concat(Строка, Строка [, … Строка])**
 
@@ -20,7 +20,7 @@
 
 %/spoiler%
 
-%spoiler%**Count**%spoiler%
+%spoiler%Count%spoiler%
 
 **Count(Строка)**
 
@@ -30,7 +30,7 @@
 
 %/spoiler%
 
-%spoiler%**DamLevDist**%spoiler%
+%spoiler%DamLevDist%spoiler%
 
 **DamLevDist(Строка1, Строка2)**
 
@@ -41,7 +41,7 @@
 
 %/spoiler%
 
-%spoiler%**Find**%spoiler%
+%spoiler%Find%spoiler%
 
 **Find(Подстрока, Строка[, Порядок = 1])**
 
@@ -53,7 +53,7 @@
 
 %/spoiler%
 
-%spoiler%**Format**%spoiler%
+%spoiler%Format%spoiler%
 
 **Format(Строка_формата, Выражение [, … Выражение])**
 
@@ -69,7 +69,7 @@
 
 %/spoiler%
 
-%spoiler%**Left**%spoiler%
+%spoiler%Left%spoiler%
 
 **Left(Строка, Количество_символов)**
 
@@ -79,7 +79,7 @@
 
 %/spoiler%
 
-%spoiler%**LevDist**%spoiler%
+%spoiler%LevDist%spoiler%
 
 **LevDist(Строка1, Строка2)**
 
@@ -89,7 +89,7 @@
 
 %/spoiler%
 
-%spoiler%**Lower**%spoiler%
+%spoiler%Lower%spoiler%
 
 **Lower(Аргумент)**
 
@@ -99,7 +99,7 @@
 
 %/spoiler%
 
-%spoiler%**RegExDomain**%spoiler%
+%spoiler%RegExDomain%spoiler%
 
 **RegExDomain(Вх.Строка [, Ном.Вхожд = 1])**
 
@@ -110,7 +110,7 @@
 
 %/spoiler%
 
-%spoiler%**RegExEmail**%spoiler%
+%spoiler%RegExEmail%spoiler%
 
 **RegExEmail(Вх.Строка [, Ном.Вхожд = 1])**
 
@@ -121,7 +121,7 @@
 
 %/spoiler%
 
-%spoiler%**RegExMatch**%spoiler%
+%spoiler%RegExMatch%spoiler%
 
 **RegExMatch(Рег.Выр., Строка)**
 
@@ -132,7 +132,7 @@
 
 %/spoiler%
 
-%spoiler%**RegExMatchCount**%spoiler%
+%spoiler%RegExMatchCount%spoiler%
 
 **RegExMatchCount(Рег.Выр., Строка)**
 
@@ -143,7 +143,7 @@
 
 %/spoiler%
 
-%spoiler%**RegExMatchedExp**%spoiler%
+%spoiler%RegExMatchedExp%spoiler%
 
 **RegExMatchedExp(Рег.Выр., Строка [, НомерЧасти = 1])**
 
@@ -155,7 +155,7 @@
 
 %/spoiler%
 
-%spoiler%**RegExMatchedNamedSubExp**%spoiler%
+%spoiler%RegExMatchedNamedSubExp%spoiler%
 
 **RegExMatchedNamedSubExp(Рег.Выр., Строка, ИмяГруппы [, НомерЧасти = 1])**
 
@@ -168,7 +168,7 @@
 
 %/spoiler%
 
-%spoiler%**RegExMatchedSubExp**%spoiler%
+%spoiler%RegExMatchedSubExp%spoiler%
 
 **RegExMatchedSubExp(Рег.Выр., Строка, НомерГруппы [, НомерЧасти = 1])**
 
@@ -181,7 +181,7 @@
 
 %/spoiler%
 
-%spoiler%**RegExReplace**%spoiler%
+%spoiler%RegExReplace%spoiler%
 
 **RegExReplace(Рег.Выр., Вх.Строка, СтрокаЗамены [, НомерЧасти = 1, Расш.Синтаксис = False])**
 
@@ -195,7 +195,7 @@
 
 %/spoiler%
 
-%spoiler%**RegExReplaceAll**%spoiler%
+%spoiler%RegExReplaceAll%spoiler%
 
 **RegExReplaceAll(Рег.Выр., Вх.Строка, СтрокаЗамены [, Расш.Синтаксис = False])**
 
@@ -208,7 +208,7 @@
 
 %/spoiler%
 
-%spoiler%**Repeat**%spoiler%
+%spoiler%Repeat%spoiler%
 
 **Repeat(Строка, Количество_повторов)**
 
@@ -219,7 +219,7 @@
 
 %/spoiler%
 
-%spoiler%**Replace**%spoiler%
+%spoiler%Replace%spoiler%
 
 **Replace(Строка, Старый_шаблон, Новый_шаблон [, Заменять_все, Игнорировать_регистр])**
 
@@ -233,7 +233,7 @@
 
 %/spoiler%
 
-%spoiler%**Right**%spoiler%
+%spoiler%Right%spoiler%
 
 **Right(Строка, Количество_символов)**
 
@@ -243,7 +243,7 @@
 
 %/spoiler%
 
-%spoiler%**Space**%spoiler%
+%spoiler%Space%spoiler%
 
 **Space(Количество_пробелов)**
 
@@ -253,7 +253,7 @@
 
 %/spoiler%
 
-%spoiler%**Str**%spoiler%
+%spoiler%Str%spoiler%
 
 **Str(Аргумент)**
 
@@ -263,7 +263,7 @@
 
 %/spoiler%
 
-%spoiler%**StrZero**%spoiler%
+%spoiler%StrZero%spoiler%
 
 **StrZero(Выражение, Общая_длина)**
 
@@ -274,7 +274,7 @@
 
 %/spoiler%
 
-%spoiler%**Stuff**%spoiler%
+%spoiler%Stuff%spoiler%
 
 **Stuff(Источник, Начало_позиции, Длина [, Вставляемая_строка = «»])**
 
@@ -287,7 +287,7 @@
 
 %/spoiler%
 
-%spoiler%**SubStr**%spoiler%
+%spoiler%SubStr%spoiler%
 
 **SubStr(Источник, Начало, Длина)**
 
@@ -299,7 +299,7 @@
 
 %/spoiler%
 
-%spoiler%**Trim**%spoiler%
+%spoiler%Trim%spoiler%
 
 **Trim(Аргумент)**
 
@@ -309,7 +309,7 @@
 
 %/spoiler%
 
-%spoiler%**TrimLeft**%spoiler%
+%spoiler%TrimLeft%spoiler%
 
 **TrimLeft(Аргумент)**
 
@@ -319,7 +319,7 @@
 
 %/spoiler%
 
-%spoiler%**TrimRight**%spoiler%
+%spoiler%TrimRight%spoiler%
 
 **TrimRight(Аргумент)**
 
@@ -329,7 +329,7 @@
 
 %/spoiler%
 
-%spoiler%**Upper**%spoiler%
+%spoiler%Upper%spoiler%
 
 **Upper(Аргумент)**
 
@@ -339,7 +339,7 @@
 
 %/spoiler%
 
-%spoiler%**Val**%spoiler%
+%spoiler%Val%spoiler%
 
 **Val(Строка)**
 

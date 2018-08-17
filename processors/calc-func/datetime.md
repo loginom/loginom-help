@@ -1,7 +1,7 @@
 # Функции вида Дата/время
 
 
-%spoiler%**AddDay**%spoiler%
+%spoiler%AddDay%spoiler%
 
 **AddDay(Дата, Количество)**
 
@@ -12,7 +12,7 @@
 
 %/spoiler%
 
-%spoiler%**AddMonth**%spoiler%
+%spoiler%AddMonth%spoiler%
 
 **AddMonth(Дата, Количество)**
 
@@ -25,7 +25,7 @@
 
 %/spoiler%
 
-%spoiler%**AddQuarter**%spoiler%
+%spoiler%AddQuarter%spoiler%
 
 **AddQuarter(Дата, Количество)**
 
@@ -38,7 +38,7 @@
 
 %/spoiler%
 
-%spoiler%**AddWeek**%spoiler%
+%spoiler%AddWeek%spoiler%
 
 **AddWeek(Дата, Количество)**
 
@@ -49,7 +49,7 @@
 
 %/spoiler%
 
-%spoiler%**AddYear**%spoiler%
+%spoiler%AddYear%spoiler%
 
 **AddYear(Дата, Количество)**
 
@@ -60,7 +60,7 @@
 
 %/spoiler%
 
-%spoiler%**DateTimeToStr**%spoiler%
+%spoiler%DateTimeToStr%spoiler%
 
 **DateTimeToStr(Датавремя [, Форматдаты [, Формат_времени]])**
 
@@ -83,7 +83,7 @@
 %/spoiler%
 
 
-%spoiler%**DateToStr**%spoiler%
+%spoiler%DateToStr%spoiler%
 
 **DateToStr(Дата [, Формат_даты])**
 
@@ -98,7 +98,7 @@
 
 %/spoiler%
 
-%spoiler%**Day**%spoiler%
+%spoiler%Day%spoiler%
 
 **Day(Дата)**
 
@@ -108,7 +108,7 @@
 
 %/spoiler%
 
-%spoiler%**DayOfWeek**%spoiler%
+%spoiler%DayOfWeek%spoiler%
 
 **DayOfWeek(Дата)**
 
@@ -118,7 +118,7 @@
 
 %/spoiler%
 
-%spoiler%**DaysBetween**%spoiler%
+%spoiler%DaysBetween%spoiler%
 
 **DaysBetween(Дата1, Дата2)**
 
@@ -128,7 +128,7 @@
 
 %/spoiler%
 
-%spoiler%**EncodeDate**%spoiler%
+%spoiler%EncodeDate%spoiler%
 
 **EncodeDate(Год, Месяц, День)**
 
@@ -140,7 +140,7 @@
 
 %/spoiler%
 
-%spoiler%**EncodeDateTime**%spoiler%
+%spoiler%EncodeDateTime%spoiler%
 
 **EncodeDateTime(Год, Месяц, День, Часы, Минуты, Секунды)**
 
@@ -155,7 +155,7 @@
 
 %/spoiler%
 
-%spoiler%**EncodeTime**%spoiler%
+%spoiler%EncodeTime%spoiler%
 
 **EncodeTime(Часы, Минуты, Секунды)**
 
@@ -167,7 +167,7 @@
 
 %/spoiler%
 
-%spoiler%**Hour**%spoiler%
+%spoiler%Hour%spoiler%
 
 **Hour(ДатаВремя)**
 
@@ -177,7 +177,7 @@
 
 %/spoiler%
 
-%spoiler%**Minute**%spoiler%
+%spoiler%Minute%spoiler%
 
 **Minute(ДатаВремя)**
 
@@ -187,7 +187,7 @@
 
 %/spoiler%
 
-%spoiler%**Month**%spoiler%
+%spoiler%Month%spoiler%
 
 **Month(Дата)**
 
@@ -197,7 +197,7 @@
 
 %/spoiler%
 
-%spoiler%**MonthsBetween**%spoiler%
+%spoiler%MonthsBetween%spoiler%
 
 **MonthsBetween(Дата1, Дата2)**
 
@@ -207,7 +207,7 @@
 
 %/spoiler%
 
-%spoiler%**Now**%spoiler%
+%spoiler%Now%spoiler%
 
 **Now()**
 
@@ -217,7 +217,7 @@
 
 %/spoiler%
 
-%spoiler%**Second**%spoiler%
+%spoiler%Second%spoiler%
 
 **Second(ДатаВремя)**
 
@@ -227,7 +227,7 @@
 
 %/spoiler%
 
-%spoiler%**StartOfTheWeek**%spoiler%
+%spoiler%StartOfTheWeek%spoiler%
 
 **StartOfTheWeek(Дата)**
 
@@ -237,7 +237,7 @@
 
 %/spoiler%
 
-%spoiler%**StrToDate**%spoiler%
+%spoiler%StrToDate%spoiler%
 
 **StrToDate(Аргумент [, Формат])**
 
@@ -250,7 +250,7 @@
 
 %/spoiler%
 
-%spoiler%**Today**%spoiler%
+%spoiler%Today%spoiler%
 
 **Today()**
 
@@ -260,7 +260,7 @@
 
 %/spoiler%
 
-%spoiler%**Week**%spoiler%
+%spoiler%Week%spoiler%
 
 **Week(Дата)**
 
@@ -270,7 +270,7 @@
 
 %/spoiler%
 
-%spoiler%**Year**%spoiler%
+%spoiler%Year%spoiler%
 
 **Year(Дата)**
 
@@ -280,7 +280,7 @@
 
 %/spoiler%
 
-%spoiler%**YearsBetween**%spoiler%
+%spoiler%YearsBetween%spoiler%
 
 **YearsBetween(Дата1, Дата2)**
 
