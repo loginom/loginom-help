@@ -1,4 +1,4 @@
-# ![ ](../../media/app/icons/component_18/component_default-26.svg) Сэмплинг
+# ![ ](../../media/app/icons/component-18/component-default-26.svg) Сэмплинг
 
 ## Описание
 
@@ -10,11 +10,11 @@
 
 ### Вход
 
-* ![](../../media/app/icons/ports/output_table_inactive.svg).
+* ![](../../media/app/icons/ports/table-inactive.svg) Входной источник данных (таблица данных). 
 
 ### Выход
 
-* ![](../../media/app/icons/ports/output_table_inactive.svg).
+* ![](../../media/app/icons/ports/table-inactive.svg) Выходной набор данных (таблица данных).
 
 ## Мастер настройки
 
@@ -22,9 +22,8 @@
 
 * **Общее число записей** - число записей таблицы входного источника данных.
 
-* **Область настройки количества строк выходной таблицы**
-
-Размер выходной таблицы задается вручную; кнопка-переключатель предоставляет выбор - непосредственно указать количество строк ![](../../media/app/icons/toolbar_18/sampling-sizetype-switch-row.svg) или задать его в процентах ![](../../media/app/icons/toolbar_18/sampling-sizetype-switch-percent.svg) от размера исходной таблицы.
+* **Область настройки количества строк выходной таблицы.**
+Размер выходной таблицы задается вручную; кнопка-переключатель предоставляет выбор - непосредственно указать количество строк ![](../../media/app/icons/toolbar-18/sampling-sizetype-switch-row.svg) или задать его в процентах ![](../../media/app/icons/toolbar-18/sampling-sizetype-switch-percent.svg) от размера исходной таблицы.
 
 * **Метод сэмплинга**
 

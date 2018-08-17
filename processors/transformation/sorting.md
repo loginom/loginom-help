@@ -1,6 +1,4 @@
-![](../../media/app/processors/sorting_default-01.svg)
-
-# Сортировка
+# ![](../../media/app/icons/component-18/component-default-01.svg) Сортировка
 
 ## Описание
 
@@ -18,11 +16,11 @@
 
 ### Вход
 
-* ![](../../media/app/icons/ports/output_table_inactive.svg).
+* ![](../../media/app/icons/ports/table-inactive.svg) Входной источник данных (таблица данных).
 
 ### Выход
 
-* ![](../../media/app/icons/ports/output_table_inactive.svg).
+* ![](../../media/app/icons/ports/table-inactive.svg) Выходной набор данных (таблица данных).
 
 ## Мастер настройки
 
@@ -36,27 +34,27 @@
 
 * Двойного щелчка мышки по полю;
 
-* Нажатия кнопки "Добавить" ![](../../media/app/processors/button_add-02.svg).
+* Нажатия кнопки "Добавить" ![](../../media/app/icons/toolbar-18/toolbar-18-16.svg).
 
 Параметры настройки сортировки:
 
-* Порядок. Может принимать значения "по возрастанию" ![](../../media/app/processors/sorting_order-01.svg).
+* Порядок. Может принимать значения "по возрастанию" ![](../../media/app/icons/toolbar-18/sorting-order-01.svg) и "по убыванию" ![](../../media/app/icons/toolbar-18/sorting-order-02.svg).
 
-* Регистр. Для сортировки строковых полей с учетом регистра включить опцию ![](../../media/app/processors/check_box.png).
+* Регистр. Для сортировки строковых полей с учетом регистра включить опцию ![](../../media/app/icons/toolbar-18/checked.svg).
 
 Очередность полей сортировки можно изменить:
 
-* ![](../../media/app/processors/move_in_list-02.svg) Переместить вверх;
+* ![](../../media/app/icons/toolbar-18/top.svg) Переместить вверх;
 
-* ![](../../media/app/processors/move_in_list-01.svg) Переместить вниз.
+* ![](../../media/app/icons/toolbar-18/down.svg) Переместить вниз.
 
 Для исключения сортировки по полю:
 
 * Перетащить запись из списка "Поля сортировки" в "Доступные поля";
 
-* ![](../../media/app/icons/toolbar_18/toolbar_18_8.svg) Удалить поле.
+* ![](../../media/app/icons/toolbar-18/toolbar-18-8.svg) Удалить поле.
 
-Для очистки всего списка нажать ![](../../media/app/icons/toolbar_18/toolbar_18_127.svg) "Удалить все...".
+Для очистки всего списка нажать ![](../../media/app/icons/toolbar-18/toolbar-18-127.svg) "Удалить все...".
 
 --------
 
