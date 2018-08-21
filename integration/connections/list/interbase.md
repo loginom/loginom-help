@@ -8,7 +8,7 @@
 
 * **Метка** - содержит задаваемое пользователем имя подключения.
 
-* **Строка подключения** - настраивается в отдельном окне, которое вызывается при клике мышью по кнопке ![](../../../media/app/icons/toolbar_18/browse.svg). Поддерживается два типа подключения:
+* **Строка подключения** - настраивается в отдельном окне, которое вызывается при клике мышью по кнопке ![](../../../media/app/icons/toolbar-18/browse.svg). Поддерживается два типа подключения:
   * *локальное* - подключение без использования сервера Interbase, указывается только путь к БД;
   * *удаленное* - подключение с использованием сервера Interbase:
     * сервер - хост сервера Interbase;
@@ -36,8 +36,8 @@
 
 **Смотри также:**
 
-[https://ru.wikipedia.org/wiki/Interbase](https://ru.wikipedia.org/wiki/Interbase) - информация в русском разделе википедии;
+[Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/Interbase)
 
-[https://www.embarcadero.com/ru/products/interbase](https://www.embarcadero.com/ru/products/interbase) - официальный сайт разработчика;
+[Официальный сайт разработчика](https://www.embarcadero.com/ru/products/interbase)
 
-[http://docwiki.embarcadero.com/InterBase/2017/en/Embedded_SQL_Guide](http://docwiki.embarcadero.com/InterBase/2017/en/Embedded_SQL_Guide) - документация по SQL синтаксису;
+[Документация по SQL синтаксису](http://docwiki.embarcadero.com/InterBase/2017/en/Embedded_SQL_Guide)

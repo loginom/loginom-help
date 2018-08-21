@@ -9,7 +9,7 @@
 
 Пример:
 
-![](../../../media/app/processors/transformation/join/cross_join_example_new.png)
+![](../../../media/app/processors/transformation/join/cross-join-example-new.png)
 
 ## FULL JOIN
 
@@ -23,7 +23,7 @@
 
 Пример:
 
-![](../../../media/app/processors/transformation/join/full_join_example_new.png)
+![](../../../media/app/processors/transformation/join/full-join-example-new.png)
 
 -----
 
