@@ -8,7 +8,7 @@
 
 ### Входные порты
 
-* ![](../../media/app/icons/ports/input_connection_inactive.svg) Подключение к веб-сервису (связь с компонентом [подключение веб-сервиса](../../integration\web-services\connecting-web-service.md)).
+* ![](../../media/app/icons/ports/input_connection_inactive.svg) Подключение к веб-сервису (связь с компонентом [подключение веб-сервиса](../../integration/web-services/connecting-web-service.md)).
 * ![](../../media/app/icons/ports/output_table_inactive.svg) Источник данных запроса (таблица с параметрами запроса).
 * ![](../../media/app/icons/ports/optional_input_variable_inactive.svg) Управляющие переменные (переменные), необязательный.
 
