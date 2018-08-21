@@ -1,4 +1,4 @@
-# ![](../../media/app/icons/vendors/wsdlclient.svg) Вызов веб-сервиса
+# ![](../../images/icons/vendors/wsdlclient.svg) Вызов веб-сервиса
 
 ## Описание
 
@@ -8,15 +8,15 @@
 
 ### Входные порты
 
-* ![](../../media/app/icons/ports/input_connection_inactive.svg) Подключение к веб-сервису (связь с компонентом [подключение веб-сервиса](../../integration/web-services/connecting-web-service.md)).
-* ![](../../media/app/icons/ports/output_table_inactive.svg) Источник данных запроса (таблица с параметрами запроса).
-* ![](../../media/app/icons/ports/optional_input_variable_inactive.svg) Управляющие переменные (переменные), необязательный.
+* ![](../../images/icons/ports/input_connection_inactive.svg) — Подключение к веб-сервису (связь с компонентом [подключение веб-сервиса](../../integration/web-services/connecting-web-service.md)).
+* ![](../../images/icons/ports/output_table_inactive.svg) — Источник данных запроса (таблица с параметрами запроса).
+* ![](../../images/icons/ports/optional_input_variable_inactive.svg) — Управляющие переменные (переменные), необязательный.
 
 ### Выходные порты
 
-* ![](../../media/app/icons/ports/output_table_inactive.svg) Выходной набор данных (таблица с ответом веб-сервиса).
-* ![](../../media/app/icons/ports/output_table_inactive.svg) Исключения (WSDL fault).
-* ![](../../media/app/icons/ports/output_table_inactive.svg) Дополнительные данные (таблица).
+* ![](../../images/icons/ports/output_table_inactive.svg) — Выходной набор данных (таблица с ответом веб-сервиса).
+* ![](../../images/icons/ports/output_table_inactive.svg) — Исключения (WSDL fault).
+* ![](../../images/icons/ports/output_table_inactive.svg) — Дополнительные данные (таблица).
 
 ## Настройка
 
