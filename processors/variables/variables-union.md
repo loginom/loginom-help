@@ -10,13 +10,13 @@
 
 ### Вход
 
- * ![](../../images/icons/ports/optional_input_variable_inactive.svg) Входные переменные - первый набор переменных.
- * ![](../../images/icons/ports/input_variable_inactive.svg) Добавляемые переменные - второй набор переменных.
- * ![](../../images/icons/) Добавление еще одного порта - создает новые порты входа для последующих наборов переменных.
+ * ![](../../images/icons/ports/optional_input_variable_inactive.svg) Входные переменные — первый набор переменных.
+ * ![](../../images/icons/ports/input_variable_inactive.svg) Добавляемые переменные — второй набор переменных.
+ * ![](../../images/icons/) Добавление еще одного порта — создает новые порты входа для последующих наборов переменных.
 
 ### Выход
 
- * ![](../../images/icons/ports/output_variable_inactive.svg) Выходные переменные - новый набор переменных. 
+ * ![](../../images/icons/ports/output_variable_inactive.svg) Выходные переменные — новый набор переменных. 
 
 %spoiler%Пример:%spoiler%
 
