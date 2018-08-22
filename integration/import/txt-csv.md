@@ -6,12 +6,12 @@
 
 ### Вход
 
-* ![](../../media/app/icons/ports/optional_input_connection_inactive.svg), содержащего путь к папке с файлами.
-* ![](../../media/app/icons/ports/optional_input_variable_inactive.svg).
+* ![](../../media/app/icons/ports/input-connection-inactive.svg)   [Подключение](../connections/README.md) - принимает параметры подключения к базе данных.
+* ![](../../media/app/icons/ports/optional-input-variable-inactive.svg) [Управляющие переменные](../../scenario/variables/control_variables.md) (необязательный порт).
 
 ### Выход
 
-* ![](../../media/app/icons/ports/output_table_inactive.svg).
+* ![](../../media/app/icons/ports/table-inactive.svg) Набор данных (таблица данных).
 
 ## Мастер настройки
 

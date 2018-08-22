@@ -9,4 +9,4 @@
 
 Пример (ключевыми полями являются Id и CityId):
 
-![](../../../media/app/processors/transformation/join/right_join_example_4.png)
+![](../../../media/app/processors/transformation/join/right-join-example-4.png)

@@ -4,4 +4,4 @@ SQL-операторов аналогов данной операции нет. 
 
 Пример:
 
-![](../../../media/app/processors/transformation/join/difference_example.png)
+![](../../../media/app/processors/transformation/join/difference-example.png)

@@ -7,4 +7,4 @@
 
 Пример:
 
-![](../../../media/app/processors/transformation/join/inner_join_example_new.png)
+![](../../../media/app/processors/transformation/join/inner-join-example-new.png)
