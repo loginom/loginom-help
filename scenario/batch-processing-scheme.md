@@ -1,4 +1,3 @@
 # Алгоритм выбора режима активации
 
-![](../media/app/glossary/batch_mode.svg)
-
+![](batch-processing-scheme.svg)
