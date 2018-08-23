@@ -1,10 +1,12 @@
-# ![](../../../media/app/processors/transformation/joins-04.svg) Внутреннее соединение
+# ![Внутреннее соединение](../../../media/app/processors/transformation/joins-04.svg) Внутреннее соединение
 
 Аналогом такого соединения является SQL-оператор **INNER JOIN**.
 
 При **INNER JOIN** происходит соединение двух таблиц. Для данного способа слияния порядок таблиц не важен.
 Результирующий набор данных содержит все строки, для которых найдено совпадение ключевых полей главной и присоединяемой таблицы.
 
-Пример:
+%spoiler%Пример:%spoiler%
 
-![](../../../media/app/processors/transformation/join/inner-join-example-new.png)
+![Пример](../../../media/app/processors/transformation/join/inner-join-example-new.png)
+
+%/spoiler%
