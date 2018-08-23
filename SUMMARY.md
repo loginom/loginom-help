@@ -166,6 +166,7 @@
 * [Данные](./data/README.md)
   * [Типы данных](./data/datatype.md)
   * [Совместимость типов данных](./data/compatibility.md)
+  * [Параметры поля набора данных](./data/datasetfieldoptions.md)
   * [Вид данных (непрерывный, дискретный)](./data/datakind.md)
 * [Фирменные источники данных](./data-format/README.md)
   * [Loginom Data File](./data-format/ldf.md)
