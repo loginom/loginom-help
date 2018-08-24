@@ -62,7 +62,6 @@
     * [Публикация веб-сервиса](./integration/web-services/publishing-web-service.md)
     * [Вызов веб-сервиса](./integration/web-services/calling-web-service.md)
     * [Извлечение XML](./integration/web-services/extracting-xml.md)
-  * [Loginom Data File](./integration/ldf.md)
 * [Обработка данных](./processors/README.md)
   * [Обработчики](./processors/README.md)
     * [Трансформация](./processors/transformation/README.md)
