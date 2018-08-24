@@ -4,15 +4,14 @@
 
 Доступны следующие функции агрегации:
 
-* ![](../media/app/icons/toolbar-18/toolbar-18-70.svg) Сумма;
-* ![](../media/app/icons/toolbar-18/toolbar-18-90.svg) Количество;
-* ![](../media/app/icons/toolbar-18/toolbar-18-99.svg) Минимум;
-* ![](../media/app/icons/toolbar-18/toolbar-18-98.svg)  Максимум;
-* ![](../media/app/icons/toolbar-18/toolbar-18-97.svg)  Среднее;
-* ![](../media/app/icons/toolbar-18/toolbar-18-146.svg) [Медиана](https://wiki.loginom.ru/articles/median.html)
-
-* ![](../media/app/icons/toolbar-18/toolbar-18-100.svg) [Стандартное отклонение](https://wiki.loginom.ru/articles/mean-square-deviation.html)
-* ![](../media/app/icons/toolbar-18/toolbar-18-91.svg)  Количество уникальных;
-* ![](../media/app/icons/toolbar-18/toolbar-18-92.svg)  Количество пропусков;
-* ![](../media/app/icons/toolbar-18/toolbar-18-93.svg)  Первый;
-* ![](../media/app/icons/toolbar-18/toolbar-18-94.svg)  Последний.
+* ![](../images/icons/) **Сумма** — суммирует значение всех ячеек в столбце (доступно только для ![](../images/icons/datatype_18/datatype_default-03.svg) Вещественного и ![](../images/icons/datatype_18/datatype_default-02.svg) Целого типа данных);
+* ![](../images/icons/) **Количество** — показывает общее количество записей в наборе данных;
+* ![](../images/icons/) **Минимум** — выводит наименьшее значение по столбцу;
+* ![](../images/icons/) **Максимум** — выводит наибольшее значение по столбцу;
+* ![](../images/icons/) **Среднее** — выводит среднее значение всех ячеек столбца (доступно только для ![](../images/icons/datatype_18/datatype_default-03.svg) Вещественного и ![](../images/icons/datatype_18/datatype_default-02.svg) Целого типа данных);
+* ![](../images/icons/) **Медиана** — выводит значение [медианы](https://wiki.loginom.ru/articles/median.html) по столбцу (доступно только для ![](../images/icons/datatype_18/datatype_default-03.svg) Вещественного и ![](../images/icons/datatype_18/datatype_default-02.svg) Целого типа данных);
+* ![](../images/icons/) **Стандартное отклонение** — выводит [среднеквадратическое отклонение](https://wiki.loginom.ru/articles/mean-square-deviation.html) по столбцу (доступно только для ![](../images/icons/datatype_18/datatype_default-03.svg) Вещественного и ![](../images/icons/datatype_18/datatype_default-02.svg) Целого типа данных);
+* ![](../images/icons/) **Количество уникальных** — показывает количество уникальных значений записей. При подсчете не учитываются записи с пустым значением, со значением `<null>` или значением не соответствующим типу данных. Кроме типов данных ![](../images/icons/datatype_18/datatype_default-01.svg) Строковый и ![](../images/icons/datatype_18/datatype_default-06.svg) Переменный где не учитываются записи только со значением `<null>`;
+* ![](../images/icons/) **Количество пропусков** — показывает количество записей с пустыми значениями, со значением `<null>` или со значениями не соответствующими типу данных. Кроме типа данных  ![](../images/icons/datatype_18/datatype_default-01.svg) Строковый, где пропусками считаются записи со значением `<null>`;
+* ![](../images/icons/) **Первый** — выводит значение  первой записи по полю;
+* ![](../images/icons/) **Последний** — выводит значение последней записи по полю.
