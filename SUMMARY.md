@@ -168,7 +168,7 @@
   * [Параметры поля набора данных](./data/datasetfieldoptions.md)
   * [Вид данных (непрерывный, дискретный)](./data/datakind.md)
 * [Фирменные источники данных](./data-format/README.md)
-  * [Loginom Data File](./data-format/ldf.md)
+  * [Loginom Data File](./data-format/lgd-file.md)
 * [Файловое хранилище](./location_user_files.md)
 * [Информационная панель](./information_panel.md)
 * [Админиcтрирование](./admin/README.md)
