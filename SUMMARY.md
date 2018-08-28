@@ -164,6 +164,7 @@
     * [Настроить факты](./visualization/cube/configurefacts.md)
     * [Фильтровать факты](./visualization/cube/filterfacts.md)
     * [Форматировать факты](./visualization/cube/formatfacts.md)
+  * [Конечные классы](./visualization/fine-classes/README.md)
 * [Данные](./data/README.md)
   * [Типы данных](./data/datatype.md)
   * [Совместимость типов данных](./data/compatibility.md)
