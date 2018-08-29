@@ -73,7 +73,7 @@
         * [Замена по регулярному выражению](./processors/transformation/substitution/regexp-match.md)
         * [Синтаксис регулярного выражения](./processors/transformation/substitution/syntax-regexp.md)
       * [Калькулятор](./processors/transformation/calc/README.md)
-        * [Выражение](./processors/transformation/calc/formulas.md)
+        * [Выражение](./processors/transformation/calc/expression.md)
         * [JavaScript](./processors/transformation/calc/javascript.md)
       * [Кросс-таблица](./processors/transformation/cross-table.md)
       * [Объединение](./processors/transformation/union.md)
