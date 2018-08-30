@@ -165,6 +165,8 @@
     * [Фильтровать факты](./visualization/cube/filterfacts.md)
     * [Форматировать факты](./visualization/cube/formatfacts.md)
   * [Отчет по регрессии](./visualization/regression/README.md)
+    * [Информация о модели](./visualization/regression/info-model.md)
+    * [Коэффициенты регрессии](./visualization/regression/coef-regression.md)
 * [Данные](./data/README.md)
   * [Типы данных](./data/datatype.md)
   * [Совместимость типов данных](./data/compatibility.md)
