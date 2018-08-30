@@ -165,6 +165,8 @@
     * [Фильтровать факты](./visualization/cube/filterfacts.md)
     * [Форматировать факты](./visualization/cube/formatfacts.md)
   * [Конечные классы](./visualization/fine-classes/README.md)
+    * [Таблица](./visualization/fine-classes/table.md)
+    * [Диаграммы](./visualization/fine-classes/charts.md)
 * [Данные](./data/README.md)
   * [Типы данных](./data/datatype.md)
   * [Совместимость типов данных](./data/compatibility.md)
