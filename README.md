@@ -23,8 +23,7 @@
 
 Loginom Studio поставляется в редакциях Team, Standart, Enterprise (см. рисунок 1).
 
-![Редакции Loginom](./introduction-1.png)
-**Рисунок 1. Редакции Loginom, содержащие Studio**
+![Редакции Loginom, содержащие Studio](./introduction-1.png)
 
 -----
 
