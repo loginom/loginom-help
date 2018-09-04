@@ -6,11 +6,9 @@
 
 %spoiler%Пример заполнения:%spoiler%
 
-![](../../../media/app/integration/export/db/new-tab-1.png)
-<br> Рисунок 1. Настройка полей новой таблицы.
+![Настройка полей новой таблицы.](../../../media/app/integration/export/db/new-tab-1.png)
 
-![](../../../media/app/integration/export/db/new-tab-2.png)
-<br> Рисунок 2. Представление создаваемой таблицы в виде SQL-запроса.
+![Представление создаваемой таблицы в виде SQL-запроса.](../../../media/app/integration/export/db/new-tab-2.png)
 
 %/spoiler%
 
