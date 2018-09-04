@@ -1,12 +1,12 @@
 # Описание статистических показателей
 
-Доступность показателя для определенного поля зависит от типа или вида данных этого поля.
+>Важно: Доступность показателя для определенного поля зависит от типа или вида данных этого поля. Например, очевидно, что показатель "максимальная длина строки" не будет доступен для поля числового или логического типа.
 
 Статистические показатели:
 
-|Показатель|Тип данных поля (Доступность)|Описание|
+|Показатель|Необходимый тип данных поля|Описание|
 |:----|:----|:----|
-|[Гистограмма](https://wiki.loginom.ru/articles/histogram.html)|Все типы данных|Диаграмма, использующаяся для графического представления распределения вероятностей значений некоторой случайной величины. По горизонтальной оси гистограммы откладывается диапазон наблюдаемых значений, разбитый на определенное число интервалов, а по вертикальной – вероятность или частота ее попадания в каждый из них.|
+|[Гистограмма](https://wiki.loginom.ru/articles/histogram.html)|Все типы данных|Диаграмма, использующаяся для оценивания плотности распределения. По горизонтальной оси гистограммы откладывается диапазон наблюдаемых значений, разбитый на определенное число интервалов, а по вертикальной – вероятность или частота ее попадания в каждый из этих интервалов.|
  |Диаграмма размаха|Целый<br>![](../../media/app/icons/datatype-18/datatype-default-02.svg)<br>Вещественный![](../../media/app/icons/datatype-18/datatype-default-03.svg)<br> Дата/Время<br>![](../../media/app/icons/datatype-18/datatype-default-05.svg)<br>|Диаграмма, компактно показывающая статистические паказатели: медиана; нижний и верхний квартили; выбросы; наблюдаемые минимум и максимум.| 
  |Минимум|Целый<br>![](../../media/app/icons/datatype-18/datatype-default-02.svg)<br>Вещественный![](../../media/app/icons/datatype-18/datatype-default-03.svg)<br> Дата/Время<br>![](../../media/app/icons/datatype-18/datatype-default-05.svg)<br>|Минимальное значение поля.|
  |Максимум|Целый<br>![](../../media/app/icons/datatype-18/datatype-default-02.svg)<br>Вещественный![](../../media/app/icons/datatype-18/datatype-default-03.svg)<br> Дата/Время<br>![](../../media/app/icons/datatype-18/datatype-default-05.svg)<br>|Максимальное значение поля.|
@@ -16,8 +16,8 @@
  |Нижний квартиль|Целый<br>![](../../media/app/icons/datatype-18/datatype-default-02.svg)<br>Вещественный![](../../media/app/icons/datatype-18/datatype-default-03.svg)<br> Дата/Время<br>![](../../media/app/icons/datatype-18/datatype-default-05.svg)<br>|[Квантиль](https://wiki.loginom.ru/articles/quantile.html) порядка 0,25. Значение, ниже которого находится 25% совокупности данных.|
  |[Медиана](https://wiki.loginom.ru/articles/median.html)|Целый<br>![](../../media/app/icons/datatype-18/datatype-default-02.svg)<br>Вещественный![](../../media/app/icons/datatype-18/datatype-default-03.svg)<br> Дата/Время<br>![](../../media/app/icons/datatype-18/datatype-default-05.svg)<br>|[Квантиль](https://wiki.loginom.ru/articles/quantile.html) порядка 0,5. Значение, делящее данные на две равные части. Т.е. одна половина данных по своему значению меньше медианы, а другая половина — больше.|
  |Верхний квартиль|Целый<br>![](../../media/app/icons/datatype-18/datatype-default-02.svg)<br>Вещественный![](../../media/app/icons/datatype-18/datatype-default-03.svg)<br> Дата/Время<br>![](../../media/app/icons/datatype-18/datatype-default-05.svg)<br>|[Квантиль](https://wiki.loginom.ru/articles/quantile.html) порядка 0,75. Значение, ниже которого находится 75% совокупности данных.|
- |Межквартильный размах|Целый<br>![](../../media/app/icons/datatype-18/datatype-default-02.svg)<br>Вещественный![](../../media/app/icons/datatype-18/datatype-default-03.svg)<br> Дата/Время<br>![](../../media/app/icons/datatype-18/datatype-default-05.svg)<br>|Разница между верхними и нижним квартилями.|
- |Медианное абсолютное отклонение|Целый<br>![](../../media/app/icons/datatype-18/datatype-default-02.svg)<br>Вещественный![](../../media/app/icons/datatype-18/datatype-default-03.svg)<br> Дата/Время<br>![](../../media/app/icons/datatype-18/datatype-default-05.svg)<br>|Это медиана абсолютного значения разницы для каждого значения поля минус медиана. Более [робастно](https://wiki.loginom.ru/articles/robustness.html). Используется для нивелирования высого влияния выбросов.|
+ |Межквартильный размах|Целый<br>![](../../media/app/icons/datatype-18/datatype-default-02.svg)<br>Вещественный![](../../media/app/icons/datatype-18/datatype-default-03.svg)<br> Дата/Время<br>![](../../media/app/icons/datatype-18/datatype-default-05.svg)<br>|Разница между верхним и нижним квартилями.|
+ |Медианное абсолютное отклонение|Целый<br>![](../../media/app/icons/datatype-18/datatype-default-02.svg)<br>Вещественный![](../../media/app/icons/datatype-18/datatype-default-03.svg)<br> Дата/Время<br>![](../../media/app/icons/datatype-18/datatype-default-05.svg)<br>|Это медиана абсолютных значений разниц между каждым значением поля и медианы поля. Более [робастный](https://wiki.loginom.ru/articles/robustness.html) показатель. Используется для нивелирования высого влияния выбросов.|
  |Сумма|Все типы данных, кроме ![](../../media/app/icons/datatype-18/datatype-default-05.svg)Дата/Время|Сумма всех элементов поля.|
  |Размах|Все типы данных|Разница между максимальным и минимальным значениями.|
  |Пропуски|Все типы данных|Количество пропусков в поле.|
