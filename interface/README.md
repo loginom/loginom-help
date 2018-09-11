@@ -32,4 +32,4 @@
 
 ![Интерфейс Loginom](../quick-start/first-scenario-1.png)
 
-![Область построения сценария и Панель "Компоненты"](../quick-start/first-scenario-2.png)
+![Область построения сценария и Панель «Компоненты»](../quick-start/first-scenario-2.png)
