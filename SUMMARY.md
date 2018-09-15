@@ -8,7 +8,7 @@
   * [Интеграция с базами данных](./quick-start/database.md)
   * [Использование переменных](./quick-start/variables.md)
 * [Проектирование сценариев](./scenario/README.md)
-  * [Рабочее пространство](./scenario/interactive-mode.md)
+  * [Интерактивный режим работы](./scenario/interactive-mode.md)
   * [Порты](./scenario/ports/README.md)
     * [Автоматическая синхронизация полей](./scenario/ports/field-synchronization.md)
     * [Настройка порта - Связи](./scenario/ports/interface-relations.md)
