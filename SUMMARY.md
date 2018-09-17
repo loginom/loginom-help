@@ -9,6 +9,7 @@
   * [Использование переменных](./quick-start/variables.md)
 * [Интерфейс](./interface/README.md)
   * [Страница «Начало»](./interface/home-page.md)
+  * [Главное меню](./interface/main-menu.md)
   * [Рабочее пространство](./interface/workspace.md)
   * [Информационная панель «Процессы»](./interface/information-panel.md)
 * [Проектирование сценариев](./scenario/README.md)
