@@ -51,7 +51,7 @@
 * [Opera](http://www.opera.com/ru) не ниже 37.0
 * [Safari](https://www.apple.com/ru/safari/) не ниже 10.3
 * [Internet Explorer](https://www.microsoft.com/ru-ru/download/internet-explorer.aspx) не ниже 11.0
-* [EdgeHTML](https://www.microsoft.com/ru-ru/windows/microsoft-edge) не ниже 14.0
+* [Microsoft Edge](https://www.microsoft.com/ru-ru/windows/microsoft-edge) не ниже 14.0
 
 **Примечание:** системные требования могут меняться в зависимости от объемов данных и взаимодействия со сторонними приложениями.
 
@@ -62,7 +62,7 @@
 | Компонент | Минимальные | Рекомендуемые |
 |:--------- |:-------------|:------------- |
 | OS | Windows Server 2012 и выше | |
-| Software | IIS 8.0 и выше, DotNet 4.5 | |
+| Software | IIS 8.0 и выше, .NET Framework 4.5 | |
 | CPU | 2 core | 4 core |
 | RAM | 2 GB | 4 GB |
 | HDD | 100 GB | 500 GB |
