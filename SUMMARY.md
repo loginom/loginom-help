@@ -11,7 +11,7 @@
   * [Страница «Начало»](./interface/home-page.md)
   * [Главное меню](./interface/main-menu.md)
   * [Рабочее пространство](./interface/workspace.md)
-  * [Информационная панель «Процессы»](./interface/information-panel.md)
+  * [Панель «Процессы»](./interface/processes-panel.md)
 * [Проектирование сценариев](./scenario/README.md)
   * [Рабочее пространство](./scenario/description-workspace.md)
   * [Порты](./scenario/ports/README.md)
