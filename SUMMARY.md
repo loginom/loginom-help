@@ -10,6 +10,7 @@
 * [Интерфейс](./interface/README.md)
   * [Страница «Начало»](./interface/home-page.md)
   * [Главное меню](./interface/main-menu.md)
+  * [Адресная строка](./interface/addres-bar.md)
   * [Рабочее пространство](./interface/workspace.md)
   * [Панель «Процессы»](./interface/processes-panel.md)
 * [Проектирование сценариев](./scenario/README.md)
