@@ -25,8 +25,7 @@
 |Уникальные|![](../../media/app/icons/datatype-18/datatype-default-09.svg)| ![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|
 |Минимальная длина строки|||![](../../media/app/icons/datatype-18/datatype-default-09.svg)|||
 |Максимальная длина строки|||![](../../media/app/icons/datatype-18/datatype-default-09.svg)|||
-|Средняя длина строки|||![](../../media/app/icons/datatype-18/datatype-default-09.svg)|||
-|||||||
+|Средняя длина строки|||![](../../media/app/icons/datatype-18/datatype-default-09.svg)||  |
 
 ## Краткое описание
 
