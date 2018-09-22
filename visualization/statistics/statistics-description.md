@@ -5,7 +5,7 @@
 Статистические показатели:
 
 |Показатель|<nobr>![](../../media/app/icons/datatype-18/datatype-default-03.svg) Вещественный|<nobr>![](../../media/app/icons/datatype-18/datatype-default-02.svg) Целый|<nobr>![](../../media/app/icons/datatype-18/datatype-default-01.svg) Строковый|<nobr>![](../../media/app/icons/datatype-18/datatype-default-04.svg) Логический|<nobr>![](../../media/app/icons/datatype-18/datatype-default-05.svg) Дата/Время|
-|:----|:----:|:----:|:----:|:----:|:----:|
+|:----|:----|:----|:----|:----|:----|
 |[Гистограмма](https://wiki.loginom.ru/articles/histogram.html)|![](../../media/app/icons/datatype-18/datatype-default-08.svg)![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg) ![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg) ![](../../media/app/icons/datatype-18/datatype-default-09.svg)|
 |Диаграмма размаха|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|||![](../../media/app/icons/datatype-18/datatype-default-08.svg)|
 |Минимум|![](../../media/app/icons/datatype-18/datatype-default-08.svg)![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg) ![](../../media/app/icons/datatype-18/datatype-default-09.svg)||![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg) ![](../../media/app/icons/datatype-18/datatype-default-09.svg)|
