@@ -4,8 +4,8 @@
 * **Меню**;
 * **Пакеты**;
 * **Навигация**;
-* [Администрирование];
-* [Файлы](../location_user_files.md)(../admin/README.md);
+* [Администрирование](../admin/README.md);
+* [Файлы](../location_user_files.md);
 * [Процессы](./processes-panel.md).
 
 ## Меню
