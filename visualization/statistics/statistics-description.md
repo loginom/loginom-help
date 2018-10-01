@@ -16,19 +16,20 @@
 |Нижний квартиль|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|×|×|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|
 |[Медиана](https://wiki.loginom.ru/articles/median.html)|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|×|×|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|
 |Верхний квартиль|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|×|×|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|
-|Межквартильный размах|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|×|×|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|
+|Межквартильный размах[^1]|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|×|×|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|
 |Медианное абсолютное отклонение|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|×|×|![](../../media/app/icons/datatype-18/datatype-default-08.svg)|
 |Сумма|![](../../media/app/icons/datatype-18/datatype-default-08.svg)![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg) ![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|×|
-|Размах|![](../../media/app/icons/datatype-18/datatype-default-08.svg)![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg) ![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg) ![](../../media/app/icons/datatype-18/datatype-default-09.svg)|
+|Размах[^2]|![](../../media/app/icons/datatype-18/datatype-default-08.svg)![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg) ![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg) ![](../../media/app/icons/datatype-18/datatype-default-09.svg)|
 |Пропуски|![](../../media/app/icons/datatype-18/datatype-default-08.svg)![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg) ![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg) ![](../../media/app/icons/datatype-18/datatype-default-09.svg)|
-|Значения|![](../../media/app/icons/datatype-18/datatype-default-08.svg)![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg) ![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg) ![](../../media/app/icons/datatype-18/datatype-default-09.svg)|
+|Значения[^3]|![](../../media/app/icons/datatype-18/datatype-default-08.svg)![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg) ![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-08.svg) ![](../../media/app/icons/datatype-18/datatype-default-09.svg)|
 |Уникальные|![](../../media/app/icons/datatype-18/datatype-default-09.svg)| ![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|
 |Минимальная длина строки|×|×|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|×|×|
 |Максимальная длина строки|×|×|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|×|×|
 |Средняя длина строки|×|×|![](../../media/app/icons/datatype-18/datatype-default-09.svg)|×|×|
 
-## Краткое описание
 
-* Межквартильный размах — разница между верхним и нижним квартилями;
-* Размах — разница между максимальным и минимальным значениями.
-* Значения — количество непустых элементов в поле.
+[^1]: Межквартильный размах — разница между верхним и нижним квартилями;
+
+[^2]: Размах — разница между максимальным и минимальным значениями.
+
+[^3]: Значения — количество непустых элементов в поле.
