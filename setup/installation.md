@@ -9,7 +9,7 @@
 * Ограничения на ядра – зависят от редакции;
 * Ограничение на количество пользователей – зависят от редакции.
 
-Инструкции и скрипты для установки Loginom Server
+### Инструкции и скрипты для установки Loginom Server
 
 * [install-loginom-server.pdf](./files/install-loginom-server.pdf);
 * [iis-install-for-studio.bat](./files/iis-install-for-studio.bat).
@@ -21,7 +21,7 @@
 * Операционная система – Microsoft Windows Server 2012 и выше;
 * Среда исполнения – Microsoft IIS 8.0.
 
-Инструкции и скрипты для установки Loginom Integrator
+### Инструкции и скрипты для установки Loginom Integrator
 
 * [install-loginom-integrator.pdf](./files/install-loginom-integrator.pdf);
 * [iis-install-for-integrator.bat](./files/iis-install-for-integrator.bat);

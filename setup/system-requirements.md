@@ -44,14 +44,14 @@
 
 ### Studio (веб-клиент)
 
-Браузеры:
+Поддерживаемые браузеры:
 
-* [Chrome](https://www.google.ru/chrome/browse) не ниже 39.0;
-* [Firefox](https://www.mozilla.org/en-US/firefox/organizations/) не ниже 52.0;
-* [Opera](http://www.opera.com/ru) не ниже 37.0;
-* [Safari](https://www.apple.com/ru/safari/) не ниже 10.3;
-* [Internet Explorer](https://www.microsoft.com/ru-ru/download/internet-explorer.aspx) не ниже 11.0;
-* [Microsoft Edge](https://www.microsoft.com/ru-ru/windows/microsoft-edge) не ниже 14.0.
+* Chrome не ниже 39.0;
+* Firefox не ниже 52.0;
+* Opera не ниже 37.0;
+* Safari не ниже 10.3;
+* Internet Explorer не ниже 11.0;
+* Microsoft Edge не ниже 14.0.
 
 > **Примечание:** системные требования могут меняться в зависимости от объемов данных и взаимодействия со сторонними приложениями.
 
