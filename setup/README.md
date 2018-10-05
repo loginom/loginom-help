@@ -8,9 +8,9 @@
 
 | Компоненты | Academic | Personal | Team | Standart | Enterprise |
 |:-----------|:---------|:---------|:-----|:---------|:-----------|
-| Desktop (настольная версия) | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> |  |  |  |
+| [Desktop](#loginom-desktop) (настольная версия) | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> |  |  |  |
 | [Server](#loginom-server) (Windows) |  |  | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> |
-| Studio (веб-клиент под [браузер](#studio-veb-klient)) |  |  | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> |
+| [Studio](#studio-veb-klient) (веб-клиент под браузер) |  |  | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> |
 | [Integrator](#loginom-integrator) (приложение для IIS) |  |  |  | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> |
 | Бесплатные лицензии |  |  |  | 1 контур* | 3 контура* |
 | **Ограничения** |  |  |  |  |  |
@@ -20,6 +20,6 @@
 | **Функции** |  |  |  |  |  |
 | Алгоритмы, [визуализация](../visualization/README.md) | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> |
 | [Пакетная обработка](../scenario/README.md) |  |  | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> |
-| [Интеграция](../integration/README.md) | csv, [lgd](../data-format/lgd-file.md) | Базы данных, файлы | [Базы данных](../quick-start/database.md), файлы | Базы данных, файлы, [веб-сервисы](../integration/web-services/README.md) | Базы данных, файлы, веб-сервисы |
+| [Интеграция](../integration/README.md) | [csv](../integration/import/txt-csv.md), [lgd](../data-format/lgd-file.md) | Базы данных, файлы | [Базы данных](../quick-start/database.md), файлы | Базы данных, файлы, [веб-сервисы](../integration/web-services/README.md) | Базы данных, файлы, веб-сервисы |
 
 \* — при наличии активного договора технической поддержки
