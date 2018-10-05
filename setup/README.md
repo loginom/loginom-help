@@ -6,8 +6,20 @@
 
 Состав компонентов платформы в зависимости от варианта поставки представлен в виде следующей таблице:
 
-<table>
-<tr><th align="left">Компоненты</th><th align="left">Academic</th><th align="left">Personal</th><th align="left">Team</th><th align="left">Standart</th><th align="left">Enterprise</th></tr><tr><td>Desktop (настольная версия)</td><td>+</td><td>+</td><td></td><td></td><td></td></tr><tr><td><a href="./installation.html#loginom-server">Server</a>(Windows)</td><td></td><td></td><td>+</td><td>+</td><td>+</td></tr><tr><td>Studio (веб-клиент под <a href="./system-requirements.html#studio-veb-klient">браузер</a>)</td><td></td><td></td><td>+</td><td>+</td><td>+</td></tr><tr><td><a href="./installation.html#loginom-integrator">Integrator</a> (приложение для IIS)</td><td></td><td></td><td></td><td>+</td><td>+</td></tr><tr><td>Бесплатные лицензии</td><td></td><td></td><td></td><td>1 контур*</td><td>3 контура*</td></tr><tr><th align="left">Ограничения</th><th></th><th></th><th></th><th></th><th></th></tr><tr><td>Рабочие места</td><td align="right">1</td><td align="right">1</td><td>5-10</td><td>5-20</td><td>5-∞</td></tr><tr><td>Ядра процессоров</td><td></td><td></td><td>1-4</td><td>1-16</td><td>∞</td></tr><tr><td>Оперативная память</td><td></td><td></td><td>до 16 Гб</td><td>до 32 Гб</td><td>до 16 Тб</td></tr><tr><th align="left">Функции</th><th></th><th></th><th></th><th></th><th></th></tr><tr><td>Алгоритмы, визуализация</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td></tr><tr><td>Пакетная обработка</td><td></td><td></td><td>+</td><td>+</td><td>+</td></tr><tr><td>Интеграция</td><td>csv, lgd</td><td>Базы данных, файлы</td><td>Базы данных, файлы</td><td>Базы данных, файлы, веб-сервисы</td><td>Базы данных, файлы, веб-сервисы</td></tr>
-</table>
+| Компоненты | Academic | Personal | Team | Standart | Enterprise |
+|:-----------|:---------|:---------|:-----|:---------|:-----------|
+| Desktop (настольная версия) | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> |  |  |  |
+| [Server](#loginom-server) (Windows) |  |  | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> |
+| Studio (веб-клиент под [браузер](#studio-veb-klient)) |  |  | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> |
+| [Integrator](#loginom-integrator) (приложение для IIS) |  |  |  | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> |
+| Бесплатные лицензии |  |  |  | 1 контур* | 3 контура* |
+| **Ограничения** |  |  |  |  |  |
+| Рабочие места | 1 | 1 | 5-10 | 5-20 | 5-∞ |
+| Ядра процессоров |  |  | 1-4 | 1-16 | ∞ |
+| Оперативная память |  |  | до 16 Гб | до 32 Гб | до 16 Тб |
+| **Функции** |  |  |  |  |  |
+| Алгоритмы, [визуализация](../visualization/README.md) | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> |
+| [Пакетная обработка](../scenario/README.md) |  |  | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> | <div align="center"><strong>•</strong></font></div> |
+| [Интеграция](../integration/README.md) | csv, [lgd](../data-format/lgd-file.md) | Базы данных, файлы | [Базы данных](../quick-start/database.md), файлы | Базы данных, файлы, [веб-сервисы](../integration/web-services/README.md) | Базы данных, файлы, веб-сервисы |
 
 \* — при наличии активного договора технической поддержки
