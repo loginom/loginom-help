@@ -172,6 +172,8 @@
     * [Настроить факты](./visualization/cube/configurefacts.md)
     * [Фильтровать факты](./visualization/cube/filterfacts.md)
     * [Форматировать факты](./visualization/cube/formatfacts.md)
+  * [Статистика](./visualization/statistics/README.md)
+    * [Статистические показатели](./visualization/statistics/statistics-description.md)
   * [Конечные классы](./visualization/fine-classes/README.md)
   * [Отчет по регрессии](./visualization/regression/README.md)
 * [Данные](./data/README.md)
