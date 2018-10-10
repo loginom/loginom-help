@@ -186,6 +186,3 @@
   * [Управление пользователями](./admin/users.md)
   * [Общие папки](./admin/shared-folder.md)
   * [Параметры](./admin/parameters.md)
-* [Установка системы](./setup/README.md)
-  * [Инсталляция серверов](./setup/installation.md)
-  * [Лицензионные ключи](./setup/license-key.md)
