@@ -17,6 +17,6 @@
 "Синхронизировать поля" и постоянно при выполнении узла, если задействована опция настройки порта
 ![Автоматическая синхронизация](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_auto-sync-columns_default.svg)"Автоматическая синхронизация"
 (см. [Интерфейс «Таблица»](./interface-table.md)
-и [Интерфейс «Связи»](./interface-relations.md).
+и [Интерфейс «Связи»](./interface-relations.md)).
 
 >**Важно:** по умолчанию для портов, принимающих табличные данные, опция ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_auto-sync-columns_default.svg) Автоматическая синхронизация включена.
