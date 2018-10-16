@@ -20,7 +20,7 @@
     * [Интерфейс «Связи»](./scenario/ports/interface-relations.md)
     * [Интерфейс «Таблица»](./scenario/ports/interface-table.md)
     * [Служебные порты](./scenario/ports/service-ports.md)
-  * [Работа с переменными](./scenario/variables/README.md)
+  * [Переменные](./scenario/variables/README.md)
     * [Управляющие переменные](./scenario/variables/control-variables.md)
     * [Переменные сценария](./scenario/variables/scenario-variables.md)
     * [Предопределенные переменные](./scenario/variables/default-variables.md)
