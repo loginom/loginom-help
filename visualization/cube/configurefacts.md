@@ -6,12 +6,12 @@
 
 ## Операции
 
-* ![](../../media/app/visualization/cube/toolbar_18_161.svg) **Переместить вверх** — переместить факт/вариант агрегации/способ отображения на позицию вверх;
-* ![](../../media/app/visualization/cube/toolbar_18_160.svg) **Переместить вниз** — переместить факт/вариант агрегации/способ отображения на позицию вниз;
-* ![](../../media/app/visualization/cube/toolbar_18_22.svg) **Свернуть дерево** — свернуть дерево фактов;
-* ![](../../media/app/visualization/cube/toolbar_18_23.svg) **Развернуть дерево** — развернуть дерево фактов;
-* ![](../../media/app/visualization/cube/toolbar_18_158.svg) **Выбрать все** — выбрать все факты, варианты агрегации со всеми способами отображения;
-* ![](../../media/app/visualization/cube/toolbar_18_157.svg) **Отменить выбор всех** — убрать выбор всех фактов, вариантов агрегации со всеми способами отображения;
-* ![](../../media/app/icons/component_18/component_default-20.svg) [**Добавить вычисляемый факт**](./addcalculatingfact.md) — добавить вычисляемый факт в куб;
-* ![](../../media/app/visualization/cube/toolbar_18_28.svg) **Редактировать вычисляемый факт** — открыть окно редактирования вычисляемого факта;
-* ![](../../media/app/icons/toolbar_18/toolbar_18_8.svg) **Удалить вычисляемый факт**.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_moveup_default.svg) **Переместить вверх** — переместить факт/вариант агрегации/способ отображения на позицию вверх;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_movedown_default.svg) **Переместить вниз** — переместить факт/вариант агрегации/способ отображения на позицию вниз;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_collapce-all_default.svg) **Свернуть дерево** — свернуть дерево фактов;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_open-all_default.svg) **Развернуть дерево** — развернуть дерево фактов;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_check-all_default.svg) **Выбрать все** — выбрать все факты, варианты агрегации со всеми способами отображения;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_uncheck-all_default.svg) **Отменить выбор всех** — убрать выбор всех фактов, вариантов агрегации со всеми способами отображения;
+* ![]() [**Добавить вычисляемый факт**](./addcalculatingfact.md) — добавить вычисляемый факт в куб;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_edit_default.svg) **Редактировать вычисляемый факт** — открыть окно редактирования вычисляемого факта;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) **Удалить вычисляемый факт**.
