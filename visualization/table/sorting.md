@@ -20,34 +20,32 @@
 * Перетаскиванием мыши (Drag-and-drop);
 * Двойным щелчком левой кнопки мыши по полю;
 * Вызвав выпадающее меню нажатием правой кнопки мыши и нажав кнопку "Добавить";
-* Нажав кнопку "Добавить" ![](../../media/app/processors/button_add-02.svg).
+* Нажав кнопку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_arrow-r_default.svg) "Добавить".
 
 Параметры настройки сортировки:
 
-* Порядок. Может принимать значения "по возрастанию" ![](../../media/app/processors/sorting_order-01.svg).
-* Регистр. Для сортировки строковых полей с учетом регистра включить опцию ![](../../media/app/processors/check_box.png).
+* Порядок. Может принимать значения по возрастанию ![](../../media/app/icons/toolbar-18/sorting-order-01.svg) или по убыванию ![](../../media/app/icons/toolbar-18/sorting-order-02.svg).
+* Регистр. Для сортировки строковых полей с учетом регистра включить опцию ![](./check_box.png).
 
 Очередность полей сортировки можно изменить:
 
-* ![](../../media/app/processors/move_in_list-02.svg) Переместить вверх;
-* ![](../../media/app/processors/move_in_list-01.svg) Переместить вниз;
-* Вызвать выпадающее меню нажатием правой кнопки мыши и нажать кнопку ![](../../media/app/processors/move_in_list-02.svg) "Переместить вниз".
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_moveup_default.svg) Переместить вверх;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_movedown_default.svg) Переместить вниз;
+* Вызвать выпадающее меню нажатием правой кнопки мыши и нажать кнопку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_moveup_default.svg) Переместить вверх/![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_movedown_default.svg) "Переместить вниз".
 
 Для исключения сортировки по полю:
 
 * Перетащить запись из списка "Поля сортировки" в "Доступные поля";
-* ![](../../media/app/icons/toolbar_18/toolbar_18_8.svg) Удалить;
-* Вызвать выпадающее меню нажатием правой кнопки мыши и нажать кнопку ![](../../media/app/icons/toolbar_18/toolbar_18_8.svg) "Удалить".
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) Удалить;
+* Вызвать выпадающее меню нажатием правой кнопки мыши и нажать кнопку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) "Удалить".
 
 Для очистки всего списка:
 
-* Нажать ![](../../media/app/icons/toolbar_18/toolbar_18_127.svg) "Удалить все...";
-* Вызвать выпадающее меню нажатием правой кнопки мыши и нажать кнопку ![](../../media/app/icons/toolbar_18/toolbar_18_127.svg) "Удалить все...";
+* Нажать ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete-all_default.svg) "Удалить все...";
+* Вызвать выпадающее меню нажатием правой кнопки мыши и нажать кнопку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete-all_default.svg) "Удалить все...";
 
 После выбора всех настроек нажать кнопку "Сортировать" для применения сортировки в таблице.
 
 --------
 
-**Примечание:**
-
-Сравнение и сортировка символов осуществляется в соответствии с локальными настройками пользователя, из-под которого запущен сервер Loginom.
+>**Примечание:** Сравнение и сортировка символов осуществляется в соответствии с локальными настройками пользователя, из-под которого запущен сервер Loginom.
