@@ -13,9 +13,9 @@
  4. Добавляются новые выходные поля/переменные на основе входных полей, у которых еще нет связей.
 
 Подобный алгоритм применяется единожды при выполнении команды
-![Синхронизировать поля](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_sync-columns_default.svg)
+![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_sync-columns_default.svg)
 "Синхронизировать поля" и постоянно при выполнении узла, если задействована опция настройки порта
-![Автоматическая синхронизация](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_auto-sync-columns_default.svg)"Автоматическая синхронизация"
+![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_auto-sync-columns_default.svg)"Автоматическая синхронизация"
 (см. [Интерфейс «Таблица»](./interface-table.md)
 и [Интерфейс «Связи»](./interface-relations.md)).
 
