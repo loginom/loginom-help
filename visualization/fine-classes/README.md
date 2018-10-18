@@ -1,4 +1,4 @@
-# Конечные классы
+# ![](../../images/icons/view_types_18/view_types_default-04.svg) Конечные классы
 
 ## Описание
 

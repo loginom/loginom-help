@@ -1,4 +1,4 @@
-# Статистика
+# ![](../../images/icons/view_types_18/view_types_default-05.svg) Статистика
 
 ## Описание
 

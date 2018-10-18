@@ -1,4 +1,4 @@
-# Отчет по регрессии
+# ![](../../images/icons/view_types_18/view_types_default-06.svg) Отчет по регрессии
 
 ## Описание
 

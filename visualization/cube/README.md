@@ -1,4 +1,4 @@
-# ![](../../media/app/icons/view_types_18/view_types_default-03.svg) Куб
+# ![](../../images/icons/view_types_18/view_types_default-03.svg) Куб
 
 ## Описание
 

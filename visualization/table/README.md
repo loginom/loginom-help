@@ -1,4 +1,4 @@
-# ![](../../media/app/icons/view_types_18/view_types_default-02.svg) Таблица
+# ![](../../images/icons/view_types_18/view_types_default-02.svg) Таблица
 
 ## Описание
 

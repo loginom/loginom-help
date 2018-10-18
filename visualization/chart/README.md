@@ -1,4 +1,4 @@
-# ![](../../media/app/icons/view_types_18/view_types_default-01.svg) Диаграмма
+# ![](../../images/icons/view_types_18/view_types_default-01.svg) Диаграмма
 
 ## Описание
 
@@ -6,25 +6,21 @@
 
 ## Интерфейс
 
-### Навигация
-
-Навигация по диаграмме и ее настройка осуществляется при помощи мышки.
-
 ### Операции
 
-* ![](../../media/app/visualization/toolbar_18_148.svg) **Настройка полей** — показать/скрыть список полей набора данных.
-* ![](../../media/app/icons/toolbar_18/toolbar_18_1.svg) [Общие настройки](./general-settings.md) — настройки диаграммы в целом.
-* ![](../../media/app/visualization/toolbar_18_69.svg) [Настройки серий](./series-settings.md) — настройки списка серий и параметров конкретных серий (графиков).
-* ![](../../media/app/visualization/axis.svg) [Настройки осей](./axis-settings.md).
-* ![](../../media/app/visualization/animation.svg) **Анимация** — обновление данных отображается плавно.
-* ![](../../media/app/visualization/normalize.svg) **Нормировать** — приводит все графики к одному масштабу.
-* ![](../../media/app/visualization/navigator.svg) **Навигатор** — позволяет детализировать по оси X какой-либо участок диаграммы, отображается снизу под осью. Передвигая край навигатора, можно выбрать необходимую область диаграммы.
-* ![](../../media/app/visualization/turn_the_graph.svg) **Повернуть график** — меняет местами оси, то есть поле по X перемещается на ось Y, и наоборот ось Y становится осью X.
-* ![](../../media/app/visualization/approach.svg) **Приблизить** — приближает/увеличивает область диаграммы.
-* ![](../../media/app/visualization/postpone.svg) **Отдалить** — отдаляет/уменьшает область диаграммы.
-* ![](../../media/app/visualization/reset_the_approach.svg) **Сбросить приближение** — снимает все настройки приближения (по обеим осям).
-* ![](../../media/app/visualization/reset_the_approach_y.svg) **Сбросить приближение Y** — снимает приближение диаграммы по оси Y, но оставляет приближение по оси X.
-* ![](../../media/app/icons/toolbar_18/toolbar_18_41.svg) **Экспорт** — позволяет сохранить диаграмму, как она выглядит в окне просмотра в файл с изображением. В данном пункте меню будет отображаться название того формата, который выбран для экспорта:
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_fields-list_default.svg) **Настройка полей** — показать/скрыть список полей набора данных.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_setup_default.svg) [Общие настройки](./general-settings.md) — настройки диаграммы в целом.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_chart_default.svg) [Настройки серий](./series-settings.md) — настройки списка серий и параметров конкретных серий (графиков).
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_axis_default.svg) [Настройки осей](./axis-settings.md).
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_animate_default.svg) **Анимация** — обновление данных отображается плавно.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_normalize_default.svg) **Нормировать** — приводит все графики к одному масштабу.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_telescope_default.svg) **Навигатор** — позволяет детализировать по оси X какой-либо участок диаграммы, отображается снизу под осью. Передвигая край навигатора, можно выбрать необходимую область диаграммы.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_rotate-chart-clockwise_default.svg) **Повернуть график** — меняет местами оси, то есть поле по X перемещается на ось Y, и наоборот ось Y становится осью X.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom-in_default.svg) **Приблизить** — приближает/увеличивает область диаграммы.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom-out_default.svg) **Отдалить** — отдаляет/уменьшает область диаграммы.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom-zone_default.svg) **Сбросить приближение** — снимает все настройки приближения (по обеим осям).
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom-vert_default.svg) **Сбросить приближение Y** — снимает приближение диаграммы по оси Y, но оставляет приближение по оси X.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_import_default.svg) **Экспорт** — позволяет сохранить диаграмму, как она выглядит в окне просмотра в файл с изображением. В данном пункте меню будет отображаться название того формата, который выбран для экспорта:
   * Экспорт в SVG;
   * Экспорт в PNG;
   * Экспорт в JPG;
@@ -41,26 +37,26 @@
 
 При задании настроек оси X можно также воспользоваться кнопками в списке полей (справа от названия поля):
 
-* ![](../../media/app/visualization/chart/icon1.svg) Использовать как поле абсцисс (CTRL+X);
-* ![](../../media/app/visualization/chart/icon2.svg) Использовать как поле меток (Alt+L).
+* ![](../../images/icons/icons/icon1.svg) Использовать как поле абсцисс (CTRL+X);
+* ![](../../images/icons/icons/icon2.svg) Использовать как поле меток (Alt+L).
 
 Таким образом, поле значений оси X и поле меток (обозначений делений оси) необязательно должны совпадать.
 
 Доступны следующие типы диаграмм:
 
-* ![](../../media/app/visualization/cube/d1.svg) Линии;
-* ![](../../media/app/visualization/cube/d2.svg) Области;
-* ![](../../media/app/visualization/cube/d3.svg) Сплайны;
-* ![](../../media/app/visualization/cube/d4.svg) Столбчатая;
-* ![](../../media/app/visualization/cube/d7.svg) Области с интервалами;
-* ![](../../media/app/visualization/cube/d5.svg) Сглаженные области;
-* ![](../../media/app/visualization/cube/d8.svg) Сглаженные области с интервалами;
-* ![](../../media/app/visualization/cube/d9.svg) Пузырьковая;
-* ![](../../media/app/visualization/cube/d6.svg) Разброс;
-* ![](../../media/app/visualization/cube/d10.svg) Водопад;
-* ![](../../media/app/visualization/cube/d11.svg) Ошибки;
-* ![](../../media/app/visualization/cube/d12.svg) Полигон;
-* ![](../../media/app/visualization/cube/d13.svg) Столбчатая с интервалами;
+* ![](../../images/icons/series_18/d1.svg) Линии;
+* ![](../../images/icons/series_18/d2.svg) Области;
+* ![](../../images/icons/series_18/d3.svg) Сплайны;
+* ![](../../images/icons/series_18/d4.svg) Столбчатая;
+* ![](../../images/icons/series_18/d7.svg) Области с интервалами;
+* ![](../../images/icons/series_18/d5.svg) Сглаженные области;
+* ![](../../images/icons/series_18/d8.svg) Сглаженные области с интервалами;
+* ![](../../images/icons/series_18/d9.svg) Пузырьковая;
+* ![](../../images/icons/series_18/d6.svg) Разброс;
+* ![](../../images/icons/series_18/d10.svg) Водопад;
+* ![](../../images/icons/series_18/d11.svg) Ошибки;
+* ![](../../images/icons/series_18/d12.svg) Полигон;
+* ![](../../images/icons/series_18/d13.svg) Столбчатая с интервалами;
 * Тепловая карта;
 * Японские свечи;
 * OHLC.
@@ -69,6 +65,6 @@
 
 ### Работа с построенной диаграммой
 
-При работе с диаграммой предусмотрена возможность увеличения масштаба просмотра всей диаграммы или ее произвольной области. Для этого на панели инструментов нужно сделать активным ![](../../media/app/visualization/toolbar_18_30.svg) режим приближения и далее следует, удерживая левую кнопку мыши нажатой, выделить ту область диаграммы, которую нужно просмотреть более детально. Как только кнопка мыши будет отпущена, масштаб просмотра выделенной области будет увеличен. Для дальнейшего увеличения масштаба данную процедуру можно повторить. Чтобы детальнее рассмотреть диаграмму при заданном увеличении, необходимо сделать активным ![](../../media/app/visualization/toolbar_18_32.svg) режим перетаскивания. Это позволит передвигать диаграмму по экрану.
+При работе с диаграммой предусмотрена возможность увеличения масштаба просмотра всей диаграммы или ее произвольной области. Для этого на панели инструментов нужно сделать активным ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_cursor_default.svg) режим приближения и далее следует, удерживая левую кнопку мыши нажатой, выделить ту область диаграммы, которую нужно просмотреть более детально. Как только кнопка мыши будет отпущена, масштаб просмотра выделенной области будет увеличен. Для дальнейшего увеличения масштаба данную процедуру можно повторить. Чтобы детальнее рассмотреть диаграмму при заданном увеличении, необходимо сделать активным ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_hand_default.svg) режим перетаскивания. Это позволит передвигать диаграмму по экрану.
 
-Чтобы вернуться к исходному масштабу диаграммы, нужно воспользоваться ![](../../media/app/visualization/reset_the_approach.svg) — сбросить приближение.
+Чтобы вернуться к исходному масштабу диаграммы, нужно воспользоваться — ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom-zone_default.svg) сбросить приближение.
