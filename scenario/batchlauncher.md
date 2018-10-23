@@ -64,7 +64,7 @@ BatchLauncher /Package=/user/test.lgp /Teach
 
 ### Address
 
-IP адрес или имя хоста сервера Loginom. По умолчанию используется localhost.
+IP адрес или имя хоста сервера Loginom. По умолчанию используется *localhost*.
 
 Пример:
 
