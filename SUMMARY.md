@@ -1,10 +1,10 @@
 # SUMMARY
 
-* [Введение](./README.md)
+* [Аналитическая платформа](./README.md)
 * [Начало работы](./quick-start/README.md)
   * [Назначение и структура пакета](./quick-start/package.md)
   * [Первый сценарий](./quick-start/first-scenario.md)
-  * [Проектирование сценариев](./quick-start/scenario-construction.md)
+  * [Принципы проектирования](./quick-start/design-principles.md)
   * [Интеграция с базами данных](./quick-start/database.md)
   * [Использование переменных](./quick-start/variables.md)
 * [Интерфейс](./interface/README.md)
@@ -14,7 +14,7 @@
   * [Рабочее пространство](./interface/workspace.md)
   * [Панель «Процессы»](./interface/processes-panel.md)
 * [Проектирование сценариев](./scenario/README.md)
-  * [Рабочее пространство](./scenario/description-workspace.md)
+  * [Интерактивный режим работы](./scenario/interactive-mode.md)
   * [Порты](./scenario/ports/README.md)
     * [Автоматическая синхронизация полей](./scenario/ports/field-synchronization.md)
     * [Настройка порта - Связи](./scenario/ports/interface-relations.md)
