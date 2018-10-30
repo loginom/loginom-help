@@ -7,18 +7,18 @@
 Содержит следующие кнопки:
 
 * **Вид диаграммы** — позволяет выбрать вид отображаемой диаграммы:
-  * ![](../../media/app/visualization/cube/d1.svg) Линии;
-  * ![](../../media/app/visualization/cube/d2.svg) Области;
-  * ![](../../media/app/visualization/cube/d3.svg) Сплайны;
-  * ![](../../media/app/visualization/cube/d4.svg) Столбчатая;
-  * ![](../../media/app/visualization/cube/d5.svg) Сглаженные области;
-  * ![](../../media/app/visualization/cube/d6.svg) Разброс.
+  * ![](../../images/icons/series_18/d1.svg) Линии;
+  * ![](../../images/icons/series_18/d2.svg) Области;
+  * ![](../../images/icons/series_18/d3.svg) Сплайны;
+  * ![](../../images/icons/series_18/d4.svg) Столбчатая;
+  * ![](../../images/icons/series_18/d5.svg) Сглаженные области;
+  * ![](../../images/icons/series_18/d6.svg) Разброс;
 * **Расположение серий** — позволяет выбрать расположение серий:
-  * ![](../../media/app/icons/toolbar_18/toolbar_18_67.svg) В столбцах — построение серии диаграммы по данным столбца;
-  * ![](../../media/app/icons/toolbar_18/toolbar_18_66.svg) В строках — построение серии диаграммы по данным строки.
+  * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_columns_default.svg) В столбцах — построение серии диаграммы по данным столбца;
+  * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_rows_default.svg) В строках — построение серии диаграммы по данным строки.
 * **Итоги** — показать/скрыть итоги:
-  * ![](../../media/app/visualization/toolbar_18_86.svg) Скрыть;
-  * ![](../../media/app/visualization/toolbar_18_87.svg) Показать;
+  * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_show-total-nor_default.svg) Скрыть;
+  * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_show-total-all_default.svg) Показать;
 * **Отображаемый факт** — позволяет выбрать отображаемый факт из списка.
 * **Ограничения** — позволяет задать ограничения на количество серий/точек:
   * Диапазон задания количества серий: [1;100];

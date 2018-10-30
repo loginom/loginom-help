@@ -1,4 +1,4 @@
-# ![](../../media/app/icons/view_types_18/view_types_default-03.svg) Куб
+# ![](../../images/icons/view_types_18/view_types_default-03.svg) Куб
 
 ## Описание
 
@@ -12,26 +12,26 @@
 
 ### Операции
 
-* ![](../../media/app/visualization/toolbar_18_148.svg) **Поля** — показать/скрыть список полей набора данных.
-* ![](../../media/app/visualization/toolbar_18_69.svg) [**Диаграмма**](./chart.md) — показать/скрыть диаграмму.
-* ![](../../media/app/visualization/toolbar_18_22.svg) **Свернуть** — свернуть иерархию измерений куба:
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_fields-list_default.svg) **Поля** — показать/скрыть список полей набора данных.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_chart_default.svg) [**Диаграмма**](./chart.md) — показать/скрыть диаграмму.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_collapce-all_default.svg) **Свернуть** — свернуть иерархию измерений куба:
   * Свернуть все;
   * Свернуть колонки;
   * Свернуть строки.
-* ![](../../media/app/visualization/toolbar_18_23.svg) **Развернуть** — развернуть иерархию измерений куба:
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_open-all_default.svg) **Развернуть** — развернуть иерархию измерений куба:
   * Развернуть все;
   * Развернуть колонки;
   * Развернуть строки.
-* ![](../../media/app/visualization/toolbar_18_87.svg) **Итоги** — показать/скрыть итоги по кубу:
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_show-total-all_default.svg) **Итоги** — показать/скрыть итоги по кубу:
   * Все;
   * В колонках;
   * В строках;
   * Нигде.
-* ![](../../media/app/visualization/cube/width.svg) **Выравнивание ширины**:
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_width-equal_default.svg) **Выравнивание ширины**:
   * Колонок;
   * Фактов.
-* ![](../../media/app/visualization/toolbar_18_68.svg) **Транспонировать** — переместить измерения, находящиеся в строках, в столбцы и наоборот.
-* ![](../../media/app/icons/component_18/component_default-20.svg) [**Добавить вычисляемый факт**](./addcalculatingfact.md) — добавить вычисляемый факт в куб.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_transform_default.svg) **Транспонировать** — переместить измерения, находящиеся в строках, в столбцы и наоборот.
+* ![]() [**Добавить вычисляемый факт**](./addcalculatingfact.md) — добавить вычисляемый факт в куб.
 
 ### Настройка куба
 
@@ -42,45 +42,39 @@
 Добавить измерения в строки или столбцы можно двумя способами:
 
 * Перетащить (Drag&Drop) поле из левого списка в ту область, в которую его необходимо добавить: строки или столбцы;
-* Нажать кнопку ![](../../media/app/visualization/cube/toolbar_18_153.svg) нужной области и выбрать необходимое поле из списка.
+* Нажать кнопку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus-native_default.svg) нужной области и выбрать необходимое поле из списка.
 
-Чтобы отсортировать значения измерения, необходимо нажать кнопку ![](../../media/app/icons/toolbar_18/toolbar_18_20.svg) рядом с нужным измерением и выбрать необходимый вариант:
+Чтобы отсортировать значения измерения, необходимо нажать кнопку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_down_default.svg) рядом с нужным измерением и выбрать необходимый вариант:
 
-* ![](../../media/app/icons/toolbar_18/toolbar_18_155.svg) По возрастанию;
-* ![](../../media/app/icons/toolbar_18/toolbar_18_154.svg) По убыванию;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_low-to-hight_default.svg) По возрастанию;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_hight-to-low_default.svg) По убыванию;
 * В исходном порядке.
 
 Чтобы отфильтровать данные по измерению необходимо щёлкнуть по нужному измерению, выбрать значения из списка уникальных и нажать "Применить".
 При этом доступны операции:
 
-* ![](../../media/app/icons/toolbar_18/toolbar_18_158.svg) Выбрать все — выбрать все значения списка;
-* ![](../../media/app/icons/toolbar_18/toolbar_18_157.svg) Отменить выбор всех — снять выбор всех значений списка;
-* ![](../../media/app/icons/toolbar_18/toolbar_18_159.svg) Инвертировать выбор — поменять выбранные значения списка на невыбранные и наоборот.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_check-all_default.svg) Выбрать все — выбрать все значения списка;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_uncheck-all_default.svg) Отменить выбор всех — снять выбор всех значений списка;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_reverse-check_default.svg) Инвертировать выбор — поменять выбранные значения списка на невыбранные и наоборот.
 
 Удалить измерение можно:
 
-* Нажав кнопку ![](../../media/app/icons/toolbar_18/toolbar_18_20.svg) рядом с нужным измерением и выбрав ![](../../media/app/icons/toolbar_18/toolbar_18_8.svg) Удалить.
+* Нажав кнопку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_down_default.svg) рядом с нужным измерением и выбрав ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) Удалить.
 
 #### Факты
 
 Добавить факты можно двумя способами:
 
 * Перетащить (Drag&Drop) поле из левого списка в область фактов куба;
-* Нажать кнопку Факты, выбрать необходимое поле и в появившемся [окне](./addfact.md) выбрать нужный вариант [агрегации](../../processors/aggregation-functions.md) и способ его отображения.
+* Нажать кнопку Факты, выбрать необходимое поле и в появившемся [окне](./addfact.md) выбрать нужный вариант [агрегации](../../processors/func/aggregation-functions.md) и способ его отображения.
 
-Нажав на кнопку ![](../../media/app/icons/toolbar_18/toolbar_18_20.svg) рядом с Факты можно открыть одно из окон:
+Нажав на кнопку ![](../../images/icons/toolbar-controls_18x18//toolbar-controls_18x18_down_default.svg) рядом с Факты можно открыть одно из окон:
 
-* ![](../../media/app/visualization/cube/toolbar_18_118.svg) [**Форматировать факты**](./formatfacts.md);
-* ![](../../media/app/visualization/cube/toolbar_18_117.svg) [**Фильтровать факты**](./filterfacts.md);
-* ![](../../media/app/visualization/cube/toolbar_18_26.svg) [**Настроить факты**](./configurefacts.md).
+* ![]() [**Форматировать факты**](./formatfacts.md);
+* ![]() [**Фильтровать факты**](./filterfacts.md);
+* ![]() [**Настроить факты**](./configurefacts.md).
 
------
-
-**Примечание:**
-
-По умолчанию в качестве варианта агрегации и способа его отображения выбирается идущий первым по списку. Поддерживается отображение сразу нескольких вариантов агрегации и способов их отображения для каждого факта.
-
------
+>**Примечание:** По умолчанию в качестве варианта агрегации и способа его отображения выбирается идущий первым по списку. Поддерживается отображение сразу нескольких вариантов агрегации и способов их отображения для каждого факта.
 
 #### Область фильтрации
 
@@ -89,21 +83,21 @@
 Добавить измерение в область фильтрации можно двумя способами:
 
 * Перетащить (Drag&Drop) поле из левого списка;
-* Нажать кнопку ![](../../media/app/visualization/cube/toolbar_18_153.svg) и выбрать необходимое поле из списка.
+* Нажать кнопку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus-native_default.svg) и выбрать необходимое поле из списка.
 
-Чтобы отсортировать данные куба по полю из области фильтрации, необходимо нажать кнопку ![](../../media/app/icons/toolbar_18/toolbar_18_20.svg) рядом с нужным измерением и выбрать необходимый вариант:
+Чтобы отсортировать данные куба по полю из области фильтрации, необходимо нажать кнопку ![](../../images/icons/toolbar-controls_18x18//toolbar-controls_18x18_down_default.svg) рядом с нужным измерением и выбрать необходимый вариант:
 
-* ![](../../media/app/icons/toolbar_18/toolbar_18_155.svg) По возрастанию;
-* ![](../../media/app/icons/toolbar_18/toolbar_18_154.svg) По убыванию;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_low-to-hight_default.svg) По возрастанию;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_hight-to-low_default.svg) По убыванию;
 * В исходном порядке.
 
 Чтобы отфильтровать данные по измерению необходимо щёлкнуть по нужному измерению, выбрать значения из списка уникальных и нажать кнопку "Применить".
 При этом доступны операции:
 
-* ![](../../media/app/icons/toolbar_18/toolbar_18_158.svg) Выбрать все — выбрать все значения списка;
-* ![](../../media/app/icons/toolbar_18/toolbar_18_157.svg) Отменить выбор всех — снять выбор всех значений списка;
-* ![](../../media/app/icons/toolbar_18/toolbar_18_159.svg) Инвертировать выбор — поменять выбранные значения списка на невыбранные и наоборот.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_check-all_default.svg) Выбрать все — выбрать все значения списка;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_uncheck-all_default.svg) Отменить выбор всех — снять выбор всех значений списка;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_reverse-check_default.svg) Инвертировать выбор — поменять выбранные значения списка на невыбранные и наоборот.
 
 Удалить измерение из области фильтрации можно:
 
-* Нажав кнопку ![](../../media/app/icons/toolbar_18/toolbar_18_20.svg) рядом с нужным измерением и выбрав ![](../../media/app/icons/toolbar_18/toolbar_18_8.svg) Удалить.
+* Нажав кнопку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_down_default.svg) рядом с нужным измерением и выбрав ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) Удалить.

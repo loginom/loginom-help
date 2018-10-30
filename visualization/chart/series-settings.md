@@ -5,11 +5,11 @@
 Окно настройки состоит их двух частей: настройка списка серий (добавление, удаление, перемещение) и настройка параметров каждой серии. При нажатии правой кнопкой мыши на конкретную серию также появятся уже заданные для серии настройки и возможность их корректировки.
 
 * **Настройка списка серий:**
-  * ![](../../media/app/icons/toolbar_18/toolbar_18_27.svg) Добавить;
-  * ![](../../media/app/icons/toolbar_18/top.svg) Переместить вверх;
-  * ![](../../media/app/icons/toolbar_18/down.svg) Переместить вниз;
-  * ![](../../media/app/icons/toolbar_18/toolbar_18_127.svg) Удалить все;
-  * ![](../../media/app/icons/toolbar_18/toolbar_18_8.svg) Удалить конкретную серию.
+  * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) Добавить;
+  * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_moveup_default.svg) Переместить вверх;
+  * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_movedown_default.svg) Переместить вниз;
+  * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete-all_default.svg) Удалить все;
+  * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) Удалить конкретную серию.
 * **Настройка параметров серии:**
   * **Основные:**
     * Тип — задается тип диаграммы (типы приведены далее в статье);
@@ -28,7 +28,7 @@
       * Задание цвета через код RGB.
       * Задание цвета через код Hex.
       * Параметр A — задается интенсивность выбранного цвета (от темного до светлого).
-      * Кнопка ![](../../media/app/visualization/chart/toolbar_18_10.svg) — возвращает цвет по умолчанию.
+      * Кнопка ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_undo_default.svg) — возвращает цвет по умолчанию.
     * Ширина линии — параметр задает толщину линии, возможное значение от 0 до 30.
     * Размер точки — возможное значение от 0 до 30.
     * Тип меток и Тип подсказок:

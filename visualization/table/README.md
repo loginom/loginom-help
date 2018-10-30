@@ -1,4 +1,4 @@
-# ![](../../media/app/icons/view_types_18/view_types_default-02.svg) Таблица
+# ![](../../images/icons/view_types_18/view_types_default-02.svg) Таблица
 
 ## Описание
 
@@ -8,25 +8,25 @@
 
 ### Навигация
 
-Навигация по таблице осуществляется при помощи мышки или панели навигации в нижней части визуализатора:
+Навигация по таблице осуществляется при помощи мышки и панели навигации в нижней части визуализатора:
 
-* ![](../../media/app/icons/toolbar_18/toolbar_18_17.svg) перейти на предыдущую/следующую страницу;
-* ![](../../media/app/icons/toolbar_18/toolbar_18_15.svg) перейти на первую/последнюю страницу.
+* Перейти на ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_prev_default.svg) предыдущую/![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_next_default.svg) следующую страницу;
+* Перейти на ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_first_default.svg) первую/![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_last_default.svg) последнюю страницу.
 
 Для перехода на определённую страницу необходимо ввести её номер в поле ввода, расположенное между кнопками навигации.
 На одной странице отображается 50 000 записей.
 
 ### Операции
 
-* ![](../../media/app/visualization/toolbar_18_table_1.svg) **Номер строки** — показать/скрыть сквозной номер строки;
-* ![](../../media/app/visualization/toolbar_18_table_0.svg) **Типы данных** — показать/скрыть типы данных;
-* ![](../../media/app/visualization/toolbar_18_92.svg) **Показать значения null** — показать/скрыть null-значения;
-* ![](../../media/app/visualization/toolbar_18_118.svg) **Формат** — открыть [окно настройки формата](./format.md) отображения данных;
-* ![](../../media/app/visualization/toolbar_18_116.svg) **Сортировка** — открыть [окно настройки сортировки](./sorting.md) данных по столбцам;
-* ![](../../media/app/visualization/toolbar_18_117.svg) **Фильтр** — открыть [окно настройки фильтрации](./filter.md);
-* ![](../../media/app/visualization/toolbar_18_33.svg) **Поиск** — ![](иконка) найти значение; ![](иконка) открыть [окно настройки поиска](./search.md);
-* ![](../../media/app/visualization/toolbar_18_171.svg) **Детализация** — показать/скрыть детализацию по строке таблицы;
-* **Перейти к строке** — перейти к строке с номером [].
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_grid-row-no_default.svg) **Номер строки** — показать/скрыть сквозной номер строки;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_show-data-type_default.svg) **Типы данных** — показать/скрыть типы данных;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_null-count_default.svg) **Показать значения null** — показать/скрыть null-значения;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_format_default.svg) **Формат** — открыть [окно настройки формата](./format.md) отображения данных;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_sort-asc_default.svg) **Сортировка** — открыть [окно настройки сортировки](./sorting.md) данных по столбцам;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_filter_default.svg) **Фильтр** — открыть [окно настройки фильтрации](./filter.md);
+*  ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom_default.svg) ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_down_default.svg) **Поиск** — ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom_default.svg) найти значение; ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_down_default.svg) открыть [окно настройки поиска](./search.md);
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_toggle-left-panel_default.svg) **Детализация** — показать/скрыть детализацию по строке таблицы;
+* **Перейти к строке** — перейти к строке с заданным номером.
 
 %spoiler%Горячие клавиши:%spoiler%
 
@@ -45,11 +45,13 @@
 
 %/spoiler%
 
-**Примечание:**
+## Дополнительная информация
 
 * **#** — номер строки в таблице;
 * **№** — номер строки в исходном наборе данных (например, после фильтрации).
 
 Настроить сортировку можно, щёлкая на заголовки столбцов непосредственно в самом визуализаторе.
+
 Значение каждой ячейки можно скопировать в текстовом формате, нажав комбинацию клавиш Ctrl+C.
-Рядом с заголовком каждого столбца есть кнопка ![](../../media/app/visualization/toolbar_18_20.svg), нажатием на которую вызывается выпадающее меню. Через него можно скрыть/отобразить столбец, а также зафиксировать или снять фиксацию со столбца.
+
+Рядом с заголовком каждого столбца есть кнопка ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_down_default.svg), нажатием на которую вызывается выпадающее меню. Через него можно скрыть/отобразить столбец, а также зафиксировать или снять фиксацию со столбца.
