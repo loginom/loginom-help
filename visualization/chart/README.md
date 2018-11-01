@@ -8,19 +8,19 @@
 
 ### Операции
 
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_fields-list_default.svg) **Настройка полей** — показать/скрыть список полей набора данных.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_fields-list_default.svg) Настройка полей — показать/скрыть список полей набора данных.
 * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_setup_default.svg) [Общие настройки](./general-settings.md) — настройки диаграммы в целом.
 * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_chart_default.svg) [Настройки серий](./series-settings.md) — настройки списка серий и параметров конкретных серий (графиков).
 * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_axis_default.svg) [Настройки осей](./axis-settings.md).
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_animate_default.svg) **Анимация** — обновление данных отображается плавно.
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_normalize_default.svg) **Нормировать** — приводит все графики к одному масштабу.
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_telescope_default.svg) **Навигатор** — позволяет детализировать по оси X какой-либо участок диаграммы, отображается снизу под осью. Передвигая край навигатора, можно выбрать необходимую область диаграммы.
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_rotate-chart-clockwise_default.svg) **Повернуть график** — меняет местами оси, то есть поле по X перемещается на ось Y, и наоборот ось Y становится осью X.
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom-in_default.svg) **Приблизить** — приближает/увеличивает область диаграммы.
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom-out_default.svg) **Отдалить** — отдаляет/уменьшает область диаграммы.
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom-zone_default.svg) **Сбросить приближение** — снимает все настройки приближения (по обеим осям).
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom-vert_default.svg) **Сбросить приближение Y** — снимает приближение диаграммы по оси Y, но оставляет приближение по оси X.
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_import_default.svg) **Экспорт** — позволяет сохранить диаграмму, как она выглядит в окне просмотра в файл с изображением. В данном пункте меню будет отображаться название того формата, который выбран для экспорта:
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_animate_default.svg) Анимация — обновление данных отображается плавно.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_normalize_default.svg) Нормировать — приводит все графики к одному масштабу.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_telescope_default.svg) Навигатор — позволяет детализировать по оси X какой-либо участок диаграммы, отображается снизу под осью. Передвигая край навигатора, можно выбрать необходимую область диаграммы.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_rotate-chart-clockwise_default.svg) Повернуть график — меняет местами оси, то есть поле по X перемещается на ось Y, и наоборот ось Y становится осью X.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom-in_default.svg) Приблизить — приближает/увеличивает область диаграммы.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom-out_default.svg) Отдалить — отдаляет/уменьшает область диаграммы.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom-zone_default.svg) Сбросить приближение — снимает все настройки приближения (по обеим осям).
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom-vert_default.svg) Сбросить приближение Y — снимает приближение диаграммы по оси Y, но оставляет приближение по оси X.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_import_default.svg) Экспорт — позволяет сохранить диаграмму, как она выглядит в окне просмотра в файл с изображением. В данном пункте меню будет отображаться название того формата, который выбран для экспорта:
   * Экспорт в SVG;
   * Экспорт в PNG;
   * Экспорт в JPG;
@@ -30,15 +30,15 @@
 
 В левом списке отображаются поля, которые можно использовать в качестве осей диаграммы. Для этого необходимо, удерживая левой кнопкой мыши, перетащить (Drag&Drop) нужные поля в область построения диаграммы: в верхнюю часть — задается ось Y; в нижнюю часть — ось X. При задании оси Y происходит настройка добавления серии, а именно:
 
-* Тип — задается тип диаграммы.
-* Название — название серии (т.е. конкретного графика). Данное название будет отображаться в легенде диаграммы.
-* Поле Y — задается поле для оси Y.
-* Поле цвета — числовое поле, которое проецируется на цветовую шкалу.
+* **Тип** — задается тип диаграммы;
+* **Название** — название серии (т.е. конкретного графика). Данное название будет отображаться в легенде диаграммы;
+* **Поле Y** — задается поле для оси Y;
+* **Поле цвета** — числовое поле, которое проецируется на цветовую шкалу.
 
 При задании настроек оси X можно также воспользоваться кнопками в списке полей (справа от названия поля):
 
-* ![](./icon1.svg) Использовать как поле абсцисс (CTRL+X);
-* ![](./icon2.svg) Использовать как поле меток (Alt+L).
+* ![](../../images/icons/icons/icon1.svg) Использовать как поле абсцисс (CTRL+X);
+* ![](../../images/icons/icons/icon2.svg) Использовать как поле меток (Alt+L).
 
 Таким образом, поле значений оси X и поле меток (обозначений делений оси) необязательно должны совпадать.
 
