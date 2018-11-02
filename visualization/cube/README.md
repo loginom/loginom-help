@@ -12,26 +12,26 @@
 
 ### Операции
 
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_fields-list_default.svg) Поля — показать/скрыть список полей набора данных.
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_chart_default.svg) [Диаграмма](./chart.md) — показать/скрыть диаграмму.
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_collapce-all_default.svg) Свернуть — свернуть иерархию измерений куба.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_fields-list_default.svg) **Поля** — показать/скрыть список полей набора данных.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_chart_default.svg) **Диаграмма** — показать/скрыть [диаграмму](./chart.md).
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_collapce-all_default.svg) **Свернуть** — свернуть иерархию измерений куба.
   * Свернуть все.
   * Свернуть колонки.
   * Свернуть строки.
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_open-all_default.svg) Развернуть — развернуть иерархию измерений куба.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_open-all_default.svg) **Развернуть** — развернуть иерархию измерений куба.
   * Развернуть все.
   * Развернуть колонки.
   * Развернуть строки.
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_show-total-all_default.svg) Итоги — показать/скрыть итоги по кубу.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_show-total-all_default.svg) **Итоги** — показать/скрыть итоги по кубу.
   * Все.
   * В колонках.
   * В строках.
   * Нигде.
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_width-equal_default.svg) Выравнивание ширины:
-  * Колонок;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_width-equal_default.svg) **Выравнивание** ширины:
+  * Колонок.
   * Фактов.
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_transform_default.svg) Транспонировать — переместить измерения, находящиеся в строках, в столбцы и наоборот.
-* ![]() [Добавить вычисляемый факт](./addcalculatingfact.md) — добавить вычисляемый факт в куб.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_transform_default.svg) **Транспонировать** — переместить измерения, находящиеся в строках, в столбцы и наоборот.
+* ![](../../images/icons/cube-cases/cube-cases-case-calc_default.svg) **Добавить вычисляемый факт** — [добавить вычисляемый факт](./addcalculatingfact.md) в куб.
 
 ### Настройка куба
 
@@ -39,16 +39,16 @@
 
 #### Измерения
 
-Добавить измерения в строки или столбцы можно двумя способами:
+Добавить измерения в строки или столбцы куба можно двумя способами:
 
 * Перетащить (Drag&Drop) поле из левого списка в ту область, в которую его необходимо добавить: строки или столбцы;
 * Нажать кнопку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus-native_default.svg) нужной области и выбрать необходимое поле из списка.
 
 Чтобы отсортировать значения измерения, необходимо нажать кнопку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_down_default.svg) рядом с нужным измерением и выбрать необходимый вариант:
 
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_low-to-hight_default.svg) **По возрастанию** - отсортировать значения в порядке возрастания;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_hight-to-low_default.svg) **По убыванию** - отсортировать значения в порядке убывания;
-* **В исходном порядке** - выстроить значиния в изначальном порядке.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_low-to-hight_default.svg) **По возрастанию** — отсортировать значения в порядке возрастания;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_hight-to-low_default.svg) **По убыванию** — отсортировать значения в порядке убывания;
+* **В исходном порядке** — выстроить значиния в изначальном порядке.
 
 Чтобы отфильтровать данные по измерению необходимо щёлкнуть по нужному измерению, выбрать значения из списка уникальных и нажать "Применить".
 При этом доступны операции:
@@ -61,7 +61,7 @@
 
 * Нажав кнопку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_down_default.svg) рядом с нужным измерением и выбрав ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) Удалить.
 
-> **Примечание:** Над областью измерений находится область фильтрации, она заполняется и имеет те же параметры сортировки и фильтрации, что и область настройки измерений, но измерения добавленнуые в эту область не будут отображаться в кубе, зато они моут быть использованы в вычисляемых фактах и для фильтрации данных в кубе.
+> **Примечание:** Над областью настройки измерений куба находится область фильтрации, она заполняется и имеет те же параметры сортировки и фильтрации, что и область настройки измерений, но измерения добавленные в эту область не будут отображаться в кубе, зато они могут быть использованы в вычисляемых фактах и для фильтрации данных в кубе.
 
 #### Факты
 
