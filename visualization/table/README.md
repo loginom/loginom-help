@@ -1,7 +1,5 @@
 # ![](../../images/icons/view_types_18/view_types_default-02.svg) Таблица
 
-## Описание
-
 Позволяет представить данные для пользователя в виде плоской двумерной таблицы с возможностью фильтрации, сортировки, изменения формата отображения данных и поиска.
 
 ## Интерфейс
@@ -24,7 +22,7 @@
 * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_format_default.svg) **Формат** — открыть [окно настройки формата](./format.md) отображения данных;
 * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_sort-asc_default.svg) **Сортировка** — открыть [окно настройки сортировки](./sorting.md) данных по столбцам;
 * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_filter_default.svg) **Фильтр** — открыть [окно настройки фильтрации](./filter.md);
-*  ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom_default.svg) ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_down_default.svg) **Поиск** — ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom_default.svg) найти значение; ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_down_default.svg) открыть [окно настройки поиска](./search.md);
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom_default.svg) ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_down_default.svg) **Поиск** — ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom_default.svg) найти значение; ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_down_default.svg) открыть [окно настройки поиска](./search.md);
 * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_toggle-left-panel_default.svg) **Детализация** — показать/скрыть детализацию по строке таблицы;
 * **Перейти к строке** — перейти к строке с заданным номером.
 

@@ -14,7 +14,7 @@
 
 * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_moveup_default.svg) **Переместить вверх** — переместить отображение варианта агрегации на позицию вверх;
 * ![](../../images/icons/toolbar-controls_18x18//toolbar-controls_18x18_movedown_default.svg) **Переместить вниз** — переместить отображение варианта агрегации на позицию вниз;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_collapce-all_default.svg) **Свернуть дерево** — свернуть дерево вариантов агрегации и  способов отображения;
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_collapce-all_default.svg) **Свернуть дерево** — свернуть дерево вариантов агрегации и способов отображения;
 * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_open-all_default.svg) **Развернуть дерево** — развернуть дерево вариантов агрегации и способов отображения;
 * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_check-all_default.svg) **Выбрать все** — выбрать все варианта агрегации со всеми способами отображения;
 * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_uncheck-all_default.svg) **Отменить выбор всех** — убрать выбор всех вариантов агрегации со всеми способами отображения.
