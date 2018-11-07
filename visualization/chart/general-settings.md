@@ -41,15 +41,15 @@
   * Значение X — выводится координата столбца по оси X.
 * **Объединять подсказки** — объединяет всплывающие подсказки всех серий (при наведении курсором мыши на серию), если для каждой серии они были настроены отдельно.
 * **Легенда** — настройка положения относительно диаграммы.
-  * ![](../../images/icons/legend-alignments_24x24/legend-alignments-lefttop_default.svg) Слева сверху.
+  * ![](../../images/icons/legend-alignments_24x24/legend-alignments-left-top_default.svg) Слева сверху.
   * ![](../../images/icons/legend-alignments_24x24/legend-alignments-top_default.svg) Сверху.
-  * ![](../../images/icons/legend-alignments_24x24/legend-alignments-righttop_default.svg) Справа сверху.
+  * ![](../../images/icons/legend-alignments_24x24/legend-alignments-right-top_default.svg) Справа сверху.
   * ![](../../images/icons/legend-alignments_24x24/legend-alignments-left_default.svg) Слева.
   * ![](../../images/icons/legend-alignments_24x24/legend-alignments-disabled_default.svg) Не отображать.
   * ![](../../images/icons/legend-alignments_24x24/legend-alignments-right_default.svg) Справа.
-  * ![](../../images/icons/legend-alignments_24x24/legend-alignments-leftbottom_default.svg) Слева снизу.
+  * ![](../../images/icons/legend-alignments_24x24/legend-alignments-left-bottom_default.svg) Слева снизу.
   * ![](../../images/icons/legend-alignments_24x24/legend-alignments-bottom_default.svg) Снизу.
-  * ![](../../images/icons/legend-alignments_24x24/legend-alignments-rightbottom_default.svg) Справа снизу.
+  * ![](../../images/icons/legend-alignments_24x24/legend-alignments-right-bottom_default.svg) Справа снизу.
 * **Повернуть на 90°** — поворачивает диаграмму на 90°.
 * **Нормировать** — приводит все графики к одному масштабу.
 * **Навигатор** — позволяет детализировать по оси X какой-либо участок диаграммы (отображается снизу под осью). Передвигая край навигатора, можно выбрать необходимую область диаграммы.
