@@ -47,7 +47,7 @@
   * ![](../../images/icons/legend-alignments_24x24/legend-alignments-left_default.svg) Слева.
   * ![](../../images/icons/legend-alignments_24x24/legend-alignments-disabled_default.svg) Не отображать.
   * ![](../../images/icons/legend-alignments_24x24/legend-alignments-right_default.svg) Справа.
-  * ![](../../images/icons/legend-alignments_24x24/legend-alignments-leftbottom_default.svg) Справа снизу.
+  * ![](../../images/icons/legend-alignments_24x24/legend-alignments-leftbottom_default.svg) Слева снизу.
   * ![](../../images/icons/legend-alignments_24x24/legend-alignments-bottom_default.svg) Снизу.
   * ![](../../images/icons/legend-alignments_24x24/legend-alignments-rightbottom_default.svg) Справа снизу.
 * **Повернуть на 90°** — поворачивает диаграмму на 90°.
