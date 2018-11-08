@@ -185,6 +185,6 @@
   * [Loginom Data File](./data-format/lgd-file.md)
 * [Файловое хранилище](./location_user_files.md)
 * [Админиcтрирование](./admin/README.md)
-  * [Управление пользователями](./admin/users.md)
+  * [Пользователи](./admin/users.md)
   * [Общие папки](./admin/shared-folder.md)
   * [Параметры](./admin/parameters.md)
