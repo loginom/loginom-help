@@ -122,6 +122,7 @@
       * [Сглаживание](./processors/preprocessing/smoothing.md)
       * [Сэмплинг](./processors/preprocessing/sampling.md)
     * [Data Mining](./processors/datamining/README.md)
+      * [ARIMAX](./processors/datamining/arimax.md)
       * [EM Кластеризация](./processors/datamining/em-clustering.md)
       * [Ассоциативные правила](./processors/datamining/associative-rules.md)
       * [Кластеризация](./processors/datamining/clustering.md)
