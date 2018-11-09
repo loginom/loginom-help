@@ -1,4 +1,4 @@
-# ![](../../media/app/icons/vendors/importxml.svg) Импорт из XML-файла
+# ![](../../images/icons/vendors/importxml.svg) Импорт из XML-файла
 
 ## Описание
 
@@ -8,13 +8,13 @@
 
 ### Вход
 
-* ![](../../media/app/icons/ports/optional-input-connection-inactive.svg) Подключение (необязательный порт) – используется для указания папки, содержащей экспортируемый файл. Путь к папке задается в подключении "Файлы".
-* ![](../../media/app/icons/ports/optional-input-variable-inactive.svg) [Управляющие переменные](../../scenario/variables/control_variables.md) (необязательный порт).
-* ![](../../media/app/icons/ports/input-connection-inactive.svg) [Подключение к источнику XSD-схемы](../connections/list/schemes.md) (обязательный порт).
+* ![](../../images/icons/ports/optional_input_connection_inactive.svg) Подключение (необязательный порт) – используется для указания папки, содержащей экспортируемый файл. Путь к папке задается в подключении "Файлы".
+* ![](../../images/icons/ports/optional_input_variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт).
+* ![](../../images/icons/ports/input_connection_inactive.svg) [Подключение к источнику XSD-схемы](../connections/list/schemes.md) (обязательный порт).
 
 ### Выход
 
-* ![](../../media/app/icons/ports/table-inactive.svg) Набор данных - импортированная таблица.
+* ![](../../images/icons/ports/input_table_inactive.svg) Набор данных - импортированная таблица.
 
 ## Мастер настройки
 
@@ -22,7 +22,7 @@
 
 * **Хранилище файлов** - выводит информацию о способе подключения к файлу для импорта:
   * Локальное - подключение к локальному файлу импорта через указание пути в параметре "Имя файла";
-  * Подключение - используется [подключение к папке](../connections/list/files.md), содержащей файл импорта. При этом задействуется порт ![](../../media/app/icons/ports/optional-input-connection-inactive.svg) "Подключение к файловому хранилищу".
+  * Подключение - используется [подключение к папке](../connections/list/files.md), содержащей файл импорта. При этом задействуется порт ![](../../images/icons/ports/optional_input_connection_inactive.svg) "Подключение к файловому хранилищу".
 
 * **Имя файла** - задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![](../../media/app/icons/toolbar-18/browse.svg) вызывает диалог выбора файла.
 

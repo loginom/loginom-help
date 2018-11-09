@@ -1,4 +1,4 @@
-# ![](../../media/app/icons/vendors/exportxml.svg) Экспорт в XML-файл
+# ![](../../images/icons/vendors/exportxml.svg) Экспорт в XML-файл
 
 ## Описание
 
@@ -8,10 +8,10 @@
 
 ### Вход
 
-* ![](../../media/app/icons/ports/optional-input-connection-inactive.svg) Подключение (необязательный порт) – используется для указания папки, содержащей экспортируемый файл. Путь к папке задается в подключении "Файлы".
-* ![](../../media/app/icons/ports/table-inactive.svg) Источник данных - таблица данных, подлежащая экспорту.
-* ![](../../media/app/icons/ports/optional-input-variable-inactive.svg) [Управляющие переменные](../../scenario/variables/control_variables.md) (необязательный порт).
-* ![](../../media/app/icons/ports/input-connection-inactive.svg) [Подключение к источнику XSD-схемы](../connections/list/schemes.md) (обязательный порт).
+* ![](../../images/icons/ports/optional_input_connection_inactive.svg) Подключение (необязательный порт) – используется для указания папки, содержащей экспортируемый файл. Путь к папке задается в подключении "Файлы".
+* ![](../../images/icons/ports/input_table_inactive.svg) Источник данных - таблица данных, подлежащая экспорту.
+* ![](../../images/icons/ports/optional_input_variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт).
+* ![](../../images/icons/ports/input_connection_inactive.svg) [Подключение к источнику XSD-схемы](../connections/list/schemes.md) (обязательный порт).
 
 ## Мастер настройки
 
@@ -19,7 +19,7 @@
 
 * **Хранилище файлов** - выводит информацию о способе подключения к файлу-приемнику:
   * Локальное - подключение к локальному файлу через указание пути к файлу-приемнику в параметре "Имя файла";
-  * Подключение - используется [подключение к папке](../connections/list/files.md), содержащей файл-приемник. При этом задействуется ![](../../media/app/icons/ports/optional-input-connection-inactive.svg) порт.
+  * Подключение - используется [подключение к папке](../connections/list/files.md), содержащей файл-приемник. При этом задействуется ![](../../images/icons/ports/optional_input_connection_inactive.svg) порт.
 
 * **Имя файла** - задает путь к файлу-приемнику при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![](../../media/app/icons/toolbar-18/browse.svg) вызывает диалог выбора файла.
 

@@ -1,6 +1,4 @@
-# ![](../../../media/app/icons/vendors/xsdfilesconnection.svg) Подключение набора XSD-схем
-
-## Описание
+# ![](../../../images/icons/vendors/xsdfilesconnection.svg) Подключение набора XSD-схем
 
 Используется для подключения к файлам XSD-схем. Содержит параметры подключения к списку (набору) файлов.
 
@@ -8,14 +6,14 @@
 
 При настройке подключения формируется список путей к файлам XSD-схем. Панель инструментов диалога настройки содержит следующие команды:
 
-* ![](../../../media/app/icons/toolbar-18/toolbar-18-27.svg) **Добавить** - добавляет в список новый файл XSD-схемы, выбранный пользователем в диалоге выбора файла;
-* ![](../../../media/app/icons/toolbar-18/top.svg) ![](../../../media/app/icons/toolbar-18/down.svg) **Переместить вверх/вниз** - изменяет позицию выделенного элемента списка;
-* ![](../../../media/app/icons/toolbar-18/toolbar-18-28.svg) **Настроить** - открывает диалог выбора файла для редактирования пути к файлу XSD-схемы.
+* ![](../../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) **Добавить** - добавляет в список новый файл XSD-схемы, выбранный пользователем в диалоге выбора файла;
+* ![](../../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_moveup_default.svg) ![](../../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_movedown_default.svg) **Переместить вверх/вниз** - изменяет позицию выделенного элемента списка;
+* ![](../../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_edit_default.svg) **Настроить** - открывает диалог выбора файла для редактирования пути к файлу XSD-схемы.
 
 Команды списка:
 
-* ![](../../../media/app/icons/toolbar-18/toolbar-18-127.svg) **Удалить все...** - удаляет все позиции списка;
-* ![](../../../media/app/icons/toolbar-18/toolbar-18-8.svg) **Удалить** - удаляет выделенную позицию в списке.
+* ![](../../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete-all_default.svg) **Удалить все...** - удаляет все позиции списка;
+* ![](../../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) **Удалить** - удаляет выделенную позицию в списке.
 
 См. также:
 

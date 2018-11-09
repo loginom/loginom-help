@@ -4,7 +4,7 @@
 
 * ![](../../media/app/icons/ports/input-table-inactive.svg) Табличные данные;
 * ![](../../media/app/icons/ports/input-variable-inactive.svg) Переменные;
-* ![](../../media/app/icons/ports/input-connection-inactive.svg) Параметры подключения к источнику данных;
+* ![](../../images/icons/ports/input_connection_inactive.svg) Параметры подключения к источнику данных;
 * ![](../../media/app/icons/ports/input-model-inactive.svg) Структура данных не определена.
 
 Узлы Сценария принимают данные через входные порты, а отдают через выходные. Входные порты на пиктограмме узла сценария располагаются слева, а выходные справа (см. рисунок 1).

@@ -1,4 +1,4 @@
-# ![](../../media/app/icons/vendors/importtextfile.svg) Импорт из текстового файла
+# ![](../../images/icons/vendors/importtextfile.svg) Импорт из текстового файла
 
 ## Описание
 
@@ -6,12 +6,12 @@
 
 ### Вход
 
-* ![](../../media/app/icons/ports/input-connection-inactive.svg)   [Подключение](../connections/README.md) - принимает параметры подключения к базе данных.
-* ![](../../media/app/icons/ports/optional-input-variable-inactive.svg) [Управляющие переменные](../../scenario/variables/control_variables.md) (необязательный порт).
+* ![](../../images/icons/ports/input_connection_inactive.svg)   [Подключение](../connections/README.md) - принимает параметры подключения к базе данных.
+* ![](../../images/icons/ports/optional_input_variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт).
 
 ### Выход
 
-* ![](../../media/app/icons/ports/table-inactive.svg) Набор данных (таблица данных).
+* ![](../../images/icons/ports/input_table_inactive.svg) Набор данных (таблица данных).
 
 ## Мастер настройки
 

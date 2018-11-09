@@ -1,4 +1,4 @@
-# ![](../../media/app/icons/vendors/exportnative.svg) Экспорт в LGD-файл
+# ![](../../images/icons/vendors/exportnative.svg) Экспорт в LGD-файл
 
 ## Описание
 
@@ -12,9 +12,9 @@
 
 ### Вход
 
-* ![](../../media/app/icons/ports/optional-input-connection-inactive.svg) Подключение (необязательный порт) – используется для указания папки, содержащей экспортируемый файл. Путь к папке задается в подключении "Файлы".
-* ![](../../media/app/icons/ports/table-inactive.svg) Источник данных - таблица данных, подлежащая экспорту.
-* ![](../../media/app/icons/ports/optional-input-variable-inactive.svg) [Управляющие переменные](../../scenario/variables/control_variables.md) (необязательный порт).
+* ![](../../images/icons/ports/optional_input_connection_inactive.svg) Подключение (необязательный порт) – используется для указания папки, содержащей экспортируемый файл. Путь к папке задается в подключении "Файлы".
+* ![](../../images/icons/ports/input_table_inactive.svg) Источник данных - таблица данных, подлежащая экспорту.
+* ![](../../images/icons/ports/optional_input_variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт).
 
 ## Мастер настройки
 

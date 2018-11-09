@@ -1,4 +1,4 @@
-# ![](../../media/app/icons/vendors/importexcelfile.svg) Импорт из Excel-файла
+# ![](../../images/icons/vendors/importexcelfile.svg) Импорт из Excel-файла
 
 ## Описание
 
@@ -6,12 +6,12 @@
 
 ### Входные порты
 
-* ![](../../media/app/icons/ports/input-connection-inactive.svg)   [Подключение](../connections/README.md) - принимает параметры подключения к базе данных.
-* ![](../../media/app/icons/ports/optional-input-variable-inactive.svg) [Управляющие переменные](../../scenario/variables/control_variables.md) (необязательный порт).
+* ![](../../images/icons/ports/input_connection_inactive.svg)   [Подключение](../connections/README.md) - принимает параметры подключения к базе данных.
+* ![](../../images/icons/ports/optional_input_variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт).
 
 ### Выходные порты
 
-* ![](../../media/app/icons/ports/table-inactive.svg) Импортированная таблица.
+* ![](../../images/icons/ports/input_table_inactive.svg) Импортированная таблица.
 
 ## Мастер настройки
 
@@ -19,7 +19,7 @@
 
 * **Хранилище файлов** - выводит информацию о способе подключения к файлу-приемнику:
   * Локальное - подключение к локальному файлу через указание пути к файлу-приемнику в параметре "Имя файла";
-  * Подключение - используется [подключение к папке](../connections/list/files.md), содержащей файл-приемник. При этом задействуется ![](../../media/app/icons/ports/optional-input-connection-inactive.svg) порт.
+  * Подключение - используется [подключение к папке](../connections/list/files.md), содержащей файл-приемник. При этом задействуется ![](../../images/icons/ports/optional_input_connection_inactive.svg) порт.
 
 * **Имя файла** - задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![](../../media/app/icons/toolbar-18/browse.svg) вызывает диалог выбора файла.
 

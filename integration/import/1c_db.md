@@ -1,4 +1,4 @@
-# ![](../../media/app/icons/vendors/1cv8queryimport.svg) Импорт из 1C:Предприятие 8.x
+# ![](../../images/icons/vendors/1cv8queryimport.svg) Импорт из 1C:Предприятие 8.x
 
 ## Описание
 
@@ -14,12 +14,12 @@
 
 ### Входные порты
 
-* ![](../../media/app/icons/ports/input-connection-inactive.svg)   [Подключение](../connections/list/1c.md) - принимает параметры подключения к базе данных.
-* ![](../../media/app/icons/ports/optional-input-variable-inactive.svg) [Управляющие переменные](../../scenario/variables/control_variables.md) (необязательный порт) - переменными можно задать значения параметров мастера настройки.
+* ![](../../images/icons/ports/input_connection_inactive.svg)   [Подключение](../connections/list/1c.md) - принимает параметры подключения к базе данных.
+* ![](../../images/icons/ports/optional_input_variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) - переменными можно задать значения параметров мастера настройки.
 
 ### Выходные порты
 
-* ![](../../media/app/icons/ports/table-inactive.svg) Импортированная таблица.
+* ![](../../images/icons/ports/input_table_inactive.svg) Импортированная таблица.
 
 ## Мастер настройки
 
