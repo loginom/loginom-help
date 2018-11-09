@@ -55,7 +55,7 @@
     * [Тестовый файл](./integration/import/txt-csv.md)
   * [Экспорт данных](./integration/export/README.md)
     * [База данных](./integration/export/database.md)
-      * [Создание новой таблицы](./integration/export/database/new_table_design.md)
+      * [Создание новой таблицы](./integration/export/database/new-table-design.md)
     * [Текстовый файл](./integration/export/txt_csv.md)
       * [Пользовательский формат даты/времени](./integration/export/txt_csv/datetime_formats.md)
     * [Excel-файл](./integration/export/excel.md)
