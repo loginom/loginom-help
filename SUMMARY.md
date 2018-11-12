@@ -46,7 +46,7 @@
     * [PostgreSQL](./integration/connections/list/postgresql.md)
     * [SQLite](./integration/connections/list/sqlite.md)
     * [Набор XSD-схем](./integration/connections/list/schemes.md)
-    * [Подключение к веб-сервисам](./integration/connections/list/connecting-web-service.md)
+    * [Веб-сервис](./integration/connections/list/web-service.md)
   * [Импорт данных](./integration/import/README.md)
     * [1C:Предприятие 8.x](./integration/import/1c_db.md)
     * [Excel-файл](./integration/import/excel.md)
