@@ -40,7 +40,7 @@
 * T—статистика
 * P—value
 
-* ![](../../media/app/icons/ports/output-variable-inactive.svg — **Сводка**
+* ![](../../media/app/icons/ports/output-variable-inactive.svg) — **Сводка**
 
 Содержит следующие показатели:
 
