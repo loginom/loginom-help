@@ -28,7 +28,7 @@
 
 Начиная с версии XE3.
 
-Смотри также:
+**Смотри также:**
 
 * [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/Interbase)
 * [Официальный сайт разработчика](https://www.embarcadero.com/ru/products/interbase)
