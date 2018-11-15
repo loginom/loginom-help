@@ -1,7 +1,6 @@
 # ![](../../../images/icons/vendors/excelodbcunidacdbconnection.svg) Подключение MS Excel
 
 Используется для подключения к файлу Microsoft Excel как к базе данных.
-Для подключения к файлам  Microsoft Excel 2007 и выше (*.xlsx) в системе необходимо наличие установленных Microsoft Office 2007 и выше или [Microsoft Access Database Engine](https://www.microsoft.com/en-us/download/details.aspx?id=13255), совпадающих по разрядности с сервером Loginom.
 
 ## Параметры подключения
 
@@ -19,6 +18,12 @@
 * **Не использовать клиент СУБД** —  для Microsoft Excel изменение этого параметра не доступно;
 * **Очищать пул при деактивации** — очищает пул часто используемых в пакетной обработке и Integration Server пакетов, сохраненных для быстрого вызова, после деактивации узла. По умолчанию этот параметр отключен;
 * **Описание** — в этой форме можно оставить любую справочную информацию о подключении.
+
+## Совместимость
+
+Для подключения к файлам  Microsoft Excel 2007 и выше  (*.xlsx) в системе необходимо наличие совпадающих по разрядности с сервером Loginom компонентов:
+* Microsoft Excel 2007 и выше; 
+* [Microsoft Access Database Engine](https://www.microsoft.com/en-us/download/details.aspx?id=13255).
 
 **Смотри также:**
 
