@@ -58,7 +58,7 @@
     * [База данных](./integration/export/database.md)
       * [Создание новой таблицы](./integration/export/database/new-table-design.md)
     * [Текстовый файл](./integration/export/txt-csv.md)
-      * [Пользовательский формат даты/времени](./integration/export/txt-csv/datetime-formats.md)
+      * [Пользовательский формат дата/время](./integration/export/txt-csv/datetime-formats.md)
     * [Excel-файл](./integration/export/excel.md)
     * [LGD-файл](./integration/export/ldf.md)
     * [XML-файл](./integration/export/xml.md)

@@ -1,14 +1,15 @@
 # ![](../../images/icons/vendors/importxml.svg) Импорт из XML-файла
 
-Компонент предназначен для импорта таблиц данных из файлов формата XML. Для работы компонента необходимо подключение к [XSD-схеме](https://ru.wikipedia.org/wiki/XML_Schema), описывающей структуру импортируемых данных.
+Компонент предназначен для импорта таблиц данных из файлов формата XML.
+
+> **Важно:** Для работы узла требуется предварительно создать [подключение к XSD-схеме](../connections/list/schemes.md) и связать его с входным портом *Подключение*. Подключение происходит аналогично [подключению с БД](../../quick-start/database.md).
 
 ## Порты
 
 ### Вход
 
-* ![](../../images/icons/ports/optional_input_connection_inactive.svg) Подключение (необязательный порт) – используется для указания папки, содержащей экспортируемый файл. Путь к папке задается в подключении *Файлы*.
-* ![](../../images/icons/ports/optional_input_variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт).
-* ![](../../images/icons/ports/input_connection_inactive.svg) [Подключение к источнику XSD-схемы](../connections/list/schemes.md) (обязательный порт).
+* ![](../../images/icons/ports/optional_input_variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки;
+* ![](../../images/icons/ports/input_connection_inactive.svg) Подключение к источнику XSD-схемы (обязательный порт) — подключение настроенного ранее *Подключения к набору XSD-схем*.
 
 ### Выход
 
