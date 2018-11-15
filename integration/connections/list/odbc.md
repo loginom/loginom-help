@@ -20,21 +20,27 @@
 * **Описание** — в этой форме можно оставить любую справочную информацию о подключении.
 
 > **Важно:** Перед использованием драйвера ODBC его необходимо установить и настроить с помощью администратора источников данных ODBC Windows. Для некоторых источников данных этот драйвер находится в составе дистрибутива или поставляется отдельно.
->
-> Список разрешенных ODBC драйверов (версии драйверов могут различаться):
->
-> * Различные драйвера для SQL Server
-> * Microsoft Text Driver
-> * Firebird/InterBase® driver
-> * Microsoft Excel Driver (2 драйвера)
-> * Microsoft Access Driver (2 драйвера)
-> * Microsoft dBASE Driver
-> * Драйвера для Oracle
-> * SQLite3 ODBC Driver
-> * Драйвера для MySQL
-> * Microsoft Paradox Driver
-> * Microsoft Visual FoxPro Driver
-> * Драйвера для PostgreSQL
-> * Драйвера для Sybase/Adaptive Server Enterprise
-> 
-> Если драйвер не находится в данном списке, то настроить подключение к нему возможно только через выбор уже настроенного источника данных ODBC по кнопке ![](../../../media/app/icons/toolbar-18/browse.svg) в строке подключения. Задать строку подключения вручную при этом невозможно.
+
+Список разрешенных ODBC драйверов (версии драйверов могут различаться):
+
+* Различные драйвера для SQL Server
+* Microsoft Text Driver
+* Firebird/InterBase® driver
+* Microsoft Excel Driver (2 драйвера)
+* Microsoft Access Driver (2 драйвера)
+* Microsoft dBASE Driver
+* Драйвера для Oracle
+* SQLite3 ODBC Driver
+* Драйвера для MySQL
+* Microsoft Paradox Driver
+* Microsoft Visual FoxPro Driver
+* Драйвера для PostgreSQL
+* Драйвера для Sybase/Adaptive Server Enterprise
+
+Если драйвер не находится в данном списке, то настроить подключение к нему возможно только через выбор уже настроенного источника данных ODBC по кнопке ![](../../../media/app/icons/toolbar-18/browse.svg) в строке подключения. Задать строку подключения вручную при этом невозможно.
+
+Смотри также:
+
+* [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/ODBC)
+* [Сайт с описанием правил и примеров написания строк подключения](https://www.connectionstrings.com/)
+* [Примеры написания строк подключения к разным источникам данных](https://www.sqlmaestro.com/resources/all/anysql_maestro_connection_strings/)
