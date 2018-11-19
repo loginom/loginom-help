@@ -71,7 +71,7 @@
       * [Дата и время](./processors/transformation/trans-datatime.md)
         * [Строка форматирования](./processors/transformation/trans-datatime/syntax.md)
       * [Дополнение данных](./processors/transformation/supplementation.md)
-      * [Замена](./processors/transformation/substitution.md)
+      * [Замена](./processors/transformation/substitution/README.md)
         * [Замена по точному совпадению](./processors/transformation/substitution/exact-match.md)
         * [Параметры текстового файла таблицы замен](./processors/transformation/substitution/import-tz.md)
         * [Замена по регулярному выражению](./processors/transformation/substitution/regexp-match.md)

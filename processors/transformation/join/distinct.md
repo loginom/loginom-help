@@ -4,6 +4,6 @@ SQL-операторов аналогов данной операции нет. 
 
 %spoiler%Пример:%spoiler%
 
-![Пример](../../../media/app/processors/transformation/join/difference-example.png)
+![](./distinct-1.png)
 
 %/spoiler%
