@@ -93,7 +93,7 @@
         * [Разность](./processors/transformation/join/distinct.md)
       * [Соединение](./processors/transformation/addition.md)
       * [Сортировка](./processors/transformation/sorting.md)
-      * [Фильтр строк](./processors/transformation/row-filter.md)
+      * [Фильтр строк](./processors/transformation/row-filter/README.md)
         * [Условия фильтрации](./processors/transformation/row-filter/filter-conditions.md)
     * [Управление](./processors/control/README.md)
       * [Выполнение узла](./processors/control/execute-node.md)
