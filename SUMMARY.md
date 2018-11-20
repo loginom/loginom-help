@@ -75,7 +75,6 @@
         * [Замена по точному совпадению](./processors/transformation/substitution/exact-match.md)
         * [Параметры текстового файла таблицы замен](./processors/transformation/substitution/import-tz.md)
         * [Замена по регулярному выражению](./processors/transformation/substitution/regexp-match.md)
-        * [Синтаксис регулярного выражения](./processors/transformation/substitution/syntax-regexp.md)
       * [Калькулятор](./processors/transformation/calc/README.md)
         * [Выражение](./processors/transformation/calc/expression.md)
         * [JavaScript](./processors/transformation/calc/javascript.md)
