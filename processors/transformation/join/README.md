@@ -4,11 +4,11 @@
 
 Варианты слияния наборов:
 
-* [Полное соединение](./cross.md);
-* [Внутреннее соединение](./inner.md);
-* [Левое соединение](./left.md);
-* [Правое соединение](./right.md);
-* [Разность](./distinct.md).
+* ![](../../../images/icons/joindata/join-modes-join-full_default.svg) [Полное соединение](./cross.md);
+* ![](../../../images/icons/joindata/join-modes-join-inner_default.svg) [Внутреннее соединение](./inner.md);
+* ![](../../../images/icons/joindata/join-modes-join-left_default.svg) [Левое соединение](./left.md);
+* ![](../../../images/icons/joindata/join-modes-join-right_default.svg) [Правое соединение](./right.md);
+* ![](../../../images/icons/joindata/join-modes-join-diff_default.svg) [Разность](./distinct.md).
 
 За исключением способа [Разность](./distinct.md), каждый из перечисленных способов слияния является аналогом определенного типа соединения в языке запросов SQL.
 

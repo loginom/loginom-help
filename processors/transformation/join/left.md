@@ -1,4 +1,4 @@
-# ![Левое соединение](../../../media/app/processors/transformation/joins-09.svg) Левое соединение
+# ![Левое соединение](../../../images/icons/joindata/join-modes-join-left_default.svg) Левое соединение
 
 Аналогом данного вида слияния является SQL-оператор `LEFT JOIN`. Левой таблицей является основной набор данных.
 

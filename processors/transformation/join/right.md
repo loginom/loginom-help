@@ -1,4 +1,4 @@
-# ![Правое соединение](../../../media/app/processors/transformation/joins-08.svg) Правое соединение
+# ![Правое соединение](../../../images/icons/joindata/join-modes-join-right_default.svg) Правое соединение
 
 Аналогом данного вида слияния является SQL-оператор `RIGHT JOIN`.
 

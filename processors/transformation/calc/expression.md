@@ -1,4 +1,4 @@
-# Выражение
+# ![](../../../images/icons/calcdata/calc-modes-expression_default.svg) Выражение
 
 Выражение может содержать:
 

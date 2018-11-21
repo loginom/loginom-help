@@ -1,4 +1,4 @@
-# ![Полное слияние](../../../media/app/processors/transformation/joins-03.svg) Полное соединение
+# ![Полное слияние](../../../images/icons/joindata/join-modes-join-full_default.svg) Полное соединение
 
 Аналогом данного способа слияния являются SQL-операторы `CROSS JOIN` и `FULL JOIN`.
 
