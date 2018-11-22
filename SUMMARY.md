@@ -68,7 +68,7 @@
   * [Обработчики](./processors/README.md)
     * [Трансформация](./processors/transformation/README.md)
       * [Группировка](./processors/transformation/grouping.md)
-      * [Дата и время](./processors/transformation/trans-datatime.md)
+      * [Дата и время](./processors/transformation/trans-datatime/README.md)
         * [Строка форматирования](./processors/transformation/trans-datatime/syntax.md)
       * [Дополнение данных](./processors/transformation/supplementation.md)
       * [Замена](./processors/transformation/substitution.md)
