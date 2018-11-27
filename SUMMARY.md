@@ -160,7 +160,7 @@
     * [Фильтрация](./visualization/table/filter.md)
     * [Формат](./visualization/table/format.md)
     * [Поиск](./visualization/table/search.md)
-    * [Сортировка](./visualization/table/sorting.md)
+    * [Настройка сортировки](./visualization/table/sorting.md)
   * [Диаграмма](./visualization/chart/README.md)
     * [Общие настройки](./visualization/chart/general-settings.md)
     * [Настройки осей](./visualization/chart/axis-settings.md)
