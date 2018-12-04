@@ -1,6 +1,6 @@
 # SUMMARY
 
-* [Аналитическая платформа](./README.md)
+* [Главная](./README.md)
 * [Начало работы](./quick-start/README.md)
   * [Назначение и структура пакета](./quick-start/package.md)
   * [Первый сценарий](./quick-start/first-scenario.md)
