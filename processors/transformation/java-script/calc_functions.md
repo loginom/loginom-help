@@ -1,0 +1,31 @@
+# ![](../../../media/app/icons/component-18/component-default-55.svg) Импорт функций Калькулятора
+
+В коде JavaScript возможно использование [функций компонента Калькулятор](../../func/calc-func/README.md). Для этого используются объект 'builtIn/Calc'. Доступны все функции, включая реализованные в плагинах, за исключением следующих: IF, IFF и функций работы со входными данными (Data, RowNum, RowCount, DisplayName, CumulativeSum).
+
+Примеры импорта функций:
+
+```javascript
+/* Импорт всех функций */
+import calc from 'builtIn/Calc';
+import * as calcNS from 'builtIn/Calc';
+OutputTable.Append();
+OutputTable.Set(0, calc.Val("1"));
+OutputTable.Set(1, calc.Str(1e6));
+OutputTable.Append();
+OutputTable.Set(0, calcNS.Count("AAA"));
+OutputTable.Set(1, calcNS.Lower("AAA"));
+
+/* Импорт конкретных функций */
+import { RegExMatchCount, RegExMatchedExp } from 'builtIn/Calc';
+OutputTable.Append();
+OutputTable.Set(0, RegExMatchCount("a+?", "aaa"));
+OutputTable.Set(1, RegExMatchedExp("a+", "aaa"));
+
+
+/* Динамический импорт */
+import("builtIn/Calc").then(calc => {
+    OutputTable.Append();
+    OutputTable.Set(0, calc.Sum2(1, 1)); // Можно использовать функции из дополнительных плагинов Калькулятора
+    OutputTable.Set(1, calc.Repeat(1, 10));
+})
+```
