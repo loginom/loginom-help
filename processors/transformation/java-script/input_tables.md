@@ -9,10 +9,13 @@
 
 ```javascript
     readonly Columns: IColumns;         // Столбцы источника данных
-    readonly ColumnCount: number;       // количество столбцов источника данных
-    readonly RowCount: number;          // количество строк источника данных
-    Get(row: number, col: number | string): boolean | number | string | Date | undefined;   // Метод, возвращающий значение заданного поля в заданной строке
-    IsNull(row: number, col: number | string): boolean;                                     // Метод, проверяющий на Null значение заданного поля в заданной строке
+    readonly ColumnCount: number;       // Количество столбцов источника данных
+    readonly RowCount: number;          // Количество строк источника данных
+    
+    // Метод Get возвращает значение заданного поля в заданной строке
+    Get(row: number, col: number | string): boolean | number | string | Date | undefined;
+    // Метод IsNull проверяет на Null значение заданного поля в заданной строке
+    IsNull(row: number, col: number | string): boolean;
 ```
 
 подробное описание которых см. в [Полное описание API](./api_description.md).

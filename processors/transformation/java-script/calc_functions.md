@@ -1,6 +1,9 @@
 # ![](../../../media/app/icons/component-18/component-default-55.svg) Импорт функций Калькулятора
 
-В коде JavaScript возможно использование [функций Калькулятора](../../func/calc-func/README.md). Для этого используется встроенный модуль 'builtIn/Calc'. Доступны все функции, включая реализованные в плагинах, за исключением следующих: IF, IFF и функций работы со входными данными (Data, RowNum, RowCount, DisplayName, CumulativeSum).
+В коде JavaScript возможно использование [функций Калькулятора](../../func/calc-func/README.md). Для этого используется встроенный модуль 'builtIn/Calc'. Доступны все функции, включая реализованные в плагинах, за исключением следующих: 
+
+- IF, IFF — имеется аналог в JS: *IF (<условие>) {...}*;
+- функций работы со входными данными (Data, RowNum, RowCount, DisplayName, CumulativeSum) — имеются аналоги в API (RowCount, DisplayName) или легко реализуются кодом JS.
 
 Примеры использования функций:
 
@@ -25,7 +28,8 @@ OutputTable.Set(1, RegExMatchedExp("a+", "aaa"));
 /* Динамический импорт */
 import("builtIn/Calc").then(calc => {
     OutputTable.Append();
-    OutputTable.Set(0, calc.Sum2(1, 1)); // Можно использовать функции из дополнительных плагинов Калькулятора
-    OutputTable.Set(1, calc.Repeat(1, 10));
+    OutputTable.Set(0, calc.Repeat(1, 10));
+    // Можно использовать функции из дополнительных плагинов Калькулятора
+    OutputTable.Set(1, calc.MyFunction(1, 1));
 })
 ```
