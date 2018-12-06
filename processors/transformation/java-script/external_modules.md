@@ -1,10 +1,15 @@
 # ![](../../../media/app/icons/component-18/component-default-55.svg) Импорт внешних модулей
 
-Поддерживаются динамический и статический импорт модулей.
+## Модульные системы
+
+Поддерживаются модульные системы ES6 (ECMAScript 6) и CommonJS. Код обработчика является корневым модулем системы ES6.
+В модулеях ES6 поддерживается статический и динамический импорт модулей ES6, для вызова модуля CommonJS применяется функция **require**.
 
 %spoiler%Примеры:%spoiler%
 
 ```javascript
+/* Модульная система ECMAScript 6 */
+
 // Статический импорт
 import { cube, sayHello } from 'foo/foo.js';
 // добавляем строку в выходной набор
@@ -31,17 +36,88 @@ import("foo/foo.js").then(mod => {
      OutputTable.Append();
      OutputTable.Set(0, mod.cube(3));
      OutputTable.Set(1, mod.sayHello());
-}).catch(error => {                       // При использовании Promise неперехваченные в блоке **catch**
-      OutputTable.Append();               // ошибки записываются в лог сервера, но выполнение узла при этом
-      OutputTable.Set(1, error.message);  // продолжается без сообщений об ошибке.
+      // При использовании Promise неперехваченные ошибки
+      // записываются в лог сервера, но выполнение узла при этом
+      // продолжается без сообщений об ошибке.
+}).catch(error => {
+      OutputTable.Append();
+      OutputTable.Set(1, error.message);  
 });
+
+/* Модульная система CommonJS */
+
+// Исполняемый код:
+var inc = require('foo/increment.js').increment;
+var a = 1;
+OutputTable.Append();
+OutputTable.Set(1, inc(a));  
+
+// модуль increment.js:
+var add = require('./module/mymath.js').add;
+exports.increment = function(val) {
+    return add(val, 1);
+};
+
+// модуль mymath.js:
+exports.add = function() {
+    var sum = 0, i = 0, args = arguments, l = args.length;
+    while (i < l) {
+        sum += args[i++];
+    }
+    return sum;
+};
 ```
 
 %/spoiler%
 
-Пути импорта внешних модулей могут быть относительными или абсолютными внутри файлового хранилища.
+Внешние модули могут быть в кодировке UTF-8 или "UTF-16 Little Endian с BOM".
 
-## На сервере Loginom
+Работа модулей CommonJS реализована в соответствии со [спецификацией](http://wiki.commonjs.org/wiki/Modules/1.1.1), за следующими отличиями:
+
+- Необязательные свойства require.main, require.paths и module.uri отсутствуют;
+- Добавлены необязательные свойства require.resolve и require.cache (как в NodeJS).
+- Объект модуля имеет свойства parent, loaded и filename (как в NodeJS).
+- Из модуля доступна глобальная переменная __filename, хранящая абсолютный путь к модулю внутри файлового хранилища.
+
+%spoiler%Пример%spoiler%
+
+```javascript
+// Исполняемый код:
+// require.resolve:
+// - на сервере Loginom возвращает полный путь модуля в файловом хранилище
+// - в Desktop версии возвращает полный путь модуля в файловой системе
+var myModulPath = require.resolve('foo/mymodul.js');
+console.log(myModulPath);
+// Вызов модуля системы CommonJS
+var myModul = require('foo/mymodul.js').mymodul;
+console.log(myModul.filename);
+console.log(myModul.parent);
+console.log(myModul.loaded);
+// Очищается кэш модуля 'foo/mymodul.js'
+delete require.cache[myModulPath];
+// и модуль вызывается повторно,
+// в результате чего повтороно выводится "Hello! I am ... ".
+// Без очистки кэша этого не происходит
+var myModul2 = require('foo/mymodul.js').mymodul;
+
+// mymodul.js:
+console.log("Hello! I am " + __filename);
+o = new Object();
+o.filename = module.filename; // возвращает полный путь к mymodul.js
+o.parent = module.parent.id;  // возвращает идентификатор вызывающего модуля
+o.loaded = module.loaded;     // возвращает true или false - был ли загружен модуль
+exports.mymodul = o;
+```
+
+%/spoiler%
+
+Из модулей CommonJS можно загружать только модули CommonJS.
+
+## Пути импорта внешних модулей
+
+Пути импорта могут быть относительными или абсолютными внутри файлового хранилища.
+
+### На сервере Loginom
 
 Абсолютный путь обязательно начинается с "/" и считается от каталога пользователя.
 
@@ -61,7 +137,7 @@ import { cube, foo, sayHello } from '/user/data/JavaScript/foo/foo.js';
 import { cube, foo, sayHello } from 'foo/foo.js';
 ```
 
-## В Desktop версии
+### В Desktop версии
 
 Абсолютный путь файла в системе (основной способ). Пример:
 
@@ -84,11 +160,11 @@ import { cube, foo, sayHello } from 'file:///C:/Users/Administrator/Desktop/Java
 import { cube, foo, sayHello } from 'foo/foo.js';
 ```
 
-## Иерархический импорт модулей
+### Иерархический импорт модулей
 
-Из загружаемых модулей так же может производится импорт других модулей. При этом используются описанные выше правила.
+Из загружаемых модулей может производится импорт других модулей. При этом используются описанные выше правила.
 
-Пример:
+%spoiler%Пример%spoiler%
 
 ```javascript
 // исполняемый в узле код (корневой модуль)
@@ -115,6 +191,8 @@ function sayHello() {
 }
 export { sayHello };
 ```
+
+%/spoiler%
 
 > **Примечание:**
 >
