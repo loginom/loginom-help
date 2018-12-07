@@ -18,7 +18,7 @@ Get(row: number, col: number | string): boolean | number | string | Date | undef
 IsNull(row: number, col: number | string): boolean;
 ```
 
-подробное описание которых см. в [Полное описание API](./api_description.md).
+подробное описание которых см. в [Полное описание API](./api-description.md).
 
 Примеры:
 

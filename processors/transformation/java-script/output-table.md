@@ -17,7 +17,7 @@ Append(): void;
 Set(col: number | string, value: boolean | number | string | Date | null | undefined): void;
 ```
 
-подробное описание которых см. в [Полное описание API](./api_description.md).
+подробное описание которых см. в [Полное описание API](./api-description.md).
 
 Примеры:
 
