@@ -3,8 +3,8 @@
 Для доступа к входным переменным используются объект InputVariables, для которого определены следующие свойства:
 
 ```javascript
-    readonly Items: IVariableItems;     // переменные входного порта
-    readonly Count: number;             // количество переменных входного порта
+readonly Items: IVariableItems;     // переменные входного порта
+readonly Count: number;             // количество переменных входного порта
 ```
 
 подробное описание которых см. в [Полное описание API](./api_description.md).
@@ -24,13 +24,13 @@ for (var i = 0; i < InputVariables.Count; i++) {
     // Обращение к переменной по имени
     var xName = InputVariables.Items[i].Name;
     console.log(InputVariables.Items[xName].Value);
-}
+};
 
 // Другой вариант перебора:
 for (var Variable of InputVariables.Items) {
     console.log(Variable.Name);
     console.log(Variable.Value);
-}
+};
 
 // Еще вариант перебора:
 var varArray = Array.from(InputVariables.Items);
@@ -46,16 +46,16 @@ console.log(InputVariables.Items.CLASS.Value);
 // Вывод свойств переменных:
 for (var prop in InputVariables.Items) {
     console.log(prop);
-}
+};
 
 // Вывод свойств переменной с индексом 0:
 for (var prop in InputVariables.Items[0]) {
     console.log(prop);
-}
+};
 
 // Проверка существования переменной 'MyVar'
 if (InputVariables.Items.MyVar) {
-console.log("Переменная существует");
-   }
+    console.log("Переменная существует");
+};
 
 ```

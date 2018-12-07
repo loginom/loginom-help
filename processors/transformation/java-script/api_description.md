@@ -6,13 +6,13 @@ const InputTables: IDataSource[];   // Массив входных источн�
 const OutputTable: IOutputTable;    // Выходной набор данных
 const InputVariables: IVariables;   // Входные переменные
 
-// Перечисления, описывающие метаданные полей и переменных
+// Перечисления описывающие метаданные полей и переменных
 enum DataType { None, Boolean, DateTime, Float, Integer, String, Variant }  // Тип данных
 enum DataKind { Undefined, Continuous, Discrete }                           // Вид данных
 enum UsageType { Unspecified, Excluded, Useless, Active,                    // Назначение полей
                  Predicted, Key, Group, Value, Transaction, Item }
 
-// Представление столбцов наборов данных
+// Представление столбцов набора данных
 interface IColumn extends Iterable<boolean | number | string | Date | undefined> {
     readonly Index: number;                                                 // Индекс
     readonly Name: string;                                                  // Имя
@@ -75,4 +75,46 @@ interface IVariables {
     readonly Items: IVariableItems;
     readonly Count: number;
 }
+
+// require применяется для импорта модулей CommonJS
+const require: IRequire;
+
+// Представление модуля
+interface IModule {
+    readonly id: string;                                                    // идентификатор
+    parent?: this;                                                          // вызывающий модуль
+    filename?: string;                                                      // полный путь к модулю
+    loaded: boolean;                                                        // загружен ли модуль полностью
+    exports: any;                                                           // экспортируемый объект
+}
+
+// функция require принимает идентификатор модуля и возвращает свойство модуля exports
+interface IRequireFunction {
+    (id: string): any;
+}
+
+interface IRequire extends IRequireFunction  {
+    // функция resolve возвращает полный путь к модулю
+    resolve: (id: string) => string;
+    // массив закэшированных модулей
+    cache: { [resolvedId: string]: IModule] }
+}
+
+// Глобальный объект console
+var console: Console;
+
+interface Console {
+     // Метод assert выводит в консоль сообщение, если первый аргумент false
+    assert(condition?: boolean, ...data: any[]): void;
+    // Метод error выводит сообщение об ошибке
+    error(...data: any[]): void;
+    // Методы warn выводит предупреждающее сообщение
+    warn(...data: any[]): void;
+    // Методы info и log выводят информационное сообщение
+    info(...data: any[]): void;
+    log(...data: any[]): void;
+    // Метод clear очищает консоль вывода сообщений в окне предпросмотра
+    clear(): void;
+}
+
 ```

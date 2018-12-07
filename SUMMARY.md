@@ -101,7 +101,7 @@
         * [Входные переменные](./processors/transformation/java-script/input_variables.md)
         * [Выходной набор](./processors/transformation/java-script/output_table.md)
         * [Перечисления](./processors/transformation/java-script/enum.md)
-        * [Функциии Калькулятора](./processors/transformation/java-script/calc_functions.md)
+        * [Функции Калькулятора](./processors/transformation/java-script/calc_functions.md)
         * [Консоль отладки кода](./processors/transformation/java-script/console.md)
         * [Описание API](./processors/transformation/java-script/api_description.md)
     * [Управление](./processors/control/README.md)
