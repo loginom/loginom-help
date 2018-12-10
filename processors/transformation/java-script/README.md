@@ -38,8 +38,8 @@
 
 Для доступа к данным портов и другим встроенным объектам в контексте выполнения JavaScript-кода предусмотрены следующие объекты:
 
-* [Входные наборы данных](./input-tables.md) (InputTables, InputTable);
-* [Входные переменные](./input-variables.md) (InputVariables);
-* [Выходной набор данных](./output-table.md) (OutputTable);
-* [Необходимые перечисления](./enum.md) (DataType, DataKind, UsageType);
-* [Встроенный модуль с функциями Калькулятора](./calc-functions.md) (доступен как "builtIn/Calc").
+* [Входные наборы данных](./input-tables.md) (`InputTables`, `InputTable`);
+* [Входные переменные](./input-variables.md) (`InputVariables`);
+* [Выходной набор данных](./output-table.md) `(OutputTable`);
+* [Необходимые перечисления](./enum.md) (`DataType`, `DataKind`, `UsageType`);
+* [Встроенный модуль с функциями Калькулятора](./calc-functions.md) (доступен как `builtIn/Calc`).
