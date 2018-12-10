@@ -161,15 +161,6 @@ export { sayHello };
 
 ### На сервере Loginom
 
-Абсолютный путь обязательно начинается с "/" и считается от каталога пользователя.
-
-Пример:
-
-```javascript
-// импортируем функции из внешнего модуля foo.js
-import { cube, foo, sayHello } from '/user/data/JavaScript/foo/foo.js';
-```
-
 Если путь не начинается с "/", то он интерпретируется как относительный путь.
 
 Пример:
@@ -179,21 +170,16 @@ import { cube, foo, sayHello } from '/user/data/JavaScript/foo/foo.js';
 import { cube, foo, sayHello } from 'foo/foo.js';
 ```
 
+Абсолютный путь обязательно начинается с "/" и считается от каталога пользователя.
+
+Пример:
+
+```javascript
+// импортируем функции из внешнего модуля foo.js
+import { cube, foo, sayHello } from '/user/data/JavaScript/foo/foo.js';
+```
+
 ### В Desktop версии
-
-Абсолютный путь файла в системе (основной способ). Пример:
-
-```javascript
- // В пути используется только прямой слеш - "/"
- import { cube, foo, sayHello } from 'C:/Users/Administrator/Desktop/JavaScript/foo/foo.js';
-```
-
-URI вида "file:///<абсолютный путь>". Пример:
-
-```javascript
-// В пути используется только прямой слеш - "/"
-import { cube, foo, sayHello } from 'file:///C:/Users/Administrator/Desktop/JavaScript/foo/foo.js';
-```
 
 Относительный путь. Пример:
 
@@ -201,3 +187,22 @@ import { cube, foo, sayHello } from 'file:///C:/Users/Administrator/Desktop/Java
 // Так же возможен вариант './foo/foo.js'
 import { cube, foo, sayHello } from 'foo/foo.js';
 ```
+
+Абсолютный путь файла в системе. Пример:
+
+```javascript
+  import { cube, foo, sayHello } from 'C:/Users/Administrator/Desktop/JavaScript/foo/foo.js';
+```
+
+URI вида "file:///<абсолютный путь>". Пример:
+
+```javascript
+import { cube, foo, sayHello } from 'file:///C:/Users/Administrator/Desktop/JavaScript/foo/foo.js';
+```
+
+> **Примечание:** В Desktop версии и на сервере Loginom вместо прямого слеша ("/") в пути можно применять обратный ("\\"), однако обратный слеш должен быть экранирован.
+> Примеры:
+>
+> Абсолютный путь: `'\\user\\data\\JavaScript\\foo\\foo.js'`
+>
+> Относительный путь: `'foo\\foo.js'`
