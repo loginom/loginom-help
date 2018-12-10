@@ -1,6 +1,6 @@
 # ![](../../../media/app/icons/component-18/component-default-55.svg) Полное описание API
 
-```typescript
+```ts
 const InputTable: IDataSource;      // Источник данных с первого порта
 const InputTables: IDataSource[];   // Массив входных источников данных
 const OutputTable: IOutputTable;    // Выходной набор данных
