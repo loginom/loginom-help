@@ -23,12 +23,12 @@ IsNull(row: number, col: number | string): boolean;
 Примеры:
 
 ```javascript
-var xInputDataSource = InputTables;                     // Источник данных с порта №1
+var xInputDataSource = InputTable;                      // Источник данных с порта №1
 var xInputDataSource0 = InputTables[0];                 // Источник данных с порта №1
 var xInputDataSource1 = InputTables[1];                 // Источник данных с порта №2
-var xOutlookCol = xInputDataSource0.Columns.OUTLOOK;    // Получение ссылки на столбец по имени
-var xOutlookCol = InputTable.Columns["OUTLOOK"]);       // тоже самое
-var xOutlookCol = InputTable.Columns[0]);               // Получение ссылки на столбец по индексу
+var xOutlookCol = xInputDataSource.Columns.OUTLOOK;     // Получение ссылки на столбец по имени
+var xOutlookCol = xInputDataSource0.Columns["OUTLOOK"]);// тоже самое
+var xOutlookCol = xInputDataSource1.Columns[0]);        // Получение ссылки на столбец по индексу
 
 // Перебор столбцов и вывод их свойств в консоль
 var colArray = Array.from(InputTable.Columns);
