@@ -15,12 +15,13 @@ readonly Count: number;             // количество переменных
 // Перебор переменных входного порта и вывод в консоль их свойств:
 for (var i = 0; i < InputVariables.Count; i++) {
     // Обращение к переменной по индексу
-    console.log(InputVariables.Items[i].Value);
-    console.log(InputVariables.Items[i].Name);
-    console.log(InputVariables.Items[i].Index);
-    console.log(InputVariables.Items[i].DisplayName);
-    console.log(InputVariables.Items[i].DataType);
-    console.log(InputVariables.Items[i].IsNull);
+    let variable = InputVariables.Items[i];
+    console.log(variable.Value);
+    console.log(variable.Name);
+    console.log(variable.Index);
+    console.log(variable.DisplayName);
+    console.log(variable.DataType);
+    console.log(variable.IsNull);
 };
 
 // Другой вариант перебора:
