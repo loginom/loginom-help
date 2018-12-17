@@ -23,12 +23,11 @@ IsNull(row: number, col: number | string): boolean;
 Примеры:
 
 ```javascript
-var xInputDataSource = InputTable;                      // Источник данных с порта №1
-var xInputDataSource0 = InputTables[0];                 // Источник данных с порта №1
-var xInputDataSource1 = InputTables[1];                 // Источник данных с порта №2
-var xOutlookCol = xInputDataSource.Columns.OUTLOOK;     // Получение ссылки на столбец по имени
-var xOutlookCol = xInputDataSource0.Columns["OUTLOOK"]);// тоже самое
-var xOutlookCol = xInputDataSource1.Columns[0]);        // Получение ссылки на столбец по индексу
+var xInputDataSource0 = InputTables[0];                  // Источник данных с порта №1
+var xInputDataSource1 = InputTables[1];                  // Источник данных с порта №2
+var xOutlookCol0 = xInputDataSource0.Columns.OUTLOOK;     // Получение ссылки на столбец по имени
+var xOutlookCol0 = xInputDataSource0.Columns["OUTLOOK"]); // тоже самое
+var xOutlookCol1 = xInputDataSource1.Columns[1]);         // Получение ссылки на столбец по индексу
 
 // Перебор столбцов и вывод их свойств в консоль
 var colArray = Array.from(InputTable.Columns);
@@ -51,8 +50,8 @@ array.forEach(val => {
 // Использование метода Get
 var InputTableRowCount = InputTable.RowCount;
 for (var i = 0; i < InputTableRowCount; i++) {
-    console.log(InputTable.Get(i, 0));          // Вывод значений столбца с индексом 0
-    console.log(InputTable.Get(i, "CLASS"));    // Вывод значений столбца с именем 'CLASS'
+    console.log(InputTable.Get(i, 0));                  // Вывод значений столбца с индексом 0
+    console.log(InputTable.Get(i, "CLASS"));            // Вывод значений столбца с именем 'CLASS'
 };
 
 ```
