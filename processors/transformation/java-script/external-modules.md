@@ -86,27 +86,25 @@ exports.add = function() {
 // require.resolve:
 // - на сервере Loginom возвращает полный путь модуля в файловом хранилище
 // - в Desktop версии возвращает полный путь модуля в файловой системе
-var myModulPath = require.resolve('foo/mymodul.js');
-console.log(myModulPath);
+let xPath = require.resolve('child_module.js');
+console.log(xPath);
 // Вызов модуля системы CommonJS
-var myModul = require('foo/mymodul.js').mymodul;
-console.log(myModul.filename);
-console.log(myModul.parent);
-console.log(myModul.loaded);
-// Очищается кэш модуля 'foo/mymodul.js'
-delete require.cache[myModulPath];
+let xChildModule = require('child_module.js');
+console.log(xChildModule.filename);
+console.log(xChildModule.parent);
+console.log(xChildModule.loaded);
+// Очищается кэш модуля 'child_module.js'
+delete require.cache[path];
 // и модуль вызывается повторно,
 // в результате чего повтороно выводится "Hello! I am ... ".
 // Без очистки кэша этого не происходит
-var myModul2 = require('foo/mymodul.js').mymodul;
+require('child_module.js');
 
-// mymodul.js:
+// child_module.js:
 console.log("Hello! I am " + __filename);
-o = new Object();
-o.filename = module.filename; // возвращает полный путь к mymodul.js
-o.parent = module.parent.id;  // возвращает идентификатор вызывающего модуля
-o.loaded = module.loaded;     // возвращает true или false - был ли загружен модуль
-exports.mymodul = o;
+exports.filename = module.filename; // возвращает полный путь к child_module.js
+exports.parent = module.parent.id;  // возвращает идентификатор вызывающего модуля
+exports.loaded = module.loaded;     // возвращает true или false - был ли загружен модуль
 ```
 
 %/spoiler%
