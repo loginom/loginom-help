@@ -34,7 +34,7 @@ OutputTable.Set(2, OutputTable.RowCount);
 OutputTable.Set(3, OutputTable.ColumnCount);
 // Запись имени столбца выходного набора
 OutputTable.Set(4, OutputTable.Columns[4].Name);
-// Запись Null
+// Запись пропущенного значения
 OutputTable.Set(5, undefined);
 
 // Добавление следующей строки в выходной набор
