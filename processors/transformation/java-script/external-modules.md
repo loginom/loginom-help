@@ -96,7 +96,7 @@ console.log(xChildModule.loaded);
 // Очищается кэш модуля 'child_module.js'
 delete require.cache[path];
 // и модуль вызывается повторно,
-// в результате чего повтороно выводится "Hello! I am ... ".
+// в результате чего повторно выводится "Hello! I am ... ".
 // Без очистки кэша этого не происходит
 require('child_module.js');
 
