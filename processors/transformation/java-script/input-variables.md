@@ -27,16 +27,16 @@ for (var i = 0; i < InputVariables.Count; i++) {
 };
 
 // Другой вариант перебора:
-for (var Variable of InputVariables.Items) {
-    console.log(Variable.Name);
-    console.log(Variable.Value);
+for (var xVariable of InputVariables.Items) {
+    console.log(xVariable.Name);
+    console.log(xVariable.Value);
 };
 
 // Еще вариант перебора:
 var varArray = Array.from(InputVariables.Items);
-varArray.forEach(variable => {
-    console.log(variable.Name);
-    console.log(Variable.Value);
+varArray.forEach(xVariable => {
+    console.log(xVariable.Name);
+    console.log(xVariable.Value);
 });
 
 // Обращение к переменной по имени:
