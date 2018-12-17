@@ -12,7 +12,7 @@ readonly Count: number;             // количество переменных
 Примеры:
 
 ```javascript
-// Перебор переменных входного порта и вывод в консоль их значений и свойств:
+// Перебор переменных входного порта и вывод в консоль их свойств:
 for (var i = 0; i < InputVariables.Count; i++) {
     // Обращение к переменной по индексу
     console.log(InputVariables.Items[i].Value);
@@ -21,9 +21,6 @@ for (var i = 0; i < InputVariables.Count; i++) {
     console.log(InputVariables.Items[i].DisplayName);
     console.log(InputVariables.Items[i].DataType);
     console.log(InputVariables.Items[i].IsNull);
-    // Обращение к переменной по имени
-    var xName = InputVariables.Items[i].Name;
-    console.log(InputVariables.Items[xName].Value);
 };
 
 // Другой вариант перебора:
