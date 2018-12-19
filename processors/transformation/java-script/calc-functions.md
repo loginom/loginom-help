@@ -8,28 +8,37 @@
 Примеры использования функций:
 
 ```javascript
-/* Импорт всех функций */
-import calc from 'builtIn/Calc';
-import * as calcNS from 'builtIn/Calc';
-OutputTable.Append();
-OutputTable.Set(0, calc.Val("1"));
-OutputTable.Set(1, calc.Str(1e6));
-OutputTable.Append();
-OutputTable.Set(0, calcNS.Count("AAA"));
-OutputTable.Set(1, calcNS.Lower("AAA"));
+import { OutputTable } from "builtIn/Data";
 
-/* Импорт конкретных функций */
+// Импорт модуля функцией require
+const calcModule = require("builtIn/Calc");
+OutputTable.Append();
+let currentDate = new Date();
+OutputTable.Set(0, calcModule.AddWeek(currentDate, 1));
+OutputTable.Set(1, calcModule.AddQuarter(currentDate, -1));
+
+// Импорт через значение по умолчанию
+import calcDefault from 'builtIn/Calc';
+OutputTable.Append();
+OutputTable.Set(0, calcDefault.Val("1"));
+OutputTable.Set(1, calcDefault.Str(1e6));
+
+// Импорт всего содержимого модуля
+import * as calc from 'builtIn/Calc';
+OutputTable.Append();
+OutputTable.Set(0, calc.Count("AAA"));
+OutputTable.Set(1, calc.Lower("AAA"));
+
+// Импорт конкретных функций
 import { RegExMatchCount, RegExMatchedExp } from 'builtIn/Calc';
 OutputTable.Append();
 OutputTable.Set(0, RegExMatchCount("a+?", "aaa"));
 OutputTable.Set(1, RegExMatchedExp("a+", "aaa"));
 
-
-/* Динамический импорт */
+// Динамический импорт
 import("builtIn/Calc").then(calc => {
     OutputTable.Append();
     OutputTable.Set(0, calc.Repeat(1, 10));
-    // Можно использовать функции из дополнительных плагинов Калькулятора
-    OutputTable.Set(1, calc.MyFunction(1, 1));
 });
+
 ```
