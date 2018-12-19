@@ -7,65 +7,81 @@
 
 %spoiler%Примеры:%spoiler%
 
-```javascript
-/* Модульная система ECMAScript 6 */
+**Модульная система ECMAScript 6**
 
+Внешний модуль "./foo/module/module.js":
+
+```javascript
+function sayHello() {
+    return "Hello";
+}
+export { sayHello };
+```
+
+Внешний модуль "./foo/foo.js":
+
+```javascript
+import { sayHello } from "./module/module.js";
+function cube(x) {
+    return x * x * x;
+}
+export { cube, sayHello };
+```
+
+Использование модулей в коде узла JavaSript:
+```javascript
 // Статический импорт
-import { cube, sayHello } from 'foo/foo.js';
-// добавляем строку в выходной набор
-OutputTable.Append();
-// устанавливаем значение поля 'ID' равным результату импортированной функции cube(3)
-OutputTable.Set('ID', cube(3));
-// устанавливаем значение поля 'Str' равным результату импортированной функции sayHello()
-OutputTable.Set('Str', sayHello());
+import { cube, sayHello } from "foo/foo.js";
+console.log(sayHello());
+console.log('3^3 = ', cube(3));
 
 // Динамический импорт
+import("foo/foo.js").then(mod => {
+     console.log(mod.sayHello());
+     console.log('3^3 = ', mod.cube(3));
+}).catch(e => {
+     console.error(e);
+});
+// или
 (async () => {
      try {
         const mod = await import("foo/foo.js");
-        OutputTable.Append();
-        OutputTable.Set(0, mod.cube(3));
-        OutputTable.Set(1, mod.sayHello());
+        console.log(mod.sayHello());
+        console.log('3^3 = ', mod.cube(3));
      } catch(e) {
-        OutputTable.Append();
-        OutputTable.Set(1, e);
+        console.error(e);
      }
 })();
+```
 
-import("foo/foo.js").then(mod => {
-     OutputTable.Append();
-     OutputTable.Set(0, mod.cube(3));
-     OutputTable.Set(1, mod.sayHello());
-      // При использовании Promise неперехваченные ошибки
-      // записываются в лог сервера, но выполнение узла при этом
-      // продолжается без сообщений об ошибке.
-}).catch(error => {
-      OutputTable.Append();
-      OutputTable.Set(1, error.message);  
-});
+**Модульная система CommonJS**
 
-/* Модульная система CommonJS */
+Внешний модуль "./foo/module/module.js":
 
-// Исполняемый код:
-var inc = require('foo/increment.js').increment;
-var a = 1;
-OutputTable.Append();
-OutputTable.Set(1, inc(a));  
+```javascript
+function sayHello() {
+    return "Hello";
+}
+module.exports = sayHello;
+```
 
-// модуль increment.js:
-var add = require('./module/mymath.js').add;
-exports.increment = function(val) {
-    return add(val, 1);
-};
+Внешний модуль "./foo/foo.js":
 
-// модуль mymath.js:
-exports.add = function() {
-    var sum = 0, i = 0, args = arguments, l = args.length;
-    while (i < l) {
-        sum += args[i++];
-    }
-    return sum;
-};
+```javascript
+const sayHello = require("./module/module.js");
+function cube(x) {
+    return x * x * x;
+}
+exports.sayHello = sayHello;
+exports.cube = cube;
+```
+
+Использование модулей в коде узла JavaSript:
+
+```javascript
+const foo = require('foo/foo.js');
+console.log(foo.sayHello());
+console.log('3^3 = ', foo.cube(3));
 ```
 
 %/spoiler%
@@ -81,30 +97,33 @@ exports.add = function() {
 
 %spoiler%Пример%spoiler%
 
-```javascript
-// Исполняемый код:
-// require.resolve:
-// - на сервере Loginom возвращает полный путь модуля в файловом хранилище
-// - в Desktop версии возвращает полный путь модуля в файловой системе
-let xPath = require.resolve('child_module.js');
-console.log(xPath);
-// Вызов модуля системы CommonJS
-let xChildModule = require('child_module.js');
-console.log(xChildModule.filename);
-console.log(xChildModule.parent);
-console.log(xChildModule.loaded);
-// Очищается кэш модуля 'child_module.js'
-delete require.cache[path];
-// и модуль вызывается повторно,
-// в результате чего повторно выводится "Hello! I am ... ".
-// Без очистки кэша этого не происходит
-require('child_module.js');
+Внешний модуль "child_module.js":
 
-// child_module.js:
+```javascript
 console.log("Hello! I am " + __filename);
 exports.filename = module.filename; // возвращает полный путь к child_module.js
 exports.parent = module.parent.id;  // возвращает идентификатор вызывающего модуля
 exports.loaded = module.loaded;     // возвращает true или false - был ли загружен модуль
+```
+Использование модуля "child_module.js" в коде узла JavaSript:
+
+```javascript
+// require.resolve:
+// - на сервере Loginom возвращает полный путь модуля в файловом хранилище
+// - в Desktop версии возвращает полный путь модуля в файловой системе
+let path = require.resolve('child_module.js');
+console.log(path);
+// Вызов внешнего модуля системы CommonJS
+let childModule = require('child_module.js');
+console.log(childModule.filename);
+console.log(childModule.parent);
+console.log(childModule.loaded);
+// Очищается кэш модуля 'child_module.js'
+delete require.cache[path];
+// и внешний модуль вызывается повторно,
+// в результате чего повторно выводится "Hello! I am ... ".
+// Без очистки кэша этого не происходит
+require('child_module.js');
 ```
 
 %/spoiler%
