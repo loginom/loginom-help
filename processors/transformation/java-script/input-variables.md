@@ -12,48 +12,46 @@ readonly Count: number;             // количество переменных
 Примеры:
 
 ```javascript
-// Перебор переменных входного порта и вывод в консоль их свойств:
-for (var i = 0; i < InputVariables.Count; i++) {
+import { InputVariables } from "builtIn/Data";
+
+// Перебор входных переменных и вывод в консоль значений их свойств:
+for (let i = 0, c = InputVariables.Count; i < c; i++) {
     // Обращение к переменной по индексу
     let variable = InputVariables.Items[i];
-    console.log(variable.Value);
-    console.log(variable.Name);
-    console.log(variable.Index);
-    console.log(variable.DisplayName);
-    console.log(variable.DataType);
-    console.log(variable.IsNull);
-};
+    console.log("Index: ", variable.Index);
+    console.log("Name: ", variable.Name);
+    console.log("DisplayName: ", variable.DisplayName);
+    console.log("DataType: ", variable.DataType);
+    console.log("DataKind: ", variable.IsNull);
+    console.log("DefaultUsageType: ", variable.Value);
+    console.log("");
+}
 
-// Другой вариант перебора:
-for (var xVariable of InputVariables.Items) {
-    console.log(xVariable.Name);
-    console.log(xVariable.Value);
-};
+// Перебор входных переменных с использованием итератора
+for (let variable of InputVariables.Items)
+    console.log(variable.Name, " = ", variable.Value);
 
-// Еще вариант перебора:
-var varArray = Array.from(InputVariables.Items);
-varArray.forEach(xVariable => {
-    console.log(xVariable.Name);
-    console.log(xVariable.Value);
+// Получение из объекта Items массива переменных
+let arrayOfVariables = Array.from(InputVariables.Items);
+// Вывод значений переменных в консоль
+arrayOfVariables.forEach(variable => {
+    console.log(variable.Name, " = ", variable.Value);
 });
 
-// Обращение к переменной по имени:
-console.log(InputVariables.Items["CLASS"].Value);
-console.log(InputVariables.Items.CLASS.Value);
+// Обращение к переменной по имени
+console.log(InputVariables.Items["Var0"].Value);
+console.log(InputVariables.Items.Var0.Value);
 
-// Вывод свойств переменных:
-for (var prop in InputVariables.Items) {
+// Вывод свойств переменных
+for (let prop in InputVariables.Items)
     console.log(prop);
-};
 
-// Вывод свойств переменной с индексом 0:
-for (var prop in InputVariables.Items[0]) {
+// Вывод свойств переменной
+for (let prop in InputVariables.Items[0])
     console.log(prop);
-};
 
-// Проверка существования переменной 'MyVar'
-if (InputVariables.Items.MyVar) {
+// Проверка существования переменной "MyVar"
+if (InputVariables.Items.MyVar)
     console.log("Переменная существует");
-};
 
 ```
