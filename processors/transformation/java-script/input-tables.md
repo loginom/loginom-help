@@ -23,35 +23,40 @@ IsNull(row: number, col: number | string): boolean;
 Примеры:
 
 ```javascript
-var xInputDataSource0 = InputTables[0];                  // Источник данных с порта №1
-var xInputDataSource1 = InputTables[1];                  // Источник данных с порта №2
-var xOutlookCol0 = xInputDataSource0.Columns.OUTLOOK;     // Получение ссылки на столбец по имени
-var xOutlookCol0 = xInputDataSource0.Columns["OUTLOOK"]); // тоже самое
-var xOutlookCol1 = xInputDataSource1.Columns[1]);         // Получение ссылки на столбец по индексу
+import { InputTable, InputTables } from "builtIn/Data";
 
-// Перебор столбцов и вывод их свойств в консоль
-var colArray = Array.from(InputTable.Columns);
-colArray.forEach(column => {
-    console.log(column.Index);
-    console.log(column.Name);
-    console.log(column.DisplayName);
-    console.log(column.DataType);
-    console.log(column.DataKind);
-    console.log(column.DefaultUsageType);
-    console.log(column.RowCount);
+let inputTable0 = InputTables[0],              // Источник данных с порта №1
+    inputTable1 = InputTables[1];              // Источник данных с порта №2
+let colOutlook0 = inputTable0.Columns.OUTLOOK, // Получение ссылки на столбец по имени
+    colOutlook1 = inputTable1.Columns[1];      // Получение ссылки на столбец по индексу
+
+// Получение из объекта Columns массива столбцов
+let arrayOfColumns = Array.from(InputTable.Columns);
+// Вывод значений свойств столбцов в консоль
+arrayOfColumns.forEach(column => {
+    console.log("Index: ", column.Index);
+    console.log("Name: ", column.Name);
+    console.log("DisplayName: ", column.DisplayName);
+    console.log("DataType: ", column.DataType);
+    console.log("DataKind: ", column.DataKind);
+    console.log("DefaultUsageType: ", column.DefaultUsageType);
+    console.log("RowCount: ", column.RowCount);
+    console.log("");
 });
 
-// Перебор значений столбца с именем 'CLASS'
-var array = Array.from(InputTable.Columns["CLASS"]);
-array.forEach(val => {
-    console.log(val);
+// Получение из столбца "CLASS" массива значений
+let arrayOfColumnValues = Array.from(InputTable.Columns["CLASS"]);
+// Вывод значений столбца "CLASS"
+arrayOfColumnValues.forEach((value, index) => {
+    console.log(index, ":", value);
 });
 
-// Использование метода Get
-var InputTableRowCount = InputTable.RowCount;
-for (var i = 0; i < InputTableRowCount; i++) {
-    console.log(InputTable.Get(i, 0));                  // Вывод значений столбца с индексом 0
-    console.log(InputTable.Get(i, "CLASS"));            // Вывод значений столбца с именем 'CLASS'
-};
+// Чтение значений из входной таблицы методом Get
+for (let i = 0, с = InputTable.RowCount; i < с; i++) {
+    // Вывод значений столбца с индексом 0
+    console.log(`InputTable.Get(${i}, 0) = `, InputTable.Get(i, 0));
+    // Вывод значений столбца с именем "CLASS"
+    console.log(`InputTable.Get(${i}, "CLASS") = `, InputTable.Get(i, "CLASS"));
+}
 
 ```
