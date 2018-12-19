@@ -139,43 +139,6 @@ require('child_module.js');
 
 Для других модулей относительный путь указывается от расположения импортирующего модуля.
 
-%spoiler%Пример%spoiler%
-
-```javascript
-/* Иерархический импорт модулей */
-
-/* исполняемый в узле код (корневой модуль) */
-
-// импортируем функции из внешнего модуля foo.js
-// путь относительно расположения пакета, если пакет сохранен
-// или относительно каталога пользователя, если пакет не сохранен
-import { cube, foo, sayHello } from 'foo/foo.js';
-// добавляем строку в выходной набор
-OutputTable.Append();
-// устанавливаем значение поля 'ID' равным результату импортированной функции cube(3)
-OutputTable.Set('ID', cube(3));
-// устанавливаем значение поля 'Str' равным результату импортированной функции sayHello()
-OutputTable.Set('Str', sayHello());
-
-/* код модуля foo.js */
-
-import { sayHello } from "./module/module.js";  // путь относительно расположения модуля foo.js
-function cube(x) {
-    return x * x * x;
-};
-const foo = Math.PI + Math.SQRT2;
-export { cube, foo, sayHello };
-
-/* код модуля module.js */
-
-function sayHello() {
-    return "Hello";
-};
-export { sayHello };
-```
-
-%/spoiler%
-
 ### На сервере Loginom
 
 Если путь не начинается с "/", то он интерпретируется как относительный путь.
