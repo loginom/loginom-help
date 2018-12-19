@@ -5,7 +5,7 @@
 Поддерживаются модульные системы ES6 (ECMAScript 6) и CommonJS. Код обработчика является корневым модулем системы ES6.
 В модулях ES6 поддерживается статический и динамический импорт модулей ES6, для импорта модулей CommonJS применяется функция `require` (см. [Полное описание API](./api-description.md)).
 
-%spoiler%Примеры:%spoiler%
+%spoiler%Примеры%spoiler%
 
 **Модульная система ECMAScript 6**
 
@@ -79,7 +79,7 @@ exports.cube = cube;
 Использование модулей в коде узла JavaSript:
 
 ```javascript
-const foo = require('foo/foo.js');
+const foo = require("foo/foo.js");
 console.log(foo.sayHello());
 console.log('3^3 = ', foo.cube(3));
 ```
@@ -111,19 +111,19 @@ exports.loaded = module.loaded;     // возвращает true или false - 
 // require.resolve:
 // - на сервере Loginom возвращает полный путь модуля в файловом хранилище
 // - в Desktop версии возвращает полный путь модуля в файловой системе
-let path = require.resolve('child_module.js');
+let path = require.resolve("child_module.js");
 console.log(path);
 // Вызов внешнего модуля системы CommonJS
-let childModule = require('child_module.js');
+let childModule = require("child_module.js");
 console.log(childModule.filename);
 console.log(childModule.parent);
 console.log(childModule.loaded);
-// Очищается кэш модуля 'child_module.js'
+// Очищается кэш модуля "child_module.js"
 delete require.cache[path];
 // и внешний модуль вызывается повторно,
 // в результате чего повторно выводится "Hello! I am ... ".
 // Без очистки кэша этого не происходит
-require('child_module.js');
+require("child_module.js");
 ```
 
 %/spoiler%
@@ -147,7 +147,7 @@ require('child_module.js');
 
 ```javascript
 // относительный путь (относительно пакета)
-import { cube, foo, sayHello } from 'foo/foo.js';
+import { cube, foo, sayHello } from "foo/foo.js";
 ```
 
 Абсолютный путь обязательно начинается с "/" и считается от каталога пользователя.
@@ -156,7 +156,7 @@ import { cube, foo, sayHello } from 'foo/foo.js';
 
 ```javascript
 // импортируем функции из внешнего модуля foo.js
-import { cube, foo, sayHello } from '/user/data/JavaScript/foo/foo.js';
+import { cube, foo, sayHello } from "/user/data/JavaScript/foo/foo.js";
 ```
 
 ### В Desktop версии
@@ -164,25 +164,25 @@ import { cube, foo, sayHello } from '/user/data/JavaScript/foo/foo.js';
 Относительный путь. Пример:
 
 ```javascript
-// Так же возможен вариант './foo/foo.js'
-import { cube, foo, sayHello } from 'foo/foo.js';
+// Так же возможен вариант "./foo/foo.js"
+import { cube, foo, sayHello } from "foo/foo.js";
 ```
 
 Абсолютный путь файла в системе. Пример:
 
 ```javascript
-  import { cube, foo, sayHello } from 'C:/Users/Administrator/Desktop/JavaScript/foo/foo.js';
+import { cube, foo, sayHello } from "C:/Users/Administrator/Desktop/JavaScript/foo/foo.js";
 ```
 
 URI вида "file:///<абсолютный путь>". Пример:
 
 ```javascript
-import { cube, foo, sayHello } from 'file:///C:/Users/Administrator/Desktop/JavaScript/foo/foo.js';
+import { cube, foo, sayHello } from "file:///C:/Users/Administrator/Desktop/JavaScript/foo/foo.js";
 ```
 
 > **Примечание:** В Desktop версии и на сервере Loginom вместо прямого слеша ("/") в пути можно применять обратный ("\\"), однако обратный слеш должен быть экранирован.
 > Примеры:
 >
-> Абсолютный путь: `'\\user\\data\\JavaScript\\foo\\foo.js'`
+> Абсолютный путь: `"\\user\\data\\JavaScript\\foo\\foo.js"`
 >
-> Относительный путь: `'foo\\foo.js'`
+> Относительный путь: `"foo\\foo.js"`
