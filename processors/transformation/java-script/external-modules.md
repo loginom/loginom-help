@@ -2,7 +2,7 @@
 
 ## Модульные системы
 
-Поддерживаются модульные системы ES6 (ECMAScript 6) и CommonJS. Код обработчика является корневым модулем системы ES6.
+Поддерживаются модульные системы [ES6](https://www.ecma-international.org/ecma-262/6.0/#sec-modules) (ECMAScript 6) и [CommonJS](http://wiki.commonjs.org/wiki/Modules/1.1.1). Код обработчика является корневым модулем системы ES6.
 В модулях ES6 поддерживается статический и динамический импорт модулей ES6, для импорта модулей CommonJS применяется функция `require` (см. [Полное описание API](./api-description.md)).
 
 %spoiler%Примеры%spoiler%
