@@ -29,10 +29,16 @@ enum UsageType { Unspecified, Excluded, Useless, Active,                      //
 Примеры использования перечислений:
 
 ```javascript
-var xColumn0 = OutputTable.Columns[0];                  // Первый столбец выходного набора
-console.log(xColumn0.DataType);                         // Вывод типа данных столбца
-console.log(xColumn0.DataType == DataType.String);      // Проверка типа данных столбца
-console.log(xColumn0.DataKind == DataKind.Continuous);  // Проверка вида данных столбца
-console.log(UsageType[xColumn0.DefaultUsageType]);      // Получение имени типа по значению перечисления
-console.log(InputVariables.Items[0].DataType);           // Вывод типа данных переменной
+import { OutputTable, DataType, UsageType } from "builtIn/Data";
+
+let col0 = OutputTable.Columns[0];
+// Проверка значения свойства с типом "перечисление"
+if (col0.DataType == DataType.String) {
+    // Что-то делаем
+}
+
+// Вывод числового представления значения перечисления
+console.log(col0.DefaultUsageType);
+// Вывод строкового представления значения перечисления
+console.log(UsageType[col0.DefaultUsageType]);
 ```
