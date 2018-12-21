@@ -6,11 +6,11 @@
 
 **Items**
 
-Содержит доступную для чтения коллекцию входных переменных узла. Возвращает объект типа `IVariableItems` (см. [Полное описание API](./api-description.md)).
+Содержит доступную для чтения коллекцию входных переменных узла. Возвращает объект, реализующий интерфейс `IVariableItems` (см. [Полное описание API](./api-description.md)).
 
 %/spoiler%
 
-%spoiler%ColumnCount%spoiler%
+%spoiler%Count%spoiler%
 
 **Count**
 
