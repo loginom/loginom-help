@@ -1,25 +1,77 @@
 # ![](../../../media/app/icons/component-18/component-default-55.svg) Доступ к выходному набору данных
 
-Для доступа к данным выходного порта используется объект `OutputTable`, для которого определены следующие свойства и методы:
+Для доступа к данным выходного порта используется объект `OutputTable`.
 
-```javascript
-readonly Columns: IColumns;                                             // Список столбцов
-readonly ColumnCount: number;                                           // Количество столбцов
-readonly RowCount: number;                                              // Количество строк
+## Свойства OutputTable
 
-// Метод Get возвращает значение заданной строки в заданном столбце
-Get(row: number, col: number | string): boolean | number | string | Date | undefined;
-// Метод IsNull проверяет на Null значение заданной строки в заданном столбце
-IsNull(row: number, col: number | string): boolean;
-// Метод Append добавляет новую запись в выходной набор
-Append(): void;
-// Метод Set задает значение заданного поля в записи, добавленной мотодом Append()
-Set(col: number | string, value: boolean | number | string | Date | null | undefined): void;
-```
+%spoiler%Columns%spoiler%
 
-подробное описание которых см. в [Полное описание API](./api-description.md).
+**Columns**
 
-Примеры:
+Содержит доступную для чтения коллекцию столбцов выходного набора данных. Возвращает объект, реализующий интерфейс `IColumns` (см. [Полное описание API](./api-description.md)).
+
+%/spoiler%
+
+%spoiler%ColumnCount%spoiler%
+
+**ColumnCount**
+
+Содержит доступное для чтения количество столбцов выходного набора данных.  Возвращает значение типа `number`.
+
+%/spoiler%
+
+%spoiler%RowCount%spoiler%
+
+**RowCount**
+
+Содержит доступное для чтения количество строк выходного набора данных.  Возвращает значение типа `number`.
+
+%/spoiler%
+
+## Методы OutputTable
+
+%spoiler%Get%spoiler%
+
+**Get(row, col)**
+
+- row — индекс строки. Принимает значение типа `number`.
+- col — индекс или имя столбца. Принимает значение типа `number` или `string`.
+
+Метод возвращает значение заданного столбца в заданной строке. Возвращаемое значение может иметь типы: `boolean`, `number`, `string`, `Date`, `undefined`.
+
+%/spoiler%
+
+%spoiler%IsNull%spoiler%
+
+**IsNull(row, col)**
+
+- row — индекс строки. Принимает значение типа `number`.
+- col — индекс или имя столбца. Принимает значение типов `number` или `string`.
+
+Метод возвращает булево значение `true` если столбец в заданной строке имеет пропущенное значение. В противном случае возвращается `false`.
+
+%/spoiler%
+
+%spoiler%Append%spoiler%
+
+**Append()**
+
+Метод добавляет новую строку в выходной набор данных. Не имеет аргументов.
+
+%/spoiler%
+
+%spoiler%Set%spoiler%
+
+**Set(col, value)**
+
+- col — индекс или имя столбца. Принимает значение типа `number` или `string`;
+- value — значение. Принимает значения следующих типов: `boolean`, `number`, `string`, `Date`, `null`, `undefined`.
+
+Метод задает значение заданного столбца в строке, добавленной методом Append().
+
+%/spoiler%
+
+## Примеры
 
 ```javascript
 import { OutputTable } from "builtIn/Data";
