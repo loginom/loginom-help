@@ -12,6 +12,7 @@
 **Columns**
 
 Содержит доступную для чтения коллекцию столбцов. Возвращает объект типа `IColumns` (см. [Полное описание API](./api-description.md)).
+
 %/spoiler%
 
 %spoiler%ColumnCount%spoiler%
