@@ -1,6 +1,8 @@
 # ![](../../../media/app/icons/component-18/component-default-55.svg) Доступ к входным переменным
 
-Для доступа к входным переменным используются объект `InputVariables`, для которого определены следующие свойства:
+Для доступа к входным переменным используется объект `InputVariables`.
+
+## Свойства InputVariables
 
 %spoiler%Items%spoiler%
 
@@ -18,7 +20,7 @@
 
 %/spoiler%
 
-Примеры:
+## Примеры
 
 ```javascript
 import { InputVariables } from "builtIn/Data";
