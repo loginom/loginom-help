@@ -64,7 +64,7 @@
 
 * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_edit_default.svg) — Переименовать подключение;
 * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_setup_default.svg) — Настроить подключение;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_access-rights_default.svg) — Настроить [модификатор доступа](../../scenario/access_modifier.md);
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_access-rights_default.svg) — Настроить [модификатор доступа](../../scenario/access-modifier.md);
 * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) — Удалить подключение;
 * Тестировать подключение;
 * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_test-connection_default.svg) — Активировать подключение.
