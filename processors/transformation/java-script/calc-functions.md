@@ -18,19 +18,19 @@ OutputTable.Set(0, calcModule.AddWeek(currentDate, 1));
 OutputTable.Set(1, calcModule.AddQuarter(currentDate, -1));
 
 // Импорт через значение по умолчанию
-import calcDefault from 'builtIn/Calc';
+import calcDefault from "builtIn/Calc";
 OutputTable.Append();
 OutputTable.Set(0, calcDefault.Val("1"));
 OutputTable.Set(1, calcDefault.Str(1e6));
 
 // Импорт всего содержимого модуля
-import * as calc from 'builtIn/Calc';
+import * as calc from "builtIn/Calc";
 OutputTable.Append();
 OutputTable.Set(0, calc.Count("AAA"));
 OutputTable.Set(1, calc.Lower("AAA"));
 
 // Импорт конкретных функций
-import { RegExMatchCount, RegExMatchedExp } from 'builtIn/Calc';
+import { RegExMatchCount, RegExMatchedExp } from "builtIn/Calc";
 OutputTable.Append();
 OutputTable.Set(0, RegExMatchCount("a+?", "aaa"));
 OutputTable.Set(1, RegExMatchedExp("a+", "aaa"));
