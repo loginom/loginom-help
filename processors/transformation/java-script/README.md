@@ -41,7 +41,7 @@
 * [Входные наборы данных](./input-tables.md) (`InputTables`, `InputTable`);
 * [Входные переменные](./input-variables.md) (`InputVariables`);
 * [Выходной набор данных](./output-table.md) (`OutputTable`);
-* [Необходимые перечисления](./enum.md) (`DataType`, `DataKind`, `UsageType`);
+* [Необходимые перечисления](./enum.md) (`DataType`, `DataKind`, `UsageType`).
 
 Вышеуказанные объекты импортируются из встроенного модуля `builtIn/Data`. По умолчанию в текст исполняемого узлом кода добавляется строка импорта этих объектов.
 
