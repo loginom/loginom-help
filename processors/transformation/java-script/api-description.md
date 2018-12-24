@@ -65,7 +65,7 @@ interface IVariable {
 }
 
 // Доступ к итерабельному списку входных переменных по имени и индексу
-interface IVariableItems extends Iterable<Variable> {
+interface IVariableItems extends Iterable<IVariable> {
     [name: string]: IVariable;
     [index: number]: IVariable;
 }
