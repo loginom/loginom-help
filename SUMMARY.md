@@ -1,6 +1,6 @@
 # SUMMARY
 
-* [Аналитическая платформа](./README.md)
+* [Главная](./README.md)
 * [Начало работы](./quick-start/README.md)
   * [Назначение и структура пакета](./quick-start/package.md)
   * [Первый сценарий](./quick-start/first-scenario.md)
@@ -124,7 +124,7 @@
       * [Ассоциативные правила](./processors/datamining/associative-rules.md)
       * [Кластеризация](./processors/datamining/clustering.md)
       * [Кластеризация транзакций](./processors/datamining/clustering-transactions.md)
-      * [Логистическая регрессия](./processors/datamining/logit-regression/logistic-regression.md)
+      * [Логистическая регрессия](./processors/datamining/logit-regression/README.md)
         * [Сводка](./processors/datamining/logit-regression/report.md)
         * [Коэффициенты регрессии](./processors/datamining/logit-regression/coef-regression.md)
       * [Нейросеть (классификация)](./processors/datamining/neural-network-classification.md)

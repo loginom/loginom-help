@@ -15,7 +15,7 @@
 Узлы сценария создаются из компонентов 2-х типов:
 
 * Стандартные компоненты - предоставляются в рамках платформы;
-* [Производные компоненты](../scenario/derived_component.md) - создаются и настраиваются пользователем. Производный компонент можно создать из комбинации узлов сценария, реализующей произвольную логику обработки.
+* [Производные компоненты](../scenario/derived-component.md) - создаются и настраиваются пользователем. Производный компонент можно создать из комбинации узлов сценария, реализующей произвольную логику обработки.
 
 Таким образом набор средств для реализации различной логики обработки данных не ограничивается стандартными компонентами платформы и может быть расширен самим пользователем.
 
@@ -34,10 +34,10 @@
 Набор компонентов для первоначальной подготовки и простой обработки исходных наборов данных. 
 
 * [Группировка](./transformation/grouping.md)
-* [Дата и время](./transformation/trans-datatime.md)
+* [Дата и время](./transformation/trans-datatime/README.md)
 * [Дополнение данных](./transformation/supplementation.md)
-* [Замена](./transformation/substitution.md)
-* [Калькулятор](./transformation/calc.md)
+* [Замена](./transformation/substitution/README.md)
+* [Калькулятор](./transformation/calc/README.md)
 * Калькулятор JS
 * [Кросс-таблица](./transformation/cross-table.md)
 * [Объединение](./transformation/union.md)
@@ -48,7 +48,7 @@
 * [Слияние](./transformation/join/README.md)
 * [Соединение](./transformation/addition.md)
 * [Сортировка](./transformation/sorting.md)
-* [Фильтр строк](./transformation/row-filter.md)
+* [Фильтр строк](./transformation/row-filter/README.md)
 
 ### [Управление](./control/README.md)
 
@@ -88,7 +88,7 @@
 * [Ассоциативные правила](./datamining/associative-rules.md)
 * [Кластеризация](./datamining/clustering.md)
 * [Кластеризация транзакций](./datamining/clustering-transactions.md)
-* [Логистическая регрессия](./datamining/logistic-regression.md)
+* [Логистическая регрессия](./datamining/logit-regression/README.md)
 * [Нейросеть (классификация)](./datamining/neural-network-classification.md)
 * [Нейросеть (регрессия)](./datamining/neural-network-regression.md)
 * [Самоорганизующиеся сети](./datamining/self-organizing-network.md)
