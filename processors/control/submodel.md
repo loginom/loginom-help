@@ -1,4 +1,4 @@
-# ![Подмодель](../../media/app/icons/vendors/modelgeneric.svg) Подмодель
+# ![Подмодель](../../images/icons/vendors/modelgeneric.svg) Подмодель
 
 ## Описание
 
@@ -12,32 +12,32 @@
 
 ### Вход
 
-* ![Входные переменные](../../media/app/icons/ports/input-variable-inactive.svg) **Входные переменные** — набор переменных.
-* ![Входной источник данных](../../media/app/icons/ports/table-inactive.svg) **Входной источник данных** (таблица данных).
+* ![Входные переменные](../../images/icons/ports/input_variable_inactive.svg) **Входные переменные** — набор переменных.
+* ![Входной источник данных](../../images/icons/ports/input_table_inactive.svg) **Входной источник данных** — таблица данных.
 
 ### Выход
 
-* ![Выходные переменные](../../media/app/icons/ports/output-variable-inactive.svg) **Выходные переменные** — набор переменных.
-* ![Выходной набор данных](../../media/app/icons/ports/table-inactive.svg) **Выходной набор данных** (таблица данных).
+* ![Выходные переменные](../../images/icons/ports/output_variable_inactive.svg) **Выходные переменные** — набор переменных.
+* ![Выходной набор данных](../../images/icons/ports/output_table_inactive.svg) **Выходной набор данных** — таблица данных.
 
 ## Мастер настройки
 
 Здесь создаются порты. Каждому порту можно задать тип, имя и метку, которая будет отображаться при наведении курсора на него.
 
-* ![Входы](../../media/app/icons/system-object-18/system-object-default-09.svg)  **Входы** ![Новый порт](../../media/app/icons/toolbar-18/toolbar-18-27.svg) — создать новый порт входа:
-  * ![Для переменных](../../media/app/icons/ports/input-variable-hover.svg) — для переменных;
-  * ![Для таблицы](../../media/app/icons/ports/table-hover.svg) — для таблицы.
-* ![Выходы](../../media/app/icons/system-object-18/system-object-default-10.svg)  **Выходы** ![Новый порт](../../media/app/icons/toolbar-18/toolbar-18-27.svg) — создать новый порт выхода:
-  * ![Для переменных](../../media/app/icons/ports/output-variable-hover.svg) — для переменных;
-  * ![Для таблицы](../../media/app/icons/ports/table-hover.svg) — для таблицы.
-* ![Сместить вниз](../../media/app/icons/toolbar-18/down.svg) ![Сместить вверх](../../media/app/icons/toolbar-18/top.svg) — сместить выделенный порт в списке;
-* ![Удалить порт](../../media/app/icons/toolbar-18/toolbar-18-8.svg) — удалить порт;
-* ![Удалить все порты](../../media/app/icons/toolbar-18/toolbar-18-127.svg) — удалить все порты.
+* ![Входы](../../images/icons/system_object_18/system-objects_default-09.svg) **Входы** ![Новый порт](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) — создать новый порт входа:
+  * ![Для переменных](../../images/icons/ports/input_variable_hover.svg) — для переменных;
+  * ![Для таблицы](../../images/icons/ports/input_table_hover.svg) — для таблицы.
+* ![Выходы](../../images/icons/system_object_18/system-objects_default-10.svg) **Выходы** ![Новый порт](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) — создать новый порт выхода:
+  * ![Для переменных](../../images/icons/ports/output_variable_hover.svg) — для переменных;
+  * ![Для таблицы](../../images/icons/ports/output_table_hover.svg) — для таблицы.
+* ![Сместить вниз](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_movedown_default.svg) ![Сместить вверх](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_moveup_default.svg) — сместить выделенный порт в списке;
+* ![Удалить порт](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) — удалить порт;
+* ![Удалить все порты](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete-all_default.svg) — удалить все порты.
 
 ## Область построения подмодели
 
-Узел подмодели имеет кнопку "Войти", при нажатии которой можно открыть область построения подмодели и реализовать в ней произвольный сценарий обработки. При редактировании содержимого подмодели ее входные и выходные порты, созданные в мастере настройки, отображаются по левому и правому краю области над кнопками ![Выходной узел](../../media/app/icons/toolbar-18/variables-01.svg)  «Входной узел» и ![Выходной узел](../../media/app/icons/toolbar-18/variables-01.svg) "Выходной узел".
+Узел подмодели имеет кнопку "Войти", при нажатии которой можно открыть область построения подмодели и реализовать в ней произвольный сценарий обработки. При редактировании содержимого подмодели ее входные и выходные порты, созданные в мастере настройки, отображаются по левому и правому краю области над кнопками ![Выходной узел](../../media/app/icons/toolbar-18/variables-01.svg) "Входной узел" и ![Выходной узел](../../media/app/icons/toolbar-18/variables-01.svg)"Выходной узел".
 
 Внутри подмодели имеется возможность использовать [переменные сценария](../../scenario/variables/scenario-variables.md), в состав которых входят "Переменные пользователя". Пользователь имеет возможность задать перечень и значения переменных пользователя, при этом область их применения ограничена подмоделью.
 
-По нажатию кнопки ![Выйти из подмодели](../../media/app/icons/toolbar-18/back.svg) "Выйти из подмодели" область построения подмодели можно покинуть, вернувшись в сценарий уровнем выше.
+По нажатию кнопки ![Выйти из подмодели](../../images/icons/submodel/back.svg) "Выйти из подмодели" область построения подмодели можно покинуть, вернувшись в сценарий уровнем выше.
