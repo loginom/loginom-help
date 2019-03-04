@@ -10,12 +10,12 @@
 
 ### Вход
 
-* ![Входные переменные](../../images/icons/ports/input_variable_inactive.svg) **Входные переменные** — набор переменных.
+* ![Входные переменные](../../images/icons/ports/input_variable_inactive.svg) **Входные переменные** — набор переменных;
 * ![Входной источник данных](../../images/icons/ports/input_table_inactive.svg) **Входной источник данных** — таблица данных.
 
 ### Выход
 
-* ![Выходные переменные](../../images/icons/ports/output_variable_inactive.svg) **Выходные переменные** — набор переменных.
+* ![Выходные переменные](../../images/icons/ports/output_variable_inactive.svg) **Выходные переменные** — набор переменных;
 * ![Выходной набор данных](../../images/icons/ports/output_table_inactive.svg) **Выходной набор данных** — таблица данных.
 
 ## Мастер настройки
@@ -23,13 +23,13 @@
 Здесь создаются порты. Каждому порту можно задать тип, имя и метку, которая будет отображаться при наведении курсора на него.
 
 * ![Входы](../../images/icons/system_object_18/system-objects_default-09.svg) **Входы** ![Новый порт](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) — создать новый порт входа:
-  * ![Для переменных](../../images/icons/ports/input_variable_hover.svg) — для переменных;
+  * ![Для переменных](../../images/icons/ports/input_variable_hover.svg) — для переменных.
   * ![Для таблицы](../../images/icons/ports/input_table_hover.svg) — для таблицы.
 * ![Выходы](../../images/icons/system_object_18/system-objects_default-10.svg) **Выходы** ![Новый порт](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) — создать новый порт выхода:
-  * ![Для переменных](../../images/icons/ports/output_variable_hover.svg) — для переменных;
+  * ![Для переменных](../../images/icons/ports/output_variable_hover.svg) — для переменных.
   * ![Для таблицы](../../images/icons/ports/output_table_hover.svg) — для таблицы.
-* ![Сместить вниз](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_movedown_default.svg) ![Сместить вверх](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_moveup_default.svg) — сместить выделенный порт в списке;
-* ![Удалить порт](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) — удалить порт;
+* ![Сместить вниз](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_movedown_default.svg) ![Сместить вверх](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_moveup_default.svg) — сместить выделенный порт в списке.
+* ![Удалить порт](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) — удалить порт.
 * ![Удалить все порты](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete-all_default.svg) — удалить все порты.
 
 ## Область построения подмодели
