@@ -5,8 +5,8 @@
 Настройка нормализации доступна как отдельная страница в мастерах:
 
 * [Логистическая регрессия](../datamining/logit-regression/README.md);
-* [Нейросеть (классификация)](../datamining/neural-network-classification.md),
-* [Нейросеть (регрессия)](../datamining/neural-network-regression.md),
+* [Нейросеть (классификация)](../datamining/neural-network-classification.md);
+* [Нейросеть (регрессия)](../datamining/neural-network-regression.md);
 * [Кластеризация](../datamining/clustering.md).
 
 ## Настройки нормализации
