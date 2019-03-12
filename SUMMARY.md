@@ -104,6 +104,7 @@
         * [Функции Калькулятора](./processors/transformation/java-script/calc-functions.md)
         * [Консоль отладки кода](./processors/transformation/java-script/console.md)
         * [Описание API](./processors/transformation/java-script/api-description.md)
+        * [Горячие клавиши](./processors/transformation/java-script/hotkeys.md)
     * [Управление](./processors/control/README.md)
       * [Выполнение узла](./processors/control/execute-node.md)
       * [Подмодель](./processors/control/submodel.md)
