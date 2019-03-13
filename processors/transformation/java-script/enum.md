@@ -1,32 +1,51 @@
 # ![](../../../media/app/icons/component-18/component-default-55.svg) Перечисления встроенных сущностей Loginom
 
-В контекст выполнения JavaScript встроены следующие перечисления, описывающие метаданные полей и переменных:
+В контекст выполнения JavaScript встроены перечисления, описывающие метаданные полей и переменных.
 
-```javascript
-enum DataType { None, Boolean, DateTime, Float, Integer, String, Variant }    // Типы данных
-enum DataKind { Undefined, Continuous, Discrete }                             // Виды данных
-enum UsageType { Unspecified, Excluded, Useless, Active,                      // Назначение полей
-                Predicted, Key, Group, Value, Transaction, Item }
-```
+## Описание перечислений
 
-Где:
+### DataType
 
-<table>
-<tr><th colspan="2" align="center">UsageType</th><th colspan="2" align="center">DataType</th><th colspan="2" align="center">DataKind</th></tr>
-<tr><th>Значение</th><th>Описание</th><th>Значение</th><th>Описание</th><th>Значение</th><th>Описание</th></tr>
-<tr><td>Unspecified</td><td>Назначение не задано</td><td>None</td><td>Тип данных не задан</td><td>Undefined</td><td>Вид данных не задан</td></tr>
-<tr><td>Excluded</td><td>Исключенное</td><td>Boolean</td><td>Логический</td><td>Continuous</td><td>Непрерывный</td></tr>
-<tr><td>Useless</td><td>Непригодное</td><td>DateTime</td><td>Дата/Время</td><td>Discrete</td><td>Дискретный</td></tr>
-<tr><td>Active</td><td>Используемое</td><td>Float</td><td>Вещественный</td><td></td><td></td></tr>
-<tr><td>Predicted</td><td>Предсказываемое</td><td>Integer</td><td>Целый</td><td></td><td></td></tr>
-<tr><td>Key</td><td>Ключ</td><td>String</td><td>Строковый</td><td></td><td></td></tr>
-<tr><td>Group</td><td>Группа</td><td>Variant</td><td>Переменный</td><td></td><td></td></tr>
-<tr><td>Value</td><td>Показатель</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Transaction</td><td>Транзакция</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Item</td><td>Элемент</td><td></td><td></td><td></td><td></td></tr>
-</table>
+Представляет [типы данных](../../../data/datatype.md). Элементы перечисления:
 
-Примеры использования перечислений:
+| Элемент   |                                                                   | Представляемый тип данных |
+| :-------- | ------: | :------ |
+| None      |                                                                   | Тип данных не задан |
+| Boolean   | ![](../../../images/icons/datatype_18/datatype_default-04.svg) | Логический |
+| DateTime  | ![](../../../images/icons/datatype_18/datatype_default-05.svg) | Дата/время |
+| Float     | ![](../../../images/icons/datatype_18/datatype_default-03.svg) | Вещественный |
+| Integer   | ![](../../../images/icons/datatype_18/datatype_default-02.svg) | Целый |
+| String    | ![](../../../images/icons/datatype_18/datatype_default-01.svg) | Строковый |
+| Variant   | ![](../../../images/icons/datatype_18/datatype_default-06.svg) | Переменный |
+
+### DataKind
+
+Представляет [виды данных](../../../data/datakind.md). Элементы перечисления:
+
+| Элемент   |                                                                    | Представляемый вид данных |
+| :-------- | ------: | :------ |
+| Undefined  |                                                                   | Вид данных не задан |
+| Continuous | ![](../../../images/icons/datatype_18/datatype_default-08.svg) | Непрерывный |
+| Discrete   | ![](../../../images/icons/datatype_18/datatype_default-09.svg) | Дискретный |
+
+### UsageType
+
+Представляет [назначение полей](../../../data/datasetfieldoptions.md). Элементы перечисления:
+
+| Элемент   |                                                           | Представляемое назначение поля |
+| :-------- | ------: | :------ |
+| Unspecified |                                                                   | Назначение не задано |
+| Excluded    |  | Исключенное |
+| Useless     |  | Непригодное |
+| Active      |  | Используемое |
+| Predicted   |  | Предсказываемое |
+| Key         |  | Ключ |
+| Group       |  | Группа |
+| Value       |  | Показатель |
+| Transaction |  | Транзакция |
+| Item        |  | Элемент |
+
+## Примеры использования
 
 ```javascript
 import { OutputTable, DataType, UsageType } from "builtIn/Data";
