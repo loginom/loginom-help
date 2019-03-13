@@ -73,8 +73,8 @@
 
 В Loginom существует два способа расчета выражений:
 
-* ![](../../../images/icons/calcdata/calc-modes-expression_default.svg) [Выражение](./expression.md);
-* ![](../../../images/icons/calcdata/calc-modes-javascript_default.svg) [JavaScript](./javascript.md).
+* ![](../../../images/icons/calcdata/expression_default.svg) [Выражение](./expression.md);
+* ![](../../../images/icons/calcdata/javascript_default.svg) [JavaScript](./javascript.md).
 
 Для выбора режима в калькуляторе необходимо в выпадающем списке *Выражения* выбрать *JavaScript* или *Выражение* (см. рисунок 1).
 
