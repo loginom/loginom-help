@@ -8,42 +8,42 @@
 
 Представляет [типы данных](../../../data/datatype.md). Элементы перечисления:
 
-| Элемент   |                                                                   | Представляемый тип данных |
-| :-------- | ------: | :------ |
-| None      |                                                                   | Тип данных не задан |
-| Boolean   | ![](../../../images/icons/datatype_18/datatype_default-04.svg) | Логический |
-| DateTime  | ![](../../../images/icons/datatype_18/datatype_default-05.svg) | Дата/время |
-| Float     | ![](../../../images/icons/datatype_18/datatype_default-03.svg) | Вещественный |
-| Integer   | ![](../../../images/icons/datatype_18/datatype_default-02.svg) | Целый |
-| String    | ![](../../../images/icons/datatype_18/datatype_default-01.svg) | Строковый |
-| Variant   | ![](../../../images/icons/datatype_18/datatype_default-06.svg) | Переменный |
+| Элемент   |  Тип данных |
+| :-------- | :------ |
+| None      | ![](../../../images/icons/usage-types/unspecified_default.svg) Тип данных не задан |
+| Boolean   | ![](../../../images/icons/datatype_18/datatype_default-04.svg) Логический |
+| DateTime  | ![](../../../images/icons/datatype_18/datatype_default-05.svg) Дата/время |
+| Float     | ![](../../../images/icons/datatype_18/datatype_default-03.svg) Вещественный |
+| Integer   | ![](../../../images/icons/datatype_18/datatype_default-02.svg) Целый |
+| String    | ![](../../../images/icons/datatype_18/datatype_default-01.svg) Строковый |
+| Variant   | ![](../../../images/icons/datatype_18/datatype_default-06.svg) Переменный |
 
 ### DataKind
 
 Представляет [виды данных](../../../data/datakind.md). Элементы перечисления:
 
-| Элемент   |                                                                    | Представляемый вид данных |
-| :-------- | ------: | :------ |
-| Undefined  |                                                                   | Вид данных не задан |
-| Continuous | ![](../../../images/icons/datatype_18/datatype_default-08.svg) | Непрерывный |
-| Discrete   | ![](../../../images/icons/datatype_18/datatype_default-09.svg) | Дискретный |
+| Элемент   | Вид данных |
+| :-------- | :------ |
+| Undefined  | ![](../../../images/icons/usage-types/unspecified_default.svg) Вид данных не задан |
+| Continuous | ![](../../../images/icons/datatype_18/datatype_default-08.svg) Непрерывный |
+| Discrete   | ![](../../../images/icons/datatype_18/datatype_default-09.svg) Дискретный |
 
 ### UsageType
 
 Представляет [назначение полей](../../../data/datasetfieldoptions.md). Элементы перечисления:
 
-| Элемент   |                                                           | Представляемое назначение поля |
-| :-------- | ------: | :------ |
-| Unspecified |                                                                   | Назначение не задано |
-| Excluded    |  | Исключенное |
-| Useless     |  | Непригодное |
-| Active      |  | Используемое |
-| Predicted   |  | Предсказываемое |
-| Key         |  | Ключ |
-| Group       |  | Группа |
-| Value       |  | Показатель |
-| Transaction |  | Транзакция |
-| Item        |  | Элемент |
+| Элемент   | Назначение поля |
+| :-------- | :------ |
+| Unspecified | ![](../../../images/icons/usage-types/unspecified_default.svg) Назначение не задано |
+| Excluded    | ![](../../../images/icons/usage-types/unused_default.svg) Исключенное |
+| Useless     | ![](../../../images/icons/usage-types/useless_default.svg) Непригодное |
+| Active      | ![](../../../images/icons/usage-types/active_default.svg) Используемое |
+| Predicted   | ![](../../../images/icons/usage-types/predicted_default.svg) Предсказываемое |
+| Key         | ![](../../../images/icons/usage-types/source_default.svg) Ключ |
+| Group       | ![](../../../images/icons/usage-types/group_default.svg) Группа |
+| Value       | ![](../../../images/icons/usage-types/value_default.svg) Показатель |
+| Transaction | ![](../../../images/icons/usage-types/transaction_default.svg) Транзакция |
+| Item        | ![](../../../images/icons/usage-types/item_default.svg) Элемент |
 
 ## Примеры использования
 
