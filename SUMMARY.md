@@ -32,6 +32,7 @@
   * [Обучение (переобучение) узла](./scenario/training-processors.md)
   * [Кэширование](./scenario/caching.md)
   * [Локальные настройки](./scenario/local-settings.md)
+  * [Ссылка на пакет](./scenario/link-to-packet.md)
 * [Интеграция](./integration/README.md)
   * [Подключения](./integration/connections/README.md)
     * [1C:Предприятие 8.x](./integration/connections/list/1c.md)
