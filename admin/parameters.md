@@ -1,4 +1,4 @@
-# ![Параметры](../images/icons/admin_18/admin_default-04.svg)  Параметры
+# ![Параметры](../images/icons/admin-system-objects/properties_default.svg)  Параметры
 
 В данном подразделе расположены общие настройки. В верхней части раздела расположено две кнопки:
 
