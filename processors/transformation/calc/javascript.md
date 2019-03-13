@@ -1,4 +1,4 @@
-# ![](../../../images/icons/calcdata/calc-modes-javascript_default.svg) Java Script
+# ![](../../../images/icons/calcdata/javascript_default.svg) Java Script
 
 Рассмотрим использование JavaScript в калькуляторе на примере вычисления степени числа. На вход калькулятора поступает набор данных представленный на рисунке 1.
 
