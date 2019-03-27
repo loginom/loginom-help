@@ -1,4 +1,4 @@
-# ![](../../media/app/icons/vendors/logregression.svg) Логистическая регрессия
+# ![](../../../images/icons/vendors/logregression.svg) Логистическая регрессия
 
 ## Описание
 

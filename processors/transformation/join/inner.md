@@ -1,4 +1,4 @@
-# ![Внутреннее соединение](../../../images/icons/joindata/join-modes-join-inner_default.svg) Внутреннее соединение
+# ![Внутреннее соединение](../../../images/icons/joindata/join-inner_default.svg) Внутреннее соединение
 
 Аналогом такого соединения является SQL-оператор `INNER JOIN`.
 
