@@ -168,15 +168,3 @@ import { cube, foo, sayHello } from "/user/foo/foo.js";
 ```javascript
 import { cube, foo, sayHello } from "C:\\Script\\foo\\foo.js";
 ```
-
-### Схема URI file (предварительная версия раздела - будет изменяться)
-
-В Desktop версии возможно указание пути в [схеме URI file](https://ru.wikipedia.org/wiki/File_(схема_URI)) со следующими ограничениями:
-
-/ перечень ограничений /
-
-Пример:
-
-```javascript
-import { cube, foo, sayHello } from "file:///C:/Users/Administrator/Desktop/JavaScript/foo/foo.js";
-```
