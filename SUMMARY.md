@@ -125,6 +125,7 @@
       * [Ассоциативные правила](./processors/datamining/associative-rules.md)
       * [Кластеризация](./processors/datamining/clustering.md)
       * [Кластеризация транзакций](./processors/datamining/clustering-transactions.md)
+      * [Линейная регрессия](./processors/datamining/linear-regression.md)
       * [Логистическая регрессия](./processors/datamining/logit-regression/README.md)
         * [Сводка](./processors/datamining/logit-regression/report.md)
         * [Коэффициенты регрессии](./processors/datamining/logit-regression/coef-regression.md)
