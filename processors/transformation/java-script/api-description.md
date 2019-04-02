@@ -81,11 +81,11 @@ const require: IRequire;
 
 // Представление модуля
 interface IModule {
-    readonly id: string;                                                    // идентификатор
-    parent?: this;                                                          // вызывающий модуль
-    filename?: string;                                                      // полный путь к модулю
-    loaded: boolean;                                                        // загружен ли модуль полностью
-    exports: any;                                                           // экспортируемый объект
+    readonly id: string;               // идентификатор
+    parent?: this;                     // вызывающий модуль
+    filename?: string;                 // полный путь к модулю
+    loaded: boolean;                   // загружен ли модуль полностью
+    exports: any;                      // экспортируемый объект
 }
 
 // функция require принимает идентификатор модуля и возвращает свойство модуля exports
