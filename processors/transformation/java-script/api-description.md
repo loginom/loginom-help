@@ -96,7 +96,7 @@ interface IRequireFunction {
 interface IRequire extends IRequireFunction  {
     // функция resolve возвращает полный путь к модулю
     resolve: (id: string) => string;
-    // массив закэшированных модулей
+    // кэш модулей
     cache: { [resolvedId: string]: IModule]; };
 }
 
