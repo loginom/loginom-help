@@ -1,4 +1,4 @@
-# ![](../../../images/icons/data-sources/web-rest-client_default.svg) Вызов REST-сервиса
+# ![](../../images/icons/data-sources/web-rest-client_default.svg) Вызов REST-сервиса
 
 Компонент позволяет взаимодействовать с внешним [REST-сервисом](https://ru.wikipedia.org/wiki/REST), отправляя ему запросы и получая ответы. В качестве входного набора данных используется таблица с параметрами запросов. REST-сервису будет отправлено столько запросов, сколько строк во входном наборе данных. В случае отправки [GET-запросов](https://ru.wikipedia.org/wiki/HTTP#GET) каждая строка входной таблицы должна содержать параметры GET-запроса, а при [POST-запросах](https://ru.wikipedia.org/wiki/HTTP#POST) — [тело HTTP-запроса](https://ru.wikipedia.org/wiki/HTTP#Тело_сообщения). При настройке узла задается произвольное количество [заголовков HTTP-запроса](https://ru.wikipedia.org/wiki/HTTP#Заголовки).
 
