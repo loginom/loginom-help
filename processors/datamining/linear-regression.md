@@ -2,7 +2,7 @@
 
 ## Описание
 
-[Линейная регрессия](https://wiki.loginom.ru/articles/linear-regression.html) представляет собой модель, назначение которой состоит в анализе связи одной [зависимой переменной](https://wiki.loginom.ru/articles/output-variable.html) от другой или нескольких других [независимых переменных](https://wiki.loginom.ru/articles/input-variable.html) с линейной функцией зависимости.
+[Линейная регрессия](https://wiki.loginom.ru/articles/linear-regression.html) представляет собой модель, назначение которой состоит в анализе зависимости между [входными](https://wiki.loginom.ru/articles/input-variable.html) и [выходными переменными](https://wiki.loginom.ru/articles/output-variable.html) c линейной функцией связи.
 
 Линейная регрессия является одним из наиболее часто используемых алгоритмов в [машинном обучении](https://wiki.loginom.ru/articles/machine-learning.html). Этот алгоритм зачастую дает хороший результат даже на небольших наборах данных.
 
