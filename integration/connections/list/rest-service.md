@@ -1,6 +1,6 @@
 # ![](../../../images/icons/data-sources/web-rest_default.svg) Подключение REST-сервис
 
-Задаются параметры подключения к Используется для подключения к REST-сервису узлом [Вызов REST-сервиса](../../../processors/integration/calling-rest-service).
+Задаются параметры подключения, запроса и ответа к REST-сервису. Выходные данные подключения используются узлом [Вызов REST-сервиса](../../../processors/integration/calling-rest-service).
 
 ## Параметры подключения
 
