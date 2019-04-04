@@ -48,6 +48,7 @@
     * [SQLite](./integration/connections/list/sqlite.md)
     * [Набор XSD-схем](./integration/connections/list/schemes.md)
     * [Веб-сервис](./integration/connections/list/web-service.md)
+    * [REST-сервис](./integration/connections/list/rest-service.md)
   * [Импорт данных](./integration/import/README.md)
     * [1C:Предприятие 8.x](./integration/import/1c-db.md)
     * [Excel-файл](./integration/import/excel.md)
