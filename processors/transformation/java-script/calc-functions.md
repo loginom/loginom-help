@@ -3,7 +3,7 @@
 В коде JavaScript возможно использование [функций Калькулятора](../../func/calc-func/README.md). Для этого используется встроенный модуль `"builtIn/Calc"`. Доступны все функции, включая реализованные в плагинах, за исключением следующих:
 
 - IF, IFF — имеется аналог в JS: `if (<условие>) {...}`;
-- функций работы со входными данными (`Data`, `RowNum`, `RowCount`, `DisplayName`, `CumulativeSum`) — имеются аналоги в [API](./api-description.md) (`RowCount`, `DisplayName`) или легко реализуются кодом JS.
+- Функций работы со входными данными (`Data`, `RowNum`, `RowCount`, `DisplayName`, `CumulativeSum`) — имеются аналоги в [API](./api-description.md) (`RowCount`, `DisplayName`) или легко реализуются кодом JS.
 
 Примеры использования функций:
 
