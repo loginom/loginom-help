@@ -1,10 +1,8 @@
-# ![wh-mssql](../../../images/icons/data-sources/wh-mssql_default.svg) Подключение к Хранилищу данных [MS SQL]
+# ![wh-mssql](../../../images/icons/data-sources/wh-mssql_default.svg) Подключение к Хранилищу данных (Deductor) Data Warehouse [MS SQL]
 
-Используется для подключения к хранилищу данных, основанному на СУБД MS SQL.
+Используется для подключения к Хранилищу данных (Deductor) Data Warehouse (далее — Хранилище данных), основанному на СУБД MS SQL.
 
 (!!! это так?) Подключение осуществляется через OLE DB. Используется либо предустановленный в ОС Windows клиент OLE DB, либо SQL Server Native Client. Применение последнего более предпочтительно.
-
-> (!!! delete?) Альтернативный способ интеграции с MS SQL — использование [ODBC-подключения](./odbc.md).
 
 ## Параметры подключения
 
@@ -35,11 +33,11 @@
 
 ## Совместимость
 
-* Клиенты.
+* Клиенты:
   * SQL OLE DB.
   * SQL Native Client.
 
-* Серверы.
+* Серверы:
   * SQL Server 2016, 2014, 2012, 2008 R2, 2008, 2005 (включая Express edition).
   * SQL Server 2000 (включая MSDE).
   * SQL Server 7.

@@ -1,6 +1,6 @@
-# ![oracle](../../../images/icons/vendors/oracleunidacdbconnection.svg)![wh-oracle](../../../images/icons/data-sources/wh-oracle_default.svg) Подключение к Хранилищу данных [Oracle]
+# ![wh-oracle](../../../images/icons/data-sources/wh-oracle_default.svg) Подключение к Хранилищу данных (Deductor) Data Warehouse [Oracle]
 
-Используется для подключения к хранилищу данных, основанному на СУБД Oracle.
+Используется для подключения к Хранилищу данных (Deductor) Data Warehouse (далее — Хранилище данных), основанному на СУБД Oracle.
 
 (!!! ?) Возможно подключение как через клиент СУБД, который необходимо установить, так и через внутренний драйвер Loginom.
 
