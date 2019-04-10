@@ -1,13 +1,12 @@
 # ![wh-mssql](../../../images/icons/data-sources/wh-mssql_default.svg) Подключение к Хранилищу данных Loginom Warehouse [MS SQL]
 
-Используется для подключения к [Хранилищу данных](https://wiki.loginom.ru/articles/data-warehouse.html) [Loginom Warehouse](../../../data-format/data-warehouse.md), основанному на СУБД MS SQL.
-
-(!!! это так?) Подключение осуществляется через OLE DB. Используется либо предустановленный в ОС Windows клиент OLE DB, либо SQL Server Native Client. Применение последнего более предпочтительно.
+Используется для подключения к [Хранилищу данных](https://wiki.loginom.ru/articles/data-warehouse.html) [Loginom Warehouse](../../../data-format/data-warehouse.md), основанному на СУБД Microsoft SQL Server.
 
 ## Параметры подключения
 
 При настройке подключения задаются следующие параметры:
 
+* **Метка** — содержит задаваемое пользователем имя подключения.
 * **Строка подключения** — настраивается как в отдельном окне, которое вызывается при клике мышью по кнопке ![уточнить](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg), так и вводом параметров вручную. Эти настройки используются драйвером OLE DB для подключения к необходимой базе данных.
   * Первый вариант с выводом отдельного окна, вызываемом при клике мышью по кнопке ![уточнить](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg). Окно имеет два поля.
     * **Сервер** — хост SQL-сервера. При необходимости, через "" указывается именованный экземпляр SQL-сервера.
@@ -33,20 +32,11 @@
 
 ## Совместимость
 
-* Клиенты:
-  * SQL OLE DB.
-  * SQL Native Client.
-
-* Серверы:
-  * SQL Server 2016, 2014, 2012, 2008 R2, 2008, 2005 (включая Express edition).
-  * SQL Server 2000 (включая MSDE).
-  * SQL Server 7.
-  * SQL Server Compact 4.0, 3.5, 3.1.
+Начиная с версии Microsoft SQL Server 2000 и выше.
 
 > **Важно:** Доменная авторизация осуществляется от имени пользователя, под которым запущен сервер Loginom.
 
 **Смотри также:**
 
-* [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/Microsoft_SQL_Server);
-* [Официальный сайт производителя](https://www.microsoft.com/ru-ru/sql-server);
-* [Документация по SQL синтаксису](https://docs.microsoft.com/ru-ru/sql/t-sql/queries/queries).
+* [Информация по Microsoft SQL Server в русском разделе википедии](https://ru.wikipedia.org/wiki/Microsoft_SQL_Server);
+* [Официальный сайт производителя MS SQL Server](https://www.microsoft.com/ru-ru/sql-server).

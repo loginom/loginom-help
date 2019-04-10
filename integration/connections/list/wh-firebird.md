@@ -38,6 +38,5 @@
 
 **Смотри также:**
 
-* [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/Firebird);
-* [Официальный сайт разработчика](https://firebirdsql.org/);
-* [Документация по SQL синтаксису](https://www.firebirdsql.org/file/documentation/reference_manuals/fblangref25-en/html/fblangref25-dml.html).
+* [Информация по Firebird в русском разделе википедии](https://ru.wikipedia.org/wiki/Firebird);
+* [Официальный сайт разработчика Firebird](https://firebirdsql.org/);
