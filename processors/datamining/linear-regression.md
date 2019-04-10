@@ -31,11 +31,11 @@
 
 ## Мастер настройки узла
 
-Мастер, по большей части, похож на мастер настройки [Логистической  регрессии](https://docs.bg.local/help/linear-regression-description-create/website/processors/datamining/logit-regression/) и включает в себя следующие группы параметров:
+Мастер настройки включает в себя следующие группы параметров:
 
 * Настройки [нормализации](../normalization/README.md);
 * [Разбиение на множества](#razbienie-na-mnozhestva);
-* [Настройка линейной регрессии](#nastroyka-logisticheskoy-regressii);
+* [Настройка линейной регрессии](#nastroyka-lineynoy-regressii);
 * [Детальные настройки](#detalnye-nastroyki) (включаются, если выбран соответствующий флажок в настройках линейной регрессии).
 
 ### Разбиение на множества
