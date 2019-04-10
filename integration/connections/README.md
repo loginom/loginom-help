@@ -6,14 +6,14 @@
 
 ## Типы подключений
 
-* Бизнес приложения
+* Бизнес приложения:
   * [Подключение к 1C:Предприятие 8.x](./list/1c.md).
-* Хранилища данных.
+* Хранилища данных:
   * [Подключение набора XSD-схем](./list/schemes.md).
-  * [Подключение Data Warehouse [Firebird]](./list/wh-firebird.md)
-  * [Подключение Data Warehouse [MS SQL]](./list/wh-mssql.md)
-  * [Подключение Data Warehouse [Oracle]](./list/wh-oracle.md)
-* Базы данных.
+  * [Подключение Loginom Warehouse [Firebird]](./list/wh-firebird.md).
+  * [Подключение Loginom Warehouse [MS SQL]](./list/wh-mssql.md).
+  * [Подключение Loginom Warehouse [Oracle]](./list/wh-oracle.md).
+* Базы данных:
   * [Подключение MS Excel](./list/excel.md).
   * [Подключение Firebird](./list/firebird.md).
   * [Подключение Interbase](./list/interbase.md).
@@ -24,7 +24,7 @@
   * [Подключение Oracle](./list/oracle.md).
   * [Подключение PostgreSQL](./list/postgresql.md).
   * [Подключение SQLite](./list/sqlite.md).
-* Веб-сервисы.
+* Веб-сервисы:
   * [Подключение веб-сервиса](./list/web-service.md).
 
 ## Настройка подключения
@@ -48,28 +48,30 @@
 
 Управление подключениями осуществляется с помощью панели инструментов (4):
 
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_arrow-rr_default.svg)/![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_arrow-ll_default.svg) — показать/скрыть дерево классов подключений;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_tile_default.svg)/![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_table_default.svg)  — тип отображения крупная плитка/таблица;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_group-list_default.svg) — включение группировки списка по видам подключений;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_setup_default.svg) — настроить подключение;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_access-rights_default.svg) — настроить модификатор доступа;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) — удалить подключение;
-* **Проверить** — тестировать подключение;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_test-connection_default.svg) — активировать подключение.
+* ![показать дерево](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_arrow-rr_default.svg) — показать дерево классов подключений;
+* ![скрыть дерево](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_arrow-ll_default.svg) — скрыть дерево классов подключений;
+* ![крупная плитка](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_tile_default.svg) — отображение в виде крупной плитки;
+* ![таблица](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_table_default.svg) — отображение в виде таблицы;
+* ![группировать список](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_group-list_default.svg) — включение группировки списка по видам подключений;
+* ![настроить подключение](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_setup_default.svg) — настроить подключение;
+* ![настроить модификатор доступа](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_access-rights_default.svg) — настроить [модификатор доступа](../../scenario/access-modifier.md);
+* ![удалить подключение](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) — удалить подключение;
+* Проверить — тестировать подключение;
+* ![активировать подключение](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_test-connection_default.svg) — активировать подключение.
 
 Навигация по подключениям осуществляется с помощью инструментов:
 
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom_default.svg) — поиск подключения по имени/пути, возможно искать в разных группах;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_filter_default.svg) — фильтрация по группам/меткам/пути подключения;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_sort-asc_default.svg) — сортировка.
+* ![искать по списку](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom_default.svg) — поиск подключения по имени/пути, возможно искать в разных группах;
+* ![фильтровать список](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_filter_default.svg) — фильтрация по группам/меткам/пути подключения;
+* ![сортировать список](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_sort-asc_default.svg) — сортировка.
 
 Также для каждого подключения доступно контекстное меню:
 
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_edit_default.svg) — Переименовать подключение;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_setup_default.svg) — Настроить подключение;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_access-rights_default.svg) — Настроить [модификатор доступа](../../scenario/access-modifier.md);
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) — Удалить подключение;
+* ![переименовать](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_edit_default.svg) Переименовать подключение…;
+* ![настроить](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_setup_default.svg) Настроить подключение…;
+* ![доступ](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_access-rights_default.svg) Настроить модификатор доступа…;
+* ![удалить](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) Удалить подключение…;
 * Тестировать подключение;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_test-connection_default.svg) — Активировать подключение.
+* ![активировать](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_test-connection_default.svg) Активировать подключение.
 
 [Пример подключения и работы с БД](../../quick-start/database.md)
