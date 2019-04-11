@@ -1,8 +1,6 @@
 # ![wh-oracle](../../../images/icons/data-sources/wh-oracle_default.svg) Подключение к Хранилищу данных Loginom Warehouse [Oracle]
 
-Используется для подключения к [Хранилищу данных](https://wiki.loginom.ru/articles/data-warehouse.html) [Loginom Warehouse](../../../data-format/loginom-warehouse.md), основанному на СУБД Oracle.
-
-Возможно подключение как через клиент СУБД, который необходимо установить, так и через внутренний драйвер Loginom.
+Используется для подключения к [Хранилищу данных](https://wiki.loginom.ru/articles/data-warehouse.html) [Loginom Warehouse](../../../data-format/loginom-warehouse.md), основанному на СУБД Oracle. Возможно подключение как через клиент СУБД, который необходимо установить, так и через внутренний драйвер Loginom.
 
 ## Параметры подключения
 
@@ -14,7 +12,7 @@
     * **ServerName** — хост сервера СУБД.
     * **Port** — порт TCP, используемый сервером СУБД для взаимодействия с клиентом.
     * **Instance** — Oracle Database Instance (SID), содержащий необходимые данные.
-  * Формат строки при использовании клиента СУБД: *`<ServerName>`*.
+  * Формат строки при использовании клиента СУБД: **`<ServerName>`**.
     * **ServerName** — хост сервера СУБД, как указано в конфигурационном файле tnsnames.ora сервера Oracle.
 * **Протестировать подключение** — проверка возможности подключения при заданных настройках.
 * **Логин** — логин пользователя БД.
@@ -39,4 +37,4 @@
 **Смотри также:**
 
 * [Информация по Oracle Database в русском разделе википедии](https://ru.wikipedia.org/wiki/Oracle_Database);
-* [Официальный сайт производителя Oracle Database](https://www.oracle.com/database);
+* [Официальный сайт производителя Oracle Database](https://www.oracle.com/database).

@@ -39,4 +39,4 @@
 **Смотри также:**
 
 * [Информация по Firebird в русском разделе википедии](https://ru.wikipedia.org/wiki/Firebird);
-* [Официальный сайт разработчика Firebird](https://firebirdsql.org/);
+* [Официальный сайт разработчика Firebird](https://firebirdsql.org/).
