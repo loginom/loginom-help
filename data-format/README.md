@@ -10,4 +10,4 @@
 Loginom имеет два фирменных источника данных:
 
 * [Loginom Data File](./lgd-file.md);
-* [Хранилище данных Loginom Warehouse](./loginom-warehouse.md).
+* [Хранилище данных Deductor Warehouse](./data-warehouse.md).

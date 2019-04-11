@@ -10,9 +10,9 @@
   * [Подключение к 1C:Предприятие 8.x](./list/1c.md).
 * Хранилища данных:
   * [Подключение набора XSD-схем](./list/schemes.md).
-  * [Подключение Loginom Warehouse [Firebird]](./list/wh-firebird.md).
-  * [Подключение Loginom Warehouse [MS SQL]](./list/wh-mssql.md).
-  * [Подключение Loginom Warehouse [Oracle]](./list/wh-oracle.md).
+  * [Подключение Deductor Warehouse [Firebird]](./list/wh-firebird.md).
+  * [Подключение Deductor Warehouse [MS SQL]](./list/wh-mssql.md).
+  * [Подключение Deductor Warehouse [Oracle]](./list/wh-oracle.md).
 * Базы данных:
   * [Подключение MS Excel](./list/excel.md).
   * [Подключение Firebird](./list/firebird.md).

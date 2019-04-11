@@ -1,6 +1,6 @@
-# ![Импорт из ХД](../../images/icons/data-sources/wh-datawarehouse-import_default.svg) Импорт из хранилища данных Loginom Warehouse
+# ![Импорт из ХД](../../images/icons/data-sources/wh-datawarehouse-import_default.svg) Импорт из хранилища данных Deductor Warehouse
 
-Компонент предназначен для импорта набора данных из [Хранилища данных](https://wiki.loginom.ru/articles/data-warehouse.html) [Loginom Warehouse](../../data-format/data-warehouse.md) (далее — Хранилище данных).
+Компонент предназначен для импорта набора данных из [Хранилища данных](https://wiki.loginom.ru/articles/data-warehouse.html) [Deductor Warehouse](../../data-format/data-warehouse.md) (далее — Хранилище данных).
 
 > **Важно:** Для работы узла требуется предварительно создать [Подключение](../connections/README.md) к *Хранилищу данных* и связать его с входным портом *Подключение*.
 
