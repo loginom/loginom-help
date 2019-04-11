@@ -6,7 +6,7 @@ const InputTables: IDataSource[];   // Массив входных источн�
 const OutputTable: IOutputTable;    // Выходной набор данных
 const InputVariables: IVariables;   // Входные переменные
 
-// Перечисления описывающие метаданные полей и переменных
+// Перечисления, описывающие метаданные полей и переменных
 enum DataType { None, Boolean, DateTime, Float, Integer, String, Variant }  // Тип данных
 enum DataKind { Undefined, Continuous, Discrete }                           // Вид данных
 enum UsageType { Unspecified, Excluded, Useless, Active,                    // Назначение полей
@@ -28,7 +28,7 @@ interface IColumn extends Iterable<boolean | number | string | Date | undefined>
     IsNull(row: number): boolean;
 }
 
-// Доступ к итерабельному списку столбцов по имени и индексу
+// Доступ к итерируемому списку столбцов по имени и индексу
 interface IColumns extends Iterable<IColumn> {
     [name: string]: IColumn;
     [index: number]: IColumn;
@@ -64,7 +64,7 @@ interface IVariable {
     readonly IsNull: boolean;                                               // Проверка на Null
 }
 
-// Доступ к итерабельному списку входных переменных по имени и индексу
+// Доступ к итерируемому списку входных переменных по имени и индексу
 interface IVariableItems extends Iterable<IVariable> {
     [name: string]: IVariable;
     [index: number]: IVariable;
