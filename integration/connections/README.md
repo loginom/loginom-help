@@ -6,7 +6,6 @@
 
 ## Типы подключений
 
-<<<<<<< HEAD
 * Бизнес приложения:
   * [Подключение к 1C:Предприятие 8.x](./list/1c.md).
 * Хранилища данных:
@@ -27,26 +26,7 @@
   * [Подключение SQLite](./list/sqlite.md).
 * Веб-сервисы:
   * [Подключение веб-сервиса](./list/web-service.md).
-=======
-  * Бизнес приложения
-    * [Подключение к 1C:Предприятие 8.x](./list/1c.md).
-  * Хранилища данных.
-    * [Подключение набора XSD-схем](./list/schemes.md).
-  * Базы данных.
-    * [Подключение MS Excel](./list/excel.md).
-    * [Подключение Firebird](./list/firebird.md).
-    * [Подключение Interbase](./list/interbase.md).
-    * [Подключение MS Access](./list/msaccess.md).
-    * [Подключение MS SQL](./list/mssql.md).
-    * [Подключение MySQL](./list/mysql.md).
-    * [Подключение ODBC](./list/odbc.md).
-    * [Подключение Oracle](./list/oracle.md).
-    * [Подключение PostgreSQL](./list/postgresql.md).
-    * [Подключение SQLite](./list/sqlite.md).
-  * Веб-сервисы.
-    * [Подключение веб-сервиса](./list/web-service.md).
-    * [Подключение REST-сервиса](./list/rest-service.md).
->>>>>>> master
+  * [Подключение REST-сервиса](./list/rest-service.md).
 
 ## Настройка подключения
 
