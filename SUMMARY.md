@@ -48,6 +48,7 @@
     * [SQLite](./integration/connections/list/sqlite.md)
     * [Набор XSD-схем](./integration/connections/list/schemes.md)
     * [Веб-сервис](./integration/connections/list/web-service.md)
+    * [REST-сервис](./integration/connections/list/rest-service.md)
     * [Deductor Warehouse [Firebird]](./integration/connections/list/wh-firebird.md)
     * [Deductor Warehouse [MS SQL]](./integration/connections/list/wh-mssql.md)
     * [Deductor Warehouse [Oracle]](./integration/connections/list/wh-oracle.md)
