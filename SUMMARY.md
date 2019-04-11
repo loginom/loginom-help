@@ -188,7 +188,7 @@
   * [Вид данных (непрерывный, дискретный)](./data/datakind.md)
 * [Фирменные источники данных](./data-format/README.md)
   * [Loginom Data File](./data-format/lgd-file.md)
-  * [Хранилище данных (Deductor) Data Warehouse](./data-format/data-warehouse.md)
+  * [Хранилище данных Loginom Warehouse](./data-format/loginom-warehouse.md)
 * [Файловое хранилище](./location_user_files.md)
 * [Админиcтрирование](./admin/README.md)
   * [Пользователи](./admin/users.md)

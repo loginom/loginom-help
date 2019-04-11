@@ -1,6 +1,6 @@
 # ![wh-mssql](../../../images/icons/data-sources/wh-mssql_default.svg) Подключение к Хранилищу данных Loginom Warehouse [MS SQL]
 
-Используется для подключения к [Хранилищу данных](https://wiki.loginom.ru/articles/data-warehouse.html) [Loginom Warehouse](../../../data-format/data-warehouse.md), основанному на СУБД Microsoft SQL Server.
+Используется для подключения к [Хранилищу данных](https://wiki.loginom.ru/articles/data-warehouse.html) [Loginom Warehouse](../../../data-format/loginom-warehouse.md), основанному на СУБД Microsoft SQL Server.
 
 ## Параметры подключения
 

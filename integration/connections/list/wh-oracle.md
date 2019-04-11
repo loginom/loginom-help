@@ -1,6 +1,6 @@
 # ![wh-oracle](../../../images/icons/data-sources/wh-oracle_default.svg) Подключение к Хранилищу данных Loginom Warehouse [Oracle]
 
-Используется для подключения к [Хранилищу данных](https://wiki.loginom.ru/articles/data-warehouse.html) [Loginom Warehouse](../../../data-format/data-warehouse.md), основанному на СУБД Oracle.
+Используется для подключения к [Хранилищу данных](https://wiki.loginom.ru/articles/data-warehouse.html) [Loginom Warehouse](../../../data-format/loginom-warehouse.md), основанному на СУБД Oracle.
 
 Возможно подключение как через клиент СУБД, который необходимо установить, так и через внутренний драйвер Loginom.
 

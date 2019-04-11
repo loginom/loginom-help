@@ -1,6 +1,6 @@
 # ![wh-firebird](../../../images/icons/data-sources/wh-firebird_default.svg) Подключение к Хранилищу данных Loginom Warehouse [Firebird]
 
-Используется для подключения к [Хранилищу данных](https://wiki.loginom.ru/articles/data-warehouse.html) [Loginom Warehouse](../../../data-format/data-warehouse.md), основанному на СУБД Firebird. На компьютере пользователя должен быть установлен клиент СУБД Firebird.
+Используется для подключения к [Хранилищу данных](https://wiki.loginom.ru/articles/data-warehouse.html) [Loginom Warehouse](../../../data-format/loginom-warehouse.md), основанному на СУБД Firebird. На компьютере пользователя должен быть установлен клиент СУБД Firebird.
 
 ## Параметры подключения
 
