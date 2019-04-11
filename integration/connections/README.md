@@ -52,26 +52,26 @@
 * ![скрыть дерево](../../images/icons/toolbar-controls/arrow-ll_default.svg) — скрыть дерево классов подключений;
 * ![крупная плитка](../../images/icons/toolbar-controls/tile_default.svg) — отображение в виде крупной плитки;
 * ![таблица](../../images/icons/toolbar-controls/table_default.svg) — отображение в виде таблицы;
-* ![группировать список](../../images/icons/toolbar-controls/group-list_default.svg) — включение группировки списка по видам подключений;
-* ![настроить подключение](../../images/icons/toolbar-controls/setup_default.svg) — настроить подключение;
+* ![группировать список](../../images/icons/toolbar-controls/group-list_default.svg) — включение группировки списка по видам подключений (Alt+G);
+* ![настроить подключение](../../images/icons/toolbar-controls/setup_default.svg) — настроить подключение (Enter);
 * ![настроить модификатор доступа](../../images/icons/toolbar-controls/access-rights_default.svg) — настроить [модификатор доступа](../../scenario/access-modifier.md);
-* ![удалить подключение](../../images/icons/toolbar-controls/delete_default.svg) — удалить подключение;
-* Проверить — тестировать подключение;
-* ![активировать подключение](../../images/icons/toolbar-controls/test-connection_default.svg) — активировать подключение.
+* ![удалить подключение](../../images/icons/toolbar-controls/delete_default.svg) — удалить подключение (Delete);
+* Проверить — тестировать подключение (Shift+F3);
+* ![активировать подключение](../../images/icons/toolbar-controls/test-connection_default.svg) — активировать подключение (F3).
 
 Навигация по подключениям осуществляется с помощью инструментов:
 
-* ![искать по списку](../../images/icons/toolbar-controls/zoom_default.svg) — поиск подключения по имени/пути, возможно искать в разных группах;
-* ![фильтровать список](../../images/icons/toolbar-controls/filter_default.svg) — фильтрация по группам/меткам/пути подключения;
+* ![искать по списку](../../images/icons/toolbar-controls/zoom_default.svg) — поиск подключения по имени/пути, возможно искать в разных группах (Ctrl+F);
+* ![фильтровать список](../../images/icons/toolbar-controls/filter_default.svg) — фильтрация по группам/меткам/пути подключения (Ctrl+D);
 * ![сортировать список](../../images/icons/toolbar-controls/sort-asc_default.svg) — сортировка.
 
 Также для каждого подключения доступно контекстное меню:
 
-* ![переименовать](../../images/icons/toolbar-controls/edit_default.svg) Переименовать подключение…;
-* ![настроить](../../images/icons/toolbar-controls/setup_default.svg) Настроить подключение…;
+* ![переименовать](../../images/icons/toolbar-controls/edit_default.svg) Переименовать подключение… (F2);
+* ![настроить](../../images/icons/toolbar-controls/setup_default.svg) Настроить подключение… (Enter);
 * ![доступ](../../images/icons/toolbar-controls/access-rights_default.svg) Настроить модификатор доступа…;
-* ![удалить](../../images/icons/toolbar-controls/delete_default.svg) Удалить подключение…;
-* Тестировать подключение;
-* ![активировать](../../images/icons/toolbar-controls/test-connection_default.svg) Активировать подключение.
+* ![удалить](../../images/icons/toolbar-controls/delete_default.svg) Удалить подключение… (Delete);
+* ![!!!пустышка](../../images/icons/checkbox-states/unchecked_default.svg) Тестировать подключение (Shift+F3);
+* ![активировать](../../images/icons/toolbar-controls/test-connection_default.svg) Активировать подключение (F3).
 
 [Пример подключения и работы с БД](../../quick-start/database.md)
