@@ -140,6 +140,7 @@
       * [Таблица в переменные](./processors/variables/table-variables.md)
     * [Интеграция](./processors/integration/README.md)
       * [Вызов веб-сервиса](./processors/integration/calling-web-service.md)
+      * [Вызов REST-сервиса](./processors/integration/calling-rest-service.md)
       * [Выполнение программы](./processors/integration/exec-program.md)
       * [Извлечение XML](./processors/integration/extracting-xml.md)
   * [Функции](./processors/func/README.md)
