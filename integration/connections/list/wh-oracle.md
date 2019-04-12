@@ -1,6 +1,6 @@
 # ![wh-oracle](../../../images/icons/data-sources/wh-oracle_default.svg) Подключение к Deductor Warehouse [Oracle]
 
-Используется для подключения к [Хранилищу данных](https://wiki.loginom.ru/articles/data-warehouse.html) [Deductor Warehouse](../../../data-format/data-warehouse.md), основанному на СУБД Oracle. Возможно подключение как через клиент СУБД, который необходимо установить, так и через внутренний драйвер Loginom.
+Используется для подключения к Хранилищу данных [Deductor Warehouse](../../../data-format/data-warehouse.md), основанному на СУБД Oracle. Возможно подключение как через клиент СУБД, который необходимо установить, так и через внутренний драйвер Loginom.
 
 ## Параметры подключения
 
