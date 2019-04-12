@@ -1,4 +1,4 @@
-# ![](../../images/icons/view_types_18/view_types_default-04.svg) Конечные классы
+# ![](../../images/icons/view_types/coarseclasses_default.svg) Конечные классы
 
 Визуализатор Конечные классы предназначен для следующих задач:
 

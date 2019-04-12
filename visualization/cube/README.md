@@ -1,4 +1,4 @@
-# ![](../../images/icons/view_types_18/view_types_default-03.svg) Куб
+# ![](../../images/icons/view_types/cube_default.svg) Куб
 
 [Куб](https://wiki.loginom.ru/articles/cube.html) является одним из распространенных методов комплексного многомерного анализа данных, получивших название [OLAP](https://wiki.loginom.ru/articles/online-analytical-processing.html) (OnLine Analytical Processing). В его основе лежит представление данных в виде многомерных кубов, называемых также OLAP-кубами или гиперкубами.
 
