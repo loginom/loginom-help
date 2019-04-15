@@ -177,6 +177,7 @@
     * [Статистические показатели](./visualization/statistics/statistics-description.md)
   * [Конечные классы](./visualization/fine-classes/README.md)
   * [Отчет по регрессии](./visualization/regression/README.md)
+  * [Качество бинарной классификации](./visualization/binary-classification.md)
 * [Данные](./data/README.md)
   * [Типы данных](./data/datatype.md)
   * [Совместимость типов данных](./data/compatibility.md)
