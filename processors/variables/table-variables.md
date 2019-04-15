@@ -1,4 +1,4 @@
-# ![](../../images/icons/vendors/datatovariables.svg) Таблица в переменные
+# ![Таблица в переменные](../../images/icons/components/datatovariables_default.svg) Таблица в переменные
 
 ## Описание
 
@@ -6,11 +6,11 @@
 
 ### Вход
 
-* ![](../../images/icons/ports/input_table_inactive.svg) Входной источник данных (таблица данных). 
+* ![Входной источник данных](../../images/icons/ports/input_table_inactive.svg) **Входной источник данных** — таблица данных.
 
 ### Выход
 
-* ![](../../images/icons/ports/output_variable_inactive.svg) Выходные переменные.
+* ![Выходные переменные](../../images/icons/ports/output_variable_inactive.svg) **Выходные переменные**.
 
 ## Мастер настройки
 
