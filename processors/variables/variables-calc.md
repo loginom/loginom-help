@@ -93,10 +93,10 @@
 
 Шаблоны:
 
-* ![Число](../../images/icons/toolbar-controls/type-float_default.svg) — для ввода вещественного числа;
-* ![Строка](../../images/icons/toolbar-controls/type-string_default.svg) — для ввода строки;
-* ![Дата](../../images/icons/toolbar-controls/type-date_default.svg) — для ввода даты `StrToDate("____-__-__", "YYYY-MM-DD")`;
-* ![Время](../../images/icons/toolbar-controls/type-time_default.svg) — для ввода времени `StrToDate("__:__:__", "HH:NN:SS")`.
+* ![Вещественное число](../../images/icons/toolbar-controls/type-float_default.svg) — для ввода вещественного числа, будет вставлено `0.0`;
+* ![Строка](../../images/icons/toolbar-controls/type-string_default.svg) — для ввода строки, будет вставлено `""`;
+* ![Дата](../../images/icons/toolbar-controls/type-date_default.svg) — для ввода даты, будет вставлено `StrToDate("____-__-__", "YYYY-MM-DD")`;
+* ![Время](../../images/icons/toolbar-controls/type-time_default.svg) — для ввода времени, будет вставлено `StrToDate("__:__:__", "HH:NN:SS")`.
 
 Логические значения:
 
@@ -132,7 +132,7 @@ IF(IsNull(var_one),var_two,var_one) // однострочный коммента
 
 Возможна фильтрация по категории и названию функции.
 
-Двойной клик мыши по позиции выбранной функции вставляет ее синтаксис в область кода выражения. То же самое можно сделать при помощи Drag-and-drop.
+Двойной клик мыши по позиции выбранной функции вставляет ее синтаксис в область кода выражения. То же самое можно сделать при помощи Drag-and-Drop.
 
 ---
 
