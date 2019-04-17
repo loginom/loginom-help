@@ -8,7 +8,7 @@
 
 ### Вход
 
-* ![Входные переменные](../../images/icons/ports/optional_input_variable_inactive.svg) **Входные переменные**.
+* ![Входные переменные](../../images/icons/ports/optional_input_variable_inactive.svg) **Входные переменные** — список переменных, которые можно использовать в обработчике.
 
 ### Выход
 
