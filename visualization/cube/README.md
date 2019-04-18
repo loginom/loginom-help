@@ -1,4 +1,4 @@
-# ![](../../images/icons/view_types/cube_default.svg) Куб
+# ![Визуализатор Куб](../../images/icons/view_types/cube_default.svg) Куб
 
 [Куб](https://wiki.loginom.ru/articles/cube.html) является одним из распространенных методов комплексного многомерного анализа данных, получивших название [OLAP](https://wiki.loginom.ru/articles/online-analytical-processing.html) (OnLine Analytical Processing). В его основе лежит представление данных в виде многомерных кубов, называемых также OLAP-кубами или гиперкубами.
 
@@ -8,26 +8,46 @@
 
 ### Операции
 
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_fields-list_default.svg) **Поля** — показать/скрыть список полей набора данных.
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_chart_default.svg) **Диаграмма** — показать/скрыть [диаграмму](./chart.md).
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_collapce-all_default.svg) **Свернуть** — свернуть иерархию измерений куба.
+* ![Поля](../../images/icons/toolbar-controls/fields-list_default.svg) **Поля** — показать/скрыть список полей набора данных.
+* ![Детализация](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) **Детализация** — показать/скрыть [Детализация] (./details.md).
+* ![ ](../../images/icons/toolbar-controls/) **Способ детализации** — показать/скрыть [Детализация] (./details.md):
+  * ![ ](../../images/icons/toolbar-controls/) **Таблица**.
+  * ![ ](../../images/icons/toolbar-controls/) **Форма**.
+  * ![ ](../../images/icons/toolbar-controls/) **Статистика**.
+* ![Диаграмма](../../images/icons/toolbar-controls/chart_default.svg) **Диаграмма** — показать/скрыть [диаграмму](./chart.md).
+* ![Свернуть](../../images/icons/toolbar-controls/collapce-all_default.svg) **Свернуть** — свернуть иерархию измерений куба.
   * Свернуть все.
   * Свернуть колонки.
   * Свернуть строки.
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_open-all_default.svg) **Развернуть** — развернуть иерархию измерений куба.
+* ![Развернуть](../../images/icons/toolbar-controls/open-all_default.svg) **Развернуть** — развернуть иерархию измерений куба.
   * Развернуть все.
   * Развернуть колонки.
   * Развернуть строки.
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_show-total-all_default.svg) **Итоги** — показать/скрыть итоги по кубу.
-  * Все.
-  * В колонках.
-  * В строках.
-  * Нигде.
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_width-equal_default.svg) **Выравнивание** ширины:
-  * Колонок.
-  * Фактов.
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_transform_default.svg) **Транспонировать** — переместить измерения, находящиеся в строках, в столбцы и наоборот.
-* ![](../../images/icons/cube-cases/cube-cases-case-calc_default.svg) **Добавить вычисляемый факт** — [добавить вычисляемый факт](./addcalculatingfact.md) в куб.
+* ![Итоги](../../images/icons/toolbar-controls/show-total-all_default.svg) **Итоги** — показать/скрыть итоги по кубу:
+  * ![Итоги](../../images/icons/toolbar-controls/show-total-all_default.svg) Все.
+  * ![Итоги](../../images/icons/toolbar-controls/show-total-col_default.svg) В колонках.
+  * ![Итоги](../../images/icons/toolbar-controls/show-total-row_default.svg) В строках.
+  * ![Итоги](../../images/icons/toolbar-controls/show-total-nor_default.svg) Нигде.
+* ![Выравнивание](../../images/icons/toolbar-controls/width-equal_default.svg) **Выравнивание ширины колонок**:
+  * ![Выравнивание](../../images/icons/toolbar-controls/width-equal_default.svg) Равная ширина фактов.
+  * ![Выравнивание](../../images/icons/toolbar-controls/width-same_default.svg) Равная ширина колонок.
+* ![Транспонировать](../../images/icons/toolbar-controls/transform_default.svg) **Транспонировать** — переместить измерения, находящиеся в строках, в столбцы и наоборот.
+* ![Настроить факты](../../images/icons/cube-cases/cube-cases-case-tune_default.svg) **Настроить факты…** — открывает окно [настройки фактов](./configurefacts.md).
+* ![Добавить вычисляемый факт](../../images/icons/cube-cases/cube-cases-case-calc_default.svg) **Добавить вычисляемый факт…** — открывает окно [добавления вычисляемого факта](./addcalculatingfact.md) в куб.
+* ![Фильтровать факты](../../images/icons/cube-cases/cube-cases-case-filter_default.svg) **Фильтровать факты…** — отрывает окно для  [фильтрования фактов](./filterfacts.md).
+* ![Форматировать факты](../../images/icons/cube-cases/cube-cases-case-format_default.svg) **Форматировать факты…** — отрывает окно для [форматирования факов](./formatfacts.md).
+* ![Экспорт](../../images/icons/toolbar-controls/export_default.svg) **XLS** / **HTML**:
+  * экспорт в XLS.
+  * экспорт в HTML.
+* ![Приостановить автовычисление](../../images/icons/toolbar-controls/locked_default.svg) — Приостановить автовычисление.
+
+### Контекстное меню
+
+Указанные операции доступны также через контекстном меню.
+
+Кроме них есть еще:
+
+* ![Скрыть единственный факт](../../images/icons/checkbox-states/checked_default.svg) **Скрыть единственный факт** — позволяет скрыть строку с названием факта, если он единственный выбранный.
 
 ### Настройка куба
 
@@ -37,25 +57,25 @@
 
 Добавить измерения в строки или столбцы куба можно двумя способами:
 
-* Перетащить (Drag&Drop) поле из левого списка в ту область, в которую его необходимо добавить: строки или столбцы;
-* Нажать кнопку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus-native_default.svg) нужной области и выбрать необходимое поле из списка.
+* Перетащить (Drag-and-Drop) поле из левого списка в ту область, в которую его необходимо добавить: строки или столбцы;
+* Нажать кнопку ![добавить](../../images/icons/toolbar-controls/plus-native_default.svg) нужной области и выбрать необходимое поле из списка.
 
-Чтобы отсортировать значения измерения, необходимо нажать кнопку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_down_default.svg) рядом с нужным измерением и выбрать необходимый вариант:
+Чтобы отсортировать значения измерения, необходимо нажать кнопку ![Раскрыть список](../../images/icons/toolbar-controls/down_default.svg) рядом с нужным измерением и выбрать необходимый вариант:
 
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_low-to-hight_default.svg) **По возрастанию** — отсортировать значения в порядке возрастания;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_hight-to-low_default.svg) **По убыванию** — отсортировать значения в порядке убывания;
-* **В исходном порядке** — выстроить значиния в изначальном порядке.
+* ![По возрастанию](../../images/icons/toolbar-controls/low-to-hight_default.svg) **По возрастанию** — отсортировать значения в порядке возрастания;
+* ![По убыванию](../../images/icons/toolbar-controls/hight-to-low_default.svg) **По убыванию** — отсортировать значения в порядке убывания;
+* ![ ](../../images/icons/blank.svg) **В исходном порядке** — выстроить значения в изначальном порядке.
 
 Чтобы отфильтровать данные по измерению необходимо щёлкнуть по нужному измерению, выбрать значения из списка уникальных и нажать "Применить".
 При этом доступны операции:
 
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_check-all_default.svg) **Выбрать все** — выбрать все значения списка;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_uncheck-all_default.svg) **Отменить выбор** всех — снять выбор всех значений списка;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_reverse-check_default.svg) **Инвертировать выбор** — поменять выбранные значения списка на невыбранные и наоборот.
+* ![Выбрать все](../../images/icons/toolbar-controls/check-all_default.svg) **Выбрать все** — выбрать все значения списка;
+* ![Отменить выбор](../../images/icons/toolbar-controls/uncheck-all_default.svg) **Отменить выбор** всех — снять выбор всех значений списка;
+* ![Инвертировать выбор](../../images/icons/toolbar-controls/reverse-check_default.svg) **Инвертировать выбор** — поменять выбранные значения списка на невыбранные и наоборот.
 
 Удалить измерение можно:
 
-* Нажав кнопку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_down_default.svg) рядом с нужным измерением и выбрав ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) *Удалить*.
+* Нажав кнопку ![Раскрыть список](../../images/icons/toolbar-controls/down_default.svg) рядом с нужным измерением и выбрав ![Удалить](../../images/icons/toolbar-controls/delete_default.svg) *Удалить*.
 
 > **Примечание:** Над областью настройки измерений куба находится область фильтрации, она заполняется и имеет те же параметры сортировки и фильтрации, что и область настройки измерений, но измерения добавленные в эту область не будут отображаться в кубе, зато они могут быть использованы в вычисляемых фактах и для фильтрации данных в кубе.
 
@@ -63,13 +83,14 @@
 
 Добавить факты можно двумя способами:
 
-* Перетащить (Drag&Drop) поле из левого списка в область фактов куба;
+* Перетащить (Drag-and-Drop) поле из левого списка в область фактов куба;
 * Нажать кнопку Факты, выбрать необходимое поле и в появившемся [окне](./addfact.md) выбрать нужный вариант [агрегации](../../processors/func/aggregation-functions.md) и способ его отображения.
 
-Нажав на кнопку ![](../../images/icons/toolbar-controls_18x18//toolbar-controls_18x18_down_default.svg) рядом с Факты можно открыть одно из окон:
+Нажав на кнопку ![Раскрыть список](../../images/icons/toolbar-controls/down_default.svg) рядом с Факты можно открыть одно из окон:
 
-* ![]() [Форматировать факты](./formatfacts.md);
-* ![]() [Фильтровать факты](./filterfacts.md);
-* ![]() [Настроить факты](./configurefacts.md).
+* ![Настроить факты](../../images/icons/cube-cases/cube-cases-case-tune_default.svg) **Настроить факты…** — открывает окно [настройки фактов](./configurefacts.md);
+* ![Добавить вычисляемый факт](../../images/icons/cube-cases/cube-cases-case-calc_default.svg) **Добавить вычисляемый факт…** — открывает окно для [добавление вычисляемого факта](./addcalculatingfact.md) в куб;
+* ![Фильтровать факты](../../images/icons/cube-cases/cube-cases-case-filter_default.svg) **Фильтровать факты…** — отрывает окно для  [фильтрования фактов](./filterfacts.md);
+* ![Форматировать факты](../../images/icons/cube-cases/cube-cases-case-format_default.svg) **Форматировать факты…** — отрывает окно для [форматирования факов](./formatfacts.md).
 
 >**Примечание:** По умолчанию в качестве варианта агрегации и способа его отображения выбирается идущий первым по списку. Поддерживается отображение сразу нескольких вариантов агрегации и способов их отображения для каждого факта.
