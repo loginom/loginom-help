@@ -111,12 +111,9 @@
 <table>
 <tr><th align="left" rowspan="2">Классифицировано</th><th align="left" colspan="2">Фактически</th><th rowspan="2" align="left">Итого</th></tr>
 <tr><th align="left">Событие</th><th align="left">Не-событие</th></tr>
- <tr><th align="left">Обучающее</th><td>TP + FN</td><td>FP + TN</td><td></td></tr>
+ <tr><th align="left">Множество</th><td>P</td><td>N</td><td></td></tr>
  <tr><td>Событие</td><td>TP</td><td>FP</td><td>TP+FP</td></tr>
- <tr><td>Не-событие</td><td>FN</td><td>TN</td><td>FN + TN</td></tr>
- <tr><th align="left">Тестовое</th><td>TP + FN</td><td>FP + TN</td><td></td></tr>
- <tr><td>Событие</td><td>TP</td><td>FP</td><td>TP+FP</td></tr>
- <tr><td>Не-событие</td><td>FN</td><td>TN</td><td>FN + TN</td></tr>
+ <tr><td>Не-событие</td><td>FN</td><td>TN</td><td>FN+TN</td></tr>
 </table>
 
 * **TP** — означет количество истинно положительных результатов, т.е. записи которые были классифицированны как событие и являвшиеся событием.
