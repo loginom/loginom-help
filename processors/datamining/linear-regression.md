@@ -18,10 +18,10 @@
 
 * ![](../../images/icons/ports/input_table_inactive.svg) Входной источник данных (таблица данных).
 * ![](../../images/icons/ports/input_variable_inactive.svg) Управляющие переменные (переменные) — необязательный порт. По умолчанию скрыт.   
-### Выходы
 
+### Выходы
 * ![](../../images/icons/ports/output_table_inactive.svg) Выход регрессии (таблица данных);
-* ![](../../images/icons/ports/output_table_inactive.svg) Коэффициенты регрессионной модели (таблица данных);
+* ![](../../images/icons/ports/output_table_inactive.svg) [Коэффициенты регрессионной модели](https://wiki.loginom.ru/articles/coefficient-of-regression.html) (таблица данных);
 * ![](../../images/icons/ports/output_variable_inactive.svg) Сводка (переменные).
 
 ## Мастер настройки узла
