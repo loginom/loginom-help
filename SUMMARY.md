@@ -156,7 +156,7 @@
     * [Нормализация непрерывных данных](./processors/normalization/normalization-continuous.md)
     * [Нормализация дискретных данных](./processors/normalization/normalization-discrete.md)
   * [Валидация моделей](./processors/validation.md)
-* [Визуализация](./visualization/README.md)
+* [Визуализаторы](./visualization/README.md)
   * [Таблица](./visualization/table/README.md)
     * [Фильтрация](./visualization/table/filter.md)
     * [Формат](./visualization/table/format.md)
