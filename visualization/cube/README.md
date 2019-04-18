@@ -9,8 +9,8 @@
 ### Операции
 
 * ![Поля](../../images/icons/toolbar-controls/fields-list_default.svg) **Поля** — показать/скрыть список полей набора данных.
-* ![Детализация](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) **Детализация** — показать/скрыть [Детализация] (./details.md).
-* ![ ](../../images/icons/toolbar-controls/) **Способ детализации** — показать/скрыть [Детализация] (./details.md):
+* ![Детализация](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) **Детализация** — показать/скрыть [детализацию](./details.md).
+* ![ ](../../images/icons/toolbar-controls/) **Способ детализации**:
   * ![ ](../../images/icons/toolbar-controls/) **Таблица**.
   * ![ ](../../images/icons/toolbar-controls/) **Форма**.
   * ![ ](../../images/icons/toolbar-controls/) **Статистика**.
