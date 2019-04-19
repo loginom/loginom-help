@@ -2,7 +2,7 @@
 
 В Loginom имеются инструменты для обмена данными с внешними веб-сервисами и публикации своих собственных. Благодаря этому решения, созданные на базе Loginom, могут быть легко встроены в IT-ландшафт любой сложности.
 
-> **Важно:** Инструменты работы с веб-сервисами доступны только в редакциях [Loginom Standard](https://loginom.ru/platform/pricing#edition-standard) и [Loginom Enterprise](https://loginom.ru/platform/pricing#edition-enterprise).
+> **Примечание:** Инструменты работы с веб-сервисами доступны только в [серверных]((https://loginom.ru/platform/pricing#compare)) редакциях Loginom.
 
 Интеграция и работа с веб-сервисами требует наличия следующих компонентов платформы Loginom:
 
@@ -25,7 +25,7 @@
 - [Вызов веб-сервиса](../../processors/integration/calling-web-service.md) — вызов SOAP-сервиса.
 - [Вызов REST-сервиса](../../processors/integration/calling-rest-service.md) — вызов REST-сервиса.
 
-> **Важно:** Ряд сервисов предоставляет ответ в виде вложенного XML. Для его преобразования в табличный вид предназначен компонент [Извлечение XML](../../processors/integration/extracting-xml.md). Для преобразования ответа, полученного в виде JSON, возможно использование конструкции [JSON.parse()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) в компоненте [Java-script](../../processors/transformation/java-script).
+> **Примечание:** Ряд сервисов предоставляет ответ в виде вложенного XML. Для его преобразования в табличный вид предназначен компонент [Извлечение XML](../../processors/integration/extracting-xml.md). Для преобразования ответа, полученного в виде JSON, возможно использование конструкции [JSON.parse()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) в компоненте [Java-script](../../processors/transformation/java-script).
 
 ### Создание собственных веб-сервисов
 
