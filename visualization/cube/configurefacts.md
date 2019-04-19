@@ -1,4 +1,4 @@
-# ![](../../images/icons/cube-cases/cube-cases-case-tune_default.svg) Настроить факты
+# ![Настроить факты](../../images/icons/cube-cases/cube-cases-case-tune_default.svg) Настроить факты
 
 Позволяет, выставляя флаги у нужных фактов/вариантов [агрегации](../../processors/func/aggregation-functions.md) и способов отображения, настроить отображаемые факты.
 
@@ -6,12 +6,18 @@
 
 ## Операции
 
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_moveup_default.svg) **Переместить вверх** — переместить факт/вариант агрегации/способ отображения на позицию вверх;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_movedown_default.svg) **Переместить вниз** — переместить факт/вариант агрегации/способ отображения на позицию вниз;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_collapce-all_default.svg) **Свернуть дерево** — свернуть дерево фактов;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_open-all_default.svg) **Развернуть дерево** — развернуть дерево фактов;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_check-all_default.svg) **Выбрать все** — выбрать все факты, варианты агрегации со всеми способами отображения;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_uncheck-all_default.svg) **Отменить выбор всех** — убрать выбор всех фактов, вариантов агрегации со всеми способами отображения;
-* ![](../../images/icons/cube-cases/cube-cases-case-calc_default.svg) **Добавить вычисляемый факт** — [добавить вычисляемый факт](./addcalculatingfact.md) в куб;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_edit_default.svg) **Редактировать вычисляемый факт** — открыть окно редактирования вычисляемого факта;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) **Удалить вычисляемый факт**.
+* ![Переместить вверх](../../images/icons/toolbar-controls/moveup_default.svg) **Переместить вверх** — переместить факт/вариант агрегации/способ отображения на позицию вверх;
+* ![Переместить вниз](../../images/icons/toolbar-controls/movedown_default.svg) **Переместить вниз** — переместить факт/вариант агрегации/способ отображения на позицию вниз;
+* ![Свернуть дерево](../../images/icons/toolbar-controls/collapce-all_default.svg) **Свернуть дерево** — свернуть дерево фактов;
+* ![Развернуть дерево](../../images/icons/toolbar-controls/open-all_default.svg) **Развернуть дерево** — развернуть дерево фактов;
+* ![Выбрать все](../../images/icons/toolbar-controls/check-all_default.svg) **Выбрать все** — выбрать все факты, варианты агрегации со всеми способами отображения;
+* ![Отменить выбор всех](../../images/icons/toolbar-controls/uncheck-all_default.svg) **Отменить выбор всех** — убрать выбор всех фактов, вариантов агрегации со всеми способами отображения;
+* ![Добавить вычисляемый факт](../../images/icons/cube-cases/cube-cases-case-calc_default.svg) **Добавить вычисляемый факт…** — открывает окно для [добавления вычисляемого факт](./addcalculatingfact.md) в куб;
+* ![Редактировать вычисляемый факт](../../images/icons/toolbar-controls/edit_default.svg) **Редактировать вычисляемый факт…** — открыть окно редактирования вычисляемого факта;
+* ![Удалить вычисляемый факт](../../images/icons/toolbar-controls/delete_default.svg) **Удалить вычисляемый факт** — удаляет выделенный вычисляемый факт, добавленный ранее.
+
+При выборе фактов следует выбрать интересуемую функцию агрегации, а также отметить, в каком виде необходимо их отобразить:
+
+* ![ ](../../images/icons/blank.svg) **Сумма** — показывает сумму значений данного факта;
+* **Процент по горизонтали** — отображает долю в процентах от занимаемого данным фактом в данной строке;
+* **Процент по вертикали** — отображает долю в процентах от занимаемого данным фактом в данном столбце.
