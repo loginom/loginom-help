@@ -10,10 +10,10 @@
 
 * ![Поля](../../images/icons/toolbar-controls/fields-list_default.svg) **Поля** — показать/скрыть список полей набора данных.
 * ![Детализация](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) **Детализация** — показать/скрыть [детализацию](./details.md).
-* ![ ](../../images/icons/toolbar-controls/) **Способ детализации**:
-  * ![ ](../../images/icons/toolbar-controls/) **Таблица**.
-  * ![ ](../../images/icons/toolbar-controls/) **Форма**.
-  * ![ ](../../images/icons/toolbar-controls/) **Статистика**.
+* ![aa](../../images/icons/blank.svg) **Способ детализации**:
+  * ![aa](../../images/icons/blank.svg) **Таблица**.
+  * ![aa](../../images/icons/blank.svg) **Форма**.
+  * ![aa](../../images/icons/blank.svg) **Статистика**.
 * ![Диаграмма](../../images/icons/toolbar-controls/chart_default.svg) **Диаграмма** — показать/скрыть [диаграмму](./chart.md).
 * ![Свернуть](../../images/icons/toolbar-controls/collapce-all_default.svg) **Свернуть** — свернуть иерархию измерений куба.
   * Свернуть все.
@@ -24,10 +24,10 @@
   * Развернуть колонки.
   * Развернуть строки.
 * ![Итоги](../../images/icons/toolbar-controls/show-total-all_default.svg) **Итоги** — показать/скрыть итоги по кубу:
-  * ![Итоги](../../images/icons/toolbar-controls/show-total-all_default.svg) Все.
-  * ![Итоги](../../images/icons/toolbar-controls/show-total-col_default.svg) В колонках.
-  * ![Итоги](../../images/icons/toolbar-controls/show-total-row_default.svg) В строках.
-  * ![Итоги](../../images/icons/toolbar-controls/show-total-nor_default.svg) Нигде.
+  * ![Итоги-все](../../images/icons/toolbar-controls/show-total-all_default.svg) Все.
+  * ![Итоги-колонки](../../images/icons/toolbar-controls/show-total-col_default.svg) В колонках.
+  * ![Итоги-строки](../../images/icons/toolbar-controls/show-total-row_default.svg) В строках.
+  * ![Итоги-нигде](../../images/icons/toolbar-controls/show-total-nor_default.svg) Нигде.
 * ![Выравнивание](../../images/icons/toolbar-controls/width-equal_default.svg) **Выравнивание ширины колонок**:
   * ![Выравнивание](../../images/icons/toolbar-controls/width-equal_default.svg) Равная ширина фактов.
   * ![Выравнивание](../../images/icons/toolbar-controls/width-same_default.svg) Равная ширина колонок.
@@ -37,9 +37,9 @@
 * ![Фильтровать факты](../../images/icons/cube-cases/cube-cases-case-filter_default.svg) **Фильтровать факты…** — отрывает окно для  [фильтрования фактов](./filterfacts.md).
 * ![Форматировать факты](../../images/icons/cube-cases/cube-cases-case-format_default.svg) **Форматировать факты…** — отрывает окно для [форматирования факов](./formatfacts.md).
 * ![Экспорт](../../images/icons/toolbar-controls/export_default.svg) **XLS** / **HTML**:
-  * экспорт в XLS.
-  * экспорт в HTML.
-* ![Приостановить автовычисление](../../images/icons/toolbar-controls/locked_default.svg) — Приостановить автовычисление.
+  * экспорт в XLS — сохраняет текущее представление в формате Excel.
+  * экспорт в HTML — сохраняет текущее представление в формате HTML.
+* ![Приостановить автовычисление](../../images/icons/toolbar-controls/locked_default.svg) **Приостановить автовычисление** — отключает обновление отображения фактов.
 
 ### Контекстное меню
 
@@ -88,9 +88,9 @@
 
 Нажав на кнопку ![Раскрыть список](../../images/icons/toolbar-controls/down_default.svg) рядом с Факты можно открыть одно из окон:
 
-* ![Настроить факты](../../images/icons/cube-cases/cube-cases-case-tune_default.svg) **Настроить факты…** — открывает окно [настройки фактов](./configurefacts.md);
-* ![Добавить вычисляемый факт](../../images/icons/cube-cases/cube-cases-case-calc_default.svg) **Добавить вычисляемый факт…** — открывает окно для [добавление вычисляемого факта](./addcalculatingfact.md) в куб;
-* ![Фильтровать факты](../../images/icons/cube-cases/cube-cases-case-filter_default.svg) **Фильтровать факты…** — отрывает окно для  [фильтрования фактов](./filterfacts.md);
-* ![Форматировать факты](../../images/icons/cube-cases/cube-cases-case-format_default.svg) **Форматировать факты…** — отрывает окно для [форматирования факов](./formatfacts.md).
+* ![Настроить факты](../../images/icons/cube-cases/cube-cases-case-tune_default.svg) **Настроить факты…** — открывает окно настройки фактов;
+* ![Добавить вычисляемый факт](../../images/icons/cube-cases/cube-cases-case-calc_default.svg) **Добавить вычисляемый факт…** — открывает окно для добавление вычисляемого факта в куб;
+* ![Фильтровать факты](../../images/icons/cube-cases/cube-cases-case-filter_default.svg) **Фильтровать факты…** — отрывает окно для фильтрования фактов;
+* ![Форматировать факты](../../images/icons/cube-cases/cube-cases-case-format_default.svg) **Форматировать факты…** — отрывает окно для форматирования факов.
 
 >**Примечание:** По умолчанию в качестве варианта агрегации и способа его отображения выбирается идущий первым по списку. Поддерживается отображение сразу нескольких вариантов агрегации и способов их отображения для каждого факта.
