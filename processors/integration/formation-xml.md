@@ -8,7 +8,7 @@
 
 ### Вход
 
-* ![](../../images/icons/ports/input_connection_inactive.svg) Подключение к источнику XSD-схемы (обязательный порт) — подключение настроенного ранее *Подключения набора XSD-схем*.
+* ![](../../images/icons/ports/input_connection_inactive.svg) Подключение к источнику XSD-схемы (обязательный порт) — связь с узлом [подключения набора XSD-схем](../../integration/connections/list/schemes.md).
 * ![](../../images/icons/ports/input_table_inactive.svg) Источник данных — таблица данных, подлежащая преобразованию.
 * ![](../../images/icons/ports/optional_input_variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными порта можно задать значения параметров мастера настройки. Для отображения порта необходимо в контекстном меню узла выбрать пункт "Показать порт управляющих переменных".
 
