@@ -159,6 +159,7 @@
       * [Вызов REST-сервиса](./processors/integration/calling-rest-service.md)
       * [Выполнение программы](./processors/integration/exec-program.md)
       * [Извлечение XML](./processors/integration/extracting-xml.md)
+      * [Формирование XML](./processors/integration/formation-xml.md)
   * [Функции](./processors/func/README.md)
     * [Функции калькулятора](./processors/func/calc-func/README.md)
       * [Дата/время](./processors/func/calc-func/datetime.md)
