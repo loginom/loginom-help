@@ -1,4 +1,4 @@
-# ![](../../images/icons/vendors/exportxml.svg) Формирование XML
+# ![](../../images/icons/components/data-to-xml_default.svg) Формирование XML
 
 Компонент предназначен для преобразования таблицы в XML.
 
