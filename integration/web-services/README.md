@@ -8,7 +8,7 @@
 
 * [Server](https://loginom.ru/platform/pricing#component-server) — основной компонент платформы. Выполняет задачи загрузки, расчетов, построения моделей, визуализации, управления правами и прочее.
 * [Integrator](https://loginom.ru/platform/pricing#component-integrator) — компонент, отвечающий за публикацию собственных веб-сервисов на основе созданных в Loginom пакетов. Работает в связке с [IIS](https://ru.wikipedia.org/wiki/Internet_Information_Services), создавая в нем отдельное приложение.
-* [Adapter](https://loginom.ru/platform/pricing#component-adapter) — необязательный компонент. Требуется для взаимодействия с нестандартными веб-сервисами, например, с бюро кредитных историй. 
+* [Adapter](https://loginom.ru/platform/pricing#component-adapter) — необязательный компонент. Требуется для взаимодействия с нестандартными веб-сервисами, например, с бюро кредитных историй.
 
 ## Работа с веб-сервисами
 
