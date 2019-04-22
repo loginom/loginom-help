@@ -35,9 +35,9 @@
   * ![Выравнивание](../../images/icons/toolbar-controls/width-same_default.svg) **Равная ширина колонок**.
 * ![Транспонировать](../../images/icons/toolbar-controls/transform_default.svg) **Транспонировать** — поменять местами измерения, находящиеся в строках и столбцах.
 * ![Настроить факты](../../images/icons/cube-cases/cube-cases-case-tune_default.svg) **Настроить факты…** — открывает окно [настройки фактов](./configurefacts.md).
-* ![Добавить вычисляемый факт](../../images/icons/cube-cases/cube-cases-case-calc_default.svg) **Добавить вычисляемый факт…** — открывает окно для добавления нового [вычисляемого факта](./addcalculatingfact.md)[^1] в куб.
+* ![Добавить вычисляемый факт](../../images/icons/cube-cases/cube-cases-case-calc_default.svg) **Добавить вычисляемый факт…** — открывает окно для добавления нового [вычисляемого факта](./addcalculatingfact.md) в куб[^1].
 * ![Фильтровать факты](../../images/icons/cube-cases/cube-cases-case-filter_default.svg) **Фильтровать факты…** — отрывает окно для  [фильтрования фактов](./filterfacts.md).
-* ![Форматировать факты](../../images/icons/cube-cases/cube-cases-case-format_default.svg) **Форматировать факты…** — отрывает окно для [форматирования факов](./formatfacts.md).
+* ![Форматировать факты](../../images/icons/cube-cases/cube-cases-case-format_default.svg) **Форматировать факты…** — отрывает окно для [форматирования фактов](./formatfacts.md).
 * ![Экспорт](../../images/icons/toolbar-controls/export_default.svg) **XLS** / **HTML**:
   * **экспорт в XLS** — сохраняет текущее представление в формате Excel.
   * **экспорт в HTML** — сохраняет текущее представление в формате HTML.
@@ -95,7 +95,7 @@
 * ![Настроить факты](../../images/icons/cube-cases/cube-cases-case-tune_default.svg) **Настроить факты…** — открывает окно настройки фактов;
 * ![Добавить вычисляемый факт](../../images/icons/cube-cases/cube-cases-case-calc_default.svg) **Добавить вычисляемый факт…** — открывает окно для добавление вычисляемого факта в куб;
 * ![Фильтровать факты](../../images/icons/cube-cases/cube-cases-case-filter_default.svg) **Фильтровать факты…** — отрывает окно для фильтрования фактов;
-* ![Форматировать факты](../../images/icons/cube-cases/cube-cases-case-format_default.svg) **Форматировать факты…** — отрывает окно для форматирования факов.
+* ![Форматировать факты](../../images/icons/cube-cases/cube-cases-case-format_default.svg) **Форматировать факты…** — отрывает окно для форматирования фактов.
 
 Удалить факт можно в окне *Настроить факты*.
 
