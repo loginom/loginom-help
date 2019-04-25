@@ -1,6 +1,6 @@
 # Матрица ошибок
 
-Это специальный вид [таблицы сопряженности](https://wiki.loginom.ru/articles/contingency-table.html) с двумя измерениями *фактическим* и *прогнозируемым*.
+[Матрица ошибок](https://en.wikipedia.org/wiki/Confusion_matrix) — это специальный вид [таблицы сопряженности](https://wiki.loginom.ru/articles/contingency-table.html) с двумя измерениями *фактическим* и *прогнозируемым*.
 
 <table>
 <tr><th align="left" rowspan="2">Классифицировано</th><th align="left" colspan="2">Фактически</th></tr>
