@@ -1,4 +1,4 @@
-# ![Фильтровать факты](../../images/icons/cube-cases/cube-cases-case-filter_default.svg) Фильтровать факты
+# ![Фильтровать факты](../../images/icons/cube/cases/case-filter_default.svg) Фильтровать факты
 
 Позволяет выполнять фильтрацию значений факта для измерения.
 
