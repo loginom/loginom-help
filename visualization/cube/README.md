@@ -33,7 +33,7 @@
 * ![Выравнивание](../../images/icons/toolbar-controls/width-equal_default.svg) **Выравнивание ширины колонок**:
   * ![Выравнивание](../../images/icons/toolbar-controls/width-equal_default.svg) **Равная ширина фактов**.
   * ![Выравнивание](../../images/icons/toolbar-controls/width-same_default.svg) **Равная ширина колонок**.
-* ![Транспонировать](../../images/icons/toolbar-controls/transform_default.svg) **Транспонировать** — поменять местами измерения, находящиеся в строках и столбцах.
+* ![Транспонировать](../../images/icons/toolbar-controls/transform_default.svg) **Транспонировать** — переместить измерения из строк в столбцы и наоборот.
 * ![Настроить факты](../../images/icons/cube/cases/case-tune_default.svg) **Настроить факты…** — открывает окно [настройки фактов](./configurefacts.md).
 * ![Добавить вычисляемый факт](../../images/icons/cube/cases/case-calc_default.svg) **Добавить вычисляемый факт…** — открывает окно для добавления нового [вычисляемого факта](./addcalculatingfact.md) в куб[^1].
 * ![Фильтровать факты](../../images/icons/cube/cases/case-filter_default.svg) **Фильтровать факты…** — отрывает окно для  [фильтрования фактов](./filterfacts.md).
