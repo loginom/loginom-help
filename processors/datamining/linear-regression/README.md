@@ -18,8 +18,8 @@
 
 ### Вход
 
-* ![](../../../images/icons/ports/input_table_inactive.svg) Входной источник данных (таблица данных).
-* ![](../../../images/icons/ports/input_variable_inactive.svg) Управляющие переменные (переменные) — необязательный порт. По умолчанию скрыт. При добавлении данного порта появляется возможность задавать с помощью переменных некоторые блоки параметров.   
+* ![](../../../images/icons/ports/input_table_inactive.svg) Входной источник данных (таблица данных);
+* ![](../../../images/icons/ports/input_variable_inactive.svg) Управляющие переменные (переменные).
 
 ### Выходы
 * ![](../../../images/icons/ports/output_table_inactive.svg) Выход регрессии (таблица данных);
