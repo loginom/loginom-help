@@ -19,7 +19,7 @@
 ### Вход
 
 * ![](../../../images/icons/ports/input_table_inactive.svg) Входной источник данных (таблица данных);
-* ![](../../../images/icons/ports/input_variable_inactive.svg) Управляющие переменные (переменные).
+* ![](../../../images/icons/ports/input_variable_inactive.svg) [Управляющие переменные](../../../scenario/variables/control-variables.md) (переменные) — необязательный порт, переменными можно задать значения параметров мастера настройки.
 
 ### Выходы
 * ![](../../../images/icons/ports/output_table_inactive.svg) Выход регрессии (таблица данных);
