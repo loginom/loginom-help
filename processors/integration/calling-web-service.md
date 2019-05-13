@@ -16,7 +16,7 @@
 
 * ![](../../images/icons/ports/output_table_inactive.svg) — Выходной набор данных (таблица с ответом веб-сервиса).
 * ![](../../images/icons/ports/output_table_inactive.svg) — Исключения (WSDL fault).
-* ![](../../images/icons/ports/output_table_inactive.svg) — Дополнительные данные (таблица).
+* ![](../../images/icons/ports/output_table_inactive.svg) — Дополнительные данные (таблица) содержат описание ошибок и SOAP-ответы сервиса.
 
 ## Настройка
 
