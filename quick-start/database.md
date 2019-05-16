@@ -21,7 +21,7 @@
 
 ![Создание узла подключения в сценарии.](./database-1.png)
 
-Параметры подключения к источнику данных используются узлами [импорта](../integration/import/README.md)/[экспорта](../integration/export/README.md) данных. Для этого выходные данные порта ![](../media/app/icons/ports/output_connection_inactive.svg) узла подключения необходимо подать на входной порт ![](../media/app/icons/ports/input_connection_inactive.svg) нуждающегося в этом подключении узла импорта/экспорта (см. рисунок 4).
+Параметры подключения к источнику данных используются узлами [импорта](../integration/import/README.md)/[экспорта](../integration/export/README.md) данных. Для этого выходные данные порта ![](../images/icons/ports/output_connection_inactive.svg) узла подключения необходимо подать на входной порт ![](../images/icons/ports/input_connection_inactive.svg) нуждающегося в этом подключении узла импорта/экспорта (см. рисунок 4).
 
 ![Использование узла подключения.](./database-2.png)
 
