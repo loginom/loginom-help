@@ -10,7 +10,7 @@
 
 Синтаксис строки запуска в пакетном режиме:
 
-```cmd
+```batch
 BatchLauncher /Package=<FileName> [/Teach] [/Node=<NodeName>] [/Address=<Address>] [/Port=<Port>] [/UserName=<UserName> [/Password=<Password>]] [/PortName.VarName=<Value>]
 ```
 
@@ -22,7 +22,7 @@ BatchLauncher /Package=<FileName> [/Teach] [/Node=<NodeName>] [/Address=<Address
 
 Пример:
 
-```cmd
+```batch
  "C:\Program Files\BaseGroup\Loginom 6\Server\BatchLauncher.exe" /Package=test.lgp /Teach
  ```
 
@@ -34,7 +34,7 @@ BatchLauncher /Package=<FileName> [/Teach] [/Node=<NodeName>] [/Address=<Address
 
 Примеры:
 
-```cmd
+```batch
 BatchLauncher /Package=/user/test.lgp
 BatchLauncher "/Package=/user/test and log.lgp"
 ```
@@ -47,7 +47,7 @@ BatchLauncher "/Package=/user/test and log.lgp"
 
 Примеры:
 
-```cmd
+```batch
 BatchLauncher /Package=/user/test.lgp "/Node=Экспорт в SQL"
 BatchLauncher /Package=/user/test.lgp /Node=Экспорт_в_txt
 ```
@@ -61,7 +61,7 @@ BatchLauncher /Package=/user/test.lgp /Node=Экспорт_в_txt
 
 Примеры:
 
-```cmd
+```batch
 BatchLauncher /Package=/user/test.lgp /Node=test_node /Port1.Parameter1=true
 /Port1.Parameter2=2008-01-02T22:24:24 "/Port2.Parameter1=Hello World!" /Port2.Parameter2=null /Port2.Parameter3=3.14 /Port2.Parameter4=4.025E4
 ```
@@ -80,13 +80,13 @@ BatchLauncher /Package=/user/test.lgp /Node=test_node /Port1.Parameter1=true
 
 Пример:
 
-```cmd
+```batch
 BatchLauncher /Package=/user/test.lgp /Node=test_node /Var0=null /Var1=True /Var2=1 /Var3='1' /Var4='null' /Var5= /Var6=test /Var7='te''st' /Var8="test" "/Var9=a b c"
 ```
 
 Если все переменные имеют Переменный тип, то они получат следующие значения:
 
-```cmd
+```batch
 Var0 — пустое значение;
 Var1 — логическое значение true;
 Var2 — целое значение 1;
@@ -105,7 +105,7 @@ Var9 — строковое значение a b c.
 
 Пример:
 
-```cmd
+```batch
 BatchLauncher /Package=/user/test.lgp /Teach
 ```
 
@@ -115,7 +115,7 @@ IP адрес или имя хоста сервера Loginom. По умолча
 
 Пример:
 
-```cmd
+```batch
 BatchLauncher /Package=/user/test.lgp /Address=192.168.0.95
 ```
 
@@ -125,7 +125,7 @@ BatchLauncher /Package=/user/test.lgp /Address=192.168.0.95
 
 Пример:
 
-```cmd
+```batch
 BatchLauncher /Package=/user/test.lgp /Address=192.168.0.95 /Port=4555
 ```
 
@@ -135,7 +135,7 @@ BatchLauncher /Package=/user/test.lgp /Address=192.168.0.95 /Port=4555
 
 Пример:
 
-```cmd
+```batch
 BatchLauncher /Package=/user/test.lgp /UserName=user
 ```
 
@@ -145,7 +145,7 @@ BatchLauncher /Package=/user/test.lgp /UserName=user
 
 Пример:
 
-```cmd
+```batch
 BatchLauncher /Package=/user/test.lgp /UserName=user /Password=12345
 ```
 
@@ -153,7 +153,7 @@ BatchLauncher /Package=/user/test.lgp /UserName=user /Password=12345
 
 Пример:
 
-```cmd
+```batch
 chcp 1251
 "C:\Program Files\BaseGroup\Loginom 6\Server\BatchLauncher.exe" /Package=/user/Обучение_квантования/Квантование.lgp /Teach
 ```
@@ -162,7 +162,7 @@ chcp 1251
 
 Пример:
 
-```cmd
+```batch
 chcp 1251
 "C:\Program Files\BaseGroup\Loginom 6\Server\BatchLauncher.exe" "/Package=/user/Обучение квантования/Квантование.lgp" /Teach
 ```
