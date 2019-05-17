@@ -210,7 +210,7 @@
   * [Loginom Data File](./data-format/lgd-file.md)
   * [Deductor Warehouse](./data-format/data-warehouse.md)
 * [Файловое хранилище](./location_user_files.md)
-* [Админиcтрирование](./admin/README.md)
+* [Администрирование](./admin/README.md)
   * [Роли пользователей](./admin/roles.md)
   * [Пользователи](./admin/users.md)
   * [Общие папки](./admin/shared-folder.md)

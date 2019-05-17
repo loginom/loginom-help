@@ -88,7 +88,7 @@
 * [Ассоциативные правила](./datamining/associative-rules.md)
 * [Кластеризация](./datamining/clustering.md)
 * [Кластеризация транзакций](./datamining/clustering-transactions.md)
-* [Логистическая регрессия](./datamining/logit-regression/README.md)
+* [Логистическая регрессия](./datamining/logistic-regression/README.md)
 * [Нейросеть (классификация)](./datamining/neural-network-classification.md)
 * [Нейросеть (регрессия)](./datamining/neural-network-regression.md)
 * [Самоорганизующиеся сети](./datamining/self-organizing-network.md)
