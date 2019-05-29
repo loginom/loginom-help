@@ -88,7 +88,7 @@
 * [Ассоциативные правила](./datamining/associative-rules.md)
 * [Кластеризация](./datamining/clustering.md)
 * [Кластеризация транзакций](./datamining/clustering-transactions.md)
-* [Логистическая регрессия](./datamining/logit-regression/README.md)
+* [Логистическая регрессия](./datamining/logistic-regression/README.md)
 * [Нейросеть (классификация)](./datamining/neural-network-classification.md)
 * [Нейросеть (регрессия)](./datamining/neural-network-regression.md)
 * [Самоорганизующиеся сети](./datamining/self-organizing-network.md)
@@ -97,11 +97,11 @@
 
 В Loginom имеется возможность создавать и использовать переменные. Обработчики этой группы позволяют проводить различные операции над ними: изменение, создание переменных из таблицы, расчет новых переменных с помощью различных функций.
 
-* [Замена (переменные)](./variables/variable-replace.md)
+* [Замена (переменные)](./variables/variables-replace.md)
 * [Калькулятор (переменные)](./variables/variables-calc.md)
-* [Переменные в таблицу](./variables/variables-table.md)
+* [Переменные в таблицу](./variables/variables-to-table.md)
 * [Соединение (переменные)](./variables/variables-union.md)
-* [Таблица в переменные](./variables/table-variables.md)
+* [Таблица в переменные](./variables/variables-from-table.md)
 
 ### [Интеграция](./integration/README.md)
 
