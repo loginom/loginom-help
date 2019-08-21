@@ -6,9 +6,15 @@
 
 %spoiler%Пример заполнения:%spoiler%
 
+{% tabs one="Настройка", two="SQL-запрос" %}
+
+{% content "one" %}
 ![Настройка полей новой таблицы.](./new-table-design-1.png)
 
+{% content "two" %}
 ![Представление создаваемой таблицы в виде SQL-запроса.](./new-table-design-2.png)
+
+{% endtabs %}
 
 %/spoiler%
 
