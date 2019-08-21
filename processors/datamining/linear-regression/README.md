@@ -159,7 +159,7 @@
 
 Доступные параметры:
 
-* Критерий отбора факторов — позволяет выбрать один из следующих информационных критериев:
+* **Критерий отбора факторов** — позволяет выбрать один из следующих информационных критериев:
   * [F-тест](https://wiki.loginom.ru/articles/partial-f-test.html).
   * [Коэффициент детерминации](https://wiki.loginom.ru/articles/coefficient-of-determination.html).
   * [Скорректированный коэффициент детерминации](https://wiki.loginom.ru/articles/coefficient-determ-adj.html).
