@@ -1,7 +1,7 @@
 # SUMMARY
 
 * [Главная](./README.md)
-* [Где и как смотреть версию ПО](./loginom-version/version.md)
+* [Как узнать версию Loginom](./loginom-version/version.md)
 * [Начало работы](./quick-start/README.md)
   * [Назначение и структура пакета](./quick-start/package.md)
   * [Первый сценарий](./quick-start/first-scenario.md)
