@@ -196,6 +196,7 @@
   * [Статистика](./visualization/statistics/README.md)
     * [Статистические показатели](./visualization/statistics/statistics-description.md)
   * [Конечные классы](./visualization/fine-classes/README.md)
+  * [Отчет по линейной регрессии](./visualization/linear-regression/README.md)
   * [Отчет по регрессии](./visualization/regression/README.md)
   * [Качество бинарной классификации](./visualization/binary-classification/README.md)
     * [Термины](./visualization/binary-classification/terms.md)
