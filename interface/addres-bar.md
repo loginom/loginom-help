@@ -11,7 +11,7 @@
 * ![up-arrow](../images/icons/toolbar-controls/up_default.svg) **Вверх** — производит переход к объекту верхнего уровня.
 * ![left-arrow](../images/icons/toolbar-controls/arrow-l_default.svg) **Назад** — возвращает к предыдущему открытому объекту.
 * ![right-arrow](../images/icons/toolbar-controls/arrow-r_default.svg) **Вперед** — отменяет переход *Назад*, если после него не было произведено никаких других действий навигации.
-* ![more lines](../images/icons/toolbar-controls/size-type-row_default.svg) — навигация по объектам, не поместившимся  в *Адресную строку*.
+* ![more lines](../images/icons/toolbar-controls/system-panel-more_default.svg) — навигация по объектам, не поместившимся  в *Адресную строку*.
 
 ![Выбор составного объекта.](address-bar-2.png)
 
