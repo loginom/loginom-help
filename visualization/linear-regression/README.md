@@ -36,14 +36,14 @@
 |![Логический](../../images/icons/datatype_18/datatype_default-04.svg) Константа|Зависимая переменная|
 |![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) -2 Log Likelihood|-2 Логарифма [функции правдоподобия](https://wiki.loginom.ru/articles/plausibility-function.html)|
 |![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) R^2|[Коэффициент детерминации](https://wiki.loginom.ru/articles/coefficient-of-determination.html)|
-|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) R^2 корр.|Коэффициент детерминации скорректированный|
+|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) R^2 корр.|[Коэффициент детерминации скорректированный](https://wiki.loginom.ru/articles/coefficient-determ-adj.html)|
 |![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) [Хи-квадрат](https://wiki.loginom.ru/articles/chi-square-test.html)|Критерий согласия для проверки гипотезы о законе распределения исследуемой случайной величины|
 |![Целый](../../images/icons/datatype_18/datatype_default-02.svg) Число степеней свободы|Число независимо варьируемых значений признака|
 |![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) [Значимость](https://wiki.loginom.ru/articles/significance-regr.html)|Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели|
-|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) AIC|Информационный критерий Акаике|
-|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) AICc|Информационный критерий Акаике скорректированный|
-|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) BIC|Информационный критерий Байеса|
-|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) HQC|Информационный критерий Ханнана-Квина|
+|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) AIC|[Информационный критерий Акаике](https://wiki.loginom.ru/articles/aic.html)|
+|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) AICc|[Информационный критерий Акаике скорректированный](https://wiki.loginom.ru/articles/aicc.html)|
+|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) BIC|[Информационный критерий Байеса](https://wiki.loginom.ru/articles/bic.html)|
+|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) HQC|[Информационный критерий Ханнана-Квина](https://wiki.loginom.ru/articles/hq.html)|
 
 #### Коэффициенты регрессии
 
