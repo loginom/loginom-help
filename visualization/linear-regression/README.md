@@ -1,6 +1,6 @@
-# ![](../../images/icons/view_types/logregressreport_default.svg) Отчет по регрессии
+# ![](../../images/icons/view_types/linregressreport_default.svg) Отчет по линейной регрессии
 
-Визуализатор *Отчет по регрессии* отображает статистические параметры и результаты статистических тестов для анализа регрессионных моделей.
+Визуализатор *Отчет по регрессии* компонента *Линейная регрессия* отображает статистические параметры и результаты статистических тестов для анализа регрессионных моделей.
 
 Данный визуализатор состоит из трех областей:
 
@@ -8,10 +8,7 @@
 * [Коэффициентов регрессии](#koeffitsienty-regressii);
 * [Шагов построения](#shagi-postroeniya).
 
-Подробно о том, как включить данный визуализатор смотри [статью](../README.md).
-
 ## Интерфейс
-
 ### Операции
 
 #### Область Информация о модели
@@ -36,17 +33,17 @@
 
 |Показатель|Описание|
 |:------------------------|:-----------------------------------------------|
-|![Логический](../../images/icons/datatype_18/datatype_default-04.svg) Константа|Зависимая переменная|
+|![Логический](../../images/icons/datatype_18/datatype_default-04.svg) Константа|[Зависимая переменная](https://wiki.loginom.ru/articles/output-variable.html)|
 |![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) -2 Log Likelihood|-2 Логарифма [функции правдоподобия](https://wiki.loginom.ru/articles/plausibility-function.html)|
-|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) $$R^2$$|[Коэффициент детерминации](https://wiki.loginom.ru/articles/coefficient-of-determination.html)|
-|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) $$R^2$$ корр.|Коэффициент детерминации скорректированный|
+|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) R^2|[Коэффициент детерминации](https://wiki.loginom.ru/articles/coefficient-of-determination.html)|
+|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) R^2 корр.|[Коэффициент детерминации скорректированный](https://wiki.loginom.ru/articles/coefficient-determ-adj.html)|
 |![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) [Хи-квадрат](https://wiki.loginom.ru/articles/chi-square-test.html)|Критерий согласия для проверки гипотезы о законе распределения исследуемой случайной величины|
-|![Целый](../../images/icons/datatype_18/datatype_default-02.svg) Число степеней свободы|Число независимо варьируемых значений признака|
-|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) [Значимость](https://wiki.loginom.ru/articles/significance-regr.html)|Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели|
-|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) AIC|Информационный критерий Акаике|
-|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) AICc|Информационный критерий Акаике скорректированный|
-|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) BIC|Информационный критерий Байеса|
-|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) HQC|Информационный критерий Ханнана-Квина|
+|![Целый](../../images/icons/datatype_18/datatype_default-02.svg) [Число степеней свободы](https://wiki.loginom.ru/articles/degrees-of-freedom.html)|Число независимо варьируемых значений признака|
+|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) [Значимость](https://wiki.loginom.ru/articles/significance-regr.html)|Степень статистической связи между [входной](https://wiki.loginom.ru/articles/input-variable.html) (набором входных) и [выходной](https://wiki.loginom.ru/articles/output-variable.html) переменными регрессионной модели|
+|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) AIC|[Информационный критерий Акаике](https://wiki.loginom.ru/articles/aic.html)|
+|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) AICc|[Информационный критерий Акаике скорректированный](https://wiki.loginom.ru/articles/aicc.html)|
+|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) BIC|[Информационный критерий Байеса](https://wiki.loginom.ru/articles/bic.html)|
+|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) HQC|[Информационный критерий Ханнана-Квина](https://wiki.loginom.ru/articles/hq.html)|
 
 #### Коэффициенты регрессии
 
@@ -54,14 +51,11 @@
 
 |Коэффициент|Описание|
 |:--------------------|:----------|
-|Коэффициент|Характеристика связи между зависимой y и независимой переменной x|
+|Коэффициент|Характеристика связи между зависимой *y* и независимой переменной *x*|
 |[Стандартная ошибка](https://wiki.loginom.ru/articles/standard-estimation-error.html)|Мера разброса данных наблюдений от смоделированных значений|
-|[Коэффициент Вальда](https://wiki.loginom.ru/articles/wald-test.html)|Оценка значимости коэффициента при независимой переменной модели|
+|Т-статистика|Отношение стандартной ошибки оценки коэффициента к его абсолютной величине.|
 |Значимость|Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели|
-|[Отношение шансов](https://wiki.loginom.ru/articles/odds-ratio.html)|Отношение вероятности того, что событие произойдет к вероятности того, что событие не произойдет|
-|[Нижняя граница ДИ](https://wiki.loginom.ru/articles/confidence-interval.html)|Нижняя граница доверительного интервала|
-|Верхняя граница ДИ|Верхняя граница доверительного интервала|
-|Порог значимости|Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели|
+
 
 Коэффициенты регрессии могут быть представлены в виде ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_table-view_default.svg) *Таблицы* (см. рисунок 1) или ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_tree_default.svg) *Дерева* (см. рисунок 2). 
 
@@ -73,7 +67,7 @@
 
 Область ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) *Шаги* построения имеет смысл включать только в том случае, если при настройке узла Логистическая регрессия в параметре Отбор факторов и защита от переобучения был выбран алгоритм, который подразумевает режим обработки фактов.
 
-Область ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) *Шаги* построения состоит из следующих полей:
+Область ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) *Шаги построения* состоит из следующих полей:
 
 |Поле|Описание|
 |:----------------|:----------------------------------------------------------------------------|
@@ -86,7 +80,7 @@
 
 * **Нулевая модель** — начальная модель работы алгоритма;
 * **Промежуточная модель** — модель, которую создал алгоритм в процессе обучения;
-* **Финальная модель** — модель, которую алгоритм посчитал наилучшей и дальнейшие действия не приведут к улучшению модели.
+* **Финальная модель** — модель, которую алгоритм посчитал наилучшей, и дальнейшие действия не приведут к улучшению модели.
 
 Доступные для выбора показатели:
 
