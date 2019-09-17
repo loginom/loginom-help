@@ -1,6 +1,6 @@
 # ![wh-firebird](../../../images/icons/data-sources/wh-firebird_default.svg) Подключение к Deductor Warehouse [Firebird]
 
-Используется для подключения к Хранилищу данных [Deductor Warehouse](../../../data-format/data-warehouse.md), основанному на СУБД Firebird. На компьютере пользователя должен быть установлен клиент СУБД Firebird.
+Используется для подключения к Хранилищу данных [Deductor Warehouse](../../../data-format/data-warehouse.md), основанному на СУБД Firebird. На компьютере пользователя должен быть установлен клиент СУБД той же разрядности, что и клиент Loginom.
 
 ## Параметры подключения
 

@@ -2,7 +2,7 @@
 
 ## Описание
 
-Используется для подключения к базе данных Microsoft Access. Для подключения к БД требуется установить Microsoft Office или [Microsoft Access Database Engine](https://www.microsoft.com/en-us/download/details.aspx?id=13255), совпадающие по разрядности с сервером Loginom.
+Используется для подключения к базе данных Microsoft Access. Для подключения к БД требуется установить Microsoft Office или [Microsoft Access Database Engine](https://www.microsoft.com/en-us/download/details.aspx?id=13255) той же разрядности, что и клиент Loginom.
 
 ## Параметры подключения
 

@@ -1,6 +1,6 @@
 # ![wh-mssql](../../../images/icons/data-sources/wh-mssql_default.svg) Подключение к Deductor Warehouse [MS SQL]
 
-Используется для подключения к Хранилищу данных [Deductor Warehouse](../../../data-format/data-warehouse.md), основанному на СУБД Microsoft SQL Server.
+Используется для подключения к Хранилищу данных [Deductor Warehouse](../../../data-format/data-warehouse.md), основанному на СУБД Microsoft SQL Server. На компьютере пользователя должен быть установлен клиент СУБД той же разрядности, что и клиент Loginom.
 
 ## Параметры подключения
 
