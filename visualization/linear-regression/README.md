@@ -8,6 +8,8 @@
 * [Коэффициентов регрессии](#koeffitsienty-regressii);
 * [Шагов построения](#shagi-postroeniya).
 
+Подробно о том, как включить данный визуализатор, можно прочитать в [статье](../README.md).
+
 ## Интерфейс
 ### Операции
 
@@ -39,7 +41,7 @@
 |![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) R^2 корр.|[Коэффициент детерминации скорректированный](https://wiki.loginom.ru/articles/coefficient-determ-adj.html)|
 |![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) [Хи-квадрат](https://wiki.loginom.ru/articles/chi-square-test.html)|Критерий согласия для проверки гипотезы о законе распределения исследуемой случайной величины|
 |![Целый](../../images/icons/datatype_18/datatype_default-02.svg) [Число степеней свободы](https://wiki.loginom.ru/articles/degrees-of-freedom.html)|Число независимо варьируемых значений признака|
-|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) [Значимость](https://wiki.loginom.ru/articles/significance-regr.html)|Степень статистической связи между [входной](https://wiki.loginom.ru/articles/input-variable.html) (набором входных) и [выходной](https://wiki.loginom.ru/articles/output-variable.html) переменными регрессионной модели|
+|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) [Значимость](https://wiki.loginom.ru/articles/significance-regr.html)|Степень статистической связи между [входной](https://wiki.loginom.ru/articles/input-variable.html) (набором входных) и [выходной переменными](https://wiki.loginom.ru/articles/output-variable.html)  регрессионной модели|
 |![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) AIC|[Информационный критерий Акаике](https://wiki.loginom.ru/articles/aic.html)|
 |![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) AICc|[Информационный критерий Акаике скорректированный](https://wiki.loginom.ru/articles/aicc.html)|
 |![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) BIC|[Информационный критерий Байеса](https://wiki.loginom.ru/articles/bic.html)|
