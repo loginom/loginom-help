@@ -3,11 +3,14 @@
 **Нормализация значений полей** — это преобразование данных к виду, наиболее подходящему для обработки алгоритмом.
 
 Настройка нормализации доступна как отдельная страница в мастерах:
-
+* [Линейная регрессия](../datamining/linear-regression.md); 
 * [Логистическая регрессия](../datamining/logistic-regression/README.md);
 * [Нейросеть (классификация)](../datamining/neural-network-classification.md);
 * [Нейросеть (регрессия)](../datamining/neural-network-regression.md);
-* [Кластеризация](../datamining/clustering.md).
+* [Кластеризация](../datamining/clustering.md);
+* [EM Кластеризация](../datamining/em-clustering.md);
+* [ARIMAX](../datamining/arimax.md);
+* [Самоорганизующиеся сети](../datamining/self-organizing-network.md).
 
 ## Настройки нормализации
 
