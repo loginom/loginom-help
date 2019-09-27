@@ -154,5 +154,5 @@ BatchLauncher /Package=/user/test.lgp /UserName=user /Password=12345
 Пример:
 
 ```batch
-BatchLauncher "/Package=/user/Quantization training/Quantization.lgp" /Teach
+BatchLauncher "/Package=/user/Quantization training/Quantization.lgp" /Teach /UserName=user
 ```
