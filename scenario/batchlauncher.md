@@ -48,8 +48,8 @@ BatchLauncher "/Package=/user/test and log.lgp"
 Примеры:
 
 ```batch
-BatchLauncher /Package=/user/test.lgp "/Node=Экспорт в SQL"
-BatchLauncher /Package=/user/test.lgp /Node=Экспорт_в_txt
+BatchLauncher /Package=/user/test.lgp "/Node=executable node"
+BatchLauncher /Package=/user/test.lgp /Node=executable_node
 ```
 
 ### PortName.VarName
