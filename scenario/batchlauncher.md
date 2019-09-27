@@ -154,5 +154,5 @@ BatchLauncher /Package=/user/test.lgp /UserName=user /Password=12345
 Пример:
 
 ```batch
-"C:\Program Files\BaseGroup\Loginom 6\Server\BatchLauncher.exe" "/Package=/user/Quantization training/Quantization.lgp" /Teach
+BatchLauncher "/Package=/user/Quantization training/Quantization.lgp" /Teach
 ```
