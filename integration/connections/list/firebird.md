@@ -1,6 +1,6 @@
 # ![](../../../images/icons/vendors/fbunidacdbconnection.svg) Подключение Firebird
 
-Используется для подключения к базе данных Firebird.
+Используется для подключения и работы с базой данных Firebird.
 
 ## Параметры подключения
 
