@@ -9,8 +9,7 @@
 | Уникальные значения | Список уникальных значений полей |
 | Коэффициенты | Характеристика связи между [зависимой](https://wiki.loginom.ru/articles/output-variable.html) *y* и [независимой переменной](https://wiki.loginom.ru/articles/input-variable.html) *x* |
 | [Стандартное отклонение](https://wiki.loginom.ru/articles/mean-square-deviation.html) | Статистическая характеристика распределения случайной величины, показывающая среднюю степень разброса значений величины относительно [математического ожидания](https://wiki.loginom.ru/articles/expectation-value.html) |
-| [Критерий Вальда](https://wiki.loginom.ru/articles/wald-test.html) | Оценка значимости коэффициента при независимой переменной модели  |
-| P-значение [критерия Вальда](https://wiki.loginom.ru/articles/wald-test.html) | Величина, используемая для оценки точности критерия Вальда |
-| [Отношение шансов](https://wiki.loginom.ru/articles/odds-ratio.html) | Величина, показывающая отношение вероятности того, что [событие](https://wiki.loginom.ru/articles/random-event.html) произойдет к вероятности того, что событие не произойдет |
+| [T-статистика](https://wiki.loginom.ru/articles/students-distribution.html) | Связана с проверкой равенства средних значений в двух выборках                                      |
+| [Значимость](https://wiki.loginom.ru/articles/significance-regr.html)   | Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели                             |
 | Нижняя граница ДИ | Нижняя граница [доверительного интервала](https://wiki.loginom.ru/articles/confidence-interval.html) |
 | Верхняя граница ДИ | Верхняя граница доверительного интервала |
