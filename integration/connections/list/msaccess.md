@@ -1,8 +1,6 @@
 # ![](../../../images/icons/vendors/accessodbcunidacdbconnection.svg) Подключение MS Access
 
-## Описание
-
-Используется для подключения к базе данных Microsoft Access. Для подключения к БД требуется установить Microsoft Office или [Microsoft Access Database Engine](https://www.microsoft.com/en-us/download/details.aspx?id=13255) той же разрядности, что и клиент Loginom.
+Используется для подключения к базе данных Microsoft Access. 
 
 ## Параметры подключения
 
@@ -19,6 +17,10 @@
 * **Настройка кавычек** — является информационным полем, указывающим, какие именно обрамляющие символы используются в подключении  к данной БД. Для Microsoft Access — квадратные скобки;
 * **Не использовать клиент СУБД** —  для Microsoft Access этот параметр не доступен;
 * **Описание** — в этой форме можно оставить любую справочную информацию о подключении.
+
+
+> **Примечание:** Для подключения к базе данных необходима установка Microsoft Office или [Microsoft Access Database Engine](https://www.microsoft.com/en-us/download/details.aspx?id=13255) той же разрядности, что и разрядность приложения/сервера Loginom.
+
 
 ## Совместимость
 
