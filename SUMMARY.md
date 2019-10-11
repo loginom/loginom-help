@@ -155,7 +155,6 @@
       * [Соединение (переменные)](./processors/variables/variables-union.md)
       * [Таблица в переменные](./processors/variables/variables-from-table.md)
     * [Деревья](./processors/data-trees/README.md)
-        * [Дерево в таблицу](./processors/data-trees/tree-to-table.md)
         * [Таблица в дерево](./processors/data-trees/table-to-tree.md)
     * [Интеграция](./processors/integration/README.md)
       * [Вызов веб-сервиса](./processors/integration/calling-web-service.md)
