@@ -1,4 +1,4 @@
-# ![](../images/icons/system_object_18/system-objects_default-12.svg) Визуализаторы
+# ![](../images/icons/system_object_18/visualizer_default.svg) Визуализаторы
 
 Визуализатор представляет собой инструмент, позволяющий пользователю выбрать удобный вариант отображения данных.
 
