@@ -12,12 +12,12 @@ Cлева находится панель компонентов, состоящ
 По центру расположена область построения Сценария — полотно, содержащее узлы Сценария и связи между ними.  
 
 Сверху расположена панель инструментов, содержащая следующие операции для манипуляции с областью построения и ее составляющими:
-* ![](../media/app/icons/toolbar-18/toolbar-18-108.svg) Показать/![](../media/app/icons/toolbar-18/toolbar-18-107.svg) Скрыть панель компонентов — позволяет открыть или закрыть панель компонентов;
+* ![](../images/icons/toolbar-controls/arrow-rr_default.svg) Показать/![](../images/icons/toolbar-controls/arrow-ll_default.svg) Скрыть панель компонентов — позволяет открыть или закрыть панель компонентов;
 * ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_cursor_default.svg) Режим выбора объекта — режим, использующийся для построения Сценария с помощью стандартных манипуляций;
 * ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_hand_default.svg) Режим навигации по сценарию — режим, использующийся для навигации по области построения Сценария с помощью мышки;
 * ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_workflow_default.svg) Показать в виде сценария — отображает Сценарий  в стандартном виде (в виде направленного графа);
-* ![](../media/app/icons/toolbar-18/toolbar-18-43.svg) Показать в виде таблицы — компактное отображание Сценария в виде таблицы, содержащей используемые элементы;
-* ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_v-align-left_default.svg) Вертикальное выравнивание — позволяет выравнить вертикально узлы Сценария на области построения. имеются следующими виды вертикального выравнивания:
+* ![](../images/icons/toolbar-controls/table_default.svg) Показать в виде таблицы — компактное отображение Сценария в виде таблицы, содержащей используемые элементы;
+* ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_v-align-left_default.svg) Вертикальное выравнивание — позволяет выровнять вертикально узлы Сценария на области построения. имеются следующими виды вертикального выравнивания:
   * По левому краю;
   * По середине;
   * По правому краю;
@@ -28,16 +28,16 @@ Cлева находится панель компонентов, состоящ
 * ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_move-front_default.svg) Переместить выделенные узлы — выставляет выделенные узлы и их подписи на:
   * Передний план;
   * Задний план.
-* ![](../media/app/icons/toolbar-18/toolbar-18-62.svg) [Настроить порядок выполнения](../scenario/run-order.md) — позволяет задать собственный порядок выполнения узлов;
+* ![](../images/icons/toolbar-controls/order_default.svg) [Настроить порядок выполнения](../scenario/run-order.md) — позволяет задать собственный порядок выполнения узлов;
 * ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_run-all_default.svg) Выполнить все — выполнить все узлы Сценария;
 * ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_run-current_default.svg) Активировать/![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_stop_default.svg) Деактивировать узел — активировать/деактивировать узел;
 * ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_retrain_default.svg) [Переобучить узел](../scenario/training-processors.md) — переобучает выделенный узел;
-* ![](../media/app/icons/toolbar-18/toolbar-18-1.svg) Настроить узел — заходит в настройки выделенного узла;
+* ![](../images/icons/toolbar-controls/setup_default.svg) Настроить узел — заходит в настройки выделенного узла;
 * ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_batch-mode_default.svg) [Настроить режим активации узла](../scenario/setting-batch-processing-mode.md) — настройка режима активации выделенного узла;
-* ![](../media/app/icons/toolbar-18/toolbar-18-112.svg) Клонировать узел — клонирование выделенного узла;
+* ![](../images/icons/toolbar-controls/clone_default.svg) Клонировать узел — клонирование выделенного узла;
 * ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_compose-generic-model_default.svg) Развернуть/Свернуть [подмодель](../processors/control/submodel.md) — позволяет свернуть выделенные узлы в Подмодель или развернуть выделенную Подмодель на составные узлы;
-* ![](../media/app/icons/toolbar-18/toolbar-18-8.svg) Удалить выбранное — удаляет выделенные узлы/связи Сценария;
-* ![](../media/app/icons/toolbar-18/toolbar-18-145.svg) Создать производный компонент — создает Производный компонент на основе выделенного узла;
-* ![](../media/app/icons/toolbar-18/toolbar-18-144.svg) Показать родительские узлы для производных — при наличии производных узлов показывает родительские узлы;
+* ![](../images/icons/toolbar-controls/delete_default.svg) Удалить выбранное — удаляет выделенные узлы/связи Сценария;
+* ![](../images/icons/toolbar-controls/derive-node_default.svg) Создать производный компонент — создает Производный компонент на основе выделенного узла;
+* ![](../images/icons/toolbar-controls/show-derived-nodes_default.svg) Показать родительские узлы для производных — при наличии производных узлов показывает родительские узлы;
 * ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_show-reference-links_default.svg) Показать исходные узлы для [Узлов-ссылок](../processors/control/unit-link.md) — при наличии Узлов-ссылок показывает узлы, на основе которых они создавались;
 * ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_preview_default.svg) Показать карту сценария — для навигации открывается уменьшенная копия области построения Сценария с возможностью масштабирования.

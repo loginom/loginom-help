@@ -30,7 +30,7 @@
 ### Выход
 
 * ![](../../media/app/icons/ports/table-inactive.svg) — **Выход нейросети** (таблица данных). См. [структуру выходного набора](./neural-network-classification/output-set.md).
-* ![](../../media/app/icons/ports/output-variable-inactive.svg) — **Показатели качества модели**.
+* ![](../../images/icons/ports/output_variable_inactive.svg) — **Показатели качества модели**.
 
 ## Мастер настройки
 
