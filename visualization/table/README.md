@@ -24,7 +24,8 @@
 * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_filter_default.svg) **Фильтр** — открыть [окно настройки фильтрации](./filter.md);
 * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom_default.svg) ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_down_default.svg) **Поиск** — ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zoom_default.svg) найти значение; ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_down_default.svg) открыть [окно настройки поиска](./search.md);
 * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_toggle-left-panel_default.svg) **Детализация** — показать/скрыть детализацию по строке таблицы;
-* **Перейти к строке** — перейти к строке с заданным номером.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_export_default.svg) **Экспорт** — экспортировать таблицу в файл выбранного формата (XLS или HTML);
+* **Перейти к строке** — перейти к строке с заданным номером (доступно в контекстном меню).
 
 %spoiler%Горячие клавиши:%spoiler%
 
@@ -53,3 +54,5 @@
 Значение каждой ячейки можно скопировать в текстовом формате, нажав комбинацию клавиш Ctrl+C.
 
 Рядом с заголовком каждого столбца есть кнопка ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_down_default.svg), нажатием на которую вызывается выпадающее меню. Через него можно скрыть/отобразить столбец, а также зафиксировать или снять фиксацию со столбца.
+
+Порядок столбцов можно менять перетаскиванием, удерживая левую кнопку мыши на заголовке перемещаемого столбца.
