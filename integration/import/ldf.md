@@ -8,7 +8,6 @@ LGD — специальный формат файлов, оптимизиров
 
 ### Вход
 
-* ![](../../images/icons/ports/input_connection_inactive.svg) [Подключение](../connections/README.md) — принимает параметры подключения к базе данных;
 * ![](../../images/icons/ports/optional_input_variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
 
 ### Выход
