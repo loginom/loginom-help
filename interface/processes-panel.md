@@ -37,5 +37,5 @@
   * При наличии ![](../images/icons/toolbar-controls/apply_default.svg) отображает все процессы, за исключением тех, которые были удалены пользователем;
   * При отсутствии ![](../images/icons/toolbar-controls/apply_default.svg) показывает только активные процессы и процессы, в которых возникли ошибки. Если в текущий момент времени не выполняется ни один из процессов, а также не было ошибок у процессов завершенных, то в информационной панели данные будут отсутствовать.
 
-По умолчанию информационная панель скрыта. Ее можно открыть нажатием на кнопку ![](../images/icons/systempanel_status/systempanel_status_default-01.svg), расположенную в левом нижнем углу. Чтобы при работе со Сценарием информационная панель оставалась открытой, ее нужно закрепить нажатием на кнопку ![](../images/extjs-theme/tools/tool-sprites_18x18/tool-sprites_11.svg), нажатие на ![](../images/extjs-theme/tools/tool-sprites_18x18/tool-sprites_10.svg) открепляет панель.
-Кнопка ![](../images/extjs-theme/tools/tool-sprites_18x18/tool-sprites_01.svg) панель закрывает.
+По умолчанию информационная панель скрыта. Ее можно открыть нажатием на кнопку ![](../images/icons/systempanel_status/systempanel_status_default-01.svg), расположенную в левом нижнем углу. Чтобы при работе со Сценарием информационная панель оставалась открытой, ее нужно закрепить нажатием на кнопку ![](../images/icons/toolbar-controls/unpin_default.svg), нажатие на ![](../images/icons/toolbar-controls/pin_default.svg) открепляет панель.
+Кнопка ![](../images/icons/toolbar-controls/clear_default.svg) панель закрывает.
