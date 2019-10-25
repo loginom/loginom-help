@@ -16,9 +16,9 @@
   * ![](./information-panel-5.png) — информация о результатах выполнения процесса еще не получена;
   * ![](./information-panel-6.png) — при выполнении процесса произошла ошибка (обработка не завершена);
   * ![](./information-panel-7.png) — выполнение процесса не начиналось, произошла ошибка.
-* ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_stop-all_default.svg) — остановить все процессы.
-  * ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_stop_default.svg) — остановить конкретный процесс.
-* ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete-all_default.svg) — удалить все завершенные процессы.
+* ![](../images/icons/toolbar-controls/stop-all_default.svg) — остановить все процессы.
+  * ![](../images/icons/toolbar-controls/stop_default.svg) — остановить конкретный процесс.
+* ![](../images/icons/toolbar-controls/delete-all_default.svg) — удалить все завершенные процессы.
   * ![](../images/icons/toolbar-controls/delete_default.svg) — удалить из списка конкретный процесс.
 * Ошибка — указывается текст ошибки в случае ее возникновения. При нажатии на данный текст на экран выведется полная формулировка ошибки.
 * Начало — дата и время начала процесса.
@@ -27,10 +27,10 @@
 
 При выборе процесса на информационной панели можно вызвать контекстное меню, содержащее следующие действия:
 
-* ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_stop-all_default.svg) **Отменить** — останавливает выполнение выбранного процесса;
-* ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_stop_default.svg) **Отменить выполнение всех процессов...** — останавливает выполнение всех процессов;
+* ![](../images/icons/toolbar-controls/stop-all_default.svg) **Отменить** — останавливает выполнение выбранного процесса;
+* ![](../images/icons/toolbar-controls/stop_default.svg) **Отменить выполнение всех процессов...** — останавливает выполнение всех процессов;
 * ![](../images/icons/toolbar-controls/delete_default.svg) **Удалить из списка** — удаляет процесс из списка информационной панели;
-* ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete-all_default.svg) **Удалить все заверенные процессы...** — удаляет все завершенные процессы из списка информационной панели;
+* ![](../images/icons/toolbar-controls/delete-all_default.svg) **Удалить все заверенные процессы...** — удаляет все завершенные процессы из списка информационной панели;
 * **Показать узел** — выделяет выбранный узел на области построения Сценариев;
 * **Подробнее** — выводит на экран сообщение об ошибке передаваемое узлом;
 * **Отображать завершенные процессы** — изменяет отображение процессов на панели:

@@ -26,13 +26,13 @@
 
 Новое выражение можно создать при помощи панели инструментов области или контекстного меню. Операции панели инструментов и контекстного меню:
 
-* ![](../../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_edit_default.svg) **Редактировать** — задание параметров выражения;
-* ![](../../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_up_default.svg) **Переместить вверх** — поднять выражение на одну позицию вверх по списку;
-* ![](../../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_down_default.svg) **Переместить вниз** — опустить выражение на одну позицию вниз по списку;
-* ![](../../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) **Добавить выражение** — добавляет новое выражение с параметрами по умолчанию;
-* ![](../../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_clone_default.svg) **Добавить выражение по образцу** — добавляет новое выражение с типом данных, описанием и формулой, как у текущего выражения;
-* ![](../../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) **Удалить выражение** — удаляет текущее выражение;
-* ![](../../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete-all_default.svg) **Удалить все выражения** — удаляет все имеющиеся выражения.
+* ![](../../../images/icons/toolbar-controls/edit_default.svg) **Редактировать** — задание параметров выражения;
+* ![](../../../images/icons/toolbar-controls/up_default.svg) **Переместить вверх** — поднять выражение на одну позицию вверх по списку;
+* ![](../../../images/icons/toolbar-controls/down_default.svg) **Переместить вниз** — опустить выражение на одну позицию вниз по списку;
+* ![](../../../images/icons/toolbar-controls/plus_default.svg) **Добавить выражение** — добавляет новое выражение с параметрами по умолчанию;
+* ![](../../../images/icons/toolbar-controls/clone_default.svg) **Добавить выражение по образцу** — добавляет новое выражение с типом данных, описанием и формулой, как у текущего выражения;
+* ![](../../../images/icons/toolbar-controls/delete_default.svg) **Удалить выражение** — удаляет текущее выражение;
+* ![](../../../images/icons/toolbar-controls/delete-all_default.svg) **Удалить все выражения** — удаляет все имеющиеся выражения.
 
 При добавлении и редактировании выражения отображается диалог редактирования параметров. Следующие параметры выражений доступны для изменений:
 

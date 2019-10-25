@@ -28,7 +28,7 @@
 
 * Перетаскивания мышью (Drag-and-drop);
 * Двойного щелчка мышки по полю;
-* Нажатия кнопки *Добавить* ![Добавить](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_arrow-r_default.svg).
+* Нажатия кнопки *Добавить* ![Добавить](../../images/icons/toolbar-controls/arrow-r_default.svg).
 
 Параметры настройки сортировки:
 
@@ -37,14 +37,14 @@
 
 Очередность полей сортировки можно изменить:
 
-* ![Вверх](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_moveup_default.svg) **Переместить вверх** — перемещает выделенное *Поле сортировки* вверх по списку;
-* ![Вниз](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_movedown_default.svg) **Переместить вниз** — перемещает выделенное *Поле сортировки* вниз по списку.
+* ![Вверх](../../images/icons/toolbar-controls/moveup_default.svg) **Переместить вверх** — перемещает выделенное *Поле сортировки* вверх по списку;
+* ![Вниз](../../images/icons/toolbar-controls/movedown_default.svg) **Переместить вниз** — перемещает выделенное *Поле сортировки* вниз по списку.
 
 Для исключения сортировки по полю:
 
 * Перетащить запись из списка *Поля сортировки* в *Доступные поля*;
-* ![Удалить](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) *Удалить поле*.
+* ![Удалить](../../images/icons/toolbar-controls/delete_default.svg) *Удалить поле*.
 
-Для очистки всего списка нажать ![Удалить все](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete-all_default.svg) *Удалить все...*.
+Для очистки всего списка нажать ![Удалить все](../../images/icons/toolbar-controls/delete-all_default.svg) *Удалить все...*.
 
 >**Примечание**: сравнение и сортировка символов осуществляется в соответствии локальными настройками пользователя, из-под которого запущен сервер Loginom.

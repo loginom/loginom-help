@@ -56,7 +56,7 @@
 
 ![Результирующий сценарий.](./first-scenario-6.png)
 
-Блок узлов, выполняющих формирование ТОП 10 клиентов, возможно, сгруппировать в отдельную функцию, поместив их в [Подмодель](../processors/control/submodel.md). Для этого необходимо выделить эти узлы и при помощи кнопки ![](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_compose-generic-model_default.svg) создать подмодель.
+Блок узлов, выполняющих формирование ТОП 10 клиентов, возможно, сгруппировать в отдельную функцию, поместив их в [Подмодель](../processors/control/submodel.md). Для этого необходимо выделить эти узлы и при помощи кнопки ![](../images/icons/toolbar-controls/compose-generic-model_default.svg) создать подмодель.
 
 ![Выделение блока узлов.](./first-scenario-7.png)
 
