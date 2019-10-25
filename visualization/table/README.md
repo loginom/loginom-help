@@ -22,7 +22,7 @@
 * ![](../../images/icons/toolbar-controls/format_default.svg) **Формат** — открыть [окно настройки формата](./format.md) отображения данных;
 * ![](../../images/icons/toolbar-controls/sort-asc_default.svg) **Сортировка** — открыть [окно настройки сортировки](./sorting.md) данных по столбцам;
 * ![](../../images/icons/toolbar-controls/filter_default.svg) **Фильтр** — открыть [окно настройки фильтрации](./filter.md);
-* ![](../../images/icons/toolbar-controls/zoom_default.svg) ![](../../images/icons/toolbar-controls/down_default.svg) **Поиск** — ![](../../images/icons/toolbar-controls/zoom_default.sv) найти значение; ![](../../images/icons/toolbar-controls/down_default.svg) открыть [окно настройки поиска](./search.md);
+* ![](../../images/icons/toolbar-controls/zoom_default.svg) ![](../../images/icons/toolbar-controls/down_default.svg) **Поиск** — ![](../../images/icons/toolbar-controls/zoom_default.svg) найти значение; ![](../../images/icons/toolbar-controls/down_default.svg) открыть [окно настройки поиска](./search.md);
 * ![](../../images/icons/toolbar-controls/toggle-left-panel_default.svg) **Детализация** — показать/скрыть детализацию по строке таблицы;
 * **Перейти к строке** — перейти к строке с заданным номером.
 
