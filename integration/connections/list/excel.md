@@ -23,7 +23,7 @@
 
 Для подключения к файлам Microsoft Excel 2007 и выше  (*.xlsx) в системе необходимо наличие совпадающих по разрядности с сервером Loginom компонентов:
 * Microsoft Excel 2007 и выше; 
-* [Microsoft Access Database Engine](https://www.microsoft.com/en-us/download/details.aspx?id=54920).
+* [Microsoft Access Database Engine 2016 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=54920).
 
 **Смотри также:**
 
