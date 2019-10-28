@@ -23,7 +23,7 @@
 В дальнейшем выходные данные созданного подключения используются соответствующим узлом вызова сервиса:
 
 - [SOAP-запрос](../../processors/integration/soap-request.md) — SOAP-запрос;
-- [REST-запрос](../../processors/integration/rest-rrequest.md) — REST-запрос.
+- [REST-запрос](../../processors/integration/rest-request.md) — REST-запрос.
 
 > **Примечание:** Ряд сервисов предоставляет ответ в виде вложенного XML. Для его преобразования в табличный вид предназначен компонент [Извлечение XML](../../processors/integration/extracting-xml.md). Для преобразования ответа, полученного в виде JSON, возможно использование конструкции [JSON.parse()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) в компоненте [Java-script](../../processors/transformation/java-script).
 
