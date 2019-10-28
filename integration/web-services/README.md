@@ -17,13 +17,13 @@
 Платформа Loginom предоставляет возможность интеграции с [SOAP](https://ru.wikipedia.org/wiki/SOAP) или [REST](https://ru.wikipedia.org/wiki/REST) сервисами.
 Для этого необходимо [создать](../connections/README.md#nastroyka-podklyucheniya) соответствующее подключение:
 
-- [Подключение веб-сервиса](../connections/list/web-service.md) (SOAP-сервис);
+- [Подключение SOAP-сервиса](../connections/list/soap-service.md) (SOAP-сервис);
 - [Подключение REST-сервиса](../connections/list/rest-service.md) (REST-сервис).
 
 В дальнейшем выходные данные созданного подключения используются соответствующим узлом вызова сервиса:
 
-- [Вызов веб-сервиса](../../processors/integration/calling-web-service.md) — вызов SOAP-сервиса;
-- [Вызов REST-сервиса](../../processors/integration/calling-rest-service.md) — вызов REST-сервиса.
+- [SOAP-запрос](../../processors/integration/soap-request.md) — SOAP-запрос;
+- [REST-запрос](../../processors/integration/rest-rrequest.md) — REST-запрос.
 
 > **Примечание:** Ряд сервисов предоставляет ответ в виде вложенного XML. Для его преобразования в табличный вид предназначен компонент [Извлечение XML](../../processors/integration/extracting-xml.md). Для преобразования ответа, полученного в виде JSON, возможно использование конструкции [JSON.parse()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) в компоненте [Java-script](../../processors/transformation/java-script).
 

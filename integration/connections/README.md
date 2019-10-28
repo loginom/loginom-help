@@ -24,7 +24,7 @@
   * [Подключение PostgreSQL](./list/postgresql.md).
   * [Подключение SQLite](./list/sqlite.md).
 * Веб-сервисы:
-  * [Подключение веб-сервиса](./list/web-service.md).
+  * [Подключение SOAP-сервиса](./list/soap-service.md).
   * [Подключение REST-сервиса](./list/rest-service.md).
 
 ## Настройка подключения

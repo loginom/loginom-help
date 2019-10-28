@@ -1,4 +1,4 @@
-# ![](../../images/icons/data-sources/web-rest-client_default.svg) Вызов REST-сервиса
+# ![](../../images/icons/data-sources/web-rest-client_default.svg) REST-запрос
 
 Компонент позволяет взаимодействовать с внешним [REST-сервисом](https://ru.wikipedia.org/wiki/REST), отправляя ему [GET](https://ru.wikipedia.org/wiki/HTTP#GET) или [POST](https://ru.wikipedia.org/wiki/HTTP#POST) запросы и получая ответы. В качестве входного набора данных используется таблица с параметрами запросов. REST-сервису будет отправлено столько запросов, сколько строк во входном наборе данных.
 
@@ -17,7 +17,7 @@
 
 ### Входные порты
 
-* ![](../../images/icons/ports/input_connection_inactive.svg) — Подключение к REST-сервису (связь с компонентом *Подключение REST-сервис*);
+* ![](../../images/icons/ports/input_connection_inactive.svg) — Подключение к REST-сервису (связь с компонентом *Подключение REST-сервиса*);
 * ![](../../images/icons/ports/optional_input_variable_inactive.svg) — Управляющие переменные (переменные), необязательный;
 * ![](../../images/icons/ports/optional_output_table_inactive.svg) — Источник данных запроса (таблица с параметрами запроса), необязательный.
 
