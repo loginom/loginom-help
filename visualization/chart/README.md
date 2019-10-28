@@ -7,13 +7,15 @@
 ### Операции
 
 * ![](../../images/icons/toolbar-controls/fields-list_default.svg) Настройка полей — показать/скрыть список полей набора данных.
-* ![](../../images/icons/toolbar-controls/setup_default.svg) [Общие настройки](./general-settings.md) — настройки диаграммы в целом.
+* ![](../../images/icons/toolbar-controls/setup_default.svg) [Общие настройки](./general-settings.md) — настройки диаграммы в целом. Окно настроек можно открыть с панели инструментов или двойным щелчком левой кнопки мыши в области построения диаграммы. Часть общих настроек (Повернуть на 90° – повернуть график, Нормировать, Навигатор, Анимация) вынесена на панель инструментов.
 * ![](../../images/icons/toolbar-controls/chart_default.svg) [Настройки серий](./series-settings.md) — настройки списка серий и параметров конкретных серий (графиков).
 * ![](../../images/icons/toolbar-controls/axis_default.svg) [Настройки осей](./axis-settings.md).
 * ![](../../images/icons/toolbar-controls/animate_default.svg) Анимация — обновление данных отображается плавно.
 * ![](../../images/icons/toolbar-controls/normalize_default.svg) Нормировать — приводит все графики к одному масштабу.
 * ![](../../images/icons/toolbar-controls/telescope_default.svg) Навигатор — позволяет детализировать по оси X какой-либо участок диаграммы, отображается снизу под осью. Передвигая край навигатора, можно выбрать необходимую область диаграммы.
 * ![](../../images/icons/toolbar-controls/rotate-chart-clockwise_default.svg) Повернуть график — меняет местами оси, то есть поле по X перемещается на ось Y, и наоборот ось Y становится осью X.
+* ![](../../images/icons/toolbar-controls/cursor_default.svg) Режим приближения — увеличивает масштаб просмотра выделенной области (см. также [Работа с построенной диаграммой](#rabota-s-postroennoy-diagrammoy)).
+* ![](../../images/icons/toolbar-controls/hand_default.svg) Режим перетаскивания — позволяет передвигать диаграмму по экрану (см. также [Работа с построенной диаграммой](#rabota-s-postroennoy-diagrammoy)).
 * ![](../../images/icons/toolbar-controls/zoom-in_default.svg) Приблизить — приближает/увеличивает область диаграммы.
 * ![](../../images/icons/toolbar-controls/zoom-out_default.svg) Отдалить — отдаляет/уменьшает область диаграммы.
 * ![](../../images/icons/toolbar-controls/zoom-zone_default.svg) Сбросить приближение — снимает все настройки приближения (по обеим осям).
