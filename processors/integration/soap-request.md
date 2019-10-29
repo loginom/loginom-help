@@ -10,7 +10,6 @@
 
 ### Входные порты
 
-<<<<<<< HEAD:data/processors/integration/soap-request.md
 * ![ ](../../images/icons/ports/input_connection_inactive.svg) — Подключение к SOAP-сервису (связь с компонентом *Подключение SOAP-сервиса*);
 * ![ ](../../images/icons/ports/optional_output_table_inactive.svg) — Источник данных запроса (таблица с параметрами запроса), необязательный;
 * ![ ](../../images/icons/ports/optional_input_variable_inactive.svg) — Управляющие переменные (переменные), необязательный.
