@@ -12,19 +12,19 @@
 
 ### Вход
 
-* ![](../../../images/icons/ports/input_table_inactive.svg) — Входной источник данных (таблица данных) — обязательный порт;
-* ![](../../../images/icons/ports/input_variable_inactive.svg) —  [Управляющие переменные](../../../scenario/variables/control-variables.md) (переменные) — необязательный порт, переменными можно задать значения параметров мастера настройки.
+* ![](../../../images/icons/app/node/ports/inputs/table_inactive.svg) — Входной источник данных (таблица данных) — обязательный порт;
+* ![](../../../images/icons/app/node/ports/inputs/variable_inactive.svg) —  [Управляющие переменные](../../../scenario/variables/control-variables.md) (переменные) — необязательный порт, переменными можно задать значения параметров мастера настройки.
 
 ### Выходы
-* ![](../../../images/icons/ports/output_table_inactive.svg) — Выход регрессии. 
+* ![](../../../images/icons/app/node/ports/inputs/table_inactive.svg) — Выход регрессии. 
     Таблица, состоящая из полей: 
    * Событие|Прогноз.
    * Вероятность события|Прогноз.
    * Событие|Факт.
    * Поле выходных данных|Прогноз.
    * Все поля исходного набора данных.   
-* ![](../../../images/icons/ports/output_table_inactive.svg) —  [Коэффициенты регрессионной модели](./coef-regression.md) (таблица данных).  
-* ![](../../../images/icons/ports/output_variable_inactive.svg) —  [Сводка](./report.md) (переменные).   
+* ![](../../../images/icons/app/node/ports/inputs/table_inactive.svg) —  [Коэффициенты регрессионной модели](./coef-regression.md) (таблица данных).  
+* ![](../../../images/icons/app/node/ports/outputs/variable_inactive.svg) —  [Сводка](./report.md) (переменные).   
 
 ## Мастер настройки узла
 
