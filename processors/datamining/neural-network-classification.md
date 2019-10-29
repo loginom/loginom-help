@@ -1,4 +1,4 @@
-# ![](../../images/icons/vendors/classifierneuralnet.svg) Нейросеть (классификация)
+# ![ ](../../images/icons/components/classifierneuralnet_default.svg) Нейросеть (классификация)
 
 Решает задачу [классификации](https://wiki.loginom.ru/articles/classification.html) — в выходном наборе [нейросеть](https://basegroup.ru/deductor/function/algorithm/neuronet) соотносит множество входных параметров (предикторов) с одним из заранее известных классов:
 
@@ -25,7 +25,7 @@
 
 ### Вход
 
-* ![](../../media/app/icons/ports/table-inactive.svg) — **Входной источник данных** (таблица данных). 
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) — **Входной источник данных** (таблица данных).
 
 #### Требования к принимаемым данным
 
@@ -33,8 +33,8 @@
 
 ### Выход
 
-* ![](../../media/app/icons/ports/table-inactive.svg) — **Выход нейросети** (таблица данных). См. [структуру выходного набора](./neural-network-classification/output-set.md).
-* ![](../../media/app/icons/ports/output-variable-inactive.svg) — **Показатели качества модели**.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Выход нейросети** (таблица данных). См. [структуру выходного набора](./neural-network-classification/output-set.md).
+* ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) — **Показатели качества модели**.
 
 ## Мастер настройки
 
@@ -43,9 +43,9 @@
 На первом этапе необходимо задать [назначение](../../data/datasetfieldoptions.md) полей входного набора данных.
 Для каждого из полей можно выбрать один из вариантов назначения:
 
-* ![](../../media/app/icons/toolbar-18/used-1.svg) **Входное** — поле содержит значения одного из входных параметров;
-* ![](../../media/app/icons/toolbar-18/used-2.svg) **Выходное** — поле содержит значения классов;
-* ![](../../media/app/processors/substitution-03.svg) **Неиспользуемое** — поле не участвует в обработке. Устанавливается по умолчанию для прочих полей.
+* ![ ](../../images/icons/usage-types/active_default.svg) **Входное** — поле содержит значения одного из входных параметров;
+* ![ ](../../images/icons/usage-types/predicted_default.svg) **Выходное** — поле содержит значения классов;
+* ![ ](../../images/icons/usage-types/unspecified_default.svg) **Неиспользуемое** — поле не участвует в обработке. Устанавливается по умолчанию для прочих полей.
 
 ### Шаг 2. Настройка параметров нейросети
 

@@ -1,4 +1,4 @@
-# ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_filter_default.svg)Фильтр
+# ![](../../images/icons/toolbar-controls/filter_default.svg)Фильтр
 
 Позволяет выделить записи, которые удовлетворяют одному или нескольким условиям. Несколько условий объединяются в сложное условие с помощью логических операторов И/ИЛИ.
 

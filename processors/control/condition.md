@@ -14,13 +14,13 @@
 
 ### Вход
 
-* ![Входные переменные](../../images/icons/ports/input_variable_inactive.svg) **Входные переменные** — набор переменных;
-* ![Входной источник данных](../../images/icons/ports/input_table_inactive.svg) **Входной источник данных** — таблица данных.
+* ![Входные переменные](../../images/icons/app/node/ports/inputs/variable_inactive.svg) **Входные переменные** — набор переменных;
+* ![Входной источник данных](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** — таблица данных.
 
 ### Выход
 
-* ![Выходные переменные](../../images/icons/ports/output_variable_inactive.svg) **Выходные переменные** — набор переменных;
-* ![Выходной набор данных](../../images/icons/ports/output_table_inactive.svg) **Выходной набор данных** — таблица данных.
+* ![Выходные переменные](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Выходные переменные** — набор переменных;
+* ![Выходной набор данных](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Выходной набор данных** — таблица данных.
 
 ## Мастер настройки
 
@@ -28,23 +28,23 @@
 
 Здесь задается наличие необходимых портов. Каждому порту можно задать тип, имя и название, которое будет отображаться при наведении курсора на него.
 
-* ![Создать новый порт](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) **Добавить** — создать новый порт входа:
-  * ![Для переменных](../../images/icons/ports/input_variable_hover.svg) **Переменные** — для переменных.
-  * ![Для таблицы](../../images/icons/ports/input_table_hover.svg) **Таблица** — для таблицы.
-* ![Смещение порта вниз](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_movedown_default.svg) **Переместить вниз**, ![Смещение порта вверх](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_moveup_default.svg) **Переместить вверх** — путем смещения выделенного порта определить его положение относительно узла компонента.
-* ![Редактировать параметры порта](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_edit_default.svg) **Редактировать** — редактировать параметры порта.
+* ![Создать новый порт](../../images/icons/toolbar-controls/plus_default.svg) **Добавить** — создать новый порт входа:
+  * ![Для переменных](../../images/icons/app/node/ports/inputs/variable_hover.svg) **Переменные** — для переменных.
+  * ![Для таблицы](../../images/icons/app/node/ports/inputs/table_hover.svg) **Таблица** — для таблицы.
+* ![Смещение порта вниз](../../images/icons/toolbar-controls/movedown_default.svg) **Переместить вниз**, ![Смещение порта вверх](../../images/icons/toolbar-controls/moveup_default.svg) **Переместить вверх** — путем смещения выделенного порта определить его положение относительно узла компонента.
+* ![Редактировать параметры порта](../../images/icons/toolbar-controls/edit_default.svg) **Редактировать** — редактировать параметры порта.
 * ![Создание выхода](../../images/icons/checkbox-states/checked_default.svg) **Передавать на выход** — для выделенного входного порта будет создан порт выхода в каждой ветви.
-* ![Удалить порт](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) — удалить порт.
-* ![Удалить все порты](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete-all_default.svg) — удалить все порты.
+* ![Удалить порт](../../images/icons/toolbar-controls/delete_default.svg) — удалить порт.
+* ![Удалить все порты](../../images/icons/toolbar-controls/delete-all_default.svg) — удалить все порты.
 
 ### Шаг 2. Настройка списка условий
 
 **Список ветвей условия** — содержит варианты дальнейшего выполнения сценария.
 
-* ![Добавить ветвь](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) **Добавить** — добавить новую ветвь условия;
-* ![Переместить ветвь вниз](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_movedown_default.svg) **Переместить вниз**, ![Переместить ветвь вверх](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_moveup_default.svg) **Переместить вверх** — установить приоритет выделенной ветви путем её смещения относительно других ветвей;
-* ![Удалить ветвь](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) — удалить ветвь;
-* ![Удалить все ветви](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete-all_default.svg) — удалить все ветви условий.
+* ![Добавить ветвь](../../images/icons/toolbar-controls/plus_default.svg) **Добавить** — добавить новую ветвь условия;
+* ![Переместить ветвь вниз](../../images/icons/toolbar-controls/movedown_default.svg) **Переместить вниз**, ![Переместить ветвь вверх](../../images/icons/toolbar-controls/moveup_default.svg) **Переместить вверх** — установить приоритет выделенной ветви путем её смещения относительно других ветвей;
+* ![Удалить ветвь](../../images/icons/toolbar-controls/delete_default.svg) — удалить ветвь;
+* ![Удалить все ветви](../../images/icons/toolbar-controls/delete-all_default.svg) — удалить все ветви условий.
 
 **Условие** — область конфигурации условий для конкретной ветви, отображается при выделении ветви в списке.
 
@@ -56,7 +56,7 @@
 * **И/ИЛИ** — кнопка-переключатель появляется между двумя условиями в ветви:
   * **И** — связываемые условия дадут значение "истина", если они оба истинны.
   * **ИЛИ** — связываемые условия дадут значение "истина", если истинно хотя бы одно из них.
-* ![**Удалить все условия**](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete-all_default.svg) **Удалить все условия** — удалить все условия для выбранной ветви.
+* ![**Удалить все условия**](../../images/icons/toolbar-controls/delete-all_default.svg) **Удалить все условия** — удалить все условия для выбранной ветви.
 
 > Примечание: Условие проверяется на атомарных значениях, например "A > 1". Таким значением может быть переменная. Если же на вход подана таблица, то поле обозначает не одно значение, а целую колонку. В этом случае данную колонку необходимо свети к одному значению с помощью методов агрегации.
 

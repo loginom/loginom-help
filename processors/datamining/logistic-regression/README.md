@@ -1,4 +1,4 @@
-# ![](../../../images/icons/vendors/logregression.svg) Логистическая регрессия
+# ![ ](../../../images/icons/components/logregression_default.svg) Логистическая регрессия
 
 ## Описание
 
@@ -12,13 +12,14 @@
 
 ### Вход
 
-* ![](../../../images/icons/ports/input_table_inactive.svg) Входной источник данных (таблица данных).
-* ![](../../../images/icons/ports/input_variable_inactive.svg) Управляющие переменные (переменные).
+* ![ ](../../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных).
+* ![ ](../../../images/icons/app/node/ports/inputs/variable_inactive.svg) Управляющие переменные (переменные).
 
 ### Выходы
-* ![](../../../images/icons/ports/output_table_inactive.svg) Выход регрессии (таблица данных);
-* ![](../../../images/icons/ports/output_table_inactive.svg) [Коэффициенты регрессионной модели](./coef-regression.md) (таблица данных);
-* ![](../../../images/icons/ports/output_variable_inactive.svg) [Сводка](./report.md) (переменные).
+
+* ![ ](../../../images/icons/app/node/ports/outputs/table_inactive.svg) Выход регрессии (таблица данных);
+* ![ ](../../../images/icons/app/node/ports/outputs/table_inactive.svg) [Коэффициенты регрессионной модели](./coef-regression.md) (таблица данных);
+* ![ ](../../../images/icons/app/node/ports/outputs/variable_inactive.svg) [Сводка](./report.md) (переменные).
 
 ## Мастер настройки узла
 
@@ -140,6 +141,7 @@
 #### Настройки метода
 
 Доступные параметры:
+
 * Точность решения — критерий остановки итераций. Настройка, которая позволяет определить точность нахождения минимума функции ошибки. Значение вещественного типа от 0 до 1. Представляет собой редактор с шагом изменения значения 0,000001.
 * Включить в модель константу — добавляет в модель зависимую переменную.
 * Устранение [мультиколлинеарности](https://wiki.loginom.ru/articles/multicollinearity.html) — тесной корреляционной взаимосвязи между отбираемыми для анализа факторами, совместно воздействующими на общий результат.

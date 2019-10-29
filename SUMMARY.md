@@ -58,7 +58,7 @@
     * [LGD-файл](./integration/import/ldf.md)
     * [XML-файл](./integration/import/xml.md)
     * [База данных](./integration/import/database.md)
-    * [Тестовый файл](./integration/import/txt-csv.md)
+    * [Текстовый файл](./integration/import/txt-csv.md)
     * [Deductor Warehouse](./integration/import/warehouse.md)
   * [Экспорт данных](./integration/export/README.md)
     * [База данных](./integration/export/database.md)
