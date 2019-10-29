@@ -1,4 +1,4 @@
-# ![](../../../media/app/icons/component-18/component-default-55.svg) Импорт функций Калькулятора
+# ![](../../../images/icons/components/javascript_default.svg) Импорт функций Калькулятора
 
 В коде JavaScript возможно использование [функций Калькулятора](../../func/calc-func/README.md). Для этого используется встроенный модуль `"builtIn/Calc"`. Доступны все функции, включая реализованные в плагинах, за исключением следующих:
 

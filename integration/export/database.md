@@ -1,15 +1,14 @@
-# ![](../../images/icons/vendors/dbexport.svg) Экспорт в базу данных
+# ![ ](../../images/icons/data-sources/db-database-export_default.svg) Экспорт в базу данных
 
 Обработчик осуществляет экспорт исходного набора в базу данных.
 
 > **Важно:** Для работы узла требуется предварительно создать [подключение](../connections/README.md) к базе данных и связать его с входным портом *Подключение*. [Пример подключения и работы с БД](../../quick-start/database.md).
 
-
 ### Вход
 
-* ![](../../images/icons/ports/input_connection_inactive.svg) Подключение — порт для установки подключения к базе данных;
-* ![](../../images/icons/ports/input_table_inactive.svg) Источник данных — таблица данных, подлежащая экспорту в базу;
-* ![](../../images/icons/ports/optional_input_variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
+* ![ ](../../images/icons/ports/input_connection_inactive.svg) Подключение — порт для установки подключения к базе данных;
+* ![ ](../../images/icons/ports/input_table_inactive.svg) Источник данных — таблица данных, подлежащая экспорту в базу;
+* ![ ](../../images/icons/ports/optional_input_variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
 
 ## Мастер настройки
 

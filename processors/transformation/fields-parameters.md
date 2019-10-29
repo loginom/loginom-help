@@ -1,4 +1,4 @@
-# ![Параметры полей](../../images/icons/vendors/reformcolumns.svg) Параметры полей
+# ![Параметры полей](../../images/icons/components/reform-data-source_default.svg) Параметры полей
 
 Узел позволяет изменить следующие параметры полей набора данных:
 
