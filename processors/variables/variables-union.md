@@ -8,13 +8,13 @@
 
 ### Вход
 
-* ![Входные переменные](../../images/icons/ports/optional_input_variable_inactive.svg) **Входные переменные** — необязательный набор переменных;
-* ![Добавляемые переменные](../../images/icons/ports/input_variable_inactive.svg) **Добавляемые переменные** — обязательный набор переменных;
-* ![Еще порт](../../images/icons/ports/add_inactive.svg) **Добавление еще одного порта** — создает новые порты входа для последующих наборов переменных.
+* ![Входные переменные](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Входные переменные** — необязательный набор переменных;
+* ![Добавляемые переменные](../../images/icons/app/node/ports/inputs/variable_inactive.svg) **Добавляемые переменные** — обязательный набор переменных;
+* ![Еще порт](../../images/icons/app/node/ports/add/add_inactive_default.svg) **Добавление еще одного порта** — создает новые порты входа для последующих наборов переменных.
 
 ### Выход
 
-* ![Выходные переменные](../../images/icons/ports/output_variable_inactive.svg) **Выходные переменные** — новый набор переменных.
+* ![Выходные переменные](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Выходные переменные** — новый набор переменных.
 
 %spoiler%Пример:%spoiler%
 

@@ -1,4 +1,4 @@
-# ![](../../../media/app/icons/component-18/component-default-55.svg) Полное описание API
+# ![](../../../images/icons/components/javascript_default.svg) Полное описание API
 
 ```typescript
 const InputTable: IDataSource;      // Источник данных с первого порта

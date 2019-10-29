@@ -10,7 +10,7 @@
 
 Подробно о том, как включить данный визуализатор смотри [статью](../README.md).
 
->**Примечание:** визуализатор Отчет по регрессии может использоваться с узлами [Линейная регрессия]() и [Логистическая регрессия](../../processors/datamining/logistic-regression/README.md).
+>**Примечание:** визуализатор Отчет по регрессии может использоваться с узлами [Линейная регрессия](../../processors/datamining/linear-regression/README.md) и [Логистическая регрессия](../../processors/datamining/logistic-regression/README.md).
 
 ## Интерфейс
 
@@ -18,17 +18,17 @@
 
 #### Область Информация о модели
 
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_info_default.svg) **Информация о модели** — отображение/скрытие [информации о модели](#informatsiya-o-modeli).
+* ![](../../images/icons/toolbar-controls/info_default.svg) **Информация о модели** — отображение/скрытие [информации о модели](#informatsiya-o-modeli).
 
 #### Область Коэффициенты регрессии
 
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_table-view_default.svg) **Таблица** — переключение отображения [коэффициентов регрессии](#koeffitsienty-regressii) в вид *Таблица*;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_tree_default.svg) **Дерево** — переключение отображения [коэффициентов регрессии](#koeffitsienty-regressii) в вид *Дерево*;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zero_default.svg) **Нулевые значения** — отображение/скрытие нулевых значений.
+* ![](../../images/icons/toolbar-controls/table-view_default.svg) **Таблица** — переключение отображения [коэффициентов регрессии](#koeffitsienty-regressii) в вид *Таблица*;
+* ![](../../images/icons/toolbar-controls/tree_default.svg) **Дерево** — переключение отображения [коэффициентов регрессии](#koeffitsienty-regressii) в вид *Дерево*;
+* ![](../../images/icons/toolbar-controls/zero_default.svg) **Нулевые значения** — отображение/скрытие нулевых значений.
 
 #### Область Шаги построения
 
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) **Шаги построения** — отображение/скрытие [шагов построения](#shagi-postroeniya) модели.
+* ![](../../images/icons/toolbar-controls/building-steps_default.svg) **Шаги построения** — отображение/скрытие [шагов построения](#shagi-postroeniya) модели.
 
 ### Области визуализатора
 
@@ -65,7 +65,7 @@
 |Верхняя граница ДИ|Верхняя граница доверительного интервала|
 |Порог значимости|Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели|
 
-Коэффициенты регрессии могут быть представлены в виде ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_table-view_default.svg) *Таблицы* (см. рисунок 1) или ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_tree_default.svg) *Дерева* (см. рисунок 2). 
+Коэффициенты регрессии могут быть представлены в виде ![](../../images/icons/toolbar-controls/table-view_default.svg) *Таблицы* (см. рисунок 1) или ![](../../images/icons/toolbar-controls/tree_default.svg) *Дерева* (см. рисунок 2). 
 
 ![Режим отображения Таблица.](./readme-1.png)
 
@@ -73,9 +73,9 @@
 
 #### Шаги построения
 
-Область ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) *Шаги* построения имеет смысл включать только в том случае, если при настройке узла Логистическая регрессия в параметре Отбор факторов и защита от переобучения был выбран алгоритм, который подразумевает режим обработки фактов.
+Область ![](../../images/icons/toolbar-controls/building-steps_default.svg) *Шаги* построения имеет смысл включать только в том случае, если при настройке узла Логистическая регрессия в параметре Отбор факторов и защита от переобучения был выбран алгоритм, который подразумевает режим обработки фактов.
 
-Область ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) *Шаги* построения состоит из следующих полей:
+Область ![](../../images/icons/toolbar-controls/building-steps_default.svg) *Шаги* построения состоит из следующих полей:
 
 |Поле|Описание|
 |:----------------|:----------------------------------------------------------------------------|
