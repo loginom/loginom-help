@@ -1,4 +1,4 @@
-# ![](../../images/icons/vendors/assnrules.svg) Ассоциативные правила
+# ![ ](../../images/icons/components/assnrules_default.svg) Ассоциативные правила
 
 ## Описание
 
@@ -10,9 +10,9 @@
 
 ### Вход
 
-* ![](../../images/icons/ports/optional_input_table_inactive.svg) — **Входной источник данных** (таблица данных). Необязательный.<br>
+* ![ ](../../images/icons/ports/optional_input_table_inactive.svg) — **Входной источник данных** (таблица данных). Необязательный.<br>
 Порт ожидает набор данных со столбцами идентификаторов и элементов транзакций.
-* ![](../../images/icons/ports/optional_input_table_inactive.svg) — **Вспомогательные данные** (таблица данных). Необязательный.<br>
+* ![ ](../../images/icons/ports/optional_input_table_inactive.svg) — **Вспомогательные данные** (таблица данных). Необязательный.<br>
 Принимает дополнительные элементы транзакций, которые возможно учитывать при расчете ассоциативных правил.
 
 #### Требования к принимаемым данным
@@ -46,9 +46,9 @@
 
 ### Выход
 
-* ![](../../images/icons/ports/output_table_inactive.svg) — **Популярные наборы** (таблица данных). Наборы элементов, наиболее часто встречающиеся в транзакциях (частые наборы).
-* ![](../../images/icons/ports/output_table_inactive.svg) — **Ассоциативные правила** (таблица данных). Выявленные ассоциативные правила и их показатели: [поддержка](https://wiki.loginom.ru/articles/association-rule-support.html), [достоверность](https://wiki.loginom.ru/articles/rule-confidence.html), [лифт](https://wiki.loginom.ru/articles/lift-of-association-rule.html).
-* ![](../../images/icons/ports/output_table_inactive.svg) — **Применение правил** (таблица данных). Содержит транзакции входного набора данных, в которых срабатывают выявленные правила.
+* ![ ](../../images/icons/ports/output_table_inactive.svg) — **Популярные наборы** (таблица данных). Наборы элементов, наиболее часто встречающиеся в транзакциях (частые наборы).
+* ![ ](../../images/icons/ports/output_table_inactive.svg) — **Ассоциативные правила** (таблица данных). Выявленные ассоциативные правила и их показатели: [поддержка](https://wiki.loginom.ru/articles/association-rule-support.html), [достоверность](https://wiki.loginom.ru/articles/rule-confidence.html), [лифт](https://wiki.loginom.ru/articles/lift-of-association-rule.html).
+* ![ ](../../images/icons/ports/output_table_inactive.svg) — **Применение правил** (таблица данных). Содержит транзакции входного набора данных, в которых срабатывают выявленные правила.
 
 ## Мастер настройки
 

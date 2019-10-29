@@ -1,14 +1,14 @@
-# ![Слияние](../../../images/icons/vendors/joindata.svg) Слияние
+# ![Слияние](../../../images/icons/components/join-data_default.svg) Слияние
 
 Слияние наборов данных, связанных по ключевым полям — аналог операции JOIN в SQL. Данные ключевых полей основного и присоединяемого наборов сравниваются между собой, результат операции сравнения используется алгоритмом слияния для формирования результирующего набора.
 
 Варианты слияния наборов:
 
-* ![](../../../images/icons/joindata/join-full_default.svg) [Полное соединение](./cross.md);
-* ![](../../../images/icons/joindata/join-inner_default.svg) [Внутреннее соединение](./inner.md);
-* ![](../../../images/icons/joindata/join-left_default.svg) [Левое соединение](./left.md);
-* ![](../../../images/icons/joindata/join-right_default.svg) [Правое соединение](./right.md);
-* ![](../../../images/icons/joindata/join-diff_default.svg) [Разность](./distinct.md).
+* ![ ](../../../images/icons/joindata/join-full_default.svg) [Полное соединение](./cross.md);
+* ![ ](../../../images/icons/joindata/join-inner_default.svg) [Внутреннее соединение](./inner.md);
+* ![ ](../../../images/icons/joindata/join-left_default.svg) [Левое соединение](./left.md);
+* ![ ](../../../images/icons/joindata/join-right_default.svg) [Правое соединение](./right.md);
+* ![ ](../../../images/icons/joindata/join-diff_default.svg) [Разность](./distinct.md).
 
 За исключением способа [Разность](./distinct.md), каждый из перечисленных способов слияния является аналогом определенного типа соединения в языке запросов SQL.
 

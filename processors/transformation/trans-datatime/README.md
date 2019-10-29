@@ -1,4 +1,4 @@
-# ![Дата и время](../../../images/icons/vendors/datereform.svg) Дата и время
+# ![Дата и время](../../../images/icons/components/date-reform_default.svg) Дата и время
 
 Обработчик *Дата и время* производит трансформацию данных формата ![Дата/Время](../../../images/icons/data-types/datetime_default.svg) *Дата/Время*.
 
