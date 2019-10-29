@@ -19,17 +19,17 @@
 
 Панель инструментов файлового менеджера предоставляет следующие возможности работы с файлами:
 
-* ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_publish-default.svg) **Загрузить** — позволяет загрузить файл в открытую в текущий момент директорию, файл для загрузки следует выбрать во всплывшем окне проводника Windows;
-* ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_add-folder_default.svg) **Создать каталог** — создание папки в директории, открытой в текущий момент;
-* ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_download_default.svg) **Скачать** — скачать выбранный элемент в системную папку загрузок пользователя; файлы также можно скачивать, делая по ним двойной клик левой кнопкой мыши;
-* ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_rename_default.svg) **Переименовать** — изменение имени выбранной папки;
-* ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_copy_default.svg) **Копировать** — копирование выбранного файла или папки в буфер обмена;
-* ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_paste_default.svg) **Вставить** — вставка скопированного или вырезанного элемента в текущую директорию;
-* ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_cut_default.svg) **Вырезать** — вырезать выбранный файл или папку и поместить в буфер обмена;
-* ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) **Удалить** — удаление выбранного файла или папки;
-* ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_refresh_default.svg) **Обновить список** — отображает актуальное содержание текущей директории.
+* ![](./images/icons/toolbar-controls/publish_default.svg) **Загрузить** — позволяет загрузить файл в открытую в текущий момент директорию, файл для загрузки следует выбрать во всплывшем окне проводника Windows;
+* ![](./images/icons/toolbar-controls/add-folder_default.svg) **Создать каталог** — создание папки в директории, открытой в текущий момент;
+* ![](./images/icons/toolbar-controls/download_default.svg) **Скачать** — скачать выбранный элемент в системную папку загрузок пользователя; файлы также можно скачивать, делая по ним двойной клик левой кнопкой мыши;
+* ![](./images/icons/toolbar-controls/rename_default.svg) **Переименовать** — изменение имени выбранной папки;
+* ![](./images/icons/toolbar-controls/copy_default.svg) **Копировать** — копирование выбранного файла или папки в буфер обмена;
+* ![](./images/icons/toolbar-controls/paste_default.svg) **Вставить** — вставка скопированного или вырезанного элемента в текущую директорию;
+* ![](./images/icons/toolbar-controls/cut_default.svg) **Вырезать** — вырезать выбранный файл или папку и поместить в буфер обмена;
+* ![](./images/icons/toolbar-controls/delete_default.svg) **Удалить** — удаление выбранного файла или папки;
+* ![](./images/icons/toolbar-controls/refresh_default.svg) **Обновить список** — отображает актуальное содержание текущей директории.
 
-Клик правой кнопкой мыши по элементу в файловом менеджере вызывает контекстное меню, в котором содержатся все вышеперечисленных функции кроме ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_download_default.svg) *Загрузить* и ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_add-folder_default.svg) *Создать каталог*. При клике по свободной области файлового менеджера вызывает контекстное меню, в котором содержатся функции ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_download_default.svg) *Загрузить*, ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_add-folder_default.svg) *Создать каталог*, ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_paste_default.svg) *Вставить* и ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_refresh_default.svg) *Обновить список*.
+Клик правой кнопкой мыши по элементу в файловом менеджере вызывает контекстное меню, в котором содержатся все вышеперечисленных функции кроме ![](./images/icons/toolbar-controls/download_default.svg) *Загрузить* и ![](./images/icons/toolbar-controls/add-folder_default.svg) *Создать каталог*. При клике по свободной области файлового менеджера вызывает контекстное меню, в котором содержатся функции ![](./images/icons/toolbar-controls/download_default.svg) *Загрузить*, ![](./images/icons/toolbar-controls/add-folder_default.svg) *Создать каталог*, ![](./images/icons/toolbar-controls/paste_default.svg) *Вставить* и ![](./images/icons/toolbar-controls/refresh_default.svg) *Обновить список*.
 
 Поддерживается загрузка файлов методом Drag and Drop, т. е. путем перетаскивания файлов в окно файлового менеджера. Файлы при этом копируются.
 
@@ -41,9 +41,9 @@
 
 Для сортировки элементов текущей директории по определенному параметру следует нажать на одно из полей в верхней части файлового менеджера: *Имя*, *Тип*, *Размер*, *Дата изменения*, *Только чтение* и *Путь*.
 
-При первом нажатии на поле выполняется сортировка по возрастанию ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_low-to-hight_default.svg), при втором — по убыванию ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_hight-to-low_default.svg). Также в среди полей файлового менеджера присутствуют чекбокс и ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete-all_default.svg) *Удалить все*:
+При первом нажатии на поле выполняется сортировка по возрастанию ![](./images/icons/toolbar-controls/low-to-hight_default.svg), при втором — по убыванию ![](./images/icons/toolbar-controls/hight-to-low_default.svg). Также в среди полей файлового менеджера присутствуют чекбокс и ![](./images/icons/toolbar-controls/delete-all_default.svg) *Удалить все*:
 
 * При выставлении флага в чекбоксе поля выделяет все элементы в текущей директории.
-* ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete-all_default.svg) **Удалить все** — удаляет все элементы текущей директории.
+* ![](./images/icons/toolbar-controls/delete-all_default.svg) **Удалить все** — удаляет все элементы текущей директории.
 
-Отображение каждого поля можно включить или отключить, для этого следует перенести курсор на произвольное поле и нажать на всплывшую кнопку ![](./images/icons/toolbar-controls_18x18/toolbar-controls_18x18_down_default.svg), затем перенести курсор на строку ![](./images/icons/grid/columns.svg) *Столбцы* и во всплывшем списке выставить флаги к необходимым для отображения полям. 
+Отображение каждого поля можно включить или отключить, для этого следует перенести курсор на произвольное поле и нажать на всплывшую кнопку ![](./images/icons/toolbar-controls/down_default.svg), затем перенести курсор на строку ![](./images/icons/grid/columns.svg) *Столбцы* и во всплывшем списке выставить флаги к необходимым для отображения полям. 

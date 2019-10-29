@@ -1,4 +1,4 @@
-# ![](../../../media/app/icons/component-18/component-default-55.svg) Перечисления встроенных сущностей Loginom
+# ![](../../../images/icons/components/javascript_default.svg) Перечисления встроенных сущностей Loginom
 
 В контекст выполнения JavaScript встроены перечисления, описывающие метаданные полей и переменных.
 

@@ -2,10 +2,10 @@
 
 Этот подраздел администрирования используется для управления общими папками и правами доступа к ним. В верхней части раздела имеется четыре кнопки:
 
-* ![Добавить](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) **Добавить** — добавить новую папку;
-* ![Редактировать](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_edit_default.svg) **Редактировать** — редактировать выделенную папку;
-* ![Удалить](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) **Удалить** — удалить выделенную папку;
-* ![Обновить](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_refresh_default.svg) **Обновить** — обновить список папок.
+* ![Добавить](../images/icons/toolbar-controls/plus_default.svg) **Добавить** — добавить новую папку;
+* ![Редактировать](../images/icons/toolbar-controls/edit_default.svg) **Редактировать** — редактировать выделенную папку;
+* ![Удалить](../images/icons/toolbar-controls/delete_default.svg) **Удалить** — удалить выделенную папку;
+* ![Обновить](../images/icons/toolbar-controls/refresh_default.svg) **Обновить** — обновить список папок.
 
 %spoiler%Горячие клавиши%spoiler%
 
@@ -18,7 +18,7 @@
 
 %/spoiler%
 
-При нажатии на кнопку ![Добавить](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) *Добавить*/![Редактировать](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_edit_default.svg) *Редактировать* появляется окно *Добавить общую папку*/*Настройка общей папки*.
+При нажатии на кнопку ![Добавить](../images/icons/toolbar-controls/plus_default.svg) *Добавить*/![Редактировать](../images/icons/toolbar-controls/edit_default.svg) *Редактировать* появляется окно *Добавить общую папку*/*Настройка общей папки*.
 
 Состав окна *Добавить общую папку*/*Настройка общей папки*:
 

@@ -1,6 +1,6 @@
-# ![](../../../images/icons/vendors/oracleunidacdbconnection.svg) Подключение Oracle
+# ![ ](../../../images/icons/data-sources/db-oracle_default.svg) Подключение Oracle
 
-Используется для подключения к базе данных Oracle. 
+Используется для подключения к базе данных Oracle.
 
 Возможно подключение как через клиент СУБД, так и через внутренний драйвер Loginom.
 
