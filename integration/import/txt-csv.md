@@ -1,14 +1,14 @@
-# ![Текст](../../images/icons/vendors/importtextfile.svg) Импорт из текстового файла
+# ![ ](../../images/icons/data-sources/file-txt-import_default.svg) Импорт из текстового файла
 
 Используется для импорта данных из текстовых файлов c разделителями. Текстовый файл с разделителями представляет собой обычный текстовый файл, столбцы данных в котором разделены однотипными символами-разделителями, например, символами табуляции, запятыми, точками с запятой и т. д.
 
 ### Вход
 
-* ![Управляющие переменные](../../images/icons/ports/optional_input_variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
 
 ### Выход
 
-* ![Набор данных](../../images/icons/ports/input_table_inactive.svg) Набор данных (таблица данных).
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Набор данных (таблица данных).
 
 ## Мастер настройки
 

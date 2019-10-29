@@ -1,4 +1,4 @@
-# ![ ](../../images/icons/vendors/elimoutlier.svg) Редактирование выбросов
+# ![ ](../../images/icons/components/e-lim-out-lier_default.svg) Редактирование выбросов
 
 ## Описание
 
@@ -8,13 +8,13 @@
 
 ### Вход
 
-* ![](../../images/icons/ports/input_table_inactive.svg) Входной источник данных — таблица данных.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных — таблица данных.
 
 ### Выход
 
-* ![](../../images/icons/ports/output_table_inactive.svg) Выходной набор — исходная таблица после обработки.
-* ![](../../images/icons/ports/output_table_inactive.svg) Выбросы — таблица, содержащая строки исходной таблицы, в которых были обнаружены выбросы.
-* ![](../../images/icons/ports/output_table_inactive.svg) Экстремальные значения — таблица, содержащая строки исходной таблицы, в которых были обнаружены экстремальные значения.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор — исходная таблица после обработки.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Выбросы — таблица, содержащая строки исходной таблицы, в которых были обнаружены выбросы.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Экстремальные значения — таблица, содержащая строки исходной таблицы, в которых были обнаружены экстремальные значения.
 
 ## Мастер настройки
 

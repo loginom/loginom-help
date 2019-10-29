@@ -1,4 +1,4 @@
-# ![](../../../media/app/icons/component-18/component-default-55.svg) Импорт внешних модулей
+# ![](../../../images/icons/components/javascript_default.svg) Импорт внешних модулей
 
 ## Модульные системы
 
