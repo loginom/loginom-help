@@ -1,4 +1,4 @@
-# ![](../../../images/icons/vendors/wsdlclientconnection.svg) Подключение SOAP-сервиса
+# ![ ](../../../images/icons/data-sources/web-soap_default.svg) Подключение SOAP-сервиса
 
 В Loginom имеется возможность подключаться к внешнему SOAP-сервису и импортировать полученные от него данные для дальнейшей обработки и анализа.
 

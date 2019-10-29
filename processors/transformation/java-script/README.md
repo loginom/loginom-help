@@ -1,4 +1,4 @@
-# ![](../../../media/app/icons/component-18/component-default-55.svg) JavaScript
+# ![](../../../images/icons/components/javascript_default.svg) JavaScript
 
 ## Описание
 
