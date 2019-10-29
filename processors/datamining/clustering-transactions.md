@@ -12,8 +12,8 @@
 
 ### Вход
 
-* ![ ](../../images/icons/ports/optional_input_table_inactive.svg) — Входной источник данных (таблица данных). Необязательный.
-* ![ ](../../images/icons/ports/optional_input_table_inactive.svg) — Дополнительный вход (таблица данных). Необязательный.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — Входной источник данных (таблица данных). Необязательный.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — Дополнительный вход (таблица данных). Необязательный.
 
 Входные данные - это транзакции, сформированные в 2 поля, одно из которых является транзакцией, а второе - элементом. Например, первое поле - код покупателя, второе - список его покупок.
 
@@ -25,14 +25,14 @@
 
 ### Выход
 
-* ![ ](../../images/icons/ports/output_table_inactive.svg) — **Разбиение на кластеры.**
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Разбиение на кластеры.**
 
 Таблица данных, состоящая из:
 
 * Поля, назначение которого — "Транзакция".
 * Номеров кластеров — каждой транзакции присвоен номер того кластера, в который она входит.
 
-* ![ ](../../images/icons/ports/output_table_inactive.svg) — **Параметры кластеров.**
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Параметры кластеров.**
 
 Таблица данных, состоящая из:
 

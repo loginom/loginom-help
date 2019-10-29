@@ -8,13 +8,13 @@
 
 ### Вход
 
-* ![ ](../../images/icons/ports/input_table_inactive.svg) Входной источник данных (таблица данных).
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных).
 
 ### Выход
 
-* ![ ](../../images/icons/ports/output_table_inactive.svg). Содержит все строки, которые были взяты для обеих выборок. Добавляется поле "тестовое множество": в этом поле значение "true" свидетельствует о том, что запись попала в тестовую выборку, а значение "false" — в обучающую.
-* ![ ](../../images/icons/ports/output_table_inactive.svg) Обучающий выходной набор (таблица данных).
-* ![ ](../../images/icons/ports/output_table_inactive.svg) Тестовый выходной набор (таблица данных).
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg). Содержит все строки, которые были взяты для обеих выборок. Добавляется поле "тестовое множество": в этом поле значение "true" свидетельствует о том, что запись попала в тестовую выборку, а значение "false" — в обучающую.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Обучающий выходной набор (таблица данных).
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Тестовый выходной набор (таблица данных).
 
 ## Мастер настройки
 

@@ -6,9 +6,9 @@
 
 ### Вход
 
-* ![ ](../../images/icons/ports/input_connection_inactive.svg) Подключение — порт для установки подключения к базе данных;
-* ![ ](../../images/icons/ports/input_table_inactive.svg) Источник данных — таблица данных, подлежащая экспорту в базу;
-* ![ ](../../images/icons/ports/optional_input_variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
+* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Подключение — порт для установки подключения к базе данных;
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Источник данных — таблица данных, подлежащая экспорту в базу;
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
 
 ## Мастер настройки
 

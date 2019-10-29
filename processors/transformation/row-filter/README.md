@@ -18,12 +18,12 @@
 
 ### Вход
 
-* ![Входной источник данных](../../../images/icons/ports/input_table_inactive.svg) **Входной источник данных** (таблица данных).
+* ![Входной источник данных](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** (таблица данных).
 
 ### Выход
 
-* ![Соответствует условию](../../../images/icons/ports/input_table_inactive.svg) **Соответствуют условию** (таблица данных);
-* ![Не соответствуют условию](../../../images/icons/ports/input_table_inactive.svg) **Не соответствуют условию** (таблица данных).
+* ![Соответствует условию](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Соответствуют условию** (таблица данных);
+* ![Не соответствуют условию](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Не соответствуют условию** (таблица данных).
 
 ## Мастер настройки
 

@@ -4,12 +4,12 @@
 
 ### Вход
 
-* ![ ](../../../images/icons/ports/output_table_inactive.svg) Входной источник данных (таблица данных);
-* ![ ](../../../images/icons/ports/optional_input_variable_inactive.svg) Входные переменные (переменные), необязательный.
+* ![ ](../../../images/icons/app/node/ports/outputs/table_inactive.svg) Входной источник данных (таблица данных);
+* ![ ](../../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) Входные переменные (переменные), необязательный.
 
 ### Выход
 
-* ![ ](../../../images/icons/ports/output_table_inactive.svg) Выходной набор данных (таблица данных).
+* ![ ](../../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных).
 
 ## Мастер настройки
 

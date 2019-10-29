@@ -8,17 +8,17 @@
 
 ### Вход
 
-* ![ ](../../images/icons/ports/input_connection_inactive.svg) — Поключение к источнику XSD-схемы — подключение настроенного ранее подключения к файлам [XSD-схем](../../integration/connections/list/schemes.md).
-* ![ ](../../images/icons/ports/optional_input_variable_inactive.svg) —  Управляющие переменные (переменные), необязательный.
-* ![ ](../../images/icons/ports/input_table_inactive.svg) — Источник данных — таблица данных, содержащая ячейки с документами XML.
+* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) — Поключение к источнику XSD-схемы — подключение настроенного ранее подключения к файлам [XSD-схем](../../integration/connections/list/schemes.md).
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) —  Управляющие переменные (переменные), необязательный.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) — Источник данных — таблица данных, содержащая ячейки с документами XML.
 
 ### Выход
 
-* ![ ](../../images/icons/ports/output_table_inactive.svg) — Набор данных — таблица данных, извлеченных из документов XML.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Набор данных — таблица данных, извлеченных из документов XML.
   * Поля, наличие которых задается пользователем:
     * Идентификатор поля — показывает, из какого именно документа была извлечена конкретная строка.
 
-* ![ ](../../images/icons/ports/output_table_inactive.svg) — Ошибки и коды завершения — таблица логов извлечения, имеет следующую структуру:
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Ошибки и коды завершения — таблица логов извлечения, имеет следующую структуру:
   * Обязательные поля:
     * Код завершения — содержит значения кодов извлечения для каждого документа.
   * Поля, наличие которых задается пользователем:

@@ -21,7 +21,7 @@
 
 ### Вход
 
-* ![ ](../../images/icons/ports/input_table_inactive.svg) — **Входной источник данных** (таблица данных).
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) — **Входной источник данных** (таблица данных).
 
 #### Требования к принимаемым данным
 
@@ -29,8 +29,8 @@
 
 ### Выход
 
-* ![ ](../../images/icons/ports/output_table_inactive.svg) — **Выход нейросети** (таблица данных). См. [структуру выходного набора](./neural-network-classification/output-set.md).
-* ![ ](../../images/icons/ports/output_variable_inactive.svg) — **Показатели качества модели**.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Выход нейросети** (таблица данных). См. [структуру выходного набора](./neural-network-classification/output-set.md).
+* ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) — **Показатели качества модели**.
 
 ## Мастер настройки
 
