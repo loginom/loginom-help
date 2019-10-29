@@ -12,14 +12,14 @@
 
 ### Вход
 
-* ![ ](../../../images/icons/ports/input_table_inactive.svg) Входной источник данных (таблица данных).
-* ![ ](../../../images/icons/ports/input_variable_inactive.svg) Управляющие переменные (переменные).
+* ![ ](../../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных).
+* ![ ](../../../images/icons/app/node/ports/inputs/variable_inactive.svg) Управляющие переменные (переменные).
 
 ### Выходы
 
-* ![ ](../../../images/icons/ports/output_table_inactive.svg) Выход регрессии (таблица данных);
-* ![ ](../../../images/icons/ports/output_table_inactive.svg) [Коэффициенты регрессионной модели](./coef-regression.md) (таблица данных);
-* ![ ](../../../images/icons/ports/output_variable_inactive.svg) [Сводка](./report.md) (переменные).
+* ![ ](../../../images/icons/app/node/ports/outputs/table_inactive.svg) Выход регрессии (таблица данных);
+* ![ ](../../../images/icons/app/node/ports/outputs/table_inactive.svg) [Коэффициенты регрессионной модели](./coef-regression.md) (таблица данных);
+* ![ ](../../../images/icons/app/node/ports/outputs/variable_inactive.svg) [Сводка](./report.md) (переменные).
 
 ## Мастер настройки узла
 

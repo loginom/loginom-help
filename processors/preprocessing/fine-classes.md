@@ -14,12 +14,12 @@
 
 ### Вход
 
-* ![ ](../../images/icons/ports/input_table_inactive.svg) Входной источник данных (таблица данных).
-* ![ ](../../images/icons/ports/add_inactive.svg) Добавление еще одного порта. Внешние диапазоны квантования (таблица данных).
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных).
+* ![ ](../../images/icons/app/node/ports/add/add_inactive_default.svg) Добавление еще одного порта. Внешние диапазоны квантования (таблица данных).
 
 ### Выход
 
-* ![ ](../../images/icons/ports/output_table_inactive.svg) Выходной набор данных (таблица данных).
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных).
 
 %spoiler%Структура данных:%spoiler%
 
@@ -30,7 +30,7 @@
 
 %/spoiler%
 
-* ![ ](../../images/icons/ports/input_table_inactive.svg) Параметры классов (таблица данных).
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Параметры классов (таблица данных).
 
 %spoiler%Структура данных:%spoiler%
 
@@ -52,7 +52,7 @@
 
 %/spoiler%
 
-* ![ ](../../images/icons/ports/input_table_inactive.svg) Значимости столбцов (таблица данных).
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Значимости столбцов (таблица данных).
 
 %spoiler%Структура данных:%spoiler%
 

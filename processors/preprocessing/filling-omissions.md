@@ -9,12 +9,12 @@
 
 ### Вход
 
-* ![ ](../../images/icons/ports/input_table_inactive.svg) Входной источник данных (таблица данных).
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных).
 
 ### Выход
 
-* ![ ](../../images/icons/ports/output_table_inactive.svg) Выходной набор данных (таблица данных).
-* ![ ](../../images/icons/ports/output_table_inactive.svg) Пропуски (таблица строк, содержащих пропуски).
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных).
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Пропуски (таблица строк, содержащих пропуски).
 
 ## Мастер настройки
 
