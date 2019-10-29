@@ -1,4 +1,4 @@
-# ![](../../images/icons/vendors/regressionneuralnet.svg) Нейросеть (регрессия)
+# ![ ](../../images/icons/components/regressionneuralnet_default.svg) Нейросеть (регрессия)
 
 Решает задачу [регрессии](https://wiki.loginom.ru/articles/regression-line.html) — в выходном наборе [нейросеть](https://basegroup.ru/deductor/function/algorithm/neuronet) выдаст прогнозируемое значение для одной или нескольких переменных, зависимых от множества входных параметров.
 
@@ -21,7 +21,7 @@
 
 ### Вход
 
-* ![](../../images/icons/ports/input_table_inactive.svg) — **Входной источник данных** (таблица данных). 
+* ![ ](../../images/icons/ports/input_table_inactive.svg) — **Входной источник данных** (таблица данных).
 
 #### Требования к принимаемым данным
 
@@ -29,8 +29,8 @@
 
 ### Выход
 
-* ![](../../images/icons/ports/output_table_inactive.svg) — **Выход нейросети** (таблица данных). См. [структуру выходного набора](./neural-network-classification/output-set.md).
-* ![](../../images/icons/ports/output_variable_inactive.svg) — **Показатели качества модели**.
+* ![ ](../../images/icons/ports/output_table_inactive.svg) — **Выход нейросети** (таблица данных). См. [структуру выходного набора](./neural-network-classification/output-set.md).
+* ![ ](../../images/icons/ports/output_variable_inactive.svg) — **Показатели качества модели**.
 
 ## Мастер настройки
 
@@ -39,9 +39,9 @@
 На первом этапе необходимо задать [назначение](../../data/datasetfieldoptions.md) полей входного набора данных.
 Для каждого из полей можно выбрать один из вариантов назначения:
 
-* ![](../../images/icons/usage-types/active_default.svg) **Входное** — поле содержит значения одного из входных параметров.
-* ![](../../images/icons/usage-types/predicted_default.svg) **Выходное** — поле содержит значения классов.
-* ![](../../images/icons/usage-types/unspecified_default.svg) **Неиспользуемое** — поле не участвует в обработке. Устанавливается по умолчанию для прочих полей.
+* ![ ](../../images/icons/usage-types/active_default.svg) **Входное** — поле содержит значения одного из входных параметров.
+* ![ ](../../images/icons/usage-types/predicted_default.svg) **Выходное** — поле содержит значения классов.
+* ![ ](../../images/icons/usage-types/unspecified_default.svg) **Неиспользуемое** — поле не участвует в обработке. Устанавливается по умолчанию для прочих полей.
 
 ### Шаг 2. Настройка параметров нейросети
 
