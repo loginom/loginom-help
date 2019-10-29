@@ -4,12 +4,12 @@
 
 ### Вход
 
-* ![ ](../../images/icons/ports/input_connection_inactive.svg)   [Подключение](../connections/README.md) — принимает параметры подключения к базе данных;
-* ![ ](../../images/icons/ports/optional_input_variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
+* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg)   [Подключение](../connections/README.md) — принимает параметры подключения к базе данных;
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
 
 ### Выход
 
-* ![ ](../../images/icons/ports/input_table_inactive.svg) Набор данных (таблица данных).
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Набор данных (таблица данных).
 
 ## Мастер настройки
 

@@ -20,11 +20,11 @@
 
 ### Вход
 
-* ![Входной источник данных](../../../images/icons/ports/input_table_inactive.svg) **Входной источник данных** (таблица данных).
+* ![Входной источник данных](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** (таблица данных).
 
 ### Выход
 
-* ![Выходной набор данных](../../../images/icons/ports/input_table_inactive.svg) **Выходной набор данных** (таблица данных).
+* ![Выходной набор данных](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Выходной набор данных** (таблица данных).
 
 ## Мастер настройки
 

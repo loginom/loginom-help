@@ -10,15 +10,15 @@
 
 ### Входные порты
 
-* ![ ](../../images/icons/ports/input_connection_inactive.svg) — Подключение к веб-сервису (связь с компонентом *Подключение  веб-сервиса*);
-* ![ ](../../images/icons/ports/optional_output_table_inactive.svg) — Источник данных запроса (таблица с параметрами запроса), необязательный;
-* ![ ](../../images/icons/ports/optional_input_variable_inactive.svg) — Управляющие переменные (переменные), необязательный.
+* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) — Подключение к веб-сервису (связь с компонентом *Подключение  веб-сервиса*);
+* ![ ](../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — Источник данных запроса (таблица с параметрами запроса), необязательный;
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — Управляющие переменные (переменные), необязательный.
 
 ### Выходные порты
 
-* ![ ](../../images/icons/ports/output_table_inactive.svg) — Выходной набор данных (таблица с ответами веб-сервиса);
-* ![ ](../../images/icons/ports/output_table_inactive.svg) — Исключения (WSDL fault);
-* ![ ](../../images/icons/ports/output_table_inactive.svg) — Дополнительные данные (таблица) содержат описание ошибок и SOAP-ответы сервиса.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Выходной набор данных (таблица с ответами веб-сервиса);
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Исключения (WSDL fault);
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Дополнительные данные (таблица) содержат описание ошибок и SOAP-ответы сервиса.
 
 ## Настройка
 

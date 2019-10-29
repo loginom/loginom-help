@@ -6,13 +6,13 @@
 
 ### Вход
 
-* ![ ](../../images/icons/ports/input_table_inactive.svg) Входной источник данных (таблица данных).
-* ![ ](../../images/icons/ports/add_inactive.svg) Добавление еще одного порта. Внешние диапазоны квантования (таблица данных).
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных).
+* ![ ](../../images/icons/app/node/ports/add/add_inactive_default.svg) Добавление еще одного порта. Внешние диапазоны квантования (таблица данных).
 
 ### Выход
 
-* ![ ](../../images/icons/ports/output_table_inactive.svg) Выходной набор данных (таблица данных). [Описание структуры](./quantization/calculated-columns.md) результирующего набора.
-* ![ ](../../images/icons/ports/output_table_inactive.svg) Диапазоны для квантования (таблица данных). [Описание структуры](./quantization/ranges-quantization.md) таблицы диапазонов.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных). [Описание структуры](./quantization/calculated-columns.md) результирующего набора.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Диапазоны для квантования (таблица данных). [Описание структуры](./quantization/ranges-quantization.md) таблицы диапазонов.
 
 ## Мастер настройки
 

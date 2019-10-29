@@ -7,13 +7,13 @@
 
 ### Вход
 
-* ![](../../../images/icons/ports/output_table_inactive.svg) Входной источник данных (таблица данных), необязательный;
-* ![](../../../images/icons/ports/add_inactive.svg) Добавить еще один порт – создает новый порт Входной источник данных[N], где N – порядковый номер порта;
-* ![](../../../images/icons/ports/optional_input_variable_inactive.svg) Входные переменные (переменные), необязательный.
+* ![](../../../images/icons/app/node/ports/outputs/table_inactive.svg) Входной источник данных (таблица данных), необязательный;
+* ![](../../../images/icons/app/node/ports/add/add_inactive_default.svg) Добавить еще один порт – создает новый порт Входной источник данных[N], где N – порядковый номер порта;
+* ![](../../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) Входные переменные (переменные), необязательный.
 
 ### Выход
 
-* ![](../../../images/icons/ports/output_table_inactive.svg) Выходной набор данных (таблица данных).
+* ![](../../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных).
 
 ## Мастер настройки
 
