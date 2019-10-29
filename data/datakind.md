@@ -6,10 +6,10 @@
 
 На таблице ниже представлено какой вид данных можно использовать при каждом типе данных.
 
-| Тип данных | ![](../media/app/icons/datatype-18/datatype-default-08.svg) Непрерывный | ![](../media/app/icons/datatype-18/datatype-default-09.svg) Дискретный |
+| Тип данных | ![](../images/icons/data-types/continuous_default.svg) Непрерывный | ![](../images/icons/data-types/discrete_default.svg) Дискретный |
 | :- | :-: | :-: |
-| ![](../media/app/icons/datatype-18/datatype-default-03.svg) Вещественный | • | • |
-| ![](../media/app/icons/datatype-18/datatype-default-02.svg) Целый | • | • |
-| ![](../media/app/icons/datatype-18/datatype-default-01.svg) Строковый | | • |
-| ![](../media/app/icons/datatype-18/datatype-default-04.svg) Логический | | • |
-| ![](../media/app/icons/datatype-18/datatype-default-05.svg) Дата/время | • | • |
+| ![](../images/icons/data-types/float_default.svg) Вещественный | • | • |
+| ![](../images/icons/data-types/integer_default.svg) Целый | • | • |
+| ![](../images/icons/data-types/string_default.svg) Строковый | | • |
+| ![](../images/icons/data-types/boolean_default.svg) Логический | | • |
+| ![](../images/icons/data-types/datetime_default.svg) Дата/время | • | • |

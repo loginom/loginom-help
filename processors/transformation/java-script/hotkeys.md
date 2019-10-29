@@ -1,4 +1,4 @@
-# ![](../../../media/app/icons/component-18/component-default-55.svg) Горячие клавиши
+# ![](../../../images/icons/components/javascript_default.svg) Горячие клавиши
 
 В редакторе кода поддерживаются следующие горячие клавиши:
 
