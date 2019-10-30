@@ -41,15 +41,15 @@
         <th align="left">Описание</th>
     </tr>
     <tr>
-        <td><img src="../images/icons/ports/input_table_inactive.svg"> Таблица</td>
+        <td><img src="../images/icons/app/node/ports/inputs/table_inactive.svg"> Таблица</td>
         <td>Представляет собой структурированный набор данных, где все данные упорядочены в двумерную структуру, состоящую из столбцов и строк. В ячейках такой таблицы содержатся элементы данных: строки, числа, даты, логические значения.</td>
     </tr>
     <tr>
-        <td><img src="../images/icons/ports/input_variable_inactive.svg"> Переменные</td>
+        <td><img src="../images/icons/app/node/ports/inputs/variable_inactive.svg"> Переменные</td>
         <td>Представляют собой объекты, содержащие только одно значение. С помощью специальных обработчиков имеется возможность преобразовать данные из таблиц в переменные и обратно.</td>
     </tr>
     <tr>
-        <td><img src="../images/icons/ports/input_connection_inactive.svg"> Подключения</td>
+        <td><img src="../images/icons/app/node/ports/inputs/link_inactive.svg"> Подключения</td>
         <td>Определяют настройки для работы с внешними источниками и приемниками данных.</td>
     </tr>
      <tr>

@@ -1,4 +1,4 @@
-# ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_sort-asc_default.svg) Настройка сортировки
+# ![](../../images/icons/toolbar-controls/sort-asc_default.svg) Настройка сортировки
 
 В визуализаторе [Таблица](./README.md) сортировка данных следует правилам описанным в узле [Сортировка](../../processors/transformation/sorting.md).
 
@@ -12,28 +12,28 @@
 
 * Перетаскиванием мыши (Drag-and-drop);
 * Двойным щелчком левой кнопки мыши по полю;
-* Вызвав выпадающее меню нажатием правой кнопки мыши и нажав кнопку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) *Добавить*;
-* Нажав кнопку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_arrow-r_default.svg) *Добавить*.
+* Вызвав выпадающее меню нажатием правой кнопки мыши и нажав кнопку ![](../../images/icons/toolbar-controls/plus_default.svg) *Добавить*;
+* Нажав кнопку ![](../../images/icons/toolbar-controls/arrow-r_default.svg) *Добавить*.
 
 Параметры настройки сортировки задаются двух соседних столбцах:
 
 * **Порядок** — в ячейках этого поля отображается тумблер, который указывает на вид сортировки, он может принимать *По возрастанию* ![По возрастанию](../../images/icons/sorting/order-switcher-asc_default.svg) и *По убыванию* ![По убыванию](../../images/icons/sorting/order-switcher-desc_default.svg);
-* **Регистр** — в ячейках этого поля, при условии что сортируемые значения ![Строковый тип](../../images/icons/datatype_18/datatype_default-01.svg)*Строкового* или ![Переменный тип](../../images/icons/datatype_18/datatype_default-06.svg)*Переменного* типов, отображается чекбокс. При проставленном в чекбоксе флажке поле сортируется с учетом регистра.
+* **Регистр** — в ячейках этого поля, при условии что сортируемые значения ![Строковый тип](../../images/icons/data-types/string_default.svg)*Строкового* или ![Переменный тип](../../images/icons/data-types/variant_default.svg)*Переменного* типов, отображается чекбокс. При проставленном в чекбоксе флажке поле сортируется с учетом регистра.
 
 Для исключения из списка сортируемых полей нужно:
 
 * Перетащить запись из списка *Поля сортировки* в *Доступные поля*;
-* Нажать на кнопку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) нужного поля в столбце ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete-all_default.svg) ;
-* Вызвать выпадающее меню нажатием правой кнопки мыши и нажать кнопку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete_default.svg) *Удалить*.
+* Нажать на кнопку ![](../../images/icons/toolbar-controls/delete_default.svg) нужного поля в столбце ![](../../images/icons/toolbar-controls/delete-all_default.svg) ;
+* Вызвать выпадающее меню нажатием правой кнопки мыши и нажать кнопку ![](../../images/icons/toolbar-controls/delete_default.svg) *Удалить*.
 
-Для очистки всего списка нужно нажать на иконку ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete-all_default.svg) у одноименного столбца, вызвав выпадающее меню выбрать пункт ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete-all_default.svg) *Удалить все...*.
+Для очистки всего списка нужно нажать на иконку ![](../../images/icons/toolbar-controls/delete-all_default.svg) у одноименного столбца, вызвав выпадающее меню выбрать пункт ![](../../images/icons/toolbar-controls/delete-all_default.svg) *Удалить все...*.
 
 Для того чтобы изменить очередность сортировки, над таблицей сортируемых полей расположены кнопки перемещения:
 
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_moveup_default.svg) **Переместить вверх** — перемещает выбранное поле вверх в списке очередности;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_movedown_default.svg) **Переместить вниз** — перемещает выбранное поле вниз в списке очередности.
+* ![](../../images/icons/toolbar-controls/moveup_default.svg) **Переместить вверх** — перемещает выбранное поле вверх в списке очередности;
+* ![](../../images/icons/toolbar-controls/movedown_default.svg) **Переместить вниз** — перемещает выбранное поле вниз в списке очередности.
 
-Также переместить поле можно, выбрав нужное поле вызвать выпадающее меню и нажать пункт ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_moveup_default.svg) *Переместить вверх* или ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_movedown_default.svg) *Переместить вниз*, в зависимости от нужного действия.
+Также переместить поле можно, выбрав нужное поле вызвать выпадающее меню и нажать пункт ![](../../images/icons/toolbar-controls/moveup_default.svg) *Переместить вверх* или ![](../../images/icons/toolbar-controls/movedown_default.svg) *Переместить вниз*, в зависимости от нужного действия.
 
 После выбора всех настроек нажать кнопку *Сортировать* для применения сортировки в таблице.
 

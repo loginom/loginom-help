@@ -107,6 +107,7 @@
 
 Механизмы интеграции предназначены для обмена данными между платформой Loginom и сторонними внешними системами.
 
-* [Вызов веб-сервиса](./integration/calling-web-service.md)
+* [SOAP-запрос](./integration/soap-request.md)
+* [REST-запрос](./integration/rest-request.md)
 * [Выполнение программы](./integration/exec-program.md)
 * [Извлечение XML](./integration/extracting-xml.md)
