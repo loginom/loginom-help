@@ -149,6 +149,7 @@
         * [Коэффициенты регрессии](./processors/datamining/logistic-regression/coef-regression.md)
       * [Нейросеть (классификация)](./processors/datamining/neural-network-classification.md)
       * [Нейросеть (регрессия)](./processors/datamining/neural-network-regression.md)
+      * [Автоматический подбор параметров Нейросети](./processors/datamining/autofit-struct-neural-network.md)
       * [Самоорганизующиеся сети](./processors/datamining/self-organizing-network.md)
     * [Переменные](./processors/variables/README.md)
       * [Замена (переменные)](./processors/variables/variables-replace.md)
