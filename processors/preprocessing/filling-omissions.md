@@ -1,4 +1,4 @@
-# ![ ](../../images/icons/vendors/datarecovery.svg) Заполнение пропусков
+# ![ ](../../images/icons/components/plausible_default.svg) Заполнение пропусков
 
 ## Описание
 
@@ -9,12 +9,12 @@
 
 ### Вход
 
-* ![](../../images/icons/ports/input_table_inactive.svg) Входной источник данных (таблица данных). 
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных).
 
 ### Выход
 
-* ![](../../images/icons/ports/output_table_inactive.svg) Выходной набор данных (таблица данных). 
-* ![](../../images/icons/ports/output_table_inactive.svg) Пропуски (таблица строк, содержащих пропуски). 
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных).
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Пропуски (таблица строк, содержащих пропуски).
 
 ## Мастер настройки
 
@@ -53,7 +53,6 @@
 <tr><td align=left>Заменять значением «Не задано»</td><td align=center><img src=../../images/icons/data-types/boolean_default.svg> <img src=../../images/icons/data-types/string_default.svg></td><td></td><td align=center><img src=../../images/icons/data-types/boolean_default.svg> <img src=../../images/icons/data-types/string_default.svg></td><td></td></tr>
 <tr><td align=left>Интерполировать</td><td></td><td></td><td align=center><img src=../../images/icons/data-types/datetime_default.svg> <img src=../../images/icons/data-types/float_default.svg> <img src=../../images/icons/data-types/integer_default.svg></td><td align=center><img src=../../images/icons/data-types/datetime_default.svg> <img src=../../images/icons/data-types/float_default.svg> <img src=../../images/icons/data-types/integer_default.svg></td></tr>
 </table>
-
 
 **Смотри также:**
 

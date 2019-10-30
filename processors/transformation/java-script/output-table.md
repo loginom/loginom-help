@@ -1,4 +1,4 @@
-# ![](../../../media/app/icons/component-18/component-default-55.svg) Доступ к выходному набору данных
+# ![](../../../images/icons/components/javascript_default.svg) Доступ к выходному набору данных
 
 Для доступа к данным выходного порта используется объект `OutputTable`.
 

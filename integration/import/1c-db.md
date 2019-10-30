@@ -1,4 +1,4 @@
-# ![](../../images/icons/vendors/1cv8queryimport.svg) Импорт из 1C:Предприятие 8.x
+# ![ ](../../images/icons/data-sources/crm-1cv8-import_default.svg) Импорт из 1C:Предприятие 8.x
 
 Компонент предназначен для импорта из базы данных 1С.
 
@@ -8,12 +8,12 @@
 
 ### Входные порты
 
-* ![](../../images/icons/ports/input_connection_inactive.svg) Подключение — принимает параметры подключения к базе данных;
-* ![](../../images/icons/ports/optional_input_variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
+* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Подключение — принимает параметры подключения к базе данных;
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
 
 ### Выходные порты
 
-* ![](../../images/icons/ports/input_table_inactive.svg) Импортированная таблица.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Импортированная таблица.
 
 ## Мастер настройки
 
