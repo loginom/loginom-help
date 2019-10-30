@@ -1,4 +1,4 @@
-# ![ ](../../images/icons/data-sources/web-rest-client_default.svg) Вызов REST-сервиса
+# ![ ](../../images/icons/data-sources/web-rest-client_default.svg) REST-запрос
 
 Компонент позволяет взаимодействовать с внешним [REST-сервисом](https://ru.wikipedia.org/wiki/REST), отправляя ему [GET](https://ru.wikipedia.org/wiki/HTTP#GET) или [POST](https://ru.wikipedia.org/wiki/HTTP#POST) запросы и получая ответы. В качестве входного набора данных используется таблица с параметрами запросов. REST-сервису будет отправлено столько запросов, сколько строк во входном наборе данных.
 
@@ -17,7 +17,7 @@
 
 ### Входные порты
 
-* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) — Подключение к REST-сервису (связь с компонентом *Подключение REST-сервис*);
+* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) — Подключение к REST-сервису (связь с компонентом *Подключение REST-сервиса*);
 * ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — Управляющие переменные (переменные), необязательный;
 * ![ ](../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — Источник данных запроса (таблица с параметрами запроса), необязательный.
 
@@ -49,7 +49,7 @@
 
 ### Настройка пользовательских заголовков
 
-На данном шаге задаются имена [заголовков HTTP-запроса](https://ru.wikipedia.org/wiki/HTTP#Заголовки) и их значения.
+На данном шаге задаются имена заголовков HTTP-запроса и их значения.
 
 ### Дополнительные параметры
 
