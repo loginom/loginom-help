@@ -12,11 +12,11 @@
 
 ### Вход
 
-* ![Входные переменные](../../images/icons/ports/optional_input_variable_inactive.svg) **Входные переменные** — переменные, подлежащие изменению.
+* ![Входные переменные](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Входные переменные** — переменные, подлежащие изменению.
 
 ### Выход
 
-* ![Выходные переменные](../../images/icons/ports/output_variable_inactive.svg) **Выходные переменные** — переменные после обработки.
+* ![Выходные переменные](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Выходные переменные** — переменные после обработки.
 
 ## Мастер настройки
 

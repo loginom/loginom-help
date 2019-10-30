@@ -2,7 +2,7 @@
 
 Список возможных условий и типы данных, к которым они применимы.
 
-| Условие | ![](../../../images/icons/datatype_18/datatype_default-02.svg) Целый | ![](../../../images/icons/datatype_18/datatype_default-03.svg) Вещественный | ![](../../../images/icons/datatype_18/datatype_default-01.svg) Строковый | ![](../../../images/icons/datatype_18/datatype_default-05.svg) Дата/время | ![](../../../images/icons/datatype_18/datatype_default-04.svg) Логический | ![](../../../images/icons/datatype_18/datatype_default-06.svg) Переменный |
+| Условие | ![](../../../images/icons/data-types/integer_default.svg) Целый | ![](../../../images/icons/data-types/float_default.svg) Вещественный | ![](../../../images/icons/data-types/string_default.svg) Строковый | ![](../../../images/icons/data-types/datetime_default.svg) Дата/время | ![](../../../images/icons/data-types/boolean_default.svg) Логический | ![](../../../images/icons/data-types/variant_default.svg) Переменный |
 | :------ | :---: | :----------: | :-------: | :--------: | :--------: | :--------: |
 | <, <=, >, >=, =, <> | • | • | • | • | | • |
 | пустой | • | • | • | • | • | • |

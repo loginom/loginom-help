@@ -2,10 +2,10 @@
 
 **Порт** — способ коммуникации между узлами. В зависимости от структуры передаваемых/принимаемых данных различают следующие типы портов:
 
-* ![](../../media/app/icons/ports/input-table-inactive.svg) Табличные данные;
-* ![](../../media/app/icons/ports/input-variable-inactive.svg) Переменные;
-* ![](../../images/icons/ports/input_connection_inactive.svg) Параметры подключения к источнику данных;
-* ![](../../media/app/icons/ports/input-model-inactive.svg) Структура данных не определена.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Табличные данные;
+* ![ ](../../images/icons/app/node/ports/inputs/variable_inactive.svg) Переменные;
+* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Параметры подключения к источнику данных;
+* ![ ](../../images/icons/app/node/ports/inputs/model_inactive.svg) Структура данных не определена.
 
 Узлы Сценария принимают данные через входные порты, а отдают через выходные. Входные порты на пиктограмме узла сценария располагаются слева, а выходные справа (см. рисунок 1).
 
@@ -58,7 +58,7 @@
 
 В Loginom существует механизм сокрытия [портов порядка выполнения](../ports/service-ports.md) и [портов управляющих переменных](../variables/control-variables.md), т.е. по умолчанию они скрыты от пользователя:
 
-* Для отображения портов порядка выполнения необходимо воспользоваться кнопкой ![](../../media/app/icons/toolbar-18/toolbar-18-62.svg)
+* Для отображения портов порядка выполнения необходимо воспользоваться кнопкой ![ ](../../images/icons/toolbar-controls/order_default.svg)
 панели инструментов области построения сценариев;
 * Для отображения портов управляющих переменных необходимо в контекстном меню узла выбрать пункт "Показать порт управляющих переменных".
 
@@ -66,13 +66,13 @@
 
 В Loginom существует цветовая индикация портов. Порты с сплошной линией являются обязательными портами, т.е. для их работы необходима связь с другими портами. Рассмотрим цветовую индикацию на примере [интерфейса «Таблица»](./interface-table.md).
 
-* ![](../../media/app/icons/ports/input-table-active.svg) — порт выполняется;
-* ![](../../media/app/icons/ports/input-table-inactive.svg) — порт сконфигурирован, но не выполняется;
-* ![](../../media/app/icons/ports/input-table-error.svg) — порт не сконфигурирован или содержит ошибку;
-* ![](../../media/app/icons/ports/input-table-warning.svg) — порт частично сконфигурирован.
+* ![ ](../../images/icons/app/node/ports/inputs/table_active.svg) — порт выполняется;
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) — порт сконфигурирован, но не выполняется;
+* ![ ](../../images/icons/app/node/ports/inputs/table_error.svg) — порт не сконфигурирован или содержит ошибку;
+* ![ ](../../images/icons/app/node/ports/inputs/table_warning.svg) — порт частично сконфигурирован.
 
 Необязательный порт отображается пунктиром (цветовая индикация для них аналогична обязательным портам)
-![](../../media/app/icons/ports/optiona-output-table-inactive.svg)
+![ ](../../images/icons/app/node/ports/inputs-optional/table_inactive.svg)
 . Для такого порта может и не быть связи с другим портом.
 
 >**Примечание**: цветовая индикация для портов переменных, подключений и портов, с неопределенной структурой данных является аналогичной рассмотренной выше.

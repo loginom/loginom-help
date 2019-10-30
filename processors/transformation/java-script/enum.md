@@ -1,4 +1,4 @@
-# ![](../../../media/app/icons/component-18/component-default-55.svg) Перечисления встроенных сущностей Loginom
+# ![](../../../images/icons/components/javascript_default.svg) Перечисления встроенных сущностей Loginom
 
 В контекст выполнения JavaScript встроены перечисления, описывающие метаданные полей и переменных.
 
@@ -11,12 +11,12 @@
 | Элемент   |  Тип данных |
 | :-------- | :------ |
 | None      | ![](../../../images/icons/usage-types/unspecified_default.svg) Тип данных не задан |
-| Boolean   | ![](../../../images/icons/datatype_18/datatype_default-04.svg) Логический |
-| DateTime  | ![](../../../images/icons/datatype_18/datatype_default-05.svg) Дата/время |
-| Float     | ![](../../../images/icons/datatype_18/datatype_default-03.svg) Вещественный |
-| Integer   | ![](../../../images/icons/datatype_18/datatype_default-02.svg) Целый |
-| String    | ![](../../../images/icons/datatype_18/datatype_default-01.svg) Строковый |
-| Variant   | ![](../../../images/icons/datatype_18/datatype_default-06.svg) Переменный |
+| Boolean   | ![](../../../images/icons/data-types/boolean_default.svg) Логический |
+| DateTime  | ![](../../../images/icons/data-types/datetime_default.svg) Дата/время |
+| Float     | ![](../../../images/icons/data-types/float_default.svg) Вещественный |
+| Integer   | ![](../../../images/icons/data-types/integer_default.svg) Целый |
+| String    | ![](../../../images/icons/data-types/string_default.svg) Строковый |
+| Variant   | ![](../../../images/icons/data-types/variant_default.svg) Переменный |
 
 ### DataKind
 
@@ -25,8 +25,8 @@
 | Элемент   | Вид данных |
 | :-------- | :------ |
 | Undefined  | ![](../../../images/icons/usage-types/unspecified_default.svg) Вид данных не задан |
-| Continuous | ![](../../../images/icons/datatype_18/datatype_default-08.svg) Непрерывный |
-| Discrete   | ![](../../../images/icons/datatype_18/datatype_default-09.svg) Дискретный |
+| Continuous | ![](../../../images/icons/data-types/continuous_default.svg) Непрерывный |
+| Discrete   | ![](../../../images/icons/data-types/discrete_default.svg) Дискретный |
 
 ### UsageType
 
