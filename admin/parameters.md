@@ -2,8 +2,8 @@
 
 В данном подразделе расположены общие настройки. В верхней части раздела расположено две кнопки:
 
-* ![Сохранить](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_save_default.svg) **Сохранить** — сохраняет полученные изменения параметров;
-* ![Обновить](../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_refresh_default.svg) **Обновить** — подгружает параметры используемые в данный момент.
+* ![Сохранить](../images/icons/toolbar-controls/save_default.svg) **Сохранить** — сохраняет полученные изменения параметров;
+* ![Обновить](../images/icons/toolbar-controls/refresh_default.svg) **Обновить** — подгружает параметры используемые в данный момент.
 
 ## Папки
 

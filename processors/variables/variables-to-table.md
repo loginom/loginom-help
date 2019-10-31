@@ -6,11 +6,11 @@
 
 ### Вход
 
-* ![Входные переменные](../../images/icons/ports/optional_input_variable_inactive.svg) **Входные переменные** — список переменных, подлежащий преобразованию в таблицу.
+* ![Входные переменные](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Входные переменные** — список переменных, подлежащий преобразованию в таблицу.
 
 ### Выход
 
-* ![Выходной набор данных](../../images/icons/ports/output_table_inactive.svg) **Выходной набор данных** — таблица данных.
+* ![Выходной набор данных](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Выходной набор данных** — таблица данных.
 
 ## Мастер настройки
 
