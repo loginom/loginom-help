@@ -1,4 +1,4 @@
-# ![](../../images/icons/vendors/importnative.svg) Импорт из LGD-файла
+# ![ ](../../images/icons/data-sources/file-native-import_default.svg) Импорт из LGD-файла
 
 Обработчик предназначен для импорта таблицы из [LGD-файла](../../data-format/lgd-file.md). Поддерживается импорт DDF-файлов платформы Deductor.
 
@@ -8,17 +8,16 @@ LGD — специальный формат файлов, оптимизиров
 
 ### Вход
 
-* ![](../../images/icons/ports/input_connection_inactive.svg) [Подключение](../connections/README.md) — принимает параметры подключения к базе данных;
-* ![](../../images/icons/ports/optional_input_variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
 
 ### Выход
 
-* ![](../../images/icons/ports/input_table_inactive.svg) Импортированная таблица.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Импортированная таблица.
 
 ## Мастер настройки
 
 * **Хранилище файлов** — выводит информацию о способе подключения к файлу-приемнику.
-* **Имя файла** — задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![](../../media/app/icons/toolbar-18/browse.svg) вызывает диалог выбора файла.
+* **Имя файла** — задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) вызывает диалог выбора файла.
 * **Алгоритм сжатия** — отображение информации о методе сжатия LGD-файла, использованном при его создании.
   * Без сжатия.
   * [LZO](https://ru.wikipedia.org/wiki/LZO).

@@ -26,14 +26,14 @@
 
 #### Область конечных классов
 
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_table-view_default.svg) Показать таблицу конечных классов (см. [Таблица](#tablitsa));
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_chart_default.svg) Показать диаграммы конечных классов (см. [Диаграмма](#diagramma)).
+* ![](../../images/icons/toolbar-controls/table-view_default.svg) Показать таблицу конечных классов (см. [Таблица](#tablitsa));
+* ![](../../images/icons/toolbar-controls/chart_default.svg) Показать диаграммы конечных классов (см. [Диаграмма](#diagramma)).
 
 ### Список входных столбцов
 
 * Статус узла:
-  * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_unlocked_default.svg) **Разморожено** — показывает, что данный узел может быть использован в процессе формирования конечных классов при переобучении модели;
-  * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_locked_default.svg) **Заморожено** — показывает, что при переобучении данный узел не будет использоваться.
+  * ![](../../images/icons/toolbar-controls/unlocked_default.svg) **Разморожено** — показывает, что данный узел может быть использован в процессе формирования конечных классов при переобучении модели;
+  * ![](../../images/icons/toolbar-controls/locked_default.svg) **Заморожено** — показывает, что при переобучении данный узел не будет использоваться.
 * Метка столбца;
 * Оцененный уровень значимости IV (см. рисунок 1).
 
