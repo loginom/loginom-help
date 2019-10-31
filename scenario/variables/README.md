@@ -20,8 +20,8 @@
 
 Порты, взаимодействующие с наборами переменных, графически отображаются так:
 
-* ![](../../images/icons/ports/input_variable_inactive.svg) — входной порт;
-* ![](../../images/icons/ports/output_variable_inactive.svg) — выходной порт.
+* ![](../../images/icons/app/node/ports/inputs/variable_inactive.svg) — входной порт;
+* ![](../../images/icons/app/node/ports/outputs/variable_inactive.svg) — выходной порт.
 
 >**Важно:** выходной порт для переменных может иметь линию связи только с входным портом для переменных.
 

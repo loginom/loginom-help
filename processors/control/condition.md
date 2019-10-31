@@ -14,13 +14,13 @@
 
 ### Вход
 
-* ![Входные переменные](../../images/icons/ports/input_variable_inactive.svg) **Входные переменные** — набор переменных;
-* ![Входной источник данных](../../images/icons/ports/input_table_inactive.svg) **Входной источник данных** — таблица данных.
+* ![Входные переменные](../../images/icons/app/node/ports/inputs/variable_inactive.svg) **Входные переменные** — набор переменных;
+* ![Входной источник данных](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** — таблица данных.
 
 ### Выход
 
-* ![Выходные переменные](../../images/icons/ports/output_variable_inactive.svg) **Выходные переменные** — набор переменных;
-* ![Выходной набор данных](../../images/icons/ports/output_table_inactive.svg) **Выходной набор данных** — таблица данных.
+* ![Выходные переменные](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Выходные переменные** — набор переменных;
+* ![Выходной набор данных](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Выходной набор данных** — таблица данных.
 
 ## Мастер настройки
 
@@ -29,8 +29,8 @@
 Здесь задается наличие необходимых портов. Каждому порту можно задать тип, имя и название, которое будет отображаться при наведении курсора на него.
 
 * ![Создать новый порт](../../images/icons/toolbar-controls/plus_default.svg) **Добавить** — создать новый порт входа:
-  * ![Для переменных](../../images/icons/ports/input_variable_hover.svg) **Переменные** — для переменных.
-  * ![Для таблицы](../../images/icons/ports/input_table_hover.svg) **Таблица** — для таблицы.
+  * ![Для переменных](../../images/icons/app/node/ports/inputs/variable_hover.svg) **Переменные** — для переменных.
+  * ![Для таблицы](../../images/icons/app/node/ports/inputs/table_hover.svg) **Таблица** — для таблицы.
 * ![Смещение порта вниз](../../images/icons/toolbar-controls/movedown_default.svg) **Переместить вниз**, ![Смещение порта вверх](../../images/icons/toolbar-controls/moveup_default.svg) **Переместить вверх** — путем смещения выделенного порта определить его положение относительно узла компонента.
 * ![Редактировать параметры порта](../../images/icons/toolbar-controls/edit_default.svg) **Редактировать** — редактировать параметры порта.
 * ![Создание выхода](../../images/icons/checkbox-states/checked_default.svg) **Передавать на выход** — для выделенного входного порта будет создан порт выхода в каждой ветви.

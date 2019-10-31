@@ -1,4 +1,4 @@
-# ![Дата и время](../../../images/icons/vendors/datereform.svg) Дата и время
+# ![Дата и время](../../../images/icons/components/date-reform_default.svg) Дата и время
 
 Обработчик *Дата и время* производит трансформацию данных формата ![Дата/Время](../../../images/icons/data-types/datetime_default.svg) *Дата/Время*.
 
@@ -20,11 +20,11 @@
 
 ### Вход
 
-* ![Входной источник данных](../../../images/icons/ports/input_table_inactive.svg) **Входной источник данных** (таблица данных).
+* ![Входной источник данных](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** (таблица данных).
 
 ### Выход
 
-* ![Выходной набор данных](../../../images/icons/ports/input_table_inactive.svg) **Выходной набор данных** (таблица данных).
+* ![Выходной набор данных](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Выходной набор данных** (таблица данных).
 
 ## Мастер настройки
 
