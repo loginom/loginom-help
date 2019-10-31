@@ -157,7 +157,7 @@
       * [Соединение (переменные)](./processors/variables/variables-union.md)
       * [Таблица в переменные](./processors/variables/variables-from-table.md)
     * [Интеграция](./processors/integration/README.md)
-      * [Вызов веб-сервиса](./processors/integration/calling-web-service.md)
+      * [Вызов веб-сервиса](./processors/integration/soap-request.md)
       * [Вызов REST-сервиса](./processors/integration/calling-rest-service.md)
       * [Выполнение программы](./processors/integration/exec-program.md)
       * [Извлечение XML](./processors/integration/extracting-xml.md)
