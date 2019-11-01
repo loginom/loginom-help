@@ -1,4 +1,4 @@
-# ![](../../images/icons/view_types/logregressreport_default.svg) Отчет по регрессии
+# ![Отчет по регрессии](../../images/icons/view_types/logregressreport_default.svg)/![Отчет по регрессии](../../images/icons/view_types/linregressreport_default.svg) Отчет по регрессии
 
 Визуализатор *Отчет по регрессии* отображает статистические параметры и результаты статистических тестов для анализа регрессионных моделей.
 
@@ -10,7 +10,7 @@
 
 Подробно о том, как включить данный визуализатор, можно прочитать в [статье](../README.md).
 
->**Примечание:** визуализатор *Отчет по регрессии* может использоваться с узлами [Линейная регрессия](../../processors/datamining/linear-regression) и [Логистическая регрессия](../../processors/datamining/logistic-regression/README.md).
+>**Примечание:** визуализатор *Отчет по регрессии* может использоваться с узлами [*Линейная регрессия*](../../processors/datamining/linear-regression) и [*Логистическая регрессия*](../../processors/datamining/logistic-regression/README.md).
 
 ## Интерфейс
 
