@@ -10,7 +10,7 @@
 
 Подробно о том, как включить данный визуализатор, можно прочитать в [статье](../README.md).
 
->**Примечание:** визуализатор Отчет по регрессии может использоваться с узлами [Линейная регрессия](../../processors/datamining/linear-regression) и [Логистическая регрессия](../../processors/datamining/logistic-regression/README.md).
+>**Примечание:** визуализатор *Отчет по регрессии* может использоваться с узлами [Линейная регрессия](../../processors/datamining/linear-regression) и [Логистическая регрессия](../../processors/datamining/logistic-regression/README.md).
 
 ## Интерфейс
 
@@ -42,7 +42,7 @@
 |![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) -2 Log Likelihood|-2 Логарифма [функции правдоподобия](https://wiki.loginom.ru/articles/plausibility-function.html)|
 |![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) R^2|[Коэффициент детерминации](https://wiki.loginom.ru/articles/coefficient-of-determination.html)|
 |![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) R^2 корр.|[Коэффициент детерминации скорректированный](https://wiki.loginom.ru/articles/coefficient-determ-adj.html)|
-|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) [Хи-квадрат](https://wiki.loginom.ru/articles/chi-square-test.html)|Критерий согласия для проверки гипотезы о законе распределения исследуемой случайной величины|
+|![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) [Хи-квадрат](https://wiki.loginom.ru/articles/chi-square-test.html)|[Критерий согласия](https://wiki.loginom.ru/articles/fitting-criterion.html) для проверки гипотезы о законе распределения исследуемой случайной величины|
 |![Целый](../../images/icons/datatype_18/datatype_default-02.svg) [Число степеней свободы](https://wiki.loginom.ru/articles/degrees-of-freedom.html)|Число независимо варьируемых значений признака|
 |![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) [Значимость](https://wiki.loginom.ru/articles/significance-regr.html)|Степень статистической связи между [входной](https://wiki.loginom.ru/articles/degrees-of-freedom.html) (набором входных) и [выходной переменными](https://wiki.loginom.ru/articles/output-variable.html)  регрессионной модели|
 |![Вещественный](../../images/icons/datatype_18/datatype_default-03.svg) AIC|[Информационный критерий Акаике](https://wiki.loginom.ru/articles/aic.html)|
@@ -59,7 +59,7 @@
 |Коэффициент|Характеристика связи между зависимой *y* и [независимой переменной](https://wiki.loginom.ru/articles/input-variable.html) *x*|
 |[Стандартная ошибка](https://wiki.loginom.ru/articles/standard-estimation-error.html)|Мера разброса данных наблюдений от смоделированных значений|
 |[Коэффициент Вальда](https://wiki.loginom.ru/articles/wald-test.html)|Оценка значимости коэффициента при независимой переменной модели|
-|Значимость|Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели|
+|[Значимость](https://wiki.loginom.ru/articles/significance-regr.html)|Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели|
 |[Отношение шансов](https://wiki.loginom.ru/articles/odds-ratio.html)|Отношение вероятности того, что событие произойдет к вероятности того, что событие не произойдет|
 |Нижняя граница ДИ|Нижняя граница [доверительного интервала](https://wiki.loginom.ru/articles/confidence-interval.html)|
 |Верхняя граница ДИ|Верхняя граница доверительного интервала|
@@ -73,7 +73,7 @@
 
 #### Шаги построения
 
-Область ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) *Шаги построения* имеет смысл включать только в том случае, если при настройке узла *Логистическая регрессия* в параметре *Отбор факторов и защита от переобучения* был выбран алгоритм, который подразумевает режим обработки фактов.
+Область ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) *Шаги построения* имеет смысл включать только в том случае, если при настройке узла *Логистическая регрессия* в параметре *Отбор факторов и защита от переобучения* был выбран алгоритм, который подразумевает режим обработки [фактов](https://wiki.loginom.ru/articles/fact.html).
 
 Область ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) *Шаги построения* состоит из следующих полей:
 
