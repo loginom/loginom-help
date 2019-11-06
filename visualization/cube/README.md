@@ -4,44 +4,44 @@
 
 Куб — это удобное средство визуализации многомерных данных и получения необходимых форм отчетов. Он содержит измерения и факты, определенные при построении. К основной особенности куба относится то, что его структура не является жестко определенной. Манипулируя с помощью мыши заголовками измерений, пользователь может добиться наиболее информативного представления куба.
 
-> **Важно:** во время настройки куба, особенно при работе с большими объемами данных, перестроение куба может занимать продолжительное время. Для временного отключения обновления фактов рекомендуется приостановить автовычисления кнопкой ![Приостановить автовычисление](../../images/icons/toolbar-controls/locked_default.svg) *Приостановить автовычисление*.
+> **Важно:** во время настройки куба, особенно при работе с большими объемами данных, перестроение куба может занимать продолжительное время. Для временного отключения обновления фактов рекомендуется приостановить автовычисления кнопкой ![](../../images/icons/toolbar-controls/locked_default.svg) *Приостановить автовычисление*.
 
 ## Интерфейс
 
 ### Операции
 
-* ![Поля](../../images/icons/toolbar-controls/fields-list_default.svg) **Поля** — показать/скрыть список полей набора данных.
-* ![Детализация](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) **Детализация** — показать/скрыть [детализацию](./details.md).
-* ![Способ детализации](../../images/icons/cube/detailing/browse_default.svg) **Способ детализации** — переключить варианты отображения детализации:
-  * ![Таблица](../../images/icons/cube/detailing/browse_default.svg) **Таблица**.
-  * ![Форма](../../images/icons/cube/detailing/form_default.svg) **Форма**.
-  * ![Статистика](../../images/icons/cube/detailing/stat_default.svg) **Статистика**.
-* ![Диаграмма](../../images/icons/toolbar-controls/chart_default.svg) **Диаграмма** — показать/скрыть [диаграмму](./chart.md).
-* ![Свернуть](../../images/icons/toolbar-controls/collapce-all_default.svg) **Свернуть** — свернуть иерархию измерений куба:
+* ![](../../images/icons/toolbar-controls/fields-list_default.svg) **Поля** — показать/скрыть список полей набора данных.
+* ![](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) **Детализация** — показать/скрыть [детализацию](./details.md).
+* ![](../../images/icons/cube/detailing/browse_default.svg) **Способ детализации** — переключить варианты отображения детализации:
+  * ![](../../images/icons/cube/detailing/browse_default.svg) **Таблица**.
+  * ![](../../images/icons/cube/detailing/form_default.svg) **Форма**.
+  * ![](../../images/icons/cube/detailing/stat_default.svg) **Статистика**.
+* ![](../../images/icons/toolbar-controls/chart_default.svg) **Диаграмма** — показать/скрыть [диаграмму](./chart.md).
+* ![](../../images/icons/toolbar-controls/collapce-all_default.svg) **Свернуть** — свернуть иерархию измерений куба:
   * **Свернуть все**.
   * **Свернуть колонки**.
   * **Свернуть строки**.
-* ![Развернуть](../../images/icons/toolbar-controls/open-all_default.svg) **Развернуть** — развернуть иерархию измерений куба:
+* ![](../../images/icons/toolbar-controls/open-all_default.svg) **Развернуть** — развернуть иерархию измерений куба:
   * **Развернуть все**.
   * **Развернуть колонки**.
   * **Развернуть строки**.
-* ![Итоги](../../images/icons/toolbar-controls/show-total-all_default.svg) **Итоги** — показать/скрыть итоги по кубу:
-  * ![Итоги-все](../../images/icons/toolbar-controls/show-total-all_default.svg) **Все**.
-  * ![Итоги-колонки](../../images/icons/toolbar-controls/show-total-col_default.svg) **В колонках**.
-  * ![Итоги-строки](../../images/icons/toolbar-controls/show-total-row_default.svg) **В строках**.
-  * ![Итоги-нигде](../../images/icons/toolbar-controls/show-total-nor_default.svg) **Нигде**.
-* ![Выравнивание](../../images/icons/toolbar-controls/width-equal_default.svg) **Выравнивание ширины колонок**:
-  * ![Выравнивание](../../images/icons/toolbar-controls/width-equal_default.svg) **Равная ширина фактов**.
-  * ![Выравнивание](../../images/icons/toolbar-controls/width-same_default.svg) **Равная ширина колонок**.
-* ![Транспонировать](../../images/icons/toolbar-controls/transform_default.svg) **Транспонировать** — переместить измерения из строк в столбцы и наоборот.
-* ![Настроить факты](../../images/icons/cube/cases/case-tune_default.svg) **Настроить факты…** — открыть окно [настройки фактов](./configurefacts.md).
-* ![Добавить вычисляемый факт](../../images/icons/cube/cases/case-calc_default.svg) **Добавить вычисляемый факт…** — открыть окно для добавления нового [вычисляемого факта](./addcalculatingfact.md) в куб[^1].
-* ![Фильтровать факты](../../images/icons/cube/cases/case-filter_default.svg) **Фильтровать факты…** — открыть окно для  [фильтрования фактов](./filterfacts.md).
-* ![Форматировать факты](../../images/icons/cube/cases/case-format_default.svg) **Форматировать факты…** — открыть окно для [форматирования фактов](./formatfacts.md).
-* ![Экспорт](../../images/icons/toolbar-controls/export_default.svg) **XLS** / **HTML**:
+* ![](../../images/icons/toolbar-controls/show-total-all_default.svg) **Итоги** — показать/скрыть итоги по кубу:
+  * ![](../../images/icons/toolbar-controls/show-total-all_default.svg) **Все**.
+  * ![](../../images/icons/toolbar-controls/show-total-col_default.svg) **В колонках**.
+  * ![](../../images/icons/toolbar-controls/show-total-row_default.svg) **В строках**.
+  * ![](../../images/icons/toolbar-controls/show-total-nor_default.svg) **Нигде**.
+* ![](../../images/icons/toolbar-controls/width-equal_default.svg) **Выравнивание ширины колонок**:
+  * ![](../../images/icons/toolbar-controls/width-equal_default.svg) **Равная ширина фактов**.
+  * ![](../../images/icons/toolbar-controls/width-same_default.svg) **Равная ширина колонок**.
+* ![](../../images/icons/toolbar-controls/transform_default.svg) **Транспонировать** — переместить измерения из строк в столбцы и наоборот.
+* ![](../../images/icons/cube/cases/case-tune_default.svg) **Настроить факты…** — открыть окно [настройки фактов](./configurefacts.md).
+* ![](../../images/icons/cube/cases/case-calc_default.svg) **Добавить вычисляемый факт…** — открыть окно для добавления нового [вычисляемого факта](./addcalculatingfact.md) в куб[^1].
+* ![](../../images/icons/cube/cases/case-filter_default.svg) **Фильтровать факты…** — открыть окно для  [фильтрования фактов](./filterfacts.md).
+* ![](../../images/icons/cube/cases/case-format_default.svg) **Форматировать факты…** — открыть окно для [форматирования фактов](./formatfacts.md).
+* ![](../../images/icons/toolbar-controls/export_default.svg) **XLS** / **HTML**:
   * **экспорт в XLS** — сохранить текущее представление в формате Excel.
   * **экспорт в HTML** — сохранить текущее представление в формате HTML.
-* ![Приостановить автовычисление](../../images/icons/toolbar-controls/locked_default.svg) **Приостановить автовычисление** — отключить обновление отображения фактов.
+* ![](../../images/icons/toolbar-controls/locked_default.svg) **Приостановить автовычисление** — отключить обновление отображения фактов.
 
 [^1]: добавленный ранее вычисляемый факт можно редактировать или удалить в окне *Настройки фактов*.
 
@@ -51,7 +51,7 @@
 
 Кроме них есть еще:
 
-* ![Скрыть единственный факт](../../images/icons/checkbox-states/checked_default.svg) **Скрыть единственный факт** — позволяет скрыть строку с названием факта, если он единственный выбранный.
+* ![](../../images/icons/checkbox-states/checked_default.svg) **Скрыть единственный факт** — позволяет скрыть строку с названием факта, если он единственный выбранный.
 
 ### Настройка куба
 
@@ -64,7 +64,7 @@
 Добавить измерения в строки или столбцы куба можно двумя способами:
 
 * Перетащить (Drag-and-Drop) поле из левого списка в ту область, в которую его необходимо добавить: строки или столбцы;
-* Нажать кнопку ![добавить](../../images/icons/toolbar-controls/plus-native_default.svg) нужной области и выбрать необходимое поле из списка.
+* Нажать кнопку ![Добавить](../../images/icons/toolbar-controls/plus-native_default.svg) нужной области и выбрать необходимое поле из списка.
 
 Так как визуализатор Куб представляет собой плоскую двухмерную таблицу, то для отображения нескольких измерений на одной оси используется иерархическая система. Это позволяет детализировать содержание конкретного элемента измерения. Развернуть такой элемент можно кнопкой ![Развернуть](../../images/icons/toolbar-controls/arrow-r_default.svg), находящейся в названии данного элемента, а свернуть — кнопкой ![Свернуть](../../images/icons/toolbar-controls/down_default.svg). Также, свернуть или развернуть до нужного уровня все элементы можно из меню ![Раскрыть меню](../../images/icons/toolbar-controls/down_default.svg) конкретного измерения и выбрав ![Свернуть](../../images/icons/toolbar-controls/collapce-all_default.svg) *Свернуть* или ![Развернуть](../../images/icons/toolbar-controls/open-all_default.svg) *Развернуть*.
 
@@ -77,9 +77,22 @@
 Чтобы отфильтровать данные по измерению необходимо щёлкнуть по нужному измерению, выбрать значения из списка уникальных и нажать "Применить".
 При этом доступны операции:
 
-* ![](../../images/icons/toolbar-controls/visible_default.svg) / ![](../../images/icons/toolbar-controls/invisible_default.svg) **Отметить все/Снять все** — выбрать все значения в списке/снять выделение со всех значений списка.
-* ![](../../images/icons/toolbar-controls/invert-eye_default.svg) **Инвертировать выбор** — поменять выбранные значения списка на невыбранные и наоборот.
-* ![](../../images/icons/toolbar-controls/eye-filter_default.svg) **Отметить по маске...** — позволяет задать условие и способ отбора измерений. Со всеми измерениями, которые соответствуют условию, будет произведено выбранное действие (*Отметить, Добавить к отмеченным, Снять,* или *Удалить из отмеченных*). При отборе может учитываться регистр, для этого нужно установить соответсвующий флаг.
+* ![](../../images/icons/toolbar-controls/visible_default.svg) / ![](../../images/icons/toolbar-controls/invisible_default.svg) **Отметить все/Снять все** — выделяет все значения в списке/снимает выделение со всех значений списка.
+* ![](../../images/icons/toolbar-controls/invert-eye_default.svg) **Инвертировать выбор** — меняет выбранные значения списка на невыбранные и наоборот.
+* ![](../../images/icons/toolbar-controls/eye-filter_default.svg) **Отметить по маске...** — позволяет задать условие и метод отбора измерений. 
+
+Для настройки отбора открывается окно *Ометить по маске* (в заголовке окна также указано измерение, для которого выполняется настройка). Слева в выпадающем списке выбирается условие поиска соответствия значений маске. Справка от списка в поле ввода задается значение маски. Ко всем измерениям, которые соответствуют условию, будет применен выбранный метод отбора (*Отметить, Добавить к отмеченным, Снять,* или *Удалить из отмеченных*). При отборе может учитываться регистр букв, для этого нужно установить флаг *Учитывать регистр*.
+
+Фильтр может работать в трех режимах:
+* ![](../../images/icons/toolbar-controls/icon-200_default.svg) **Множественный выбор** — позволяет пользователю выбрать произвольное количество значений измерения из списка доступных. Выбранные значения будут отображаться в кубе.
+* ![](../../images/icons/toolbar-controls/icon-201_default.svg)
+**Одиночный выбор** — позволяет выбрать из списка доступных значений измерения только одно значение. 
+* ![](../../images/icons/toolbar-controls/icon-202_default.svg) **Комбинированный выбор** — позволяет выбрать одно значение измерения из списка, сформированного ранее в режиме множественного выбора.
+
+В режимах ![](../../images/icons/toolbar-controls/icon-201_default.svg)
+**Одиночный выбор** и ![](../../images/icons/toolbar-controls/icon-202_default.svg) **Комбинированный выбор** справа от наименования поля измерения становится доступна кнопка ![Развернуть](../../images/icons/toolbar-controls/arrow-r_default.svg), которая позволяет листать список значений. При этом можно задать цикличность перемещения по списку, нажав кнопку ![](../../images/icons/toolbar-controls/roll-over_default.svg) **Зациклить значения при перелистывании**. Куб будет перестраиваться при перемещении на новое значение измерения. 
+
+Если по измерению настроена фильтрация, то измерение выделяется оранжевым цветом.
 
 Удалить измерение можно:
 
