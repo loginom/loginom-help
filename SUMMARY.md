@@ -179,6 +179,8 @@
     * [Нормализация дискретных данных](./processors/normalization/normalization-discrete.md)
   * [Валидация моделей](./processors/validation.md)
 * [Визуализаторы](./visualization/README.md)
+  * [Быстрый просмотр](./visualization/preview/quick-view.md)
+  * [Предпросмотр](./visualization/preview/preview.md)
   * [Таблица](./visualization/table/README.md)
     * [Фильтрация](./visualization/table/filter.md)
     * [Формат](./visualization/table/format.md)
