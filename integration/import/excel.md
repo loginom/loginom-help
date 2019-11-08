@@ -4,11 +4,11 @@
 
 ### Входные порты
 
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
 
 ### Выходные порты
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) — Импортированная таблица.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Импортированная таблица.
 
 ## Мастер настройки
 
