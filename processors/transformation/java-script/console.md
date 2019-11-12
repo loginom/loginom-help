@@ -1,6 +1,6 @@
 # ![](../../../images/icons/components/javascript_default.svg) Консоль
 
-По умолчанию в окне предпросмотра окно вывода сообщений консоли свернуто. Для его отображения/сворачивания используются кнопки ![](../../../images/icons/toolbar-controls/up_default.svg) и ![](../../../images/icons/toolbar-controls/down_default.svg).
+По умолчанию в окне [Предпросмотра](../../../visualization/preview/preview.md) окно вывода сообщений консоли свернуто. Для его отображения/сворачивания используются кнопки ![ ](../../../images/icons/toolbar-controls/up_default.svg) и ![ ](../../../images/icons/toolbar-controls/down_default.svg).
 
 В контекст JavaScript добавлен глобальный объект `Console`, реализующий базовый функционал [Console](https://developer.mozilla.org/ru/docs/Web/API/Console).
 
@@ -71,7 +71,7 @@
 
 **clear()**
 
-Очищает консоль вывода сообщений в окне предпросмотра. Не имеет аргументов.
+Очищает консоль вывода сообщений в окне *Предпросмотра*. Не имеет аргументов.
 
 %/spoiler%
 
