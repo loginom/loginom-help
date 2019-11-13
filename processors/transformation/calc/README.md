@@ -16,7 +16,7 @@
 Окно настроек содержит области:
 
  1. [Список выражений](#spisok-vyrazheniy);
- 2. [Область кода выражений или cкрипта JavaScript](#oblast-koda-vyrazheniya);
+ 2. [Область кода выражений](#oblast-koda-vyrazheniya);
  3. [Поля/переменные](#polyaperemennye);
  4. [Список функций](#spisok-funktsiy).
 
