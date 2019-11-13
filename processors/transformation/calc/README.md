@@ -25,8 +25,8 @@
 Область предназначена для ввода *Выражений* — вычисляемых полей, которыми в результате обработки будет дополнен входной набор данных. Значение выражения в каждой строке набора данных будет вычислено по [формуле](./expression.md) или JavaScript коду.
 
 Новое выражение можно создать при помощи панели инструментов области или контекстного меню. Операции панели инструментов и контекстного меню:
-
-* ![ ](../../../images/icons/toolbar-controls/edit_default.svg) **Синтаксис** — задание [синтаксиса расчета выражений](#sintaksis-kalkulyatora) калькулятора;
+C:/d:/code/loginom-help/data/images/icons/calcdata/expression_default.svg
+* ![ ](../../../images/icons/calcdata/expression_default.svg)|![](../../../images/icons/calcdata/javascript_default.svg) **Синтаксис** (выпадающий список)— задание [синтаксиса расчета выражений](#sintaksis-kalkulyatora) калькулятора;
 * ![ ](../../../images/icons/toolbar-controls/edit_default.svg) **Редактировать** — задание параметров выражения;
 * ![ ](../../../images/icons/toolbar-controls/up_default.svg) **Переместить вверх** — поднять выражение на одну позицию вверх по списку;
 * ![ ](../../../images/icons/toolbar-controls/down_default.svg) **Переместить вниз** — опустить выражение на одну позицию вниз по списку;
