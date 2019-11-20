@@ -7,7 +7,7 @@
 ### Вход
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных).
-* ![ ](../../images/icons/app/node/ports/add/add_inactive_default.svg) Добавление еще одного порта. Внешние диапазоны квантования (таблица данных).
+* ![ ](../../images/icons/app/node/ports/add/add_inactive_default.svg) Добавить еще один порт. Внешние диапазоны квантования (таблица данных).
 
 ### Выход
 
