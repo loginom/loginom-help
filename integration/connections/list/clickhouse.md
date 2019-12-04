@@ -24,7 +24,7 @@
 
 > **Примечание:**
 > * Пул подключений не используется.
-> * При [экспорте данных в новую таблицу](../../export/database/new-table-design.md) создается таблица [движка Log]. (https://clickhouse.yandex/docs/ru/operations/table_engines/log/).
+> * При [экспорте данных в новую таблицу](../../export/database/new-table-design.md) создается таблица [движка Log](https://clickhouse.yandex/docs/ru/operations/table_engines/log/).
 
 ## Совместимость
 
