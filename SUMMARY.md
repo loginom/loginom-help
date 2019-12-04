@@ -216,6 +216,7 @@
   * [Deductor Warehouse](./data-format/data-warehouse.md)
 * [Файловое хранилище](./location_user_files.md)
 * [Администрирование](./admin/README.md)
+  * [LDAP](./admin/ldap.md)
   * [Роли пользователей](./admin/roles.md)
   * [Пользователи](./admin/users.md)
   * [Общие папки](./admin/shared-folder.md)
