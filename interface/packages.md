@@ -14,7 +14,7 @@
 * ![ ](..\images\icons\toolbar-controls\open_default.svg) **Открыть** — открывает окно выбора существующего *Пакета*.
 * ![ ](..\images\icons\toolbar-controls\save_default.svg) **Сохранить** — сохранение выделенного *Пакета*. Также под кнопкой ![ ](..\images\icons\toolbar-controls\down_default.svg):
   * ![ ](..\images\icons\toolbar-controls\save-as_default.svg) **Сохранить как** — сохранение выделенного *Пакета* под новым именем и/или по другому доступному пути.
-* ![ ](..\images\icons\toolbar-controls\save-all_default.svg) **Сохранить все** — аналогично кнопке ![ ](..\images\icons\toolbar-controls\save_default.svg) *Сохранить* для всех открытых *Пакетов*.
+* ![ ](..\images\icons\toolbar-controls\save-all_default.svg) **Сохранить все** — аналогично кнопке *Сохранить* для всех открытых *Пакетов*.
 * ![ ](..\images\icons\toolbar-controls\publish_default.svg) **Опубликовать**[^1] — открывает окно для публикации *Пакета*.
 * ![ ](..\images\icons\toolbar-controls\edit_default.svg) **Свойства** — открывает окно настройки [свойств](#svoystva-paketa) выделенного *Пакета*.
 * ![ ](..\images\icons\toolbar-controls\close_default.svg) **Закрыть** — закрытие выделенного *Пакета*.
