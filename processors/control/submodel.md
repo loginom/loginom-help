@@ -4,34 +4,38 @@
 
  Основное назначение *Подмодели* - упрощение структуры *Сценария* объединением узлов, выполняющих определенный этап обработки данных, а также многократное использование *Подмодели* с учетом функционала вложенных узлов. 
  
- Другим назначением Подмодели является возможность создания *Сценария* без входных данных, но с их известной структурой (т.н. проектирование "сверху вниз"). В этом случае в *Подмодель* заранее закладываются узлы в соответствии с логикой работы, настраиваются входные и выходные [порты](../../scenario/ports/README.md) и устанавливаются связи. Созданный таким образом *Сценарий* сможет работать на любых данных, соответствующих заложенной структуре.
+ Другим назначением *Подмодели* является возможность создания *Сценария* без входных данных, но с их известной структурой (т.н. проектирование "сверху вниз"). В этом случае в *Подмодель* заранее закладываются узлы в соответствии с логикой работы, настраиваются входные и выходные [порты](../../scenario/ports/README.md) и устанавливаются связи. Созданный таким образом *Сценарий* сможет работать на любых данных, соответствующих заложенной структуре.
 
 В состав *Подмодели* могут также включаться другие *Подмодели*, их вложенность друг в друга неограниченна. Также *Подмодели* используются для создания [Производных компонентов](../../scenario/derived-component.md).
 
 ## Порты
 
-Изначально входных и выходных портов нет, они создаются пользователем в мастере настройки. Порты могут быть следующих типов:
+Изначально входных и выходных портов нет, они создаются пользователем в мастере настройки. Для *Подмодели* можно задать следующие типы портов:
 
 ### Вход
 
-* ![Входные переменные](../../images/icons/app/node/ports/inputs/variable_inactive.svg) **Входные переменные** — набор переменных;
-* ![Входной источник данных](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** — таблица данных.
+* ![Входные переменные](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — переменные (необязательный порт);
+* ![Входной источник данных](../../images/icons/app/node/ports/inputs/table_inactive.svg) — таблица данных.
+* ![Входное дерево данных](../../images/icons/app/node/ports/inputs/tree_inactive.svg) — дерево данных.
 
 ### Выход
 
-* ![Выходные переменные](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Выходные переменные** — набор переменных;
-* ![Выходной набор данных](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Выходной набор данных** — таблица данных.
+* ![Выходные переменные](../../images/icons/app/node/ports/outputs/variable_inactive.svg) — переменные;
+* ![Выходной набор данных](../../images/icons/app/node/ports/outputs/table_inactive.svg) — таблица данных.
+* ![Выходное дерево данных](../../images/icons/app/node/ports/outputs/tree_inactive.svg) — дерево данных.
 
 ## Мастер настройки
 
 Здесь создаются порты. Каждому порту можно задать тип, имя и метку, которая будет отображаться при наведении курсора на него.
 
-* ![Входы](../../images/icons/system_object_18/port-input-model_default.svg) **Входы** ![Новый порт](../../images/icons/toolbar-controls/plus_default.svg) — создать новый порт входа:
-  * ![Для переменных](../../images/icons/app/node/ports/inputs/variable_hover.svg) — для переменных.
+* ![Входы](../../images/icons/system_object_18/port-in_default.svg) **Входы** ![Новый порт](../../images/icons/toolbar-controls/plus_default.svg) — создать новый порт входа:
+  * ![Для переменных](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — для переменных.
   * ![Для таблицы](../../images/icons/app/node/ports/inputs/table_hover.svg) — для таблицы.
-* ![Выходы](../../images/icons/system_object_18/port-output-model_default.svg) **Выходы** ![Новый порт](../../images/icons/toolbar-controls/plus_default.svg) — создать новый порт выхода:
+  * ![Для дерева данных](../../images/icons/app/node/ports/inputs/tree_inactive.svg) — для дерева данных.
+* ![Выходы](../../images/icons/system_object_18/port-out_default.svg) **Выходы** ![Новый порт](../../images/icons/toolbar-controls/plus_default.svg) — создать новый порт выхода:
   * ![Для переменных](../../images/icons/app/node/ports/outputs/variable_hover.svg) — для переменных.
   * ![Для таблицы](../../images/icons/app/node/ports/outputs/table_hover.svg) — для таблицы.
+  * ![Для дерева данных](../../images/icons/app/node/ports/outputs/tree_inactive.svg) — для дерева данных.
 * ![Переместить вниз](../../images/icons/toolbar-controls/movedown_default.svg) **Переместить вниз**, ![Переместить вверх](../../images/icons/toolbar-controls/moveup_default.svg) **Переместить вверх** — сместить выделенный порт в списке.
 * ![Удалить порт](../../images/icons/toolbar-controls/delete_default.svg) — удалить порт.
 * ![Удалить все порты](../../images/icons/toolbar-controls/delete-all_default.svg) — удалить все порты.
