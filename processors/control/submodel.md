@@ -30,11 +30,11 @@
 
 * ![Входы](../../images/icons/system_object_18/port-in_default.svg) **Входы** ![Новый порт](../../images/icons/toolbar-controls/plus_default.svg) — создать новый порт входа:
   * ![Для переменных](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — для переменных.
-  * ![Для таблицы](../../images/icons/app/node/ports/inputs/table_hover.svg) — для таблицы.
+  * ![Для таблицы](../../images/icons/app/node/ports/inputs/table_inactive.svg) — для таблицы.
   * ![Для дерева данных](../../images/icons/app/node/ports/inputs/tree_inactive.svg) — для дерева данных.
 * ![Выходы](../../images/icons/system_object_18/port-out_default.svg) **Выходы** ![Новый порт](../../images/icons/toolbar-controls/plus_default.svg) — создать новый порт выхода:
-  * ![Для переменных](../../images/icons/app/node/ports/outputs/variable_hover.svg) — для переменных.
-  * ![Для таблицы](../../images/icons/app/node/ports/outputs/table_hover.svg) — для таблицы.
+  * ![Для переменных](../../images/icons/app/node/ports/outputs/variable_inactive.svg) — для переменных.
+  * ![Для таблицы](../../images/icons/app/node/ports/outputs/table_inactive.svg) — для таблицы.
   * ![Для дерева данных](../../images/icons/app/node/ports/outputs/tree_inactive.svg) — для дерева данных.
 * ![Переместить вниз](../../images/icons/toolbar-controls/movedown_default.svg) **Переместить вниз**, ![Переместить вверх](../../images/icons/toolbar-controls/moveup_default.svg) **Переместить вверх** — сместить выделенный порт в списке.
 * ![Удалить порт](../../images/icons/toolbar-controls/delete_default.svg) — удалить порт.
