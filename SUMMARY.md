@@ -157,11 +157,8 @@
       * [Переменные в таблицу](./processors/variables/variables-to-table.md)
       * [Соединение (переменные)](./processors/variables/variables-union.md)
       * [Таблица в переменные](./processors/variables/variables-from-table.md)
-<<<<<<< HEAD
-=======
     * [Дерево данных](./processors/trees/README.md)
       * [Дерево в таблицу](./processors/trees/tree-to-table.md)
->>>>>>> Уточнение заголовка в SUMMARY и README
     * [Интеграция](./processors/integration/README.md)
       * [SOAP-запрос](./processors/integration/soap-request.md)
       * [REST-запрос](./processors/integration/rest-request.md)
