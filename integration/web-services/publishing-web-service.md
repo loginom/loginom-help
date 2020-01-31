@@ -66,7 +66,7 @@
 
 ## Совместимость веб-сервисов Loginom с Deductor
 
-В продуктах прошлого поколения ([Deductor](https://basegroup.ru/deductor/description)) публикация веб-сервисов осуществлялась DIS ([Deductor Integration Server]((https://basegroup.ru/deductor/components/integration-server))), а обращение к веб-сервисам DIS из сценариев Deductor осуществлялось при помощи узла "WEB-сервис". Чтобы использовать этот узел для обращения к веб-сервисам Loginom, при публикации пакетов Loginom должна применятся настройка *использовать пространство имен Loginom Integrator*.
+В продуктах прошлого поколения ([Deductor](https://basegroup.ru/deductor/description)) публикация веб-сервисов осуществлялась DIS ([Deductor Integration Server](https://basegroup.ru/deductor/components/integration-server)), а обращение к веб-сервисам DIS из сценариев Deductor осуществлялось при помощи узла "WEB-сервис". Чтобы использовать этот узел для обращения к веб-сервисам Loginom, при публикации пакетов Loginom должна применятся настройка *использовать пространство имен Loginom Integrator*.
 
 > **Примечание:** Применение настройки *использовать пространство имен Loginom Integrator* при публикации нескольких пакетов накладывает ограничение на именование публикуемых узлов. Имена, задаваемые при выборе [модификатора доступа](../../scenario/access-modifier.md), должны быть уникальны в рамках всего набора публикуемых пакетов.
 
