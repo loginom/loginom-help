@@ -13,7 +13,5 @@
 ]>
 <svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
-<g id="rows.default">
-	<path style="&st2;" d="M3,3v12h12V3H3z M14,14H4v-1h10V14z M14,11H4v-1h10V11z M14,8H4V7h10V8z M14,5H4V4h10V5z"/>
-</g>
+<path id="rows.default" style="&st2;" d="M3,10V8h12v2H3z M3,14h12v-2H3V14z M15,6V4H3v2H15z"/>
 </svg>

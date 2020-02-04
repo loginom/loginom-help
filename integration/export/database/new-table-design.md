@@ -6,9 +6,15 @@
 
 %spoiler%Пример заполнения:%spoiler%
 
+{% tabs one="Настройка", two="SQL-запрос" %}
+
+{% content "one" %}
 ![Настройка полей новой таблицы.](./new-table-design-1.png)
 
+{% content "two" %}
 ![Представление создаваемой таблицы в виде SQL-запроса.](./new-table-design-2.png)
+
+{% endtabs %}
 
 %/spoiler%
 
@@ -24,10 +30,10 @@
 > **Важно:** при превышении максимального значения длины экспортируемой строки возникнет ошибка экспорта.
 
 Для редактирования списка полей используются следующие кнопки:
-* ![](../../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_moveup_default.svg)/![](../../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_movedown_default.svg) — путем смещения выделенного поля определяется его положение в списке полей создаваемой таблицы;
-* ![](../../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) — добавляет новое поле в таблицу;
-* ![](../../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_autosync_default.svg) — устанавливает перечень и параметры полей, как в таблице, подключенной к входному порту обработчика;
-* ![](../../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_delete-all_default.svg) — удаляет все поля в новой таблице.
+* ![](../../../images/icons/toolbar-controls/moveup_default.svg)/![](../../../images/icons/toolbar-controls/movedown_default.svg) — путем смещения выделенного поля определяется его положение в списке полей создаваемой таблицы;
+* ![](../../../images/icons/toolbar-controls/plus_default.svg) — добавляет новое поле в таблицу;
+* ![](../../../images/icons/toolbar-controls/autosync_default.svg) — устанавливает перечень и параметры полей, как в таблице, подключенной к входному порту обработчика;
+* ![](../../../images/icons/toolbar-controls/delete-all_default.svg) — удаляет все поля в новой таблице.
 
 ## SQL-запрос
 

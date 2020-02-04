@@ -1,4 +1,4 @@
-# ![](../../../media/app/icons/component-18/component-default-55.svg) Доступ к входным переменным
+# ![](../../../images/icons/components/javascript_default.svg) Доступ к входным переменным
 
 Для доступа к входным переменным используется объект `InputVariables`.
 
