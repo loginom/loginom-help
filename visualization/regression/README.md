@@ -1,6 +1,6 @@
-# ![Отчет по регрессии](../../images/icons/view_types/logregressreport_default.svg)/![Отчет по регрессии](../../images/icons/view_types/linregressreport_default.svg) Отчет по регрессии
+# ![Отчет по регрессии](../../images/icons/view_types/logregressreport_default.svg) Отчет по регрессии
 
-Визуализатор *Отчет по регрессии* отображает статистические параметры и результаты статистических тестов для анализа регрессионных моделей.
+Визуализатор *Отчет по регрессии* для компонента [*Логистическая регрессия*](../../processors/datamining/logistic-regression/README.md) отображает статистические параметры и результаты статистических тестов для анализа регрессионных моделей.
 
 Данный визуализатор состоит из трех областей:
 
@@ -10,20 +10,18 @@
 
 Подробно о том, как включить данный визуализатор, можно прочитать в [статье](../README.md).
 
->**Примечание:** визуализатор Отчет по регрессии может использоваться с узлами [Линейная регрессия](../../processors/datamining/linear-regression/README.md) и [Логистическая регрессия](../../processors/datamining/logistic-regression/README.md).
-
 ## Интерфейс
 
 ### Операции
 
 #### Область Информация о модели
 
-* ![](../../images/icons/toolbar-controls/info_default.svg) **Информация о модели** — отображение/скрытие [информации о модели](#informatsiya-o-modeli).
+* ![](../../images/icons/toolbar-controls/info_default.svg) **Информация о модели** — отображение/скрытие информации о модели.
 
 #### Область Коэффициенты регрессии
 
 * ![](../../images/icons/toolbar-controls/table-view_default.svg) **Таблица** — переключение отображения [коэффициентов регрессии](#koeffitsienty-regressii) в вид *Таблица*;
-* ![](../../images/icons/toolbar-controls/tree_default.svg) **Дерево** — переключение отображения [коэффициентов регрессии](#koeffitsienty-regressii) в вид *Дерево*;
+* ![](../../images/icons/toolbar-controls/tree_default.svg) **Дерево** — переключение отображения коэффициентов регрессии;
 * ![](../../images/icons/toolbar-controls/zero_default.svg) **Нулевые значения** — отображение/скрытие нулевых значений.
 
 #### Область Шаги построения
