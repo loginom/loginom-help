@@ -23,6 +23,7 @@
 * ![](../../images/icons/toolbar-controls/table-view_default.svg) **Таблица** — переключение отображения [коэффициентов регрессии](#koeffitsienty-regressii) в вид *Таблица*;
 * ![](../../images/icons/toolbar-controls/tree_default.svg) **Дерево** — переключение отображения коэффициентов регрессии;
 * ![](../../images/icons/toolbar-controls/zero_default.svg) **Нулевые значения** — отображение/скрытие нулевых значений.
+* **Порог значимости** — настройка степени статистической связи [входной](https://wiki.loginom.ru/articles/input-variable.html) (набором входных) и [выходной](https://wiki.loginom.ru/articles/output-variable.html) переменными регрессионной модели.
 
 #### Область Шаги построения
 
@@ -42,7 +43,7 @@
 |![Вещественный](../../images/icons/data-types/float_default.svg) R2 корр.|[Коэффициент детерминации скорректированный](https://wiki.loginom.ru/articles/coefficient-determ-adj.html)|
 |![Вещественный](../../images/icons/data-types/float_default.svg) [Хи-квадрат](https://wiki.loginom.ru/articles/chi-square-test.html)|Критерий согласия для проверки гипотезы о законе распределения исследуемой случайной величины|
 |![Целый](../../images/icons/data-types/integer_default.svg) Число степеней свободы|Число независимо варьируемых значений [признака](https://wiki.loginom.ru/articles/attribute.html)|
-|![Вещественный](../../images/icons/data-types/float_default.svg) [Значимость](https://wiki.loginom.ru/articles/significance-regr.html)|Степень статистической связи между [входной](https://wiki.loginom.ru/articles/input-variable.html) (набором входных) и [выходной](https://wiki.loginom.ru/articles/output-variable.html) переменными регрессионной модели|
+|![Вещественный](../../images/icons/data-types/float_default.svg) [Значимость](https://wiki.loginom.ru/articles/significance-regr.html)|Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели|
 |![Вещественный](../../images/icons/data-types/float_default.svg) AIC|[Информационный критерий Акаике](https://wiki.loginom.ru/articles/aic.html)|
 |![Вещественный](../../images/icons/data-types/float_default.svg) AICc|[Информационный критерий Акаике скорректированный](https://wiki.loginom.ru/articles/aicc.html)|
 |![Вещественный](../../images/icons/data-types/float_default.svg) BIC|[Информационный критерий Байеса](https://wiki.loginom.ru/articles/bic.html)|
