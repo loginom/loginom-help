@@ -14,6 +14,7 @@
   * [Адресная строка](./interface/addres-bar.md)
   * [Рабочее пространство](./interface/workspace.md)
   * [Панель «Процессы»](./interface/processes-panel.md)
+  * [Версия Loginom](./interface/version.md)
 * [Проектирование сценариев](./scenario/README.md)
   * [Интерактивный режим работы](./scenario/interactive-mode.md)
   * [Порты](./scenario/ports/README.md)
