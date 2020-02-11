@@ -48,6 +48,7 @@
     * [Oracle](./integration/connections/list/oracle.md)
     * [PostgreSQL](./integration/connections/list/postgresql.md)
     * [SQLite](./integration/connections/list/sqlite.md)
+    * [ClickHouse](./integration/connections/list/clickhouse.md)
     * [Набор XSD-схем](./integration/connections/list/schemes.md)
     * [SOAP-сервис](./integration/connections/list/soap-service.md)
     * [REST-сервис](./integration/connections/list/rest-service.md)
