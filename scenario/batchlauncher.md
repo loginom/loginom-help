@@ -48,8 +48,8 @@ BatchLauncher "/Package=/user/test and log.lgp"
 Примеры:
 
 ```batch
-BatchLauncher /Package=/user/test.lgp "/Node=Экспорт в SQL"
-BatchLauncher /Package=/user/test.lgp /Node=Экспорт_в_txt
+BatchLauncher /Package=/user/test.lgp "/Node=executable node"
+BatchLauncher /Package=/user/test.lgp /Node=executable_node
 ```
 
 ### PortName.VarName
@@ -149,20 +149,10 @@ BatchLauncher /Package=/user/test.lgp /UserName=user
 BatchLauncher /Package=/user/test.lgp /UserName=user /Password=12345
 ```
 
-> **Примечание:** при использовании русскоязычных символов в имени Пакета или пути к пакету требуется предварительное выполнение команды `chcp 1251`.
-
-Пример:
-
-```batch
-chcp 1251
-"C:\Program Files\BaseGroup\Loginom 6\Server\BatchLauncher.exe" /Package=/user/Обучение_квантования/Квантование.lgp /Teach
-```
-
 > **Примечание:** при использовании пробельных символов в выражении, задающем значение параметра, все выражение необходимо заключить в двойные кавычки.
 
 Пример:
 
 ```batch
-chcp 1251
-"C:\Program Files\BaseGroup\Loginom 6\Server\BatchLauncher.exe" "/Package=/user/Обучение квантования/Квантование.lgp" /Teach
+BatchLauncher "/Package=/user/Quantization training/Quantization.lgp" /Teach /UserName=user
 ```

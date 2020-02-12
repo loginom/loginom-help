@@ -8,10 +8,6 @@
     * ![По левому краю](../../images/icons/toolbar-controls/v-align-left_default.svg) **По левому краю**.
     * ![По правому краю](../../images/icons/toolbar-controls/v-align-right_default.svg) **По правому краю**.
     * ![По центру](../../images/icons/toolbar-controls/v-align-center_default.svg) **По центру**.
-  * **По вертикали**:
-    * ![По верхнему краю](../../images/icons/toolbar-controls/h-align-top_default.svg) **По верхнему краю**.
-    * ![По нижнему краю](../../images/icons/toolbar-controls/h-align-bottom_default.svg) **По нижнему краю**.
-    * ![По центру](../../images/icons/toolbar-controls/h-align-center_default.svg) **По центру**.
 * ![Переключатель](../../images/icons/checkbox-states/checked_default.svg) **Форматирование**:
   * **Число десятичных знаков** — количество отображаемых знаков после запятой.
   * **Разделитель разрядов** — группировка цифр по разрядам.
