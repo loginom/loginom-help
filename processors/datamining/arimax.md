@@ -1,12 +1,12 @@
-# ARIMAX
+# ![ ](../../images/icons/components/arimax_default.svg) ARIMAX
 
 ## Описание
 
-**ARIMAX** (**A**uto**R**egressive **I**ntegrated **M**oving **A**verage e**X**tended) это математическая модель для анализа [временных рядов](https://wiki.loginom.ru/articles/time-series.html), объединяющая в себе интегрированную [авторегрессию](https://wiki.loginom.ru/articles/autoregressive-model.html), [скользящее среднее](https://wiki.loginom.ru/articles/moving-average.html) и возможность учета дополнительных внешних факторов.
+**ARIMAX** (**A**uto**R**egressive **I**ntegrated **M**oving **A**verage e**X**tended) — это математическая модель для анализа [временных рядов](https://wiki.loginom.ru/articles/time-series.html), объединяющая в себе интегрированную [авторегрессию](https://wiki.loginom.ru/articles/autoregressive-model.html), [скользящее среднее](https://wiki.loginom.ru/articles/moving-average.html) и возможность учета дополнительных внешних факторов.
 
-Модели [ARIMA](https://wiki.loginom.ru/articles/box-jenkins-model.html) применяются для решения [задач](https://wiki.loginom.ru/articles/demand-forecasting.html), в которых требуется построить прогноз на основе имеющихся данных, то есть вычислить последующие значения ряда на основе предыдущих. Временным рядом могут быть любые данные в разрезе времени, например продажи товаров, количество заказов, поток клиентов и т.д.
+Модели [ARIMA](https://wiki.loginom.ru/articles/box-jenkins-model.html) применяются для решения [задач](https://wiki.loginom.ru/articles/demand-forecasting.html), в которых требуется построить прогноз на основе имеющихся данных, то есть вычислить последующие значения ряда на основе предыдущих. Временным рядом могут быть любые данные в разрезе времени, например, продажи товаров, количество заказов, поток клиентов и т.д.
 
->**Важно!** Для получения прогнозируемых данных требуется предварительное [обучение узла](../../scenario/training-processors.md).
+>**Важно**: для получения прогнозируемых данных требуется предварительное [обучение узла](../../scenario/training-processors.md).
 
 ## Порты
 
