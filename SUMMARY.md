@@ -202,6 +202,7 @@
     * [Диаграмма](./visualization/cube/chart.md)
     * [Добавить факт](./visualization/cube/addfact.md)
     * [Настроить факты](./visualization/cube/configurefacts.md)
+    * [Панель инструментов](./visualization/cube/toolbar.md)
     * [Фильтровать факты](./visualization/cube/filterfacts.md)
     * [Форматировать факты](./visualization/cube/formatfacts.md)
   * [Статистика](./visualization/statistics/README.md)
