@@ -42,9 +42,9 @@
 * ![На следующую](../../images/icons/toolbar-controls/next_default.svg) — перейти на следующую запись;
 * ![На первую](../../images/icons/toolbar-controls/first_default.svg) — перейти на первую запись;
 * ![На последнюю](../../images/icons/toolbar-controls/last_default.svg) — перейти на последнюю запись.
-* ![Экспорт](../../images/icons/toolbar-controls/export_default.svg) **XLS** / **HTML**:
-  * **экспорт в XLS** — сохранить текущее представление в формате Excel.
-  * **экспорт в HTML** — сохранить текущее представление в формате HTML.
+* ![Экспорт](../../images/icons/toolbar-controls/export_default.svg) **Экспорт в файл (XLS)**:
+  * **XLS** — сохранить текущее представление в формате Excel.
+  * **HTML** — сохранить текущее представление в формате HTML.
 
 ## Интерфейс представления статистики
 
