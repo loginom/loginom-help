@@ -13,6 +13,7 @@
   * [Подключение Deductor Warehouse [Oracle]](./list/wh-oracle.md).
 * Базы данных:
   * [Подключение MS Excel](./list/excel.md).
+  * [Подключение BigQuery](./list/bigquery.md).
   * [Подключение Firebird](./list/firebird.md).
   * [Подключение Interbase](./list/interbase.md).
   * [Подключение MS Access](./list/msaccess.md).
