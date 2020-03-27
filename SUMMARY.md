@@ -204,7 +204,7 @@
     * [Настроить факты](./visualization/cube/configurefacts.md)
     * [Панель инструментов](./visualization/cube/toolbar.md)
     * [Фильтровать факты](./visualization/cube/filterfacts.md)
-    * [Форматировать факты](./visualization/cube/formatfacts.md)
+    * [Форматирование](./visualization/cube/formatfacts.md)
   * [Статистика](./visualization/statistics/README.md)
     * [Статистические показатели](./visualization/statistics/statistics-description.md)
   * [Конечные классы](./visualization/fine-classes/README.md)
