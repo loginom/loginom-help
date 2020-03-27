@@ -29,7 +29,7 @@
 * ![ ](../../images/icons/cube/cases/case-tune_default.svg) **Настроить факты…** — открыть окно [настройки фактов](./configurefacts.md).
 * ![ ](../../images/icons/cube/cases/case-calc_default.svg) **Добавить вычисляемый факт…** — открыть окно для добавления нового [вычисляемого факта](./addcalculatingfact.md) в куб[^1].
 * ![ ](../../images/icons/cube/cases/case-filter_default.svg) **Фильтровать факты…** — открыть окно для  [фильтрования фактов](./filterfacts.md).
-* ![ ](../../images/icons/cube/cases/case-format_default.svg) **Форматировать факты…** — открыть окно для [форматирования фактов](./formatfacts.md).
+* ![ ](../../images/icons/cube/cases/case-format_default.svg) **Форматирование…** — открыть окно для [форматирования](./formatfacts.md) фактов и заголовков измерений.
 * ![ ](../../images/icons/toolbar-controls/export_default.svg) **XLS** - экспорт в файл:
   * **экспорт в XLS (html)** — сохранить текущее представление в формате Excel.
   * **экспорт в HTML** — сохранить текущее представление в формате HTML.
