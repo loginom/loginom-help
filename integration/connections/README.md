@@ -22,6 +22,7 @@
   * [Подключение Oracle](./list/oracle.md).
   * [Подключение PostgreSQL](./list/postgresql.md).
   * [Подключение SQLite](./list/sqlite.md).
+  * [Подключение ClickHouse](./list/clickhouse.md).
 * Веб-сервисы:
   * [Подключение SOAP-сервиса](./list/soap-service.md).
   * [Подключение REST-сервиса](./list/rest-service.md).
