@@ -15,7 +15,7 @@
 * ![](../../images/icons/toolbar-controls/open-all_default.svg) **Развернуть дерево** — развернуть дерево фактов;
 * ![](../../images/icons/toolbar-controls/check-all_default.svg) **Выбрать все** — выбрать все факты, варианты агрегации со всеми способами отображения;
 * ![](../../images/icons/toolbar-controls/uncheck-all_default.svg) **Отменить выбор всех** — убрать выбор всех фактов, вариантов агрегации со всеми способами отображения;
-
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) **Добавить факт...** — открыть окно для [добавления факта](./addfact.md) в куб;
 * ![](../../images/icons/cube/cases/case-calc_default.svg) **Добавить вычисляемый факт…** — открыть окно для добавления [вычисляемого факта](./addcalculatingfact.md) в куб;
 * ![](../../images/icons/toolbar-controls/edit_default.svg) **Редактировать вычисляемый факт…** — открыть окно редактирования вычисляемого факта;
 * ![](../../images/icons/toolbar-controls/delete_default.svg) **Удалить факт** — удалить выделенный факт.
