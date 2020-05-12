@@ -29,8 +29,8 @@
 
 ### Выход
 
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) [Выход нейросети](./neural-network-regression/output-set.md) (таблица данных).
-* ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) [Сводка](./neural-network-regression/report.md) (переменные).
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) [Выход нейросети](../neural-network-regression/output-set.md) (таблица данных).
+* ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) [Сводка](../neural-network-regression/report.md) (переменные).
 
 ## Мастер настройки
 
