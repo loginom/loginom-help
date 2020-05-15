@@ -84,7 +84,7 @@
       * [Замена](./processors/transformation/substitution/README.md)
         * [Точное совпадение](./processors/transformation/substitution/exact-match.md)
         * [Регулярное выражение](./processors/transformation/substitution/regexp-match.md)
-        * [Внешняя таблица](./processors/transformation/substitution/import-tz.md)
+        * [Структура файла замен](./processors/transformation/substitution/import-tz.md)
         * [Заменять остальное](./processors/transformation/substitution/other-match.md)
       * [Калькулятор](./processors/transformation/calc/README.md)
         * [Выражение](./processors/transformation/calc/expression.md)
