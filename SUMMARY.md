@@ -153,7 +153,6 @@
       * [Нейросеть (классификация)](./processors/datamining/neural-network-classification.md)
         * [Структура выходного набора](./processors/datamining/neural-network-classification/output-set.md)
       * [Нейросеть (регрессия)](./processors/datamining/neural-network-regression.md)
-        * [Структура выходного набора](./processors/datamining/neural-network-regression/output-set.md)
         * [Сводка](./processors/datamining/neural-network-regression/report.md)
       * [Самоорганизующиеся сети](./processors/datamining/self-organizing-network.md)
     * [Переменные](./processors/variables/README.md)
