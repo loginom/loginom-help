@@ -215,6 +215,7 @@
     * [Матрица ошибок](./visualization/binary-classification/error-matrix.md)
   * [Профили кластеров](./visualization/cluster-profiles/README.md)
     * [Основная таблица](./visualization/cluster-profiles/main-table.md)
+    * [Панель фильтрации](./visualization/cluster-profiles/filter-panel.md)
 * [Отчеты](./report/README.md)
 * [Данные](./data/README.md)
   * [Типы данных](./data/datatype.md)
