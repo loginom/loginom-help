@@ -214,6 +214,7 @@
     * [Термины](./visualization/binary-classification/terms.md)
     * [Матрица ошибок](./visualization/binary-classification/error-matrix.md)
   * [Профили кластеров](./visualization/cluster-profiles/README.md)
+    * [Основная таблица](./visualization/cluster-profiles/main-table.md)
 * [Отчеты](./report/README.md)
 * [Данные](./data/README.md)
   * [Типы данных](./data/datatype.md)
