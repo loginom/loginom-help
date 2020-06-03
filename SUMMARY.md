@@ -213,6 +213,7 @@
   * [Качество бинарной классификации](./visualization/binary-classification/README.md)
     * [Термины](./visualization/binary-classification/terms.md)
     * [Матрица ошибок](./visualization/binary-classification/error-matrix.md)
+  * [Профили кластеров](./visualization/cluster-profiles/README.md)
 * [Отчеты](./report/README.md)
 * [Данные](./data/README.md)
   * [Типы данных](./data/datatype.md)
