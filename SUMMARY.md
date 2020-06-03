@@ -216,6 +216,7 @@
   * [Профили кластеров](./visualization/cluster-profiles/README.md)
     * [Основная таблица](./visualization/cluster-profiles/main-table.md)
     * [Панель фильтрации](./visualization/cluster-profiles/filter-panel.md)
+    * [Детализация](./visualization/cube/details.md)
     * [Панель инструментов](./visualization/cluster-profiles/toolbar.md)
 * [Отчеты](./report/README.md)
 * [Данные](./data/README.md)
