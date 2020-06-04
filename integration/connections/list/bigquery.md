@@ -1,4 +1,4 @@
-# ![]() Подключение BigQuery
+# ![](../../../images/icons/data-sources/db-bigquery_default.svg) Подключение BigQuery
 
 Используется для подключения к облачной базе данных BigQuery.
 
