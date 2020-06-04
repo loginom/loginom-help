@@ -12,14 +12,14 @@
   * Значимость;
   * Гистограмма;
   * ![Минимум](../../images/icons/toolbar-controls/min_default.svg) Минимум;
-  * ![Максимум](../../images/icons/toolbar-controls/max_default.svg)Максимум;
+  * ![Максимум](../../images/icons/toolbar-controls/max_default.svg) Максимум;
   * ![Среднее](../../images/icons/toolbar-controls/avg_default.svg) Среднее;
   * ![Сумма](../../images/icons/toolbar-controls/sum_default.svg) Сумма;
-  * Стандартное отклонение;
+  * ![Стандартное отклонение](../../images/icons/toolbar-controls/stddev_default.svg) Стандартное отклонение;
   * Размах;
   * ![Пропуски](../../images/icons/toolbar-controls/null-count_default.svg) Пропуски;
-  * Значения;
-  * Количество уникальных значений;
+  * ![Значения](../../images/icons/toolbar-controls/count_default.svg) Значения;
+  * ![Количество уникальных значений](../../images/icons/toolbar-controls/unique-count_default.svg) Количество уникальных значений;
   * Центры кластеров.
 * **Значимость цветом** — показать/скрыть значимость как тепловую карту. Данная опция сбрасывается и становится неактивной, когда выбран индикатор "Гистограмма".
 * ![Показывать null столбец в гистограммах](../../images/icons/toolbar-controls/null-count_default.svg) **Показывать null столбец в гистограммах** — показать/скрыть null столбец. В гистограммах [*Основной таблицы*](./main-table.md) и панели сравнения изменяется видимость столбца с пропусками.
