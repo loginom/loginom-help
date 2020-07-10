@@ -39,6 +39,7 @@
 * [Интеграция](./integration/README.md)
   * [Подключения](./integration/connections/README.md)
     * [1C:Предприятие 8.x](./integration/connections/list/1c.md)
+    * [BigQuery](./integration/connections/list/bigquery.md)
     * [Firebird](./integration/connections/list/firebird.md)
     * [Interbase](./integration/connections/list/interbase.md)
     * [MS Access](./integration/connections/list/msaccess.md)
