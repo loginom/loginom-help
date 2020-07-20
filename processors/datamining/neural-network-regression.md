@@ -45,7 +45,7 @@
 
 ### Шаг 3. Разбиение на множества
 
-На этом этапе входные данные можно разделить на [тестовое](https://wiki.loginom.ru/articles/test-set.html), [обучающее](https://wiki.loginom.ru/articles/training-set.html) и [валидационное](https://wiki.loginom.ru/articles/validation-set.html) множества (выборки).
+На этом этапе входные данные можно разделить на [обучающее](https://wiki.loginom.ru/articles/training-set.html) и [тестовое](https://wiki.loginom.ru/articles/test-set.html)  и множества (выборки).
 
 #### Метод разбиения
 
