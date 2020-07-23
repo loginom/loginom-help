@@ -25,7 +25,7 @@
 
 ### Выход
 
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Выход нейросети (таблица данных. В выходном наборе к входному добавляется поле *Имя_поля|Прогноз* – прогнозируемые значения исходного поля.  
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Выход нейросети (таблица данных) – к входному набору данных добавляются поля с прогнозируемыми значениями Имя_поля|Прогноз.  
 * ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) [Сводка](./neural-network-regression/report.md) (переменные) – показатели качества модели.
 
 ## Мастер настройки
