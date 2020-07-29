@@ -17,11 +17,10 @@ Cлева находится панель компонентов, состоящ
 * ![](../images/icons/toolbar-controls/hand_default.svg) Режим навигации по сценарию —  режим, использующийся для перемещения по области построения Сценария с помощью мышки;
 * ![](../images/icons/toolbar-controls/workflow_default.svg) Показать в виде сценария — отображает Сценарий  в стандартном виде (в виде направленного графа);
 * ![](../images/icons/toolbar-controls/table_default.svg) Показать в виде таблицы — компактное отображение Сценария в виде таблицы, содержащей используемые элементы;
-* Вертикальное выравнивание — позволяет выровнять вертикально узлы Сценария на области построения. Имеются следующими виды вертикального выравнивания:
-  * ![](../images/icons/toolbar-controls/v-align-left_default.svg) По левому краю;
-  * ![](../images/icons/toolbar-controls/v-align-center_default.svg) По середине;
-  * ![](../images/icons/toolbar-controls/v-align-right_default.svg) По правому краю;
-*  Горизонтальное выравнивание — выравнивает горизонтально узлы Сценария на области построения. Имеются следующими виды горизонтального выравнивания:
+* Вертикальное/Горизонтальное выравнивание — позволяет выровнять узлы Сценария на области построения. Данное действие доступно для выделенных узлов. Имеются следующие виды выравнивания:
+    * ![](../images/icons/toolbar-controls/v-align-left_default.svg) По левому краю;
+    * ![](../images/icons/toolbar-controls/v-align-center_default.svg) По середине;
+    * ![](../images/icons/toolbar-controls/v-align-right_default.svg) По правому краю;
     * ![](../images/icons/toolbar-controls/h-align-top_default.svg) По верхнему краю;
     * ![](../images/icons/toolbar-controls/h-align-center_default.svg) По центру;
     * ![](../images/icons/toolbar-controls/h-align-bottom_default.svg) По нижнему краю.
