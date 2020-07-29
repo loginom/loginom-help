@@ -34,7 +34,7 @@ Cлева находится панель компонентов, состоящ
 * ![](../images/icons/toolbar-controls/retrain_default.svg) [Переобучить узел](../scenario/training-processors.md);
 * ![](../images/icons/toolbar-controls/setup_default.svg) Настроить узел — заходит в настройки выделенного узла;
 * ![](../images/icons/toolbar-controls/batch-mode_default.svg) [Настроить режим активации узла](../scenario/setting-batch-processing-mode.md);
-* ![](../images/icons/toolbar-controls/clone_default.svg) Клонировать узел — клонирование выделенного узла;
+* ![](../images/icons/toolbar-controls/clone_default.svg) Клонировать узел — клонирование выделенного узла с сохранением настроек и связей, идущих к нему;
 * ![](../images/icons/toolbar-controls/compose-generic-model_default.svg) Развернуть/Свернуть [подмодель](../processors/control/submodel.md) — позволяет свернуть выделенные узлы в Подмодель или развернуть выделенную Подмодель на составные узлы;
 * ![](../images/icons/toolbar-controls/delete_default.svg) Удалить выбранное — удаляет выделенные узлы/связи Сценария;
 * ![](../images/icons/toolbar-controls/derive-node_default.svg) Создать производный компонент — создает Производный компонент на основе выделенного узла;
