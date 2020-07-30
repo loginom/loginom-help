@@ -34,6 +34,9 @@ Cлева находится панель компонентов, состоящ
 * ![](../images/icons/toolbar-controls/retrain_default.svg) [Переобучить узел](../scenario/training-processors.md);
 * ![](../images/icons/toolbar-controls/setup_default.svg) Настроить узел — заходит в настройки выделенного узла;
 * ![](../images/icons/toolbar-controls/batch-mode_default.svg) [Настроить режим активации узла](../scenario/setting-batch-processing-mode.md);
+* ![](../images/icons/toolbar-controls/cut_default.svg) Вырезать — копирует данные в оперативную память с одновременным их удалением с места текущего расположения;
+* ![](../images/icons/toolbar-controls/copy_default.svg) Копировать — помещает копию выделенных данных в буфер обмена;
+* ![](../images/icons/toolbar-controls/paste_default.svg) Вставить — вставляет содержимое буфера обмена в место назначения;
 * ![](../images/icons/toolbar-controls/clone_default.svg) Клонировать узел — клонирование выделенного узла с сохранением настроек и связей, идущих к нему;
 * ![](../images/icons/toolbar-controls/compose-generic-model_default.svg) Развернуть/Свернуть [подмодель](../processors/control/submodel.md) — позволяет свернуть выделенные узлы в Подмодель или развернуть выделенную Подмодель на составные узлы;
 * ![](../images/icons/toolbar-controls/delete_default.svg) Удалить выбранное — удаляет выделенные узлы/связи Сценария;
