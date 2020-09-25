@@ -4,7 +4,8 @@
 InputTable: Union[DataSourceClass, None]
 InputTables: Tuple[Union[DataSourceClass, None], ...]
 InputVariables: VariablesClass
-OutputTable: ConfigurableOutputTableClass ### или OutputTableClass, если "Разрешить формировать выходные столбцы из кода" отключено '''
+OutputTable: ConfigurableOutputTableClass ''' или OutputTableClass, если включена настройка
+                                              "Разрешить формировать выходные столбцы из кода" '''
 
 class DataType(enum.IntEnum):
      None = 0
@@ -61,8 +62,8 @@ class ConfigurableOutputColumnsClass(OutputColumnClass):
     DataKind: int
     DefaultUsageType: int
 
-### У InputTable ColumnClass будет InputColumnClass,
-### у OutputTable ColumnClass будет OutputColumnsClass или ConfigurableOutputColumnsClass
+''' У InputTable ColumnClass будет InputColumnClass,
+    у OutputTable ColumnClass будет OutputColumnsClass или ConfigurableOutputColumnsClass '''
 class ColumnsClass(Mapping[Union[int, str], ColumnClass], Sequence[ColumnClass])
 
 class DataSourceClass:
@@ -82,8 +83,13 @@ class OutputTableClass(DataSourceClass):
 class ConfigurableOutputTableClass(OutputTableClass):
     GetColumn(col: Union[int, str]) -> ConfigurableOutputColumnClass
     AssignColumns(source: Iteratable[ColumnInfo]) -> None
-    AddColumn(ColumnInfo: Optional[ColumnInfo], Name: Optional[str], DisplayName: Optional[str], DataType: Optional[int], DataKind: Optional[int], DefaultUsageType: Optional[int]) -> OutputColumnClass
-    InsertColumn(Index: int, ColumnInfo: Optional[ColumnInfo], Name: Optional[str], DisplayName: Optional[str], DataType: Optional[int], DataKind: Optional[int], DefaultUsageType: Optional[int]) -> OutputColumnClass
+    AddColumn(ColumnInfo: Optional[ColumnInfo], Name: Optional[str],
+                DisplayName: Optional[str], DataType: Optional[int],
+                DataKind: Optional[int], DefaultUsageType: Optional[int]) -> OutputColumnClass
+    InsertColumn(Index: int, ColumnInfo: Optional[ColumnInfo],
+                Name: Optional[str], DisplayName: Optional[str],
+                DataType: Optional[int], DataKind: Optional[int],
+                DefaultUsageType: Optional[int]) -> OutputColumnClass
     DeleteColumn(col: Union[int, str]) -> None
     ClearColumns() -> None
 
