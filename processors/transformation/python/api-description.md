@@ -1,10 +1,10 @@
 # ![](../../../images/icons/components/python_default.svg) Полное описание API
 
-```py
+```python
 InputTable: Union[DataSourceClass, None]
 InputTables: Tuple[Union[DataSourceClass, None], ...]
 InputVariables: VariablesClass
-OutputTable: ConfigurableOutputTableClass # или OutputTableClass, если "Разрешить формировать выходные столбцы из кода" отключено
+OutputTable: ConfigurableOutputTableClass ### или OutputTableClass, если "Разрешить формировать выходные столбцы из кода" отключено '''
 
 class DataType(enum.IntEnum):
      None = 0
@@ -61,8 +61,8 @@ class ConfigurableOutputColumnsClass(OutputColumnClass):
     DataKind: int
     DefaultUsageType: int
 
-# У InputTable ColumnClass будет InputColumnClass,
-# У OutputTable ColumnClass будет OutputColumnsClass или ConfigurableOutputColumnsClass #
+### У InputTable ColumnClass будет InputColumnClass,
+### у OutputTable ColumnClass будет OutputColumnsClass или ConfigurableOutputColumnsClass
 class ColumnsClass(Mapping[Union[int, str], ColumnClass], Sequence[ColumnClass])
 
 class DataSourceClass:
