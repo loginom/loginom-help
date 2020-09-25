@@ -4,7 +4,7 @@
 InputTable: Union[DataSourceClass, None]
 InputTables: Tuple[Union[DataSourceClass, None], ...]
 InputVariables: VariablesClass
-OutputTable: ConfigurableOutputTableClass ''' или OutputTableClass, если включена настройка
+OutputTable: ConfigurableOutputTableClass ''' или OutputTableClass, если отключена настройка
                                               "Разрешить формировать выходные столбцы из кода" '''
 
 class DataType(enum.IntEnum):
@@ -56,14 +56,14 @@ class InputColumnClass(ColumnClass)
 class OutputColumnClass(ColumnClass):
     Set(value: Union[bool, int, str, float, datetime.datetime, None]) -> None
 
-class ConfigurableOutputColumnsClass(OutputColumnClass):
+class ConfigurableOutputColumnClass(OutputColumnClass):
     DisplayName: str
     DataType: int
     DataKind: int
     DefaultUsageType: int
 
-''' У InputTable ColumnClass будет InputColumnClass,
-    у OutputTable ColumnClass будет OutputColumnsClass или ConfigurableOutputColumnsClass '''
+''' У InputTable ColumnClass – это InputColumnClass,
+    у OutputTable ColumnClass – это OutputColumnClass или ConfigurableOutputColumnClass '''
 class ColumnsClass(Mapping[Union[int, str], ColumnClass], Sequence[ColumnClass])
 
 class DataSourceClass:
@@ -75,7 +75,7 @@ class DataSourceClass:
     IsNull(row: int, col: Union[int, str]) -> bool
 
 class OutputTableClass(DataSourceClass):
-    Columns: OutputColumnsClass, read-only
+    Columns: ColumnsClass, read-only
     GetColumn(col: Union[int, str]) -> OutputColumnClass
     Append() -> None
     Set(col: Union[int, str], value: Union[bool, int, str, float, datetime.datetime, None]) -> None
