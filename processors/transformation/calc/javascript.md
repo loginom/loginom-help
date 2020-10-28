@@ -66,7 +66,7 @@ return my_concat(COL1, COL2);
 
 ## Импорт внешних модулей
 
-Как и в компоненте JavaScript поддерживаются внешние модули, но в *Калькуляторе* возможно использование только модульной системы [CommonJS](http://wiki.commonjs.org/wiki/Modules/1.1.1). Модульная система [ES6](https://www.ecma-international.org/ecma-262/6.0/#sec-modules) (ECMAScript 6) не поддерживается. С примерами и документацией использования модулей CommonJS можно ознакомится в статье [JavaScript: Импорт внешних модулей](../../../processors/transformation/java-script/external-modules.html#modulnye-sistemy).
+Как и в компоненте JavaScript поддерживаются внешние модули, но в *Калькуляторе* возможно использование только модульной системы [CommonJS](http://wiki.commonjs.org/wiki/Modules/1.1.1). Модульная система [ES6](https://www.ecma-international.org/ecma-262/6.0/#sec-modules) (ECMAScript 6) не поддерживается. С примерами и документацией использования модулей CommonJS можно ознакомится в статье [JavaScript: Импорт внешних модулей](../../../processors/programming/java-script/external-modules.html#modulnye-sistemy).
 
 ### Особенности применения внешних модулей
 
