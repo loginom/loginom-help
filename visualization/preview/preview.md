@@ -14,6 +14,6 @@
 
 Настройки полей сбрасываются при закрытии окна.
 
-В *Предпросмотре* узла *JavaScript* есть возможность контролировать работу скрипта в ![консоль](../../images/icons/javascript/console.svg) [консоли отладки кода](../../processors/transformation/java-script/console.md).
+В *Предпросмотре* узла *JavaScript* есть возможность контролировать работу скрипта в ![консоль](../../images/icons/javascript/console.svg) [консоли отладки кода](../../processors/programming/java-script/console.md).
 
 Закрыть *Предпросмотр* узла *JavaScript* можно только кнопкой *X*, в узле *Импорт из базы данных* также доступна кнопка *Закрыть*.
