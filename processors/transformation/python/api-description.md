@@ -1,5 +1,7 @@
 # ![](../../../images/icons/components/python_default.svg) Полное описание API
 
+## Модуль builtin_data
+
 ```python
 InputTable: Union[DataSourceClass, None]
 InputTables: Tuple[Union[DataSourceClass, None], ...]
@@ -105,5 +107,19 @@ class VariableItemsClass(Mapping[Union[int, str], VariableClass], Sequence[Varia
 class VariablesClass:
     Items: VariableItemsClass, read-only
     Count: int, read-only
+
+```
+
+## Модуль builtin_pandas_support
+
+```python
+# Метод осуществляет преобразование InputTable в pandas.DataFrame
+def to_data_frame(table: DataSourceClass) -> pd.DataFrame
+
+# Метод задает структуру полей OutputTable по pandas.DataFrame
+def prepare_compatible_table(table: OutputTableClass, dataframe: pd.DataFrame, with_index=False) -> None
+
+# Метод осуществляет запись из pandas.DataFrame в OutputTable
+def fill_table(table: OutputTableClass, dataframe: pd.DataFrame, with_index=False) -> None
 
 ```
