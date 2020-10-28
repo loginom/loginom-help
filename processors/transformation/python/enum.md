@@ -46,7 +46,7 @@
 ## Примеры использования
 
 ```python
-from builtin_data import { OutputTable, DataType, UsageType }
+from builtin_data import OutputTable, DataType, UsageType
 
 col0 = OutputTable.Columns[0]
 # Проверка значения свойства с типом "перечисление"
