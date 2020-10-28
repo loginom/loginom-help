@@ -60,9 +60,9 @@ return s;
 return my_concat(COL1, COL2);
 ```
 
-Наименования встроенных функций *Калькулятора* и JavaScript не пересекаются. Функции *Калькулятора* всегда начинаются с большой буквы, однако, их можно переопределить в коде JS.  Явного импорта [функций *Калькулятора*](../../func/calc-func/README.md) (как это делается в [компоненте *JavaScript*](../java-script/calc-functions.md)) делать не нужно.
+Наименования встроенных функций *Калькулятора* и JavaScript не пересекаются. Функции *Калькулятора* всегда начинаются с большой буквы, однако, их можно переопределить в коде JS.  Явного импорта [функций *Калькулятора*](../../func/calc-func/README.md) (как это делается в [компоненте *JavaScript*](../../../processors/programming/java-script/calc-functions.md)) делать не нужно.
 
-> **Примечание:** в отличии от [компонента *JavaScript*](../java-script/README.md) в *Калькуляторе* не поддерживается объект [Promise](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise).
+> **Примечание:** в отличии от [компонента *JavaScript*](../../../processors/programming/java-script/README.md) в *Калькуляторе* не поддерживается объект [Promise](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise).
 
 ## Импорт внешних модулей
 
