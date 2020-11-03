@@ -67,7 +67,7 @@
 
 %/spoiler%
 
-Для создания `pd.DataFrame` по входному набору в модуле [builtin_pandas_support](./api-description.md) реализована фунция `to_data_frame`, в качестве аргумента принимающая значение типа `DataSourceClass` (см. пример ниже).
+Для создания `pd.DataFrame` по входному набору в модуле [builtin_pandas_support](./api-description.md#modul-builtinpandassupport) реализована фунция `to_data_frame`, в качестве аргумента принимающая значение типа `DataSourceClass` (см. пример ниже).
 
 ## Примеры
 
