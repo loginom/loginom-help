@@ -67,7 +67,9 @@
 
 %/spoiler%
 
-Для создания `pd.DataFrame` по входному набору в модуле [builtin_pandas_support](./api-description.md#modul-builtinpandassupport) реализована фунция `to_data_frame`, в качестве аргумента принимающая значение типа `DataSourceClass` (см. пример ниже).
+## Использование модуля builtin_pandas_support
+
+Для создания `pd.DataFrame` по набору данных порта в модуле [builtin_pandas_support](./api-description.md#modul-builtinpandassupport) реализована фунция `to_data_frame`, в качестве аргумента принимающая значение типа `DataSourceClass` (см. пример ниже).
 
 ## Примеры
 
@@ -106,7 +108,7 @@ for i in range(InputTable.RowCount):
 arrayOfColumnValues = np.array(InputTable.Columns["CLASS"])
 print(arrayOfColumnValues)
 
-# Создать pd.DataFrame по входному набору
+# Создание pd.DataFrame по входному набору
 data = to_data_frame(InputTable)
 print(data)
 
