@@ -46,7 +46,7 @@
 
 %/spoiler%
 
-%spoiler%Get%spoiler%
+%spoiler%GetColumn%spoiler%
 
 **GetColumn(col)**
 
