@@ -78,12 +78,12 @@ from builtin_data import InputTable, InputTables
 from builtin_pandas_utils import to_data_frame
 import numpy as np, pandas as pd
 
-inputTable0 = InputTables[0]                    # Источник данных с порта №1
-inputTable1 = InputTables[1]                    # Источник данных с порта №2
-colOutlook0 = inputTable0.Columns["OUTLOOK"]    # Получение ссылки на столбец по имени
-colOutlook1 = inputTable1.Columns[1]            # Получение ссылки на столбец по индексу
+inputTable0 = InputTables[0]                    #Источник данных с порта №1
+inputTable1 = InputTables[1]                    #Источник данных с порта №2
+colOutlook0 = inputTable0.Columns["OUTLOOK"]    #Получение ссылки на столбец по имени
+colOutlook1 = inputTable1.Columns[1]            #Получение ссылки на столбец по индексу
 
-# Вывод значений свойств столбцов
+#Вывод значений свойств столбцов
 for column in InputTable.Columns:
     print("Index: ", column.Index)
     print("Name: ", column.Name)
@@ -93,22 +93,22 @@ for column in InputTable.Columns:
     print("DefaultUsageType: ", column.DefaultUsageType)
     print("RowCount: ", column.RowCount, "\n")
 
-# Вывод значений столбца
+#Вывод значений столбца
 for index, value in enumerate(colOutlook0):
     print("Индекс {}, значение {}".format(index, value))
 
-# Чтение значений из входной таблицы методом Get
+#Чтение значений из входной таблицы методом Get
 for i in range(InputTable.RowCount):
-    # Вывод значений столбца с индексом 0
+    #Вывод значений столбца с индексом 0
     print("InputTable.Get({}, 0) = {}".format(i, InputTable.Get(i, 0)))
-    # Вывод значений столбца с именем "CLASS"
+    #Вывод значений столбца с именем "CLASS"
     print("InputTable.Get({}, 'CLASS') = {}".format(i, InputTable.Get(i, "CLASS")))
 
-# Получение из столбца "CLASS" массива значений
+#Получение из столбца "CLASS" массива значений
 arrayOfColumnValues = np.array(InputTable.Columns["CLASS"])
 print(arrayOfColumnValues)
 
-# Создание pd.DataFrame по входному набору
+#Создание pd.DataFrame по входному набору
 data = to_data_frame(InputTable)
 print(data)
 

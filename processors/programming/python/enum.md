@@ -49,12 +49,12 @@
 from builtin_data import OutputTable, DataType, UsageType
 
 col0 = OutputTable.Columns[0]
-# Проверка значения свойства с типом "перечисление"
+#Проверка значения свойства с типом "перечисление"
 if (col0.DataType == DataType.String):
     print("Столбец {} имеет строковый тип данных".format(col0.Name))
     
-# Вывод числового представления значения перечисления
+#Вывод числового представления значения перечисления
 print(col0.DefaultUsageType)
-# Вывод строкового представления значения перечисления
+#Вывод строкового представления значения перечисления
 print(UsageType(col0.DefaultUsageType).name)
 ```
