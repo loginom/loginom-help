@@ -187,7 +187,7 @@ print("RowCount = ", OutputTable.RowCount)
 
 ### Пример №2
 
-Применение модуля builtin_pandas_support
+Применение модуля `builtin_pandas_support`
 
 ```python
 from builtin_data import InputTable, OutputTable, ConfigurableOutputTableClass
@@ -202,7 +202,9 @@ if InputTable:
     #Если включена опция "Разрешить формировать выходные столбцы из кода",
     #структуру выходного набора можно подготовить по pd.DataFrame
     if isinstance(OutputTable, ConfigurableOutputTableClass):
+        #Определение структуры выходного набора
         prepare_compatible_table(OutputTable, output_frame, with_index=True)
-        ill_table(OutputTable, output_frame, with_index=True)
+        #Заполнение выходного набора
+        fill_table(OutputTable, output_frame, with_index=True)
 
 ```
