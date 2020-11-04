@@ -85,8 +85,8 @@
 
 **AssignColumns(array)**
 
-- array — итерируемый объект, содержащий значения типа `str` или объекты типа ColumnInfo (см. [Полное описание API](./api-description.md)).
-Метод создает столбцы выходного набора из коллекции имен столбцов или объектов, реализующих интерфейс ColumnInfo.
+- array — итерируемый объект, содержащий значения типа ColumnInfo (см. [Полное описание API](./api-description.md)).
+Метод создает столбцы выходного набора из коллекции элементов типа ColumnInfo.
 
 %/spoiler%
 
@@ -94,7 +94,7 @@
 
 **AddColumn(columninfo)**
 
-- columninfo — значениe типа string или объект, реализующий интерфейс IColumnInfo (см. Полное описание API). Необязательный аргумент.
+- columninfo — значениe типа string или объект, реализующий интерфейс IColumnInfo (см. [Полное описание API](./api-description.md)). Необязательный аргумент.
 Метод добовляет столбец в конец списка столбцов выходного набора, принимая в качестве аргумента имя столбца или объект, реализующий интерфейс IColumnInfo. Возвращает объект, реализующий интерфейс IOutputColumn (см. Полное описание API).
 
 %/spoiler%
@@ -104,8 +104,8 @@
 **InsertColumn(col, columninfo)**
 
 - col — индекса столбца. Принимает значениe типа number.
-- columninfo — объект, реализующий интерфейс IColumnInfo (см. Полное описание API). Необязательный аргумент.
-Метод вставляет столбец по заданному индексу в выходной набор. Возвращает объект, реализующий интерфейс IOutputColumn (см. Полное описание API).
+- columninfo — объект, реализующий интерфейс ColumnInfo (см. [Полное описание API](./api-description.md)). Необязательный аргумент.
+Метод вставляет столбец по заданному индексу в выходной набор. Возвращает объект, реализующий интерфейс OutputColumn.
 
 %/spoiler%
 
@@ -113,7 +113,7 @@
 
 **DeleteColumn(col)**
 
-- col — индекс или имя столбца. Принимает значение типов number или string.
+- col — индекс или имя столбца. Принимает значение типов `int` или `str`.
 Метод удаляет столбец по имени или индексу.
 
 %/spoiler%
@@ -136,33 +136,26 @@ import numpy as np, pandas as pd, datetime
 
 #Копирование столбцов входного набора
 OutputTable.AssignColumns(InputTable.Columns)
-
 #Удаление столбца по индексу
 OutputTable.DeleteColumn(0)
-
 #даление столбца по имени
 OutputTable.DeleteColumn("Test1")
-
 #Удаление всего списка столбцов
 OutputTable.ClearColumns()
-
 #Добавление столбца в конец списка столбцов выходного набора
 OutputTable.AddColumn(Name="COL0",
                       DisplayName="Дата/Время",
                       DataType=DataType.DateTime,
                       DataKind=DataKind.Continuous,
                       DefaultUsageType=UsageType.Active)
-
 #Вставка столбца по заданному индексу в список столбцов выходного набора
 OutputTable.InsertColumn(Index=0,
                          Name="COL1",
                          DisplayName="Признак",
                          DataType=DataType.Boolean)
-
 #Получение ссылки на столбец по имени
 COL0 = OutputTable.GetColumn("COL0")
 COL1 = OutputTable.GetColumn("COL1")
-
 #Вывод значений свойств столбца
 print("Index: ", COL1.Index)
 print("Name: ", COL1.Name)
@@ -173,13 +166,10 @@ print("DefaultUsageType: ", COL1.DefaultUsageType)
 
 #Добавление строки в выходной набор данных
 OutputTable.Append()
-
 #В поле с индексом 0 записываются текущие Дата/Время
 OutputTable.Columns[1].Set(datetime.datetime.now())
-
 #В поле с индексом 1 записывается значение true
 OutputTable.GetColumn(0).Set(True)
-
 #Копирование значений первой строки во вторую
 OutputTable.Append()
 for i in range(OutputTable.ColumnCount):
@@ -190,13 +180,14 @@ for i in range(OutputTable.ColumnCount):
 print(OutputTable.IsNull(0, 1))
 print(OutputTable.Get(0, 1) is None)
 
-
 print("RowCount = ", OutputTable.RowCount)
 #Вывод: RowCount =  2
 
 ```
 
 ### Пример №2
+
+Применение модуля builtin_pandas_support
 
 ```python
 from builtin_data import InputTable, OutputTable, ConfigurableOutputTableClass
@@ -206,13 +197,12 @@ from builtin_pandas_utils import to_data_frame, prepare_compatible_table, fill_t
 if InputTable:
     #Создать pd.DataFrame по входному набору
     input_frame = to_data_frame(InputTable)
-#Группировка input_frame
-output_frame = input_frame.groupby(["Class"]).sum()
-
-#Если включена опция "Разрешить формировать выходные столбцы из кода",
-#структуру выходного набора можно подготовить по pd.DataFrame
-if isinstance(OutputTable, ConfigurableOutputTableClass):
-    prepare_compatible_table(OutputTable, output_frame, with_index=True)
-    fill_table(OutputTable, output_frame, with_index=True)
+    #Группировка input_frame
+    output_frame = input_frame.groupby(["Class"]).sum()
+    #Если включена опция "Разрешить формировать выходные столбцы из кода",
+    #структуру выходного набора можно подготовить по pd.DataFrame
+    if isinstance(OutputTable, ConfigurableOutputTableClass):
+        prepare_compatible_table(OutputTable, output_frame, with_index=True)
+        ill_table(OutputTable, output_frame, with_index=True)
 
 ```
