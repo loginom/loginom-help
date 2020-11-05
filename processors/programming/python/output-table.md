@@ -92,7 +92,7 @@
 
 %spoiler%AddColumn%spoiler%
 
-**AddColumn(columninfo, Name, DisplayName, DataType, DataKind, DefaultUsageType)**
+**AddColumn(ColumnInfo, Name, DisplayName, DataType, DataKind, DefaultUsageType)**
 
 Принимает аргументы по ключевым словам:
 
@@ -109,7 +109,7 @@
 
 %spoiler%InsertColumn%spoiler%
 
-**InsertColumn(col, columninfo)**
+**InsertColumn(Index, ColumnInfo, Name, DisplayName, DataType, DataKind, DefaultUsageType)**
 
 Принимает аргументы по ключевым словам:
 
