@@ -58,7 +58,7 @@
 **GetColumn(col)**
 
 - col — индекс или имя столбца. Принимает значение типов `int` или `str`.
-При установке флага *Разрешить формировать выходные столбцы из кода* возвращается значение типа `ConfigurableOutputColumnClass`, в иначе — `OutputColumnClass`. Оба этих типа унаследованны от `ColumnClass` и реализуют протокол *Sequence*. (см. [Полное описание API](./api-description.md)).
+При установке флага *Разрешить формировать выходные столбцы из кода* возвращается значение типа `ConfigurableOutputColumnClass`, иначе — `OutputColumnClass`. Оба этих типа унаследованны от `ColumnClass` и реализуют протокол *Sequence*. (см. [Полное описание API](./api-description.md)).
 
 %/spoiler%
 
