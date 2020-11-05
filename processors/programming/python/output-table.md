@@ -142,7 +142,7 @@
 
 %/spoiler%
 
-## Использование модуля builtin_pandas_support
+## Использование модуля builtin_pandas_utils
 
 Если включена опция "Разрешить формировать выходные столбцы из кода", доступны следующие методы (см. Пример №2):
 
@@ -231,7 +231,7 @@ print("RowCount = ", OutputTable.RowCount)
 
 ### Пример №2
 
-Применение модуля `builtin_pandas_support`
+Применение модуля `builtin_pandas_utils`
 
 ```python
 from builtin_data import InputTable, OutputTable, ConfigurableOutputTableClass

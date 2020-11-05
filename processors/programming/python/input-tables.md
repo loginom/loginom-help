@@ -67,7 +67,7 @@
 
 %/spoiler%
 
-## Использование модуля builtin_pandas_support
+## Использование модуля builtin_pandas_utils
 
 Для создания `pd.DataFrame` по набору данных порта в модуле [builtin_pandas_support](./api-description.md#modul-builtinpandassupport) реализована фунция `to_data_frame`, в качестве аргумента принимающая значение типа `DataSourceClass` (см. пример ниже).
 
