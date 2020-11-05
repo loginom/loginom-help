@@ -148,21 +148,25 @@
 
 %spoiler%to_data_frame%spoiler%
 
+**to_data_frame(table, dataframe, with_index)**
+
 Метод задает структуру полей `OutputTable` по `pandas.DataFrame`. Аргументы:
 
 - table — ссылка на выходной набор OutputTableClass;
 - dataframe — ссылка на `pandas.DataFrame` структора которого используется для создания столбцов выходного набора;
-- with_index — если аргумент принимает `True`, то индексы `pandas.DataFrame` включаются в структуру выходного набора. Значение по умолчанию `False`.
+- with_index — если аргумент принимает `True`, то индексы `pandas.DataFrame` включаются в структуру выходного набора. Необязательный аргумент. Значение по умолчанию `False`.
 
 %/spoiler%
 
 %spoiler%fill_table%spoiler%
 
+**fill_table(table, dataframe, with_index)**
+
 Метод осуществляет запись из `pandas.DataFrame` в `OutputTable`. Аргументы:
 
 - table — ссылка на выходной набор. Принимает значение типа `OutputTableClass`;
 - dataframe — ссылка на `pandas.DataFrame`;
-- with_index — если аргумент принимает `True`, то индексы `pandas.DataFrame` выгружаются в выходной набор. Значение по умолчанию `False`.
+- with_index — если аргумент принимает `True`, то индексы `pandas.DataFrame` выгружаются в выходной набор. Необязательный аргумент. Значение по умолчанию `False`.
 
  %/spoiler%
 
