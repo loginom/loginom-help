@@ -76,7 +76,7 @@
 ```python
 from builtin_data import InputTable, InputTables
 from builtin_pandas_utils import to_data_frame
-import numpy as np, pandas as pd
+import numpy as np
 
 inputTable0 = InputTables[0]                    #Источник данных с порта №1
 inputTable1 = InputTables[1]                    #Источник данных с порта №2
