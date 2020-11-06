@@ -48,6 +48,7 @@ class ColumnClass(Sequence[Union[bool, int, str, float, datetime.datetime, None]
     DisplayName: str, read-only
     DataType: int, read-only
     DataKind: int, read-only
+    UsageType: int, read-only
     DefaultUsageType: int, read-only
     RowCount: int, read-only
     Get(row: int) -> Union[bool, int, str, float, datetime.datetime, None]
