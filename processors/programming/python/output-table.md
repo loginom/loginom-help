@@ -206,7 +206,6 @@ print("Name: ", COL1.Name)
 print("DisplayName: ", COL1.DisplayName)
 print("DataType: ", COL1.DataType)
 print("DataKind: ", COL1.DataKind)
-print("UsageType: ", COL1.UsageType)
 print("DefaultUsageType: ", COL1.DefaultUsageType)
 
 #Добавление строки в выходной набор данных
