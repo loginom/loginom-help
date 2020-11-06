@@ -164,7 +164,7 @@
         * [Входные переменные](./processors/programming/python/input-variables.md)
         * [Выходной набор](./processors/programming/python/output-table.md)
         * [Перечисления](./processors/programming/python/enum.md)
-        * [Консоль отладки кода](./processors/programming/python/console.md)
+        * [Панель вывода сообщений](./processors/programming/python/console.md)
         * [Описание API](./processors/programming/python/api-description.md)
         * [Горячие клавиши](./processors/programming/python/hotkeys.md)
     * [Переменные](./processors/variables/README.md)
