@@ -90,6 +90,7 @@ for column in InputTable.Columns:
     print("DisplayName: ", column.DisplayName)
     print("DataType: ", column.DataType)
     print("DataKind: ", column.DataKind)
+    print("UsageType: ", column.UsageType)
     print("DefaultUsageType: ", column.DefaultUsageType)
     print("RowCount: ", column.RowCount, "\n")
 
