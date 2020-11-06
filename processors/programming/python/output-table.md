@@ -246,10 +246,10 @@ if InputTable:
     output_frame = input_frame.groupby(["Class"]).sum()
     #Если включена опция "Разрешить формировать выходные столбцы из кода",
     #структуру выходного набора можно подготовить по pd.DataFrame
-    if isinstance(OutputTable, ConfigurableOutputTableClass):
-        #Определение структуры выходного набора
-        prepare_compatible_table(OutputTable, output_frame, with_index=True)
-        #Заполнение выходного набора
-        fill_table(OutputTable, output_frame, with_index=True)
+    assert isinstance(OutputTable, ConfigurableOutputTableClass)
+    #Определение структуры выходного набора
+    prepare_compatible_table(OutputTable, output_frame, with_index=True)
+    #Заполнение выходного набора
+    fill_table(OutputTable, output_frame, with_index=True)
 
 ```
