@@ -1,6 +1,6 @@
 # Первый сценарий
 
-В вариантах поставки [Enterprise](https://loginom.ru/platform/pricing#edition-enterprise), [Standard](https://loginom.ru/platform/pricing#edition-standard) и [Team](https://loginom.ru/platform/pricing#edition-team) при запуске программы открывается стартовая страница с авторизацией. Необходимо войти в систему, введя свой логин и пароль. Логин и пароль выдаются администратором, но при установке программы существует пользователь по умолчанию — логин: *user*, без пароля. В варианте [Personal](https://loginom.ru/platform/pricing#edition-personal) авторизация отсутствует.
+В вариантах поставки [Enterprise](https://loginom.com/platform/pricing#edition-enterprise), [Standard](https://loginom.com/platform/pricing#edition-standard) и [Team](https://loginom.com/platform/pricing#edition-team) при запуске программы открывается стартовая страница с авторизацией. Необходимо войти в систему, введя свой логин и пароль. Логин и пароль выдаются администратором, но при установке программы существует пользователь по умолчанию — логин: *user*, без пароля. В варианте [Personal](https://loginom.com/platform/pricing#edition-personal) авторизация отсутствует.
 
 После авторизации открывается окно выбора действий (страница [Начало](../interface/home-page.md)), в котором можно выполнять следующие операции с пакетами.
 

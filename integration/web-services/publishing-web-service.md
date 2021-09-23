@@ -1,6 +1,6 @@
 # Создание и публикация веб-сервиса
 
-Публикация и работа созданных в Loginom веб-сервисов доступна при наличии установленного компонента [Loginom Integrator](https://loginom.ru/platform/pricing#component-integrator).
+Публикация и работа созданных в Loginom веб-сервисов доступна при наличии установленного компонента [Loginom Integrator](https://loginom.com/platform/pricing#component-integrator).
 
 ## Реализация методов сервиса
 
