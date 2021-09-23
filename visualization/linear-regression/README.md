@@ -35,16 +35,16 @@
 
 |Показатель|Описание|
 |:------------------------|:-----------------------------------------------|
-|![Логический](../../images/icons/data-types/boolean_default.svg) Константа|[Зависимая переменная](https://wiki.loginom.ru/articles/output-variable.html)|
-|![Вещественный](../../images/icons/data-types/float_default.svg) -2 Log Likelihood|-2 Логарифма [функции правдоподобия](https://wiki.loginom.ru/articles/plausibility-function.html)|
-|![Вещественный](../../images/icons/data-types/float_default.svg) R2|[Коэффициент детерминации](https://wiki.loginom.ru/articles/coefficient-of-determination.html)|
-|![Вещественный](../../images/icons/data-types/float_default.svg) R2 корр.|[Коэффициент детерминации скорректированный](https://wiki.loginom.ru/articles/coefficient-determ-adj.html)|
-|![Целый](../../images/icons/data-types/integer_default.svg)[Число степеней свободы](https://wiki.loginom.ru/articles/degrees-of-freedom.html)|Число независимо варьируемых значений признака|
-|![Вещественный](../../images/icons/data-types/float_default.svg) [Значимость](https://wiki.loginom.ru/articles/significance-regr.html)|Степень статистической связи между [входной](https://wiki.loginom.ru/articles/input-variable.html) (набором входных) и [выходной переменными](https://wiki.loginom.ru/articles/output-variable.html)  регрессионной модели|
-|![Вещественный](../../images/icons/data-types/float_default.svg) AIC|[Информационный критерий Акаике](https://wiki.loginom.ru/articles/aic.html)|
-|![Вещественный](../../images/icons/data-types/float_default.svg) AICc|[Информационный критерий Акаике скорректированный](https://wiki.loginom.ru/articles/aicc.html)|
-|![Вещественный](../../images/icons/data-types/float_default.svg) BIC|[Информационный критерий Байеса](https://wiki.loginom.ru/articles/bic.html)|
-|![Вещественный](../../images/icons/data-types/float_default.svg) HQC|[Информационный критерий Ханнана-Квина](https://wiki.loginom.ru/articles/hq.html)|
+|![Логический](../../images/icons/data-types/boolean_default.svg) Константа|**Зависимая переменная**|
+|![Вещественный](../../images/icons/data-types/float_default.svg) -2 Log Likelihood|-2 Логарифма **функции правдоподобия**|
+|![Вещественный](../../images/icons/data-types/float_default.svg) R2|**Коэффициент детерминации**|
+|![Вещественный](../../images/icons/data-types/float_default.svg) R2 корр.|**Коэффициент детерминации скорректированный**|
+|![Целый](../../images/icons/data-types/integer_default.svg)**Число степеней свободы**|Число независимо варьируемых значений признака|
+|![Вещественный](../../images/icons/data-types/float_default.svg) **Значимость**|Степень статистической связи между **входной** (набором входных) и **выходной переменными**  регрессионной модели|
+|![Вещественный](../../images/icons/data-types/float_default.svg) AIC|**Информационный критерий Акаике**|
+|![Вещественный](../../images/icons/data-types/float_default.svg) AICc|**Информационный критерий Акаике скорректированный**|
+|![Вещественный](../../images/icons/data-types/float_default.svg) BIC|**Информационный критерий Байеса**|
+|![Вещественный](../../images/icons/data-types/float_default.svg) HQC|**Информационный критерий Ханнана-Квина**|
 
 #### Коэффициенты регрессии
 
@@ -52,10 +52,10 @@
 
 |Коэффициент|Описание|
 |:--------------------|:----------|
-|Коэффициент|Характеристика связи между зависимой *y* и [независимой переменной](https://wiki.loginom.ru/articles/input-variable.html) *x*|
-|[Стандартная ошибка](https://wiki.loginom.ru/articles/standard-estimation-error.html)|Мера разброса данных наблюдений от смоделированных значений|
+|Коэффициент|Характеристика связи между зависимой *y* и **независимой переменной** *x*|
+|**Стандартная ошибка**|Мера разброса данных наблюдений от смоделированных значений|
 |Т-статистика|Отношение стандартной ошибки оценки коэффициента к его абсолютной величине.|
-|[Значимость](https://wiki.loginom.ru/articles/significance-regr.html)|Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели|
+|**Значимость**|Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели|
 
 Коэффициенты регрессии могут быть представлены в виде ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_table-view_default.svg) *Таблицы* (см. рисунок 1) или ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_tree_default.svg) *Дерева* (см. рисунок 2). 
 
